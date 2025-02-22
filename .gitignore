@@ -12,3 +12,5 @@ support.txt
 wrap_oal.dll
 *.wav
 *.ogg
+GData/MatLib.mlb
+Data/GameMatLib.mlb
