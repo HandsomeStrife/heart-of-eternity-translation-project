@@ -1,0 +1,16 @@
+IfN_Flag_GoTo(1000,86,@1);
+CreateDoor('DOOR_BEG_TRAIN05',{
+    Axis              0.0000 0.0000 1.0000
+    OpenInTwoSize     False
+    OpenByRotate      True
+    Speed             1.0000
+    Angle             120.0000
+    Locked            False
+    MinDistance       0.6000
+});
+DOOR_Open('DOOR_BEG_TRAIN05');
+AIS_GoTo(@2);
+@1:
+ AIPOINT_SetExecute('T_7',0);
+@2:
+NOP(0);

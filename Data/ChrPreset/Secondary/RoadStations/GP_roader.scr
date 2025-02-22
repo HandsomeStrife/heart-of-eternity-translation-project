@@ -1,0 +1,15 @@
+AddCharacterPresets('OrkMedium','CIVILMAN','GP_roader',{
+ Description                 "GP_roader"
+ Position                    2826.2986,455.5821,183.0187
+ Rotation                    0 0 180
+ AddDialog                   "GP_roader_d0.dlg" 0
+ AddDialog                   "Ork_roaders_d9.dlg" 9
+ AddSkinItem                 "OMe_Cuirass_l3.scr" "Armor"
+ AddSkinItem                 "HandArmor_Norm_l3.scr" "HandArmor"
+ AddSkinItem                 "Legins_Norm_l3.scr" "Leggings"
+ AddItem                     "Ork\OneHand\Ork_sabre\Ork_sabre.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

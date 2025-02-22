@@ -1,0 +1,44 @@
+CreateMaterial('M_SmokeS','smoke.tga',{
+ BlendEnable       True
+ SRCBlend          "InvSrcColor"
+ DSTBlend          "InvSrcColor"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate2X"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateParticlSystem('PSSmokeChr',{
+ ParticlProcType	"Flue"
+ SpawnType		"Circle"
+ Radius			0.2000
+ SpawnSpeed             5.0000
+ SizeMin                1.0000
+ SizeMax                1.5000
+ TimeLive               1.0000
+ MaxNumParticl          10
+ Immortal               False
+ SetPSColor		id = 0	time = 0.0000  0 0 0 255
+ SetPSColor		id = 1	time = 0.2000  255 255 255 255
+ SetPSColor		id = 2	time = 0.5000  255 255 255 255
+ SetPSColor		id = 3	time = 1.0000  0 0 0 255
+ ForceVector            id = 0  0.0000 0.0000 1.0000
+ ForceStrength          id = 0  0.20000
+ AngleZXY               id = 0  -90.000  90.000
+ AngleXY                id = 0  -90.000  90.000
+ Position               90.8850 94.8887 1.3684
+ Rotation               0 0 0
+ SizeMinSec             0.0000
+ MassMin                0.0000
+ SetMaterial		"M_SmokeS"
+ SpeedRotate            10
+ SpiralRotate           False
+ SpawnRandomRot         True
+});

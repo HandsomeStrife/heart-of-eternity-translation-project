@@ -1,0 +1,12 @@
+AddCharacterPresets('Goblin','Enemy','G_9',{
+ Description                 "Goblin_9"
+ MobParam                    1 9
+ PlusIntellect               10
+ ScaleX                      0.7
+ ScaleY                      0.7
+ ScaleZ                      0.7
+ VisibleSkinParam            "Goblin_Sh" 1
+ AddDeathScript              "GoblinQ.scd"
+ AddSkinItem                 "Gb_Plash_Sh.scr" "Armor"
+ AddItem		     "Goblin\G_spear_1\G_spear_1.scr" "TwoHandSword"
+});

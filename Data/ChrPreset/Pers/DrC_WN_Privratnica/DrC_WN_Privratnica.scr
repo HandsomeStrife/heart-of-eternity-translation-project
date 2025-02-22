@@ -1,0 +1,17 @@
+AddCharacterPresets('WomanNormal','CivilMan','DrC_WN_Privratnica',{
+ Description                 "Avrora"
+ Position                    7032.6548,877.4298,243.6738
+ Rotation                    0 0 270
+ VisibleSkin                 "WN_A_Kirassa_Sh"
+ VisibleSkin                 "WN_G_Kapush_Sh"
+ VisibleSkin                 "H_Uchilka_Sh"
+ AddProcScript               "DrC_WN_Privratnica_AI.sci"
+ AddBeforeDialogScript       "DrC_WN_Privratnica_BD.scd"
+ AddDialog                   "DrC_WN_Privratnica_d.dlg" 0
+ AddDialog                   "DrC_WN_Privratnica_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ AddItem                     "Human\OneHand\katana03\katana03.scr" "Left_Scabbard"
+ Attack 		      False
+});

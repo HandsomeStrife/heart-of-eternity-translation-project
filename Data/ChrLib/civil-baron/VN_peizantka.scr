@@ -1,0 +1,16 @@
+AddCharacterPresets('WomanNormal','CivilMan','VN_peizantka',{
+ Description                 "VN_peizantka"
+ PlusStrenght                12
+ PlusDexterity               12
+ PlusConstitution            12
+ PlusIntellect               8
+ PlusPermeability            8
+ SetFace                     0
+ VisibleSkinParam            "WomanNorm_Sh" 2
+ VisibleSkin                 "WN_H_Normal_Sh"
+ VisibleSkinParam            "WN_O_Platye_Sh" 2
+ VisibleSkin                 "WN_G_Kapush_Sh"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+});

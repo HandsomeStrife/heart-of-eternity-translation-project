@@ -1,0 +1,18 @@
+AddCharacterPresets('Civman','Enemy','CM_l18',{
+ Description                 "CM_l18"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    3 18
+ SetFace                     1
+ AddDeathScript              "cmdscr.scd"
+ VisibleSkinParam            "AH_Dvoryan" 1
+ VisibleSkin                 "HB_Long"
+ VisibleSkin                 "HB_Kosichky"
+ AddSkinItem                 "HandArmor_18.scr" "HandArmor"
+ AddSkinItem                 "Legins_18.scr" "Leggings"
+ AddSkinItem                 "SecArmor_Kol_l18.scr" "SecArmor"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\longbow01\longbow01.scr" "Bow"
+ AddItem                     "Human\OneHand\axe1\axe1.scr" "Left_Scabbard"
+});
+                               			

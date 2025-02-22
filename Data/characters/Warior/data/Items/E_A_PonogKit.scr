@@ -1,0 +1,18 @@
+CreateItemSkin('E_A_PonogKit','L_BootLeft','L_BootLeft', {
+  Visible           True
+  Cost              -1
+  Description       "Reinforced Greaves of the High Elf"
+  History           "Elven armor obúSuch concepts as: beautiful, graceful, magical unite. The elves did not achieve success in metallurgy. Practically the entire range of the race's products is made from various parts of the Kuaron tree. Their main property is lightness and strength, indispensable qualities for an archer. Full armor will multiply your agility and perfectly protect against striking cold weapons."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "E_A_PonogKit"
+   MaterialPresetId  0
+   AddObjectD        "E_A_PonogKit.s03"
+   ArmorAutoGenerate  1  2 
+   PlusDexterity     2
+   PlusIntellect     0
+   PlusMagicImmunity 0
+   PlusStrenght     0
+   PlusConstitution 0
+   PlusMagicPower  0
+});

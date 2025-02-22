@@ -1,0 +1,22 @@
+AddCharacterPresets('IronManUD','CivilMan','CD_IM_Voitel',{
+ Description                 "Bertran"
+ Position                    4218.5112 715.5283 128.2831
+ Rotation                    0 0 0
+ MobParam                    2 50
+ VisibleSkin                 "U_Schit_F"
+ VisibleSkin                 "U_Schit_B"
+ VisibleSkin                 "U_Schit_R"
+ VisibleSkin                 "U_Schit_LS"
+ AddBeforeDialogScript       "CD_IM_Voitel_BD.scd"
+ AddDeathScript		     "CD_IM_Voitel_death.scd"
+ AddProcScript               "CD_IM_Voitel_ai.sci"
+ AddDialog                   "CD_IM_Voitel_d1.dlg" 0
+ AddDialog                   "CD_IM_Voitel_d2.dlg" 1
+ AddDialog                   "CD_IM_Voitel_d9.dlg" 9
+ AddSkinItem                 "U_Helmet_l44.scr" "Helmet"
+ AddSkinItem                 "U_Cuirass_l44.scr" "Armor"
+ AddSkinItem                 "HandArmor_Dext_l44.scr" "HandArmor"
+ AddSkinItem                 "Legins_Dext_l44.scr" "Leggings"
+ AddItem                     "Quest\BertranSword\BertranSword_F.scr" "TwoHandSword"
+ PartitionEnable              False
+});

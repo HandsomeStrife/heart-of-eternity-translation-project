@@ -1,0 +1,22 @@
+AddCharacterPresets('IronMan','CivilMan','BG_6',{
+ Description                 "ddd"
+ Position                    1042.4156,2289.6304,86.5555
+ Rotation                    0 0 100
+ AddProcScript               "BG_6_AI.sci"
+ PlusStrenght                30
+ PlusDexterity               30
+ PlusConstitution            30
+ PlusIntellect               30
+ PlusPermeability            30
+ AddItem                     "Human\Shield\Shield_Buckler\Shield_Buckler.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\dagger02\dagger02.scr" "Left_Scabbard"
+ AddSkinItem                 "AH_IfantSalad_N_l25.scr" "Helmet"
+ AddSkinItem                 "Legins_l36.scr" "Leggings"
+ AddSkinItem                 "HandArmor_36.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_N_l35.scr" "Armor"
+ AddSkinItem                 "SecArmor_K2_l35.scr" "SecArmor"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

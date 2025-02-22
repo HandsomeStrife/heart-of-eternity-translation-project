@@ -1,0 +1,41 @@
+CreateMaterial('M_PSWSplash','WSplash.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateParticlSystem('PSSplash',{
+ ParticlProcType	"Flue"
+ SpawnType		"Circle"
+ Radius			0.1000
+ SpawnPosTwo		0.000 0.000 0.000
+ SpawnPosThree		0.000 0.000 0.000
+ SpawnSpeed             2.00
+ SizeMin                0.500
+ SizeMax                1.350
+ TimeLive               2.0000
+ MaxNumParticl          100
+ Immortal               True
+ SetPSColor		id = 0	time = 0.0000  0 0 0 255
+ SetPSColor		id = 1	time = 0.1000  200 200 200 255
+ SetPSColor		id = 2	time = 0.8000  200 200 200 255
+ SetPSColor		id = 3	time = 1.0000  0 0 0 255
+ Position               21.1434 21.4478 4.9677
+ Rotation               0 0 0
+ SizeMinSec             0.0000
+ MassMin                0.0000
+ SetMaterial		"M_PSWSplash"
+ SpiralRotate           False
+ SpawnRandomRot         True
+});

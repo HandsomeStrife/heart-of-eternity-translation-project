@@ -1,0 +1,10 @@
+AddCharacterPresets('MagVillage','ElfSenat','35_Last',{
+ Description                 "ff"
+ Position                    78.5840 73.1250 0.0000
+ Rotation                    0 0 0
+ VisibleSkin                 "E_A_Prajka"
+ VisibleSkin                 "E_A_Naruch"
+ VisibleSkin                 "Elf_Sen_Sh"
+ VisibleSkin                 "E_A_Ponog"
+ VisibleSkin                 "E_AH_Shapo"
+});

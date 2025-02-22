@@ -1,0 +1,12 @@
+CreateItemSkin('A_Naruch1_L_Sk','HA_NaruchLeft','HA_NaruchLeft', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Naruch1_L"
+   MaterialPresetId  0
+   ArmorAutoGenerate  0  4
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

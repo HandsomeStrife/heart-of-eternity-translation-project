@@ -1,0 +1,9 @@
+IfN_Flag_GoTo(125,1,@1);
+ IfN_Point_MoveRun('HaosGate');
+ If_Point_SetFlag('HaosGate',125,2);
+@1:
+ IfN_Point_GoTo('HaosGate',@2);
+ JQuestRecordComplete(36,4);
+ JQuestComplete(36);
+@2:
+NOP();

@@ -1,0 +1,117 @@
+//()----------------------------------------
+//(){_AICP_ORK,10,
+PRG_SetAIParamScript(0,0.2f, 0.1f, 0.3f, 0.8f, 2.f);
+//(){_AICP_ORK,20,
+PRG_SetAIParamScript(1,0.1f, 0.1f, 0.3f, 0.6f, 3.f);
+//(){_AICP_ORK,40,
+PRG_SetAIParamScript(2,0f, 0.1.5f, 0.3f, 0.4f, 4.f);
+//(){_AICP_ORK,200,
+PRG_SetAIParamScript(3,0f, 0.1.5f, 0.3f, 0.2f, 5.f);
+//()----------------------------------------
+//(){_AICP_DWARF,10,
+PRG_SetAIParamScript(4,0.1f, 0.1f, 0.25f, 0.8f, 2.f);
+//(){_AICP_DWARF,20,
+PRG_SetAIParamScript(5,0.05f, 0.1f, 0.25f, 0.6f, 3.f);
+//(){_AICP_DWARF,40,
+PRG_SetAIParamScript(6,0f, 0.15f, 0.5f, 0.4f, 4.f);
+//(){_AICP_DWARF,200,
+PRG_SetAIParamScript(7,0f, 0.2f, 0.5f, 0.2f, 5.f);
+//()----------------------------------------
+//(){_AICP_HUMAN,10,
+PRG_SetAIParamScript(8,0.15f, 0.15f, 0.4f, 0.8f, 2.f);
+//(){_AICP_HUMAN,20,
+PRG_SetAIParamScript(9,0.2f, 0.2f, 0.5f, 0.6f, 3.f);
+//(){_AICP_HUMAN,40,
+PRG_SetAIParamScript(10,0.25f, 0.25f, 0.6f, 0.4f, 4.f);
+//(){_AICP_HUMAN,200,
+PRG_SetAIParamScript(11,0.25f, 0.30f, 0.7f, 0.2f, 5.f);
+//()----------------------------------------
+//(){_AICP_ELF,10,
+PRG_SetAIParamScript(12,0.2f, 0.25f, 0.7f, 0.8f, 2.f);
+//(){_AICP_ELF,20,
+PRG_SetAIParamScript(13,0.25f, 0.3f, 0.8f, 0.6f, 3.f);
+//(){_AICP_ELF,40,
+PRG_SetAIParamScript(14,0.3f, 0.35f, 0.9f, 0.4f, 4.f);
+//(){_AICP_ELF,200,
+PRG_SetAIParamScript(15,0.4f, 0.4f, 1f, 0.2f, 5.f);
+//()----------------------------------------
+//(){_AICP_UNDEAD,10,
+PRG_SetAIParamScript(16,0f, 0.1f, 0f, 0.8f, 2.f);
+//(){_AICP_UNDEAD,20,
+PRG_SetAIParamScript(17,0f, 0.15f, 0f, 0.6f, 3.f);
+//(){_AICP_UNDEAD,40,
+PRG_SetAIParamScript(18,0f, 0.2f, 0f, 0.4f, 4.f);
+//(){_AICP_UNDEAD,200,
+PRG_SetAIParamScript(19,0f, 0.25f, 0f, 0.2f, 5.f);
+//()----------------------------------------
+//(){_AICP_ANIMAL,10,
+PRG_SetAIParamScript(20,0f, 0.05f, 0f, 0.8f, 2.f);
+//(){_AICP_ANIMAL,20,
+PRG_SetAIParamScript(21,0f, 0.1f, 0f, 0.5f, 3.f);
+//(){_AICP_ANIMAL,40,
+PRG_SetAIParamScript(22,0f, 0.15f, 0f, 0.3f, 4.f);
+//(){_AICP_ANIMAL,200,
+PRG_SetAIParamScript(23,0f, 0.2f, 0f, 0.2f, 5.f);
+//()----------------------------------------
+//(){_AICP_BIG,10,
+PRG_SetAIParamScript(24,0f, 0.05f, 0.1f, 0.8f, 2.f);
+//(){_AICP_BIG,20,
+PRG_SetAIParamScript(25,0f, 0.1f, 0.2f, 0.5f, 3.f);
+//(){_AICP_BIG,40,
+PRG_SetAIParamScript(26,0f, 0.15f, 0.3f, 0.3f, 4.f);
+//(){_AICP_BIG,200,
+PRG_SetAIParamScript(27,0f, 0.2f, 0.4f, 0.2f, 5.f);
+//()----------------------------------------
+//(){_AICP_ORK_R,10,
+PRG_SetAIParamScript(28,0.3f, 0.25f, 0.4f, 1f, 1.f);
+//(){_AICP_ORK_R,20,
+PRG_SetAIParamScript(29,0.35f, 0.3f, 0.5f, 0.7f, 2.f);
+//(){_AICP_ORK_R,40,
+PRG_SetAIParamScript(30,0.4f, 0.4f, 0.6f, 0.5f, 3.f);
+//(){_AICP_ORK_R,200,
+PRG_SetAIParamScript(31,0.5f, 0.5f, 0.7f, 0.3f, 4.f);
+//()----------------------------------------
+//(){_AICP_HUMAN_R,10,
+PRG_SetAIParamScript(32,0.35f, 0.3f, 0.5f, 1f, 1.f);
+//(){_AICP_HUMAN_R,20,
+PRG_SetAIParamScript(33,0.4f, 0.4f, 0.6f, 0.7f, 2.f);
+//(){_AICP_HUMAN_R,40,
+PRG_SetAIParamScript(34,0.5f, 0.5f, 0.7f, 0.5f, 3.f);
+//(){_AICP_HUMAN_R,200,
+PRG_SetAIParamScript(35,0.6f, 0.6f, 0.8f, 0.3f, 4.f);
+//()----------------------------------------
+//(){_AICP_ELF_R,10,
+PRG_SetAIParamScript(36,0.4f, 0.4f, 0.6f, 0.8f, 2.f);
+//(){_AICP_ELF_R,20,
+PRG_SetAIParamScript(37,0.5f, 0.5f, 0.7f, 0.5f, 3.f);
+//(){_AICP_ELF_R,40,
+PRG_SetAIParamScript(38,0.6f, 0.6f, 0.8f, 0.3f, 4.f);
+//(){_AICP_ELF_R,200,
+PRG_SetAIParamScript(39,0.7f, 0.7f, 0.9f, 0.2f, 5.f);
+//()----------------------------------------
+//(){_AICP_UNDEAD_R,10,
+PRG_SetAIParamScript(40,0f, 0.2f, 0.3f, 0.8f, 2.f);
+//(){_AICP_UNDEAD_R,20,
+PRG_SetAIParamScript(41,0f, 0.3f, 0.4f, 0.5f, 3.f);
+//(){_AICP_UNDEAD_R,40,
+PRG_SetAIParamScript(42,0f, 0.4f, 0.5f, 0.3f, 4.f);
+//(){_AICP_UNDEAD_R,200,
+PRG_SetAIParamScript(43,0f, 0.5f, 0.6f, 0.2f, 5.f);
+//()----------------------------------------
+//(){_AICP_GOBLIN,10,
+PRG_SetAIParamScript(44,0.4f, 0.1f, 0.3f, 0.8f, 2.f);
+//(){_AICP_GOBLIN,20,
+PRG_SetAIParamScript(45,0.5f, 0.15f, 0.5f, 0.5f, 3.f);
+//(){_AICP_GOBLIN,40,
+PRG_SetAIParamScript(46,0.6f, 0.2f, 0.7f, 0.3f, 4.f);
+//(){_AICP_GOBLIN,200,
+PRG_SetAIParamScript(47,0.7f, 0.25f, 0.9f, 0.2f, 5.f);
+//()----------------------------------------
+//(){_AICP_FLY,10,
+PRG_SetAIParamScript(48,0.3f, 0.1f, 0.1f, 0.8f, 2.f);
+//(){_AICP_FLY,20,
+PRG_SetAIParamScript(49,0.4f, 0.2f, 0.2f, 0.5f, 3.f);
+//(){_AICP_FLY,40,
+PRG_SetAIParamScript(50,0.5f, 0.25f, 0.3f, 0.3f, 4.f);
+//(){_AICP_FLY,200,
+PRG_SetAIParamScript(51,0.6f, 0.3f, 0.4f, 0.2f, 5.f);

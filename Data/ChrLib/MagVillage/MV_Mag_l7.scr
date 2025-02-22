@@ -1,0 +1,12 @@
+AddCharacterPresets('MagVillage','Enemy','Mag_l7',{
+ Description                 "Mag_l7"
+ Position                    80 80 0
+ Rotation                    0 0 0
+ MobParam                    4 7
+ VisibleSkin                 "MV_H_Long"
+ VisibleSkin                 "MV_O_KapDown"
+ VisibleSkin                 "MV_O_SUMA"
+ VisibleSkin                 "MV_B_sm"
+ AddItem		     "Stuffs\Stuff_1\Stuff_1.scr" "DefaultSlot"
+ PartitionEnable              False
+});

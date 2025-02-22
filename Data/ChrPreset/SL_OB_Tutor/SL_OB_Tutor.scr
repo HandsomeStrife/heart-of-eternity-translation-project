@@ -1,0 +1,16 @@
+AddCharacterPresets('OrkMedium','ENEMY2','SL_OB_Tutor',{
+ Description                 "Tutor"
+ Position                    850.3523 1762.7646 171.2849
+ Rotation                    0 0 0
+ PlusStrenght                0
+ PlusDexterity               0
+ PlusConstitution            0
+ PlusIntellect               0
+ PlusPermeability            0
+ AddDeathScript		     "SL_OB_Tutor_death.scd"
+ AddSkinItem                 "OMe_Cuirass_l3.scr" "Armor"
+ AddSkinItem                 "HandArmor_Norm_l3.scr" "HandArmor"
+ AddSkinItem                 "Legins_Norm_l3.scr" "Leggings"
+ AddItem                     "Ork\OneHand\Ork_sabre_TUTOR\Ork_sabre_TUTOR.scr" "Left_Scabbard"
+ AddItem		     "Ork\Shiled\o_shild_Tutor\o_shild_Tutor.scr" "Spine_shield"
+});

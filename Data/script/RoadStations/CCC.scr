@@ -1,0 +1,9 @@
+AddCharacterPresets('Vepr','WomanFat','WF_Peizantka',{
+ Description                 "x"
+ Position                    1266.9323 2159.6523 8.7718
+ Rotation                    0 0 0
+ VisibleSkin                 "WF_O_Platye_Sh"
+ VisibleSkin                 "WF_O_Rukava_Sh"
+ VisibleSkin                 "WF_G_Chepec_Sh"
+ VisibleSkin                 "Woman_Fat_Sh"
+});

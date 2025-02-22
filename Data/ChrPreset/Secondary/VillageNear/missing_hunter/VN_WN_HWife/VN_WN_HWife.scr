@@ -1,0 +1,16 @@
+AddCharacterPresets('WomanFat','CivilMan','VN_WN_HWife',{
+ Description                 "Vanda"
+ Position                    1249.5040,2186.4932,7.1107
+ Rotation                    0 0 0
+ VisibleSkin                 "WF_O_Platye_Sh"
+ VisibleSkin                 "WF_H_Norm_Sh"
+ VisibleSkin                 "Woman_Fat_Sh"
+ AddBeforeDialogScript       "VN_WN_HWife_BD.scd"
+ AddDialog                   "VN_WN_HWife_D0.dlg" 0
+ AddDialog                   "VN_WN_HWife_D1.dlg" 1
+ AddDialog                   "VN_WN_HWife_D9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

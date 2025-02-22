@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\Vivern\data\Vivern.mc',
+'Vivern',
+'data\characters\Vivern\data\','vepr','Vivern',' ');

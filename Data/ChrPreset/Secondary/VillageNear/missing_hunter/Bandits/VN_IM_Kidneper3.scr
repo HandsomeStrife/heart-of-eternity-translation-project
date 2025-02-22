@@ -1,0 +1,14 @@
+AddCharacterPresets('IronMan','CivilMan','VN_IM_Kidneper3',{
+ Description                 "nufnuf"
+ Position                    1691.1488,2139.7437,75.3142
+ Rotation                    0 0 0
+ VisibleSkin                 "A_PlashFib2"
+ VisibleSkin                 "H_Gor"
+ MobParam                    3 8
+ AddProcScript               "VN_IM_Kidneper3_AI.sci"
+ AddDeathScript		     "Bandits_death.scd"
+ AddItem                     "Human\OneHand\dagger03\dagger03.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\dagger03\dagger03.scr" "Right_Scabbard"
+ AddSkinItem                 "HandArmor_l4.scr" "HandArmor"
+ PartitionEnable              False
+});

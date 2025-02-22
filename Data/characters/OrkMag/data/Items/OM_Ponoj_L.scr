@@ -1,0 +1,13 @@
+CreateItemSkin('OM_Ponoj_L','L_BootLeft','L_BootLeft', {
+  Visible           True
+  Cost              -1
+  Description       "OM_Ponoj_L"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "OM_Ponoj_L"
+   MaterialPresetId  0
+   ArmorAutoGenerate  0  4 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

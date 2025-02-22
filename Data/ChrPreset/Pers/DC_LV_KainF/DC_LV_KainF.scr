@@ -1,0 +1,31 @@
+AddCharacterPresets('LordVampire','CivilMan','DC_LV_KainF',{
+ Description                 "Gallahard"
+ Position                    5309.6875,2303.3633,189.4066
+ Rotation                    0 0 90
+ MobParam                    2 70
+ Life 			     4000
+ ScaleX     1.1
+ ScaleY     1.1
+ ScaleZ     1.1
+ VisibleSkin                 "LV_Nanoj_L_Sh"
+ VisibleSkin                 "LV_Naruk_L_Sh"
+ VisibleSkin                 "LV_Naplech_L_Sh"
+ VisibleSkin                 "LV_Nanoj_R_Sh"
+ VisibleSkin                 "LV_Naruk_R_Sh"
+ VisibleSkin                 "LV_Naplech_R_Sh"
+ VisibleSkin                 "LV_Naruch_L_Sh"
+ VisibleSkin                 "LV_Naruch_R_Sh"
+ AddBeforeDialogScript       "DC_LV_KainF_BD.scd"
+ AddDeathScript		     "DC_LV_KainF_death.scd"
+ AddProcScript               "DC_LV_KainF_AI.sci"
+ AddDialog                   "DC_LV_KainF_d1.dlg" 0
+ AddDialog                   "DC_LV_KainF_d2.dlg" 1
+ AddDialog                   "DC_LV_KainF_d9.dlg" 9
+ AddSkinItem                 "LordVampire_Sh.scr" "SecArmor"
+ VisibleSkin                 "LV_Nanoj_L_Sh"
+ AddItem                     "Vampire\shields\V_shield\V_shield.scr" "Spine_shield"
+ AddItem                     "Vampire\onehand\V_GReat_Sabre_o\V_GReat_Sabre_o.scr" "Left_Scabbard"
+ Attack 		      False
+ DropEnable	              False
+ PartitionEnable              False
+});

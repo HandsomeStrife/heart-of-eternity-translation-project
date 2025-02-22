@@ -1,0 +1,25 @@
+AddCharacterPresets('Starosta','CivilMan','VN_ST_Messenger',{
+ Description                 "Mechif"
+ Position                    1276.9667,2161.5220,9.1530
+ Rotation                    0 0 0
+ VisibleSkin                 "I_Znak"
+ VisibleSkin                 "A_PlashMeh"
+ VisibleSkin                 "HB_Circ"
+ VisibleSkin                 "I_Otv_FootU"
+ VisibleSkin                 "I_SkirtSm"
+ VisibleSkinParam            "AH_Dvoryan" 1
+ VisibleSkin                 "STAR_Sh"
+ PlusStrenght                12
+ PlusDexterity               10
+ PlusConstitution            9
+ PlusIntellect               3
+ PlusPermeability            4
+ AddBeforeDialogScript       "VN_ST_Messenger_BD.scd"
+ AddDialog		     "VN_ST_Messenger_d9.dlg" 9
+ AddDialog		     "VN_ST_Messenger_d1.dlg" 0
+ AddItem                     "Human\OneHand\chinkvedea3\Chinkvedea3.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

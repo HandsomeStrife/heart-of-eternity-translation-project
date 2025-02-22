@@ -1,0 +1,2 @@
+AddItemChrSlot('warior','Quest\IdolOfFertility\IdolOfFertility.scr','Bag');
+AddHotKeyHelp('You have received the Idol of Fertility.',23);

@@ -1,0 +1,16 @@
+AddCharacterPresets('Civman','CivilMan','MQ1_IM_Lapuh',{
+ Description                 "Sven"
+ Position                    1490.9639,2417.8196,91.1833
+ Rotation                    0 0 183
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "I_Otv_FootD"
+ AddBeforeDialogScript       "MQ1_IM_Lapuh_BD.scd"
+ AddDialog                   "MQ1_IM_Lapuh_D0.dlg" 0
+ AddDialog                   "MQ1_IM_Lapuh_D1.dlg" 1
+ AddDialog                   "MQ1_IM_Lapuh_D9.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		     False
+});

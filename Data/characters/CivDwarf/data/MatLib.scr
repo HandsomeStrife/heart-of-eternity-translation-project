@@ -1,0 +1,7 @@
+AddMaterialToSkin('HB_BorDabl','M_B_DABL_RadM','Dwarf\B_DABL_waitG.tga',1);
+AddMaterialToSkin('HB_BorKolco','M_B_Kolco_br','Dwarf\B_Kolco_wait.tga',1);
+AddMaterialToSkin('HB_BorRabby','M_B_Rabby_BrM','Dwarf\B_Rabby_radG.tga',1);
+AddMaterialToSkin('HB_BorRabby','M_B_Rabby_BrM','Dwarf\B_Rabby_waitG.tga',2);
+AddMaterialToSkin('HB_BorSmall','M_B_Smoll_WhiteG','Dwarf\B_Smoll_radM.tga',1);
+FACE_CreateFace('M_DWF_Face');
+FACE_AddFace('Dwarf\DWF_Face2.tga');

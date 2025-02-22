@@ -1,0 +1,14 @@
+AddCharacterPresets('MagVillage','CivilMan','GD_OLD_Libr',{
+ Description                 "Amnus"
+ Position                    5858.2974,823.7247,221.6015
+ Rotation                    0 0 0
+ VisibleSkin                 "MV_B_Long"
+ VisibleSkin                 "MV_H_Long"
+ AddBeforeDialogScript       "GD_OLD_Libr_BD.scd"
+ AddDialog		     "GD_OLD_Libr_d.dlg" 0
+ AddDialog		     "GD_OLD_Libr_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

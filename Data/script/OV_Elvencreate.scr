@@ -1,0 +1,11 @@
+ExecuteScriptSys('data\ChrPreset\Secondary\OrkVillage\ElvenSWAT\OV_ESk_Scout\OV_ESk_Scout_0.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\OrkVillage\ElvenSWAT\OV_ESk_Scout\OV_ESk_Scout_1.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\OrkVillage\ElvenSWAT\OV_ESk_Scout\OV_ESk_Scout_2.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\OrkVillage\ElvenSWAT\OV_ESk_Scout\OV_ESk_Scout_3.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\OrkVillage\ElvenSWAT\OV_ESk_Scout\OV_ESk_Scout_4.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\OrkVillage\ElvenSWAT\OV_ESk_Specnaz\OV_ESk_Specnaz.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\OrkVillage\ElvenSWAT\OV_OS_Lekar\OV_OS_Lekar.scr');	
+SetCharacterPosition('warior',2584.6772,78.0723,172.4922);
+SetCharacterRotation('warior',0,0,90);
+SetCharacterPosition('OV_ESk_Sentinel',2581.6006,77.8945,173.0909);
+BlackScreenStart('Under the threat of weapons, you followed the elf...');

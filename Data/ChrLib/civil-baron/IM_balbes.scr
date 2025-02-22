@@ -1,0 +1,8 @@
+AddCharacterPresets('IronMan','CivilMan','IM_balbes',{
+ Description                 "IM_balbes"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 1
+ VisibleSkin                 "AH_SelKolp"
+ AddItem                     "Human\OneHand\club\club.scr" "Left_Scabbard"
+});

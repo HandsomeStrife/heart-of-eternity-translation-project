@@ -1,0 +1,2 @@
+SetFlag(69,2);
+CHRSCR_AddTimePeriod(70,8,20);

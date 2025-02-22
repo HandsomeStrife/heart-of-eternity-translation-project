@@ -1,0 +1,9 @@
+AddCharacterPresets('OrkMedium','Enemy','OMe_Str',{
+ Description                 "NPC_OMe_l7"
+ MobParam                    1 7
+ VisibleSkin                 "OMed_HEARE_Sh"
+ AddSkinItem                 "HandArmor_Str_l7.scr" "HandArmor"
+ AddSkinItem                 "Legins_Str_l7.scr" "Leggings"
+ AddItem                     "Ork\OneHand\o-bloodknife\o-bloodknife.scr" "Left_Scabbard"
+ AddItem                     "Ork\OneHand\o-bloodknife\o-bloodknife.scr" "Right_Scabbard"
+});

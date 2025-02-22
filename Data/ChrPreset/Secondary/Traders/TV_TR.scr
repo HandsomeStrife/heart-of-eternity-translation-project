@@ -1,0 +1,15 @@
+AddCharacterPresets('Starosta','CivilMan','TV_TR',{
+ Description                 "Симон"
+ Position                    562.1455,2547.4519,46.5129
+ Rotation                    0 0 180
+ VisibleSkin                 "H_Ez"
+ VisibleSkinParam            "STAR_Sh" 2
+ VisibleSkinParam            "A_SkirtKol" 4
+ VisibleSkin                 "HB_Usy"
+ AddDialog                   "TV_TR9.dlg" 9
+ AddDialog                   "TV_TR_d.dlg" 0
+ AddItem                     "Undead\OneHand\u_axe\u_axe.scr" "Left_Scabbard"
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

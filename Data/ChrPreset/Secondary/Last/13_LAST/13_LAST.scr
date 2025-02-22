@@ -1,0 +1,20 @@
+AddCharacterPresets('OrkMag','CivilMan','13_LAST',{
+ Description                 "13_LAST"
+ Position                    2822.2988,408.7325,191.6348
+ Rotation                    0 0 -5
+ VisibleSkinParam            "OM_Body" 1
+ VisibleSkin                 "OM_Greben"
+ VisibleSkin                 "OM_Schild_F"
+ VisibleSkin                 "OM_Poyas"
+ VisibleSkin                 "OM_Chalust"
+ AddBeforeDialogScript       "13_LAST_BD.scd"
+ AddDialog                   "13_LAST_00.dlg" 0 
+ AddDialog                   "13_LAST_01.dlg" 1 
+ AddDialog                   "13_LAST_02.dlg" 2 
+ AddDialog                   "13_LAST_09.dlg" 9 
+ AddItem                     "Ork\Magick\o_posoh_sham\o_posoh_sham.scr" "Right_Hand"
+ AutoSpawn                    1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

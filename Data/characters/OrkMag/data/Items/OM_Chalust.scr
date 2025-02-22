@@ -1,0 +1,13 @@
+CreateItemSkin('OM_Chalust','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "OM_Chalust"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "OM_Chalust"
+   MaterialPresetId  0
+   ArmorAutoGenerate  0  4
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

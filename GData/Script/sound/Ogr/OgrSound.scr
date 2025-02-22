@@ -1,0 +1,11 @@
+CreateSoundLib('Ogr_VAttack1a.wav','OGa0',2,20,100);
+CreateSoundLib('Ogr_VAttack1b.wav','OGa1',2,20,100);
+CreateSoundLib('Ogr_VAttack2a.wav','OGa2',2,20,100);
+CreateSoundLib('Ogr_VAttack2b.wav','OGa3',2,20,100);
+CreateSoundLibGroup('OGa',4,'OGa');
+CreateSoundLib('Ogr_VDeath.wav','OGd0',2,30,100);
+CreateSoundLib('Ogr_VDeath_b.wav','OGd1',2,30,100);
+CreateSoundLibGroup('OGd',2,'OGd');
+CreateSoundLib('Ogr_VVoice.wav','OGs0',2,30,100);
+CreateSoundLib('Ogr_VVoice_b.wav','OGs1',2,30,100);
+CreateSoundLibGroup('OGs',2,'OGs');

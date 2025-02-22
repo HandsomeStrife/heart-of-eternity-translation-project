@@ -1,0 +1,6 @@
+SetCharacterPosition('GD_IM_Guard2',5883.8608,847.0535,225.9409);
+SetCharacterRotation('GD_IM_Guard2',0,0,90);
+SetCharacterPosition('GD_IM_Guard3',5883.8613,845.8260,225.9409);
+SetCharacterRotation('GD_IM_Guard3',0,0,90);
+SetCharacterPosition('GD_IM_Guard',5884.6040,846.4622,226.0397);
+SetCharacterRotation('GD_IM_Guard',0,0,90);

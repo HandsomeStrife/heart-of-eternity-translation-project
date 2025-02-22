@@ -1,0 +1,83 @@
+AddObjectToLib('data\object\WaterSpl.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_WaterSpl','WaterSpl.tga',{
+ BlendEnable       True
+ SRCBlend          "SrcColor"
+ DSTBlend          "InvSrcColor"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 1.0000
+ MatrixText          id = 0 1 1 1.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 0.0000 1.0000
+ MapMoveSpeed        id = 0 0.3000
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('AWG1',fps=30,numFrame=60,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 -0.896043438  9
+AddTranslateKey   0 0 -0.1461243236  5
+AddTranslateKey   0 0 -0.08183989123  8
+AddTranslateKey   0 0 0.01991462601  6
+AddTranslateKey   0 0 -0.7735988602  5
+AddTranslateKey   0 0 -0.9660916469  26
+AddTranslateKey   0 0 -0.8540618575  0
+AddRotationKey   0 0 0  14
+AddRotationKey   0 0 0  8
+AddRotationKey   0 0 0  37
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   9
+AddColorKey  255 255 255 255   5
+AddColorKey  250 250 250 250   8
+AddColorKey  250 250 250 250   11
+AddColorKey  0 0 0 0   26
+AddColorKey  0 0 0 0   0
+AddScaleKey   1 1 1  14
+AddScaleKey   0.7892126773 0.7892126773 0.9939247208  8
+AddScaleKey   0.8771950319 0.8771950319 1.267102908  6
+AddScaleKey   1.024003581 1.024003581 1.212099015  31
+AddScaleKey   1.696545874 1.696545874 1.215295998  0
+});
+CreateSFXAnimation('AWG2',fps=30,numFrame=60,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 -0.2889306144  9
+AddTranslateKey   0 0 -0.3589097331  5
+AddTranslateKey   0 0 -0.2520935698  9
+AddTranslateKey   0 0 -0.2980870643  9
+AddTranslateKey   0 0 -0.943834866  5
+AddTranslateKey   0 0 -1.3446225  22
+AddTranslateKey   0 0 -1.165306829  0
+AddRotationKey   0 0 0  32
+AddRotationKey   0 0 0  27
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   9
+AddColorKey  255 255 255 255   23
+AddColorKey  25 25 25 25   5
+AddColorKey  0 0 0 0   22
+AddColorKey  0 0 0 0   0
+AddScaleKey   0.3762237108 0.3762237108 0.3762237108  9
+AddScaleKey   0.4423735514 0.4423735514 1.63610205  5
+AddScaleKey   0.4791234629 0.4791234629 2.02843198  9
+AddScaleKey   0.5452733036 0.5452733036 2.393591267  9
+AddScaleKey   0.6114231442 0.6114231442 1.102434228  5
+AddScaleKey   0.6114231442 0.6114231442 0.8848135589  22
+AddScaleKey   0.6114231442 0.6114231442 0.2697884412  0
+});
+CreateSFX('SFX_AWG',{
+    AddSFXObjectTagN  "WATERSPL"  pos: 0 0 0.1  rot: 0 0 0 "AWG1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXObjectTagN  "WATERSPL"  pos: 0 0 0.1  rot: 0 0 0 "AWG2"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    AddLinkColor      tag=1  flag=3
+    LiveTime        = 1.8
+});

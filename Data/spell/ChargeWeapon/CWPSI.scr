@@ -1,0 +1,58 @@
+CreateMaterial('M_CWGFire','fire_animG2.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne       id = 0 "Texture"
+ ColorOp           id = 0 "Modulate"
+ ColorArgTwo       id = 0 "Current"
+ AlphaArgOne       id = 0 "Diffuse"
+ AlphaOp           id = 0 "Modulate"
+ AlphaArgTwo       id = 0 "Diffuse"
+ TextureCIndex     id = 0 0
+ TCIFunction       id = 0 "passthru"
+ AnimMaterial      True
+ AnimMatAutoPlay   False
+ AnimMatFPS        40.0000
+ AnimMatWSquare    64
+ AnimMatHSquare    64
+ AnimMatNumFrame   16
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateParticlSystem('CWI_fire',{
+ ParticlProcType	"Flue"
+ SpawnType		"Line"
+ Radius			0.15
+ SpawnPosTwo		0 0 1
+ SpawnPosThree		0 0 0
+ SpawnSpeed		400.0
+ SizeMin		0.6
+ SizeMax                1.3
+ TimeLive		0.4
+ MaxNumParticl		300
+ Immortal		False
+ SetPSColor		id = 0	time = 0.0  255 255 255 255
+ SetPSColor		id = 1	time = 0.1  40  43 200  147
+ SetPSColor		id = 2	time = 0.2  40  40 204  0
+ SetPSColor		id = 3	time = 0.4  20 20 40 200
+ SetPSColor		id = 4	time = 1.0  0 0 0 0
+ ForceVector		id = 0  0.0 0.0 1.0
+ ForceStrength		id = 0  0.3
+ AngleZXY		id = 0  0    360
+ AngleXY		id = 0 -15  15
+ ForceVector		id = 1  0.0 0.0 1.0
+ ForceStrength		id = 1  0.02
+ AngleZXY		id = 1  0  360
+ AngleXY		id = 1  0  30
+ Position	        0 0 0
+ Rotation		0 0 0
+ SizeMinSec		2
+ MassMin                1
+ SetMaterial		"M_CWGFire"
+ SpawnRandomRot		False
+ AutoAnimate            True
+ SpawnRandomRot		True
+ SpeedRotate		150
+});

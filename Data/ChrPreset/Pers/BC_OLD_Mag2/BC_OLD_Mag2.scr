@@ -1,0 +1,29 @@
+AddCharacterPresets('MagVillage','CivilMan','BC_OLD_Mag2',{
+ Description                 "Zulkas_2"
+ Position                    1063.5125,2335.7798,48.3790
+ Rotation                    0 0 135
+ MobParam                    4 55
+ Life 			     1000
+ AddProcScript               "BC_OLD_Mag2_AI.sci"
+ AddBeforeDialogScript       "BC_OLD_Mag2_BD.scd"
+ AddDeathScript		     "BC_OLD_Mag2_death.scd"
+ AddDialog                   "BC_OLD_Mag2_d0.dlg" 0 
+ AddDialog                   "BC_OLD_Mag2_d1.dlg" 1
+ AddDialog                   "BC_OLD_Mag2_d2.dlg" 2
+ AddDialog                   "BC_OLD_Mag2_d3.dlg" 3
+ AddDialog                   "BC_OLD_Mag2_d4.dlg" 4
+ AddDialog                   "BC_OLD_Mag2_d9.dlg" 9
+ VisibleSkin                 "I_AMAmulet"
+ VisibleSkin                 "AH_Cap6"
+ VisibleSkin                 "ArchiMag"
+ VisibleSkin                 "AH_Cap1"
+ VisibleSkin                 "AH_Cap2"
+ VisibleSkin                 "AH_Cap3"
+ VisibleSkin                 "AH_Cap4"
+ VisibleSkin                 "AH_Cap5"
+ VisibleSkin                 "I_AMMTunika"
+ AddSkinItem                 "A_AMPlash.scr" "Armor"
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+);

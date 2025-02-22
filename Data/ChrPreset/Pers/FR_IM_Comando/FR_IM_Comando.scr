@@ -1,0 +1,22 @@
+AddCharacterPresets('IronMan','CivilMan','FR_IM_Comando',{
+ Description                 "Branus"
+ Position                    1324.4496,2828.8723,9.1094
+ Rotation                    0 0 180
+ AddBeforeDialogScript       "FR_IM_Comando_BD.scd"
+ AddDialog                   "FR_IM_Comando_d.dlg" 0
+ AddDialog                   "FR_IM_Comando_d1.dlg" 1
+ AddDialog                   "FR_IM_Comando_d2.dlg" 2
+ AddDialog                   "FR_IM_Comando_d9.dlg" 9
+ VisibleSkin                 "HB_Usy"
+ AddItem                     "Human\Shield\KnightShield_01\KnightShield_01.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\mace01\mace01.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\daga2\daga2.scr" "Right_Scabbard"
+ AddSkinItem                 "Legins_l36.scr" "Leggings"
+ AddSkinItem                 "HandArmor_36.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_N_l35.scr" "Armor"
+ AddSkinItem                 "SecArmor_K2_l35.scr" "SecArmor"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

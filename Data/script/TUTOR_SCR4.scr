@@ -1,0 +1,27 @@
+OBJECT_SetObjPos('TARGET_BEG04',878.3933,1666.7384,179.5308);
+OBJECT_SetObjRot('TARGET_BEG04',0.0000,0.0000,0.0000,-1.0000);
+OBJECT_SetObjPos('TARGET_BEG03',878.3933,1666.7384,179.5308);
+OBJECT_SetObjRot('TARGET_BEG03',0.0000,0.0000,0.0000,-1.0000);
+TUT_CreateDartBoard('TARGET_BEG03');
+TUT_CreateDartBoard('TARGET_BEG04');
+CreateSFXAnimation('ATUT_01',fps=5,numFrame=30,loop= 1,autoPlay= 1,{
+ AddRotationKey   0 0   0  10
+ AddRotationKey   0 120 0  10
+ AddRotationKey   0 240 0  10
+ AddRotationKey   0 360 0  0
+});
+CreateSFX('TUT_SFX1',{
+    Immortal  true
+    AddSFXObjectTag  "BOX56"  0 0 0  0 0 0 "ATUT_01"
+     autoRender = false autoDelete = false
+     autoDeleteAnim = true autoCalcPos = true
+    AddSFXObjectTag  "TARGET_BEG03"  0 0 0  0 0 0 "ATUT_01"
+     autoRender = false autoDelete = false
+     autoDeleteAnim = true autoCalcPos = true
+    AddSFXTagFlag 1 131072
+    AddSFXObjectTag  "TARGET_BEG04"  0 0 0  0 0 0 "ATUT_01"
+     autoRender = false autoDelete = false
+     autoDeleteAnim = true autoCalcPos = true
+    AddSFXTagFlag 2 131072
+});
+SFXSpawn('TUT_SFX1');

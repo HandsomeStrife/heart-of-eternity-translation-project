@@ -1,0 +1,19 @@
+CreateItemSkin('W_Legins_NA','Leggings','Leggings', {
+ Visible                 True
+ Cost                    -1
+ Description       "Protection of the Great's Legs"
+ History           "The Lost One has departed, but in Sarkus there are still relics left, created by him or his disciples. Legends speak of one of the mightiest creations of Darion being the Armor of the Great - two of the strongest warriors of the past, close to the Seeder himself. Fortune has smiled upon you - you have become the bearer of a part of the relic. This will grant you power. But remember: only the one who possesses all parts of the Armor of the Great will attain true might."
+  AddSkinFromItemNoObj         "NA_Nanoj_L.scr"
+  AddSkinFromItemNoObj         "NA_Nanoj_R.scr"
+  AddSkinFromItemNoObj         "NA_Sapog_L.scr"
+  AddSkinFromItemNoObj         "NA_Sapog_R.scr"
+  AddSkinFromItemNoObj         "NA_Skirt.scr"
+ AddObject            "Legins_NA.zrm" 
+ AddTakeScript  "Take_Legins_NA.sc"
+   ArmorAutoGenerate  9  4 
+   PlusDexterity     10
+   PlusIntellect     3
+   PlusStrenght      3
+   PlusConstitution  3
+   PlusMagicPower    3
+});

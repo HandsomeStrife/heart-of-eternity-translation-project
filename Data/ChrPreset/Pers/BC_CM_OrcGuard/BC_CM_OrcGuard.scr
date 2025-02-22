@@ -1,0 +1,21 @@
+AddCharacterPresets('Civman','CivilMan','BC_CM_OrcGuard',{
+ Description                 "Thoma"
+ Position                    1054.8156,2313.9478,98.6713
+ Rotation                    0 0 80
+ VisibleSkin                 "HB_Sm"
+ PlusStrenght                50
+ PlusDexterity               50
+ PlusConstitution            300
+ PlusIntellect               50
+ PlusPermeability            50
+ AddDialog                   "BC_CM_OrcGuard_d9.dlg" 9
+ AddSkinItem                 "AH_IfantSalad_N_l15.scr" "Helmet"
+ AddSkinItem                 "SecArmor_Kol_l15.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_15.scr" "HandArmor"
+ AddItem                     "Human\Shield\Shield_Buckler\Shield_Buckler.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\karoling2\karoling2.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

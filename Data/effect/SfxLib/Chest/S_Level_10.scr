@@ -1,0 +1,12 @@
+CreateChestEffectObj({
+ Visible	0 1 0
+ AutoCalcOffset	2.0
+ SetFlag	"G_BO" 0.9  num = 6 lvl = 10
+ SetFlag	"G_JE" 0.15 num = 1 lvl = 10
+ SetFlag	"G_AR" 0.3  num = 4 lvl = 10
+ SetFlag	"G_WE" 0.4  num = 3 lvl = 10
+ SetFlag	"G_QU" 0.5  num = 2 lvl = 10
+ SetFlag	"G_MO" 0.9  num = 1 lvl = 10
+ Description	"Chest"
+ Height 0.5
+});

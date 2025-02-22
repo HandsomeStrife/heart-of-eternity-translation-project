@@ -1,0 +1,16 @@
+AddCharacterPresets('Starosta','Enemy','Star43',{
+ Description                 "FatChemp43"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    2 43
+ SetFace                     2
+ VisibleSkin                 "HB_Kosichky"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "I_Znak"
+ VisibleSkin                 "A_PlashMeh"
+ VisibleSkin                 "AH_Shapo"
+ AddSkinItem                 "HandArmor_43.scr" "HandArmor"
+ AddSkinItem                 "Legins_43.scr" "Leggings"
+ AddSkinItem                 "SecArmor_Kol_l43.scr" "SecArmor"
+ AddItem                     "Human\TwoHand\flamesword03\flamesword03.scr" "TwoHandSword"
+});

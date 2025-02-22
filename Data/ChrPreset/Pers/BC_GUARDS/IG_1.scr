@@ -1,0 +1,17 @@
+AddCharacterPresets('IronMan','CivilMan','IG_1',{
+ Description                 "IG_1"
+ Position                    1085.4410,2323.6892,99.6015
+ Rotation                    0 0 -85                         
+ MobParam                    3 30
+ AddDialog                   "IG_1_d9.dlg" 9
+ AddSkinItem                 "HandArmor_56.scr" "HandArmor"
+ AddSkinItem                 "AH_PalladinP_S_l55.scr" "Helmet"
+ AddSkinItem                 "SecArmor_K2_l55.scr" "SecArmor"
+ AddSkinItem                 "Legins_56.scr" "Leggings"
+ AddSkinItem                 "A_Cuirass_In.scr" "Armor"
+ AddItem                     "Human\OneHand\sword\sword.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

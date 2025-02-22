@@ -1,0 +1,10 @@
+ SetCharacterPosition('CM_Inkv_1',1268.4651,2130.2478,10.0272);
+ SetCharacterRotation('CM_Inkv_1',0,0,0);
+ SetCharacterPosition('CM_Inkv_2',1257.4563,2129.3723,9.9922);
+ SetCharacterRotation('CM_Inkv_2',0,0,0);
+ SetCharacterPosition('IM_inkv_bow1',1271.2064,2127.2812,10.4289);
+ SetCharacterRotation('IM_inkv_bow1',0,0,0);
+ SetCharacterPosition('IM_inkv_bow2',1260.8745,2132.5757,9.9458);
+ SetCharacterRotation('IM_inkv_bow2',0,0,0);
+ SetCharacterPosition('BC_OLD_Inkviz',1263.0430,2128.2180,10.3587);
+ SetCharacterRotation('BC_OLD_Inkviz',0,0,0);

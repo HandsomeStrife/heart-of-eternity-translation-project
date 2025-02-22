@@ -1,0 +1,14 @@
+AddCharacterPresets('IronMan','Enemy','IM_l16',{
+ Description                 "IM_l16"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 16
+ AddDeathScript              "cmdscr.scd"
+ VisibleSkin                 "A_PlashFib2"
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkinParam            "I_Man_Sh" 3
+ AddSkinItem                 "HandArmor_l16.scr" "HandArmor"
+ AddSkinItem                 "AH_Greben_N_l15.scr" "Helmet"
+ AddItem                     "Human\Shield\Shield_Buckler\Shield_Buckler_l15.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\Jatagan02\Jatagan02.scr" "Left_Scabbard"
+});

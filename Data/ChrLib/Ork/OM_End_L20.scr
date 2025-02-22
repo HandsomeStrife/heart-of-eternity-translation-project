@@ -1,0 +1,22 @@
+AddCharacterPresets('OrkMag','Enemy','OM_G',{
+ Description                 "Ork Mag_8"
+ Position                    88.2812 128.2020 5.0747
+ ScaleX      1.2
+ ScaleY      1.2
+ ScaleZ      1.2
+ MobParam                    2 20
+ PlusStrenght                -10
+ PlusIntellect               30
+ Rotation                    0 0 0
+ VisibleSkinParam            "OM_Body" 0
+ VisibleSkin                 "OM_Schild_B"
+ VisibleSkin                 "OM_Schild_F"
+ VisibleSkin                 "OM_Greben"
+ AddSkinItem                 "OM_Cuirass.scr" "Armor"
+ AddSkinItem                 "HandArmor.scr" "HandArmor"
+ AddSkinItem                 "Legins.scr" "Leggings"
+ AddSkinItem                 "OM_Chalust.scr" "Helmet"
+ AddItem                     "Ork\Magick\o_posoh\o_posoh.scr" "Right_Hand"
+ AddItem                     "Ork\Ranged\o_sarbakan\o_sarbakan.scr" "Bow"
+ DropEnable	              False
+});

@@ -1,0 +1,5 @@
+BlackScreenStart('Fight!');
+SetCharacterPosition('warior',539.6658,2516.7268,43.8594);
+SetCharacterRotation('warior',0,0,350);
+AddEnemy('TV_OLD_Sorcher','warior');
+SetFlag(360,10);

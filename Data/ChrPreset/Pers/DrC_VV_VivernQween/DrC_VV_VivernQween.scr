@@ -1,0 +1,17 @@
+AddCharacterPresets('Vivern','CivilMan','DrC_VV_VivernQween',{
+ Description                 "Qween"
+ Position                    7938.5005 967.5341 205.0125
+ Rotation                    0 0 90
+ MobParam                    1 160
+ ScaleX                      1
+ ScaleY                      1
+ ScaleZ                      1
+ AddDialog                   "DrC_VV_VivernQween_d.dlg" 0
+ AddDialog                   "DrC_VV_VivernQween_d9.dlg" 9
+ AddBeforeDialogScript       "DrC_VV_VivernQween_BD.scd"
+ AddProcScript               "DrC_VV_VivernQween_AI.sci"
+ AutoSpawn   	              1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack			     False
+});

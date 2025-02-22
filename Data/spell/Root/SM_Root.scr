@@ -1,0 +1,66 @@
+AddObjectToLib('data\spell\Root\Root1.zrm',mipmap=0,orientY=1);
+AddObjectToLib('data\spell\Root\Root2.zrm',mipmap=0,orientY=1);
+AddObjectToLib('data\spell\Root\Root3.zrm',mipmap=0,orientY=2);
+CreateSFXAnimation('smr1',fps=30,numFrame=76,loop=0,autoPlay=1,{
+AddTranslateKey   0 0 -1.2  54
+AddTranslateKey   0 0 -1.2  21
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  75
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   54
+AddColorKey  51 183 51 127   21
+AddColorKey  255 255 255 255   0
+});
+CreateSFXAnimation('smr2',fps=30,numFrame=76,loop=0,autoPlay=1,{
+AddTranslateKey   0.2519122424 0 -0.8629977801  19
+AddTranslateKey   0.1880944743 0 -0.6443716762  20
+AddTranslateKey   0.1209178763 0 -0.414238935  18
+AddTranslateKey   0.06045893815 0 -0.207119463  18
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 14.21041556 360  19
+AddRotationKey   0 10.61044353 268.8000031  20
+AddRotationKey   0 6.820999458 172.8000001  18
+AddRotationKey   0 3.410499729 86.39999572  18
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   19
+AddColorKey  127 255 127 255   20
+AddColorKey  255 255 255 255   18
+AddColorKey  255 255 255 255   18
+AddColorKey  255 255 255 255   0
+});
+CreateSFXAnimation('smr3',fps=30,numFrame=76,loop=0,autoPlay=1,{
+AddTranslateKey   -0.3934217729 0 -0.7674338696  19
+AddTranslateKey   -0.2390655189 0 -0.4663366068  20
+AddTranslateKey   -0.08619193109 0 -0.1681315321  18
+AddTranslateKey   -0.001337579269 0 -0.002609168223  18
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 -19.06319548 360  19
+AddRotationKey   0 -11.58388504 218.7565423  20
+AddRotationKey   0 -4.176417464 78.86979625  18
+AddRotationKey   0 -0.06481220757 1.223949848  18
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   19
+AddColorKey  127 255 127 255   20
+AddColorKey  255 255 255 255   18
+AddColorKey  255 255 255 255   18
+AddColorKey  255 255 255 255   0
+});
+CreateSFX('testSFXM',{
+    AddSFXObjectTagN  "ROOT1"  pos: 0 0 0  rot: 0 0 0 "smr1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXObjectTagN  "ROOT2"  pos: 0 0 0  rot: 0 0 0 "smr2"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXObjectTagN  "ROOT3"  pos: 0 0 0  rot: 0 0 0 "smr3"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\spell\Root\PS_RSp.scr" pos: 0 0 0.2 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    AddLinkColor      tag=1  flag=3
+    AddLinkColor      tag=2  flag=3
+    LinkParam         33
+    LiveTime        = 8.0
+});

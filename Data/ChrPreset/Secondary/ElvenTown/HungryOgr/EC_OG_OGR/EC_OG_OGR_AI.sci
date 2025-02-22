@@ -1,0 +1,15 @@
+IfN_Flag_GoTo(420,1,@1);
+   IfChrVisibleGoTo(@1);
+     AIS_SetChrPosRotZ('EC_OG_OGR',1137.7811,737.9927,166.4453,90);
+     ExecuteScriptSys('data\ChrPreset\Secondary\ElvenTown\HungryOgr\EC_ES_Straj\EC_ES_Straj.scr');
+     ExecuteScriptSys('data\ChrPreset\Secondary\ElvenTown\HungryOgr\EC_ESk_St\EC_ESk_St_0.scr');
+     ExecuteScriptSys('data\ChrPreset\Secondary\ElvenTown\HungryOgr\EC_ESk_St\EC_ESk_St_1.scr'); 
+     SetFlag(420,7);
+@1: 	
+IfN_Flag_GoTo(420,4,@2);
+   AIS_SetState('EC_OG_OGR','STATE_CORPSE',-1,0,);
+@2:
+IfN_Flag_GoTo(420,5,@3);
+  AIS_VisibleChr(0);
+  SetCharacterLife('EC_OG_OGR',0);
+@3:

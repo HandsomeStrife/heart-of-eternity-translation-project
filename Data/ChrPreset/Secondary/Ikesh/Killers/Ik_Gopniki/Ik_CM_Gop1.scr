@@ -1,0 +1,22 @@
+AddCharacterPresets('Civman','CivilMan','Ik_CM_Gop1',{
+ Description                 "Ik_CM_Gop1"
+ Position                    5730.4614,963.6136,209.9322
+ Rotation                    0 0 180
+ PlusStrenght                60
+ PlusDexterity               50
+ PlusConstitution            70
+ PlusIntellect               30
+ PlusPermeability            30
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "HB_Kosichky"
+ AddSkinItem                 "A_Cuirass_S.scr" "Armor"
+ AddSkinItem                 "HandArmor_S2.scr" "HandArmor"
+ AddSkinItem                 "Legins_S.scr" "Leggings"
+ AddSkinItem                 "AH_GladiatP_S.scr" "Helmet"
+ AddSkinItem                 "SecArmor_Kol.scr" "SecArmor"
+ AddItem		     "Human\OneHand\karoling2\karoling2.scr" "Left_Scabbard"
+ AddItem		     "Human\Shield\KnightShield_02\KnightShield_02.scr" "Spine_shield"
+ SetFace                     1
+ PartitionEnable              False
+});

@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\LordVampireS\data\LordVampireS.mc',
+'LordVampireS',
+'data\characters\LordVampireS\data\','civman','pShape4',' ');

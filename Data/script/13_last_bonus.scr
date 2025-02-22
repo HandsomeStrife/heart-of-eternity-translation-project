@@ -1,0 +1,18 @@
+GetBonusForQuest(20,1);
+DeleteItemChr('warior','13_LAST');
+SCENE_DeleteItemBySpecType(963);
+AddItemChrSlot('warior','Stuf\BottleBig_S\BottleBig_S.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_S\BottleBig_S.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_S\BottleBig_S.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_S\BottleBig_S.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_S\BottleBig_S.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_AD\BottleBig_AD.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_AD\BottleBig_AD.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_E\BottleBig_E.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_E\BottleBig_E.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_E\BottleBig_E.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_E\BottleBig_E.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_E\BottleBig_E.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_Rg\BottleBig_Rg.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_Rg\BottleBig_Rg.scr','Bag');
+AddHotKeyHelp('14 different flasks received',23);

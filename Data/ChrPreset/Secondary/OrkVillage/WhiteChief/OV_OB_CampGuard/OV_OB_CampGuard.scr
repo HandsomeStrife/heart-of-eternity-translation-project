@@ -1,0 +1,23 @@
+AddCharacterPresets('OrkBig','CivilMan','OV_OB_CampGuard',{
+ Description                 "Гаран"
+ Position                    2631.9907,728.1689,178.2126
+ Rotation                    0 0 210
+ PlusStrenght                30
+ PlusDexterity               30
+ PlusConstitution            30
+ PlusIntellect               10
+ AddBeforeDialogScript       "OV_OB_CampGuard_BD.scd"
+ AddDialog                   "OV_OB_CampGuard_d0.dlg" 0
+ AddDialog                   "OV_OB_CampGuard_d9.dlg" 9
+ VisibleSkin                 "OB_Shild_B"
+ VisibleSkin                 "OB_Shild_F"
+ AddSkinItem                 "OB_Helmet_l42.scr" "Helmet"
+ AddSkinItem                 "OB_Cuirass_l42.scr" "Armor"
+ AddSkinItem                 "Legins_L42.scr" "Leggings"
+ AddSkinItem                 "HandArmor_L42.scr" "HandArmor"
+ AddItem                     "Ork\TwoHand\o_sword\o_sword.scr" "TwoHandSword"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

@@ -1,0 +1,19 @@
+CreateItemSkin('HandArmor_U','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Dead Hands Protection"
+ History           "The oppressive lines of form and the dark blue-pale color accurately convey the essence of the dead armor. Armor created from living flesh to protect the dead - terrible and paradoxical, like everything about this thoughtless, fearless, and spineless race. The full armor of the dead is weakly vulnerable to ranged weapons and has a number of bonuses to your main attributes."
+ AddSkinFromItemNoObj          "U_Naplech_L.scr"
+ AddSkinFromItemNoObj          "U_Naplech_R.scr"
+ AddSkinFromItemNoObj          "U_NaruchL.scr"
+ AddSkinFromItemNoObj          "U_NaruchR.scr"
+ AddSkinFromItemNoObj          "U_Naruk_L.scr"
+ AddSkinFromItemNoObj          "U_Naruk_R.scr"
+  AddObject     "HandArmor_U.zrm"
+ ArmorAutoGenerate  12  4 
+ PlusStrenght     5
+ PlusDexterity    5
+ PlusIntellect    5
+ PlusConstitution 5
+ PlusMagicPower   5
+});

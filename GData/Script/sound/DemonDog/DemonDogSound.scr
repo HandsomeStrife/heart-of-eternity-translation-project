@@ -1,0 +1,12 @@
+CreateSoundLib('DD_Attack1.wav','DDa0',2,20,100);
+CreateSoundLibGroup('DDa',1,'DDa');
+CreateSoundLib('DD_V_Death.wav','DDd0',2,20,100);
+CreateSoundLibGroup('DDd',1,'DDd');
+CreateSoundLib('DD_VHit1.wav','DDh0',2,20,100);
+CreateSoundLibGroup('DDh',1,'DDh');
+CreateSoundLib('DD_VSocial1.wav','DDs0',2,20,100);
+CreateSoundLib('DD_VVoice.wav','DDs1',2,20,100);
+CreateSoundLibGroup('DDs',2,'DDs');
+CreateSoundLib('DD_Step_Simple.wav','DDr0',1,20,100);
+CreateSoundLib('DD_Step_With_Bones.wav','DDr1',1,20,100);
+CreateSoundLibGroup('DDr',2,'DDr');

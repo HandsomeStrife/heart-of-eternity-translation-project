@@ -1,0 +1,22 @@
+AddCharacterPresets('IronMan','CivilMan','CR_MED_MRudokop',{
+ Description                 "Hartus"
+ Position                    691.4279,2759.4236,25.7117
+ Rotation                    0 0 0
+ VisibleSkin                 "HB_MedN"
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "I_Man_Sh"
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkin                 "I_NaruchKuz"
+ VisibleSkin                 "A_PlashS"
+ VisibleSkin                 "I_Otv_FootU"
+ VisibleSkinParam            "A_Naruk_L" 3
+ VisibleSkin                 "H_Ez"
+ AddBeforeDialogScript       "CR_MED_MRudokop_BD.scd"
+ AddDialog                   "CR_MED_MRudokop_d1.dlg" 0
+ AddDialog                   "CR_MED_MRudokop_d2.dlg" 1
+ AddDialog                   "CR_MED_MRudokop_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

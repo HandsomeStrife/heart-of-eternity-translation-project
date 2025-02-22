@@ -1,0 +1,11 @@
+AddObjectToLib('data\object\IceArrow.zrm',mipmap=0,orientY=1);
+CreateSFX('SFX_IEX',{
+    AddSFXObjectTagN  "ICEARROW"  pos: 0 0 0  rot: 0 0 0 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\spell\IcePice\IcePicePS.scr" pos: 0 0 0 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    LiveTime        = 20
+});

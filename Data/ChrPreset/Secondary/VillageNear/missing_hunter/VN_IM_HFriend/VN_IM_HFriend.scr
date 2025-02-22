@@ -1,0 +1,28 @@
+AddCharacterPresets('Civman','CivilMan','VN_IM_HFriend',{
+ Description                 "Raff"
+ Position                    1308.5543,2077.3005,12.1683
+ Rotation                    0 0 0
+ VisibleSkin                 "HB_Usy"
+ VisibleSkinParam            "I_Man_Sh" 3
+ VisibleSkin                 "A_Naruch1_L"
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkin                 "I_Otv_Hand"
+ VisibleSkin                 "A_Naruch1_R"
+ VisibleSkinParam            "A_Naruk_L" 3
+ VisibleSkin                 "H_HvLong"
+ VisibleSkin                 "A_Nagol1S_R"
+ VisibleSkin                 "A_Nagol1S_L"
+ PlusStrenght                15
+ PlusDexterity               13
+ PlusConstitution            18
+ PlusIntellect               5
+ PlusPermeability            5
+ AddBeforeDialogScript       "VN_IM_HFriend_BD.scd"
+ AddDialog                   "VN_IM_HFriend_D0.dlg" 0
+ AddDialog                   "VN_IM_HFriend_D9.dlg" 9
+ AddItem                     "Human\OneHand\axe2\axe2.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

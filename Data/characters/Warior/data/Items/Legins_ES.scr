@@ -1,0 +1,12 @@
+ CreateItemSkin('Legins_ES','Leggings','Leggings', {
+ Visible                 True
+ Cost                    -1
+ Description       "Elven Leggings"
+ History           "Elven armorúThey unite such concepts as: beautiful, graceful, magical. The elves did not achieve success in metallurgy. Practically the entire range of the race's products is made from various parts of the Kuaron tree. Their main properties are lightness and strength, indispensable qualities for an archer. Full armor will enhance your agility and perfectly protect against striking cold weapons."
+ AddSkinFromItemNoObj         "ES_Ponoj_L.scr"
+ AddSkinFromItemNoObj         "ES_Ponoj_R.scr"
+ AddSkinFromItemNoObj          "ES_Skirt.scr"
+ AddObject     "Legins_ES.zrm"     
+ ArmorAutoGenerate  6  4 
+ PlusDexterity    8
+});

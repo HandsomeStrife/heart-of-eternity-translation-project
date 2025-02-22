@@ -1,0 +1,21 @@
+AddCharacterPresets('CivDwarf','CivilMan','TM_DW_Tamoj',{
+ Description                 "Tamoj"
+ Position                    1204.7400 1104.3124 175.1286
+ Rotation                    0 0 120
+ VisibleSkin                 "I_GrebanHvost"
+ VisibleSkin                 "AH_Monokl"
+ VisibleSkin                 "HB_BorKolco" 1
+ AddBeforeDialogScript       "TM_DW_Tamoj_BD.scd"
+ AddDialog                   "TM_DW_Tamoj_d0.dlg" 0
+ AddDialog                   "TM_DW_Tamoj_d1.dlg" 1
+ AddDialog                   "TM_DW_Tamoj_d2.dlg" 2
+ AddDialog                   "TM_DW_Tamoj_d3.dlg" 3
+ AddDialog                   "TM_DW_Tamoj_d4.dlg" 4
+ AddDialog                   "TM_DW_Tamoj_d9.dlg" 9
+ AddSkinItem                 "A_Plash_l39.scr" "Armor"
+ AddItem		     "Dwarf\TwoHand\DwarfSwordM\DwarfSwordM.scr" "TwoHandSword"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

@@ -1,0 +1,17 @@
+CreateMaterial('M_BloodGRWall','data\effect\blood\maps\BloodGRWall.tga',{
+ BlendEnable       True
+ SRCBlend          "SrcAlpha"
+ DSTBlend          "InvSrcAlpha"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Current"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  True
+ zWriteEnable	False
+});

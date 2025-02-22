@@ -1,0 +1,23 @@
+AddCharacterPresets('ElfSenat','CivilMan','35_Last',{
+ Description                 "35_Last"
+ Position                    1072.6521,620.5438,172.6181
+ Rotation                    0 0 180
+ VisibleSkin                 "E_A_Prajka"
+ VisibleSkin                 "E_A_Naruch"
+ VisibleSkin                 "Elf_Sen_Sh"
+ VisibleSkin                 "E_A_Ponog"
+ VisibleSkin                 "E_AH_Shapo"
+ AddBeforeDialogScript       "35_last_BD.scd"
+ AddDialog                   "35_last_00.dlg" 0
+ AddDialog                   "35_last_01.dlg" 1
+ AddDialog                   "35_last_02.dlg" 2
+ AddDialog                   "35_last_03.dlg" 3
+ AddDialog                   "35_last_04.dlg" 4
+ AddDialog                   "35_last_05.dlg" 5
+ AddDialog                   "35_last_06.dlg" 6
+ AddDialog                   "35_last_09.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

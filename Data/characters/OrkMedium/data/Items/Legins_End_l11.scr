@@ -1,0 +1,7 @@
+CreateItemSkin('OMe_LeggingsE2','Leggings','Leggings', {
+ Visible	         True
+ Cost		         -1
+ AddSkinFromItem         "OMe_Boot_L_l11.scr"
+ AddSkinFromItem         "OMe_Boot_R_l11.scr"
+ AddSkinFromItem         "OMe_Poyas_l11.scr"
+});

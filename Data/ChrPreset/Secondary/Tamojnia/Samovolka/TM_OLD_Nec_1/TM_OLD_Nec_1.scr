@@ -1,0 +1,18 @@
+AddCharacterPresets('MagVillage','CivilMan','TM_OLD_Nec_1',{
+ Description                 "TM_OLD_Nec_1"
+ Position                    1101.2072,1340.8158,178.3803
+ Rotation                    0 0 30
+ SetFace                     2
+ MobParam                    4 24
+ VisibleSkin                 "Mag_V_Sh"
+ VisibleSkin                 "MV_O_Plash"
+ VisibleSkin                 "MV_O_SUMA"
+ AddBeforeDialogScript       "TM_OLD_Nec_1_BD.scd"
+ AddDeathScript		     "TM_OLD_Nec_1_death.scd"
+ AddDialog                   "TM_OLD_Nec_1_d0.dlg" 0
+ AddDialog                   "TM_OLD_Nec_1_d9.dlg" 9
+ AddItem		     "Stuffs\Stuff_4\Stuff_4.scr" "DefaultSlot"
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

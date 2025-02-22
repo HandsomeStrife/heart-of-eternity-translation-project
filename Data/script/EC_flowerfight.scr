@@ -1,0 +1,2 @@
+ AddEnemy('warior','EC_ESk_frlance');
+ AddEnemy('EC_ESk_frlance','warior');

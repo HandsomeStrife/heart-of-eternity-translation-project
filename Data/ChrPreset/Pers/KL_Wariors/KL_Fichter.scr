@@ -1,0 +1,14 @@
+AddCharacterPresets('CivDwarf','CivilMan','KL_Fichter',{
+ Description                 "Bomba"
+ Position                    1679.9026,1867.0024,61.7987
+ Rotation                    0 0 0
+ MobParam                    1 35
+ AddDeathScript		     "KL_Fichter_death.scd"
+ AddItem                     "Human\OneHand\scimitar02\scimitar02.scr" "Left_Scabbard"
+ AddItem                     "Human\Shield\KnightShield_01\KnightShield_01.scr" "Spine_shield"
+ AddSkinItem                 "AH_Shlemem_l34.scr" "Helmet"
+ AddSkinItem                 "HandArmor_Ch_34.scr" "HandArmor"
+ AddSkinItem                 "Legins_Ch_l34.scr" "Leggings"
+ Attack 		      False
+ PartitionEnable              False
+});

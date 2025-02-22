@@ -1,0 +1,16 @@
+AddCharacterPresets('CivDwarf','CivilMan','DW_Berserk',{
+ Description                 "DW_Berserk"
+ Position                    1144.9330,1131.1486,171.8680
+ Rotation                    0 0 155
+ MobParam                    3 29
+ VisibleSkin                 "I_Fona"
+ VisibleSkin                 "I_Buviger"
+ VisibleSkin                 "HB_BorFonar"
+ AddSkinItem                 "HandArmor_29.scr" "HandArmor"
+ AddSkinItem                 "Legins_29.scr" "Leggings"
+ AddItem		     "Dwarf\OneHand\DwarfAxeM2\DwarfAxeM2.scr" "Left_Scabbard"
+ AddItem		     "Dwarf\OneHand\DwarfAxeM1\DwarfAxeM1.scr" "Right_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+});

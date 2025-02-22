@@ -1,0 +1,15 @@
+CreateItemSkin('HandArmor_DW2','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Reinforced Dwarven Hand Protection"
+ History           "The technological achievements of the dwarves have fully manifested in the creation of protective armor, which combines: high strength, relatively low weight, and the inherent bonuses of the underground race - when clad in full dwarven plate, its owner will significantly increase their strength and gain resistance to magic."
+ AddSkinFromItemNoObj          "DW_A_NaruchCh_L.scr"
+ AddSkinFromItemNoObj          "DW_A_NaruchCh_R.scr"
+ AddSkinFromItemNoObj          "DW_A_PerchCh_L.scr"
+ AddSkinFromItemNoObj          "DW_A_PerchCh_R.scr"
+ AddSkinFromItemNoObj          "DW_NaplCh_L.scr"
+ AddSkinFromItemNoObj          "DW_NaplCh_R.scr"
+ AddObject     "HandArmor_DW2.zrm"
+ ArmorAutoGenerate  8  4 
+ PlusStrenght     10
+});

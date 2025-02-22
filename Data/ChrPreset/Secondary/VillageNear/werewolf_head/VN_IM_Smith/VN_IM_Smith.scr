@@ -1,0 +1,28 @@
+AddCharacterPresets('IronMan','CivilMan','VN_IM_Smith',{
+ Description                 "Rutger"
+ Position                    1329.0996,2118.2258,10.7486
+ Rotation                    0 0 0
+ PlusStrenght                30
+ PlusDexterity               13
+ PlusConstitution            20
+ PlusIntellect               10
+ PlusPermeability            10
+ VisibleSkin                 "I_Fartuh"
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "I_Man_Sh"
+ VisibleSkin                 "I_NaruchKuz"
+ VisibleSkin                 "H_HvMedLis"
+ AddBeforeDialogScript       "VN_IM_Smith_BD.scd"
+ AddDialog                   "VN_IM_Smith_D0.dlg" 0
+ AddDialog                   "VN_IM_Smith_D1.dlg" 1
+ AddDialog                   "VN_IM_Smith_D2.dlg" 2
+ AddDialog                   "VN_IM_Smith_D9.dlg" 9
+ AddItem		     "Human\OneHand\Axe_Klevec3\Axe_Klevec3.scr" "Left_Scabbard"
+ AddItem		     "Human\TwoHand\Great_Axe3\Great_Axe3.scr" "TwoHandSword"
+ AddItem		     "Human\OneHand\bastard01\Bastard01.scr" "Right_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

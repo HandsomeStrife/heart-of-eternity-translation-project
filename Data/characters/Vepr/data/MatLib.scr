@@ -1,0 +1,4 @@
+AddMaterialToSkin('Vepr_Sh','M_Vepr','Animals\Vepr\VeprOld.tga',1);
+AddMaterialToSkin('Vepr_Sh','M_VeprVolA','VeprVolA.tga',1);
+AddMaterialToSkin('Vepr_Sh','M_Vepr','VeprWhite.tga',2);
+AddMaterialToSkin('Vepr_Sh','M_VeprVolA','VeprVolAW.tga',2);

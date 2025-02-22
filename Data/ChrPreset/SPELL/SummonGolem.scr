@@ -1,0 +1,8 @@
+AddCharacterPresets('NO_G','NO_G','SummonGolem',{
+ Position                    -11610.1183, -10743.9174 121.5527
+ Rotation                    0 0 0
+ VisibleSkin                 "GolemStoun_Sh"
+ ScaleX                      0.5
+ ScaleY                      0.5
+ ScaleZ                      0.5
+});

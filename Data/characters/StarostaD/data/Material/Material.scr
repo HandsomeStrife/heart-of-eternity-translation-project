@@ -1,0 +1,153 @@
+CreateMaterial('M_B_Circ_SedD','B_Circ_SedD.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        False
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_H_LongLis_SedD','H_LongLis_SedD.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        False
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_K_PlashMeh_RadD','K_PlashMeh_RadD.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        False
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_K_SapogyD','K_SapogyD.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        False
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_OTV_DD','OTV_DD.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        False
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_OTV_HD','OTV_HD.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        False
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_S_BODYD','S_BODYD.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        False
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_S_FaceD','S_FaceD.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        False
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_Eyes_ElfD','Eyes_ElfD.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate2X"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        False
+ CollisionDisable  False
+ zWriteEnable	True
+});

@@ -1,0 +1,16 @@
+AddCharacterPresets('Starosta','Enemy','Star40',{
+ Description                 "FatBandit40"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    1 40
+ SetFace                     2
+ VisibleSkin                 "HB_Circ"
+ VisibleSkin                 "H_BakiLis"
+ VisibleSkin                 "AH_Hunter"
+ VisibleSkinParam            "A_PlashFibL" 1
+ VisibleSkin                 "I_PovEyes_L"
+ AddSkinItem                 "HandArmor_40.scr" "HandArmor"
+ AddSkinItem                 "Legins_40.scr" "Leggings"
+ AddSkinItem                 "SecArmor_Kol_l40.scr" "SecArmor"
+ AddItem		     "Human\OneHand\bastard02\bastard02.scr" "Left_Scabbard"
+});

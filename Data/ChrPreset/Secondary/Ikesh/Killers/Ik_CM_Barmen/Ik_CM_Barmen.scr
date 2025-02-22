@@ -1,0 +1,24 @@
+AddCharacterPresets('Civman','CivilMan','Ik_CM_Barmen',{
+ Description                 "Ik_CM_Barmen"
+ Position                    5843.7642,916.0986,223.8902
+ Rotation                    0 0 270
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "AH_Cilindr"
+ VisibleSkin                 "A_PlashFib2"
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkin                 "I_Otv_Hand"
+ VisibleSkinParam            "A_Naruk_L" 3
+ VisibleSkin                 "A_Nagol1S_L"
+ VisibleSkin                 "A_Nagol1S_R"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "Ik_CM_Barmen_BD.scd"
+ AddDialog                   "Ik_CM_Barmen_d0.dlg" 0
+ AddDialog                   "Ik_CM_Barmen_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+});

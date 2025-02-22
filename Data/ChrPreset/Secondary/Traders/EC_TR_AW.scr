@@ -1,0 +1,15 @@
+AddCharacterPresets('ElfSenat','CivilMan','EC_TR_AW',{
+ Description                 "EC_TR_AW"
+ Position                    1113.8156,646.7162,172.9994
+ Rotation                    0 0 180
+ VisibleSkin                 "E_A_Prajka"
+ VisibleSkin                 "E_A_Naruch"
+ VisibleSkin                 "Elf_Sen_Sh"
+ VisibleSkin                 "E_A_PonogKit"
+ AddDialog                   "Elven_TR_d9.dlg" 9
+ AddDialog                   "EC_TR_AW_d.dlg" 0
+ AutoSpawn   1.0
+ PartitionEnable              False
+ Attack 		      False
+ DropEnable	              False
+});

@@ -1,0 +1,11 @@
+AddCharacterPresets('Wolf','vepr','Woolf4',{
+ Position                    1317.0062,1976.9160,8.2108
+ Rotation                    0 0 0
+ VisibleSkin                 "DSkelSh"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddItem		     "Animal\Wolf\wolf_box.scr" "DefaultSlot"
+});

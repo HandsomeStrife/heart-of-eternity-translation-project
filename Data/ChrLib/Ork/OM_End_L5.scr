@@ -1,0 +1,13 @@
+AddCharacterPresets('OrkMag','Enemy','OM_Y',{
+ Description                 "Ork Mag_5"
+ MobParam                    2 5
+ PlusStrenght                -10
+ PlusIntellect               20
+ AddSkinItem                 "HandArmor.scr" "HandArmor"
+ AddSkinItem                 "Legins.scr" "Leggings"
+ AddSkinItem                 "OM_Chalust.scr" "Helmet"
+ AddItem                     "Ork\Magick\o_torch\o_torch.scr" "Right_Hand"
+ AddItem                     "Ork\Ranged\o_sarbakan\o_sarbakan.scr" "Bow"
+ AddItem		     "Bottle\BottlePoisonS.scr" "Throw_Item"
+ DropEnable	              False
+});

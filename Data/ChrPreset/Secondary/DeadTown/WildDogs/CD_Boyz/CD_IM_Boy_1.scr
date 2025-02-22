@@ -1,0 +1,15 @@
+AddCharacterPresets('IronMan','CivilMan','CD_IM_Boy_1',{
+ Description                 "CD_IM_Boy_1"
+ Position                    4148.3794,751.4181,135.9281
+ Rotation                    0 0 0
+ VisibleSkin                 "ZombyBig_Sh"
+ MobParam                    2 45
+ AddSkinItem                 "U_Helmet_l44.scr" "Helmet"
+ AddSkinItem                 "U_Cuirass_l44.scr" "Armor"
+ AddSkinItem                 "HandArmor_Dext_l44.scr" "HandArmor"
+ AddSkinItem                 "Legins_Dext_l44.scr" "Leggings"
+ AddItem                     "Vampire\onehand\V_GReat_Sabre_o\V_GReat_Sabre_o.scr"   "Left_Scabbard" 
+ AddItem 		     "Vampire\shields\V_shield\V_shield.scr" "Spine_shield"
+ Attack 		      False
+ PartitionEnable              False
+});

@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\Horse\data\Horse.mc',
+'Horse',
+'data\characters\Horse\data\','civman','Hours_Sh',' ');

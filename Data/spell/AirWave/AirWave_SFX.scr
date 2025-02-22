@@ -1,0 +1,83 @@
+AddObjectToLib('data\object\AirWave.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_AirWave','AirWave.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateMaterial('M_AuraT2','AuraT2.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 1.0000
+ MatrixText          id = 0 1 1 1.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 0.0000 -1.0000
+ MapMoveSpeed        id = 0 1
+ AddTextureStage   1 "LineU.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Modulate"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "Texture"
+ AlphaOp             id = 1 "SelectArg1"
+ AlphaArgTwo         id = 1 "Diffuse"
+ TextureCIndex       id = 1 0
+ TCIFunction         id = 1 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('AWA1',fps=30,numFrame=60,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  12
+AddTranslateKey   0 -0.2193538918 0  22
+AddTranslateKey   0 5.775255794 0  8
+AddTranslateKey   0 7.955113861 0  17
+AddTranslateKey   0 12.58731225 0  3
+AddTranslateKey   0 13.40475903 0  0
+AddRotationKey   0 0 -180  34
+AddRotationKey   0 0 -180  8
+AddRotationKey   0 0 -180  17
+AddRotationKey   0 0 -180  3
+AddRotationKey   0 0 -180  0
+AddColorKey  0 0 0 0   12
+AddColorKey  204 204 204 204   22
+AddColorKey  255 255 255 255   8
+AddColorKey  0 0 0 0   17
+AddColorKey  0 0 0 0   3
+AddColorKey  0 0 0 0   0
+AddScaleKey   0.5045879739 0.5045879739 0.5045879739  12
+AddScaleKey   1.193783698 1.424366059 0.6406921279  12
+AddScaleKey   1.835877335 3.875753347 0.81274682  10
+AddScaleKey   2.123669646 3.851291487 1.14486607  8
+AddScaleKey   2.552366323 3.851291487 1.14486607  17
+AddScaleKey   2.552366323 3.851291487 1.14486607  3
+AddScaleKey   0.9922128222 2.014732853 0.9922128222  0
+});
+CreateSFX('SFX_SAW',{
+    AddSFXObjectTagN  "AIRWAVE"  pos: 0 0 0.4  rot: 0 0 0 "AWA1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    LiveTime        = 1.8
+});

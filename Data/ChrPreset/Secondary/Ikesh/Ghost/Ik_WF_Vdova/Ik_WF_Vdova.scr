@@ -1,0 +1,22 @@
+AddCharacterPresets('WomanFat','CivilMan','Ik_WF_Vdova',{
+ Description                 "Ik_WF_Vdova"
+ Position                    5812.1465,932.4492,227.6994
+ Rotation                    0 0 120
+ VisibleSkin                 "WF_O_Platye_Sh"
+ VisibleSkin                 "WF_O_Rukava_Sh"
+ VisibleSkin                 "WF_G_Chepec_Sh"
+ VisibleSkin                 "WF_O_MEH_Sh"
+ VisibleSkin                 "Woman_Fat_Sh"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "Ik_WF_Vdova_BD.scd"
+ AddDialog                   "Ik_WF_Vdova_d0.dlg" 0
+ AddDialog                   "Ik_WF_Vdova_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

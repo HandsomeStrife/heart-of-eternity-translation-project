@@ -1,0 +1,31 @@
+IfN_Flag_GoTo(158,1,@1);
+ IfN_DistToMC_GoTo(2,@1);
+  StartCurrDialog('DrC_WN_Privratnica');
+  AIS_GoTo(@1);
+@1:
+ IfN_Flag_GoTo(159,1,@2);
+ IfN_Flag_GoTo(191,0,@3);
+   IfN_Point_MoveNP('Pri0');
+   If_Point_SetFlag('Pri0',191,1);
+@3:
+ IfN_Flag_GoTo(191,1,@4);
+   IfN_Point_MoveNP('Pri1');
+   If_Point_SetFlag('Pri1',191,2);
+@4: 
+ IfN_Flag_GoTo(191,2,@5);
+   IfN_Point_MoveNP('Pri2');
+   If_Point_SetFlag('Pri2',191,3);
+@5:
+ IfN_Flag_GoTo(191,3,@6);
+   IfN_Point_MoveNP('Pri3');
+   If_Point_SetFlag('Pri3',191,4);
+@6:
+ IfN_Flag_GoTo(191,4,@7);
+   IfN_Point_MoveNP('Pri4');
+   If_Point_SetFlag('Pri4',191,5);
+@7:
+ IfN_Flag_GoTo(191,5,@2);
+  IfN_Point_Move('Priv_Mv');
+@2:
+NOP();
+	

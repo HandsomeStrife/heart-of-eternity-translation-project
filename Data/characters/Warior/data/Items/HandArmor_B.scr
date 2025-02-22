@@ -1,0 +1,15 @@
+CreateItemSkin('HandArmor_B','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Black Steel Arm Guard"
+ History           "Full articulated plate armor provides a high level of protection in melee combat. Solid armor withstands crossbow bolts, the strike of a mace or sword. The main drawback of plate armor is the significant limitation on the warrior's mobility. Full black steel plate armor greatly increases protection against bludgeoning strikes."
+ AddSkinFromItemNoObj          "A_Napl1_L_B.scr"
+ AddSkinFromItemNoObj          "A_Napl1_R_B.scr"
+ AddSkinFromItemNoObj          "A_Naruch2_L_B.scr"
+ AddSkinFromItemNoObj          "A_Naruch2_R_B.scr"
+ AddSkinFromItemNoObj          "A_Naruk_L_B.scr"
+ AddSkinFromItemNoObj          "A_Naruk_R_B.scr"
+ AddObject     "HandArmor_B.zrm"
+   ArmorAutoGenerate  8  3 
+   PlusConstitution 8
+});

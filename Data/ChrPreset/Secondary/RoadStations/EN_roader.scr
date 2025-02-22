@@ -1,0 +1,16 @@
+AddCharacterPresets('ElfSenat','CIVILMAN','EN_roader',{
+ Description                 "EN_roader"
+ Position                    2312.8325,132.8055,177.6348
+ Rotation                    0 0 90
+ AddDialog                   "EN_roader_d0.dlg" 0
+ AddDialog                   "ALL_roaders_d9.dlg" 9
+ VisibleSkin                 "E_A_Prajka"
+ VisibleSkin                 "E_A_Naruch"
+ VisibleSkin                 "Elf_Sen_Sh"
+ VisibleSkin                 "E_A_PonogKit"
+ AddItem		     "Elf\OneHand\e_sword\e_sword.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

@@ -1,0 +1,14 @@
+CreateItemSkin('AH_Kolpak_V3','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "The beautiful wizard's hat"
+  History           "The hood of a village healer or forest sorcerer."
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "AH_Kolpak"
+   MaterialPresetId  2
+   AddObjectD        "AH_Kolpak_V3.s03"
+   ArmorAutoGenerate  4  2 
+   PlusIntellect     3
+   PlusMagicPower    3
+});

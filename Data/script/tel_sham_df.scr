@@ -1,0 +1,3 @@
+SetCharacterLife('DF_ESk_Custodian',0);
+SetCharacterPosition('warior',3089.2209,305.6259,166.5308);
+BlackScreenStart('...');

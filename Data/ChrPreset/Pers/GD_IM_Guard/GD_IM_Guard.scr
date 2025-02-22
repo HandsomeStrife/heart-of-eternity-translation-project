@@ -1,0 +1,19 @@
+AddCharacterPresets('IronMan','CivilMan','GD_IM_Guard',{
+ Description                 "Guard"
+ Position                    5889.1274,856.8012,225.9409
+ Rotation                    0 0 0
+ MobParam                    2 50
+ SetFace                     2
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "AH_Cilindr"
+ AddBeforeDialogScript       "GD_IM_Guard_BD.scd"
+ AddDeathScript		     "GD_IM_Guard_death.scd"
+ AddDialog                   "GD_IM_Guard_d.dlg" 0
+ AddDialog                   "GD_IM_Guard_d9.dlg" 9
+ AddItem                     "Human\TwoHand\h_naginata03\h_naginata03.scr" "TwoHandSword"
+ AddSkinItem                 "SecArmor_Sk_l55.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_52.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_B_l55.scr" "Armor"
+ PartitionEnable              False
+ DropEnable	              False
+});

@@ -1,0 +1,13 @@
+CreateItemSkin('OBo_Body','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  Description       "OBo_Body"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "OBo_Body"
+   MaterialPresetId  0
+   ArmorAutoGenerate  2  3 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

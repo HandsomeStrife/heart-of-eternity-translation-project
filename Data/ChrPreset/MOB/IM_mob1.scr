@@ -1,0 +1,16 @@
+AddCharacterPresets('IronMan','ENEMY1','IM_mob1',{
+ Position                    1334.1415,1771.0317,94.9364
+ Rotation                    0 0 0
+ VisibleSkin                 "IM_B_Cirk_2Sh"
+ VisibleSkinParam            "I_Man_Sh" 2
+ VisibleSkin                 "IM_A_Kliky_Sh"
+ VisibleSkin                 "IM_A_Naruch_2L_Sh"
+ VisibleSkin                 "IM_A_Naruch_2R_Sh"
+ PlusStrenght                12
+ PlusDexterity               10
+ PlusConstitution            11
+ PlusIntellect               10
+ PlusPermeability            10
+ AddItem                     "Human\Shield\dropshild01\dropshild01.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\Knife02\Knife02.scr" "Left_Scabbard"
+});

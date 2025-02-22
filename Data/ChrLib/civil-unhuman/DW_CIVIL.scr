@@ -1,0 +1,14 @@
+AddCharacterPresets('CivDwarf','CivilMan','DW_CIVIL',{
+ Description                 "DW_CIVIL"
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "AH_Monokl"
+ VisibleSkin                 "I_Rukav"
+ VisibleSkin                 "A_Plash"
+ VisibleSkinParam            "HB_BorKolco" 2
+ VisibleSkin                 "A_NaplCh1_L"
+ VisibleSkin                 "A_NaplCh1_R"
+ VisibleSkin                 "I_Fona"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+});

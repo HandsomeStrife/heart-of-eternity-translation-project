@@ -1,0 +1,17 @@
+AddCharacterPresets('Starosta','Enemy','Star5',{
+ Description                 "FatBandit5"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 5
+ VisibleSkin                 "HB_Med"
+ VisibleSkin                 "I_Otv_FootDD"
+ VisibleSkin                 "I_SkirtSm"
+ VisibleSkinParam            "AH_SelKolp" 1
+ VisibleSkin                 "H_LongLis"
+ VisibleSkin                 "A_PlashFib2"
+ VisibleSkin                 "I_Otv_Hand"
+ VisibleSkin                 "STAR_Sh"
+ AddSkinItem                 "HandArmor_5.scr" "HandArmor"
+ AddItem		     "Human\OneHand\Axe_Chekan1\Axe_Chekan1.scr" "Left_Scabbard"
+ AddItem		     "Human\Shield\Shield_Buckler\Shield_Buckler.scr" "Spine_shield"
+});

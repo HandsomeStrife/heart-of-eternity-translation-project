@@ -1,0 +1,9 @@
+CreateItemSkin('OMe_Poyas','L_Skirt','L_Skirt', {
+  Visible           True
+  Cost              -1
+  Description       "OMe_Poyas_l7"
+  SkinBlock         0
+   VisibleSkin       "OMe_Poyas"
+   MaterialPresetId  0
+   ArmorAutoGenerate 1 1  
+});

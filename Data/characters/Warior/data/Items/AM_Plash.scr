@@ -1,0 +1,14 @@
+CreateItemSkin('AM_Plash','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "Tunic of the Mage"
+  History           "The tunic of the enlightened mage Ursula possesses extraordinary properties that enhance the magical abilities of the wearer."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "AM_Plash"
+   MaterialPresetId  0
+   AddObjectD        "AM_Plash.s03"
+   ArmorAutoGenerate  10  4 
+   PlusIntellect     5
+   PlusMagicPower    5
+});

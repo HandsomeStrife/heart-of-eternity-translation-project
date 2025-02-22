@@ -1,0 +1,14 @@
+CreateItemSkin('AH_Cap5','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "The Mage's Prevalence"
+  History           "Ritual headdress of the magi of Sarkus, symbolizing magical presence in both life and death."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Cap5"
+   MaterialPresetId  0
+   AddObjectD        "AH_Cap5.s03"
+   ArmorAutoGenerate  6  4 
+   PlusIntellect     5
+   PlusMagicPower  5
+});

@@ -1,0 +1,2 @@
+ExecuteScriptSys('Data\ChrPreset\Secondary\LAST\32_LAST_target\32_LAST_target.scr');
+AddItemChrSlot('warior','Quest\32_last\32_last.scr','Bag');

@@ -1,0 +1,9 @@
+GDSND_SetCharacterName(0,'BC_OLD_Mag');
+GDSND_SetCharacterName(1,'DC_LV_Kain')
+SetCharacterPosition('BC_OLD_Mag',1650.3126,2433.4414,169.8133);
+SetCharacterRotation('BC_OLD_Mag',0,0,180);
+DIALOG_SetCameraPos(1653.481,2433.51,172.0066);
+DIALOG_SetCameraRot(0.3466842,0.4897676,0.6584576,0.4542878);
+StartAutoDialog('Zalkus_vs_Kain.dlg');
+SetCharacterPosition('DC_LV_Kain',1650.9362,2432.3337,169.8153);
+SetCharacterRotation('DC_LV_Kain',0,0,-10);

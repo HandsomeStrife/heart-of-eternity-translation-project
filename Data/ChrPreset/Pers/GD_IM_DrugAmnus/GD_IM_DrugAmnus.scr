@@ -1,0 +1,16 @@
+AddCharacterPresets('IronMan','CivilMan','GD_IM_DrugAmnus',{
+ Description                 "Djermus"
+ Position                    5809.5415,916.8218,220.3085
+ Rotation                    0 0 0
+ AddBeforeDialogScript       "GD_IM_DrugAmnus_BD.scd"
+ AddDialog                   "GD_IM_DrugAmnus_d1.dlg" 0
+ AddDialog                   "GD_IM_DrugAmnus_d2.dlg" 1
+ AddDialog                   "GD_IM_DrugAmnus_d9.dlg" 9
+ VisibleSkin                 "AH_Cilindr"
+ VisibleSkin                 "HB_MedN"
+ VisibleSkinParam            "I_Man_Sh" 3
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

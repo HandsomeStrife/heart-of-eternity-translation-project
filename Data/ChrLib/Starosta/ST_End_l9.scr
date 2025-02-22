@@ -1,0 +1,22 @@
+AddCharacterPresets('Starosta','Enemy','Star9',{
+ Description                 "FatBandit9"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    2 9
+ SetFace                     2
+ AddDeathScript              "cmdscr.scd"
+ VisibleSkinParam            "AH_Beret" 1
+ VisibleSkin                 "A_Napl3_L"
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkin                 "A_Napl3_R"
+ VisibleSkin                 "A_PlashS"
+ VisibleSkinParam            "A_Naruk_L" 3
+ VisibleSkin                 "STAR_Sh"
+ VisibleSkinParam            "A_SkirtKol" 3
+ VisibleSkin                 "H_HvSm"
+ AddSkinItem                 "A_PlashS_l9.scr" "Armor"
+ AddSkinItem                 "HandArmor_Sk_l9.scr" "HandArmor"
+ AddSkinItem                 "Legins_Sk_l9.scr" "Leggings"
+ AddItem		     "Human\OneHand\shortscimitar1\shortscimitar1.scr" "Left_Scabbard"
+ AddItem		     "Human\OneHand\Vakadzasi_01\Vakadzasi_01.scr" "Right_Scabbard"
+});

@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Kliky','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "unk"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "AH_Kliky"
+   MaterialPresetId  0
+   ArmorAutoGenerate  3  2 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

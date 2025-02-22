@@ -1,0 +1,12 @@
+AddCharacterPresets('DemonDog','Enemy','DemonDog1',{
+ Description                 "DemonDog"
+ Position                    80 85 0.5
+ Rotation                    0 0 0
+ MobParam                    0 27
+ ScaleX                      1.1
+ ScaleY                      1.1
+ ScaleZ                      1.1
+ AddDeathScript              "DemonDog.scd"
+ AddItem		     "Animal\Wolf\wolf_box_15.scr" "DefaultSlot"
+ SetBloodEff                 3
+});

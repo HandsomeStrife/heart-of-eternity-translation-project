@@ -1,0 +1,3 @@
+SetCharacterRotation('warior',0,0,90);
+BlackScreenStart('Dwarven Customs...');
+SetCharacterPosition('warior',1112.0883,1122.9736,172.1140);

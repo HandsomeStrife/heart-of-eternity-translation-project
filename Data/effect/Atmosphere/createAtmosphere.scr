@@ -1,0 +1,170 @@
+CreateMaterial('MAT_ring1','ring1.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('MAT_ring2','ring2.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('MAT_ring3','ring3.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('MAT_ring4','ring4.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('MAT_ring6','ring6.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('Sun_Material','sunset.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('Moon_Material','moon1.tga',{
+ BlendEnable       True
+ SRCBlend          "SrcAlpha"
+ DSTBlend          "InvSrcAlpha"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate2X"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+AddObjectToLib('data\effect\Atmosphere\Cloud\S_Cloud.ZRS',mipmap=0,orientY=0);
+ATMO_SetCloudObject('S_CLOUD');
+CreateMaterial('M_S_Cloud','S_Cloud.tga',{
+ BlendEnable       True
+ SRCBlend          "SrcAlpha"
+ DSTBlend          "InvSrcAlpha"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "SelectArg2"
+ AlphaArgTwo         id = 0 "TextureFactor"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 25.0000
+ MatrixText          id = 0 1 1 25.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 1.0000 0.5
+ MapMoveSpeed        id = 0 0.02
+ AddTextureStage   1 "S_Cloud.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Modulate"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "Texture"
+ AlphaOp             id = 1 "SelectArg2"
+ AlphaArgTwo         id = 1 "Current"
+ TextureCIndex       id = 1 0
+ MatrixTextTransform id = 1 True
+ MatrixText          id = 1 0 0 15.0000
+ MatrixText          id = 1 1 1 15.0000
+ TCIFunction         id = 1 "passthru"
+ MapMoveDirect       id = 1 True
+ MapMoveVector       id = 1 0.0000 1.0000
+ MapMoveSpeed        id = 1 0.02
+ TextureFactor     0 0 0 0
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+SM_CreateSun(distancering=100,azimut=0);
+SM_SetMaterial(0,'Sun_Material');
+SM_AddRingSun('ring1',30,0.5,'MAT_ring1',16777215);
+SM_AddRingSun('ring2',10,0.2,'MAT_ring2',16777215);
+SM_AddRingSun('ring3',10,0.1,'MAT_ring3',16777215);
+SM_AddRingSun('ring4',2,0.35,'MAT_ring4',255);
+SM_AddRingSun('ring5',2,0.9,'MAT_ring4',6789260);
+SM_AddRingSun('ring6',2,0.6,'MAT_ring4',16777088);
+SM_AddRingSun('ring7',200,1.8,'MAT_ring6',7274496);
+SM_CreateMoon('Moon_Material',6,30,200,30,-7698315);

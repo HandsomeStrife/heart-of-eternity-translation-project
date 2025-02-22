@@ -1,0 +1,14 @@
+AddCharacterPresets('GolemStone','Enemy','Golem55',{
+ Description                 "Golem Stone55"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 55
+ ScaleX      2
+ ScaleY      2
+ ScaleZ      2
+ PlusConstitution            40
+ AddDeathScript              "GSt_Dext_L40q.scd"
+ AddSkinItem                 "GolemStoun_Sh_l55.scr" "SecArmor"
+ AddItem		     "Animal\Ogr\OgrWeapon1.scr" "Left_Scabbard"
+ AddItem		     "Animal\Ogr\OgrWeapon.scr" "Right_Scabbard"
+});

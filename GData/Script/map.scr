@@ -1,0 +1,4 @@
+AddMap('Global Map','data\iterface\map\Sarcus_Map.scr',6400,3200,0,0);
+SetMapIconParam('Global Map','data\\iterface\\map\\ISarcurB.scr',0,0,1,0.25);
+AddMap('Dwarf Map','data\iterface\map\Dwarf_Map.scr',615,920,892,5371);
+SetMapIconParam('Dwarf Map','data\\iterface\\map\\IDwarfB.scr',0,0,1,0.25);

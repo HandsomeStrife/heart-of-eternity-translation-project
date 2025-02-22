@@ -1,0 +1,5 @@
+SetCharacterLife('Ik_Malchik',0);
+SetCharacterPosition('warior',5744.5107,945.2551,216.1277);
+SetCharacterPosition('warior',5744.5107,945.2551,216.1277);
+SetCharacterPosition('warior',5744.5107,945.2551,216.1277);
+BlackScreenStart('Guided by the boy, you delved into the slums of Ikesh...');

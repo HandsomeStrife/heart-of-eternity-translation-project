@@ -1,0 +1,13 @@
+AddCharacterPresets('Civman','Enemy','MQ1_1',{
+ Description                 "CM_l2"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ VisibleSkin                 "A_PlashKup"
+ VisibleSkin                 "AH_Mask"
+ AddDeathScript		     "MQ1_death.scd"
+ MobParam                    3 2
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\ShortBow\Shortbow.scr" "Bow"
+ AddItem                     "Human\OneHand\Mizerikordia1\Mizerikordia1.scr" "Left_Scabbard"
+});
+                               			

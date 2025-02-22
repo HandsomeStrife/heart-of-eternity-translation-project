@@ -1,0 +1,17 @@
+AddCharacterPresets('WomanFat','CivilMan','WF_Peizantka',{
+ Description                 "WF_Peizantka"
+ Position                    5812.1465,932.4492,227.6994
+ Rotation                    0 0 120
+ VisibleSkin                 "WF_O_Platye_Sh"
+ VisibleSkin                 "WF_O_Rukava_Sh"
+ VisibleSkin                 "WF_G_Chepec_Sh"
+ VisibleSkin                 "Woman_Fat_Sh"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+});

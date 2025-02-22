@@ -1,0 +1,7 @@
+CreateItemSkin('OMe_HandArmor','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description             "OMe HandArmor_l11"
+ AddSkinFromItem         "OMe_NaruchB_L_l11.scr"
+ AddSkinFromItem         "OMe_NaruchB_R_l11.scr"
+});

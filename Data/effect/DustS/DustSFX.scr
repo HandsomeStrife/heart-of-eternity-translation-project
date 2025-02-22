@@ -1,0 +1,8 @@
+CreateSFX('DustSSFX',{
+    AddSFXPSTag  "data\effect\DustS\DustPS.scr" pos: 0 0 0.2 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXTagFlag 0 262144
+    LiveTime        = 2
+    LinkParam       = 33
+});

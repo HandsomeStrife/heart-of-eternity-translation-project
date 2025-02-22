@@ -1,0 +1,13 @@
+AddCharacterPresets('Starosta','CivilMan','FV_TR',{
+ Position                    216.8652,2276.9092,40.9502
+ Rotation                    0 0 45
+ AddDialog                   "FV_TR9.dlg" 9
+ AddDialog                   "FV_TR_d.dlg" 0
+ VisibleSkin                 "H_Ez"
+ VisibleSkinParam            "STAR_Sh" 2
+ VisibleSkinParam            "A_SkirtKol" 4
+ VisibleSkin                 "HB_Usy"
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

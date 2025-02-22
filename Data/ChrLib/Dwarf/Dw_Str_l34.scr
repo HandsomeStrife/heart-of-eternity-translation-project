@@ -1,0 +1,12 @@
+AddCharacterPresets('CivDwarf','Enemy','DW34',{
+ Description                 "Dwarf_34"
+ Position                    1144.9330,1131.1486,171.8680
+ Rotation                    0 0 155
+ MobParam                    1 34
+ VisibleSkinParam            "HB_BorRabby" 1
+ AddSkinItem                 "AH_Shlemem_l34.scr" "Helmet"
+ AddSkinItem                 "HandArmor_Ch_34.scr" "HandArmor"
+ AddSkinItem                 "Legins_Ch_l34.scr" "Leggings"
+ AddItem		     "Dwarf\Shield\DwarfShield4\DwarfShield4.scr" "Spine_shield"
+ AddItem		     "Dwarf\OneHand\Chekan2b\Chekan2b.scr" "Left_Scabbard"
+});

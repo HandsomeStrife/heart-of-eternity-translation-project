@@ -1,0 +1,58 @@
+AddAnimationToCharacter('stand.anm','STAND',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('stand_f.anm','STAND_FIGHT',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('walk_forward.anm','WALK_FORWARD',{
+ FPS		30.0
+ Speed		1.5
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Attack.anm','ATACK',{
+ FPS		30.0
+ Speed		1
+ SpeedVector	0 1 0
+ Looped		False
+ UseSpeedLine	False
+ AddDamageZone	12 28
+ TranslateZ	True
+});
+AddAnimationToCharacter('Walk_Back_F.anm','WALK_BACK_F',{
+ FPS		40.0
+ Speed		1.5
+ SpeedVector	0 -1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('run_forward_f.anm','RUN_FORWARD_F',{
+ FPS		30.0
+ Speed		2
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('rot_right.anm','SS_ROTATE',{
+ FPS		20.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('rot_left.anm','DD_ROTATE',{
+ FPS		20.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});

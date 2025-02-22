@@ -1,0 +1,12 @@
+AddCharacterPresets('OrkBig','Enemy','OB_l35',{
+ Description                 "Big Ork_35"
+ Position                    88.2812 128.2020 5.0747
+ Rotation                    0 0 0
+ MobParam                    0 35
+ VisibleSkin                 "OB_Shild_B"
+ VisibleSkin                 "OB_Shild_F"
+ AddSkinItem                 "Legins_L35.scr" "Leggings"
+ AddSkinItem                 "HandArmor_L35.scr" "HandArmor"
+ AddItem                     "Ork\OneHand\skull_axe2\skull_axe2.scr" "Left_Scabbard"
+ AddItem                     "Ork\Shiled\BigShield\BigShield_l35.scr" "Spine_shield"
+});

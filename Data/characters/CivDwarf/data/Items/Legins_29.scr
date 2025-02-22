@@ -1,0 +1,8 @@
+CreateItemSkin('DW_Legins','Leggings','Leggings', {
+ Visible	         True
+ Cost		         -1
+ Width             2
+ Height            3
+ AddSkinFromItem         "A_Boot_L_l29.scr"
+ AddSkinFromItem         "A_Boot_R_l29.scr"
+});

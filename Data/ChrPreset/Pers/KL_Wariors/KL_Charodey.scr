@@ -1,0 +1,11 @@
+AddCharacterPresets('MagVillage','CivilMan','KL_Charodey',{
+ Description                 "Shtyk"
+ Position                    1681.8044,1865.9863,61.9739
+ Rotation                    0 0 0
+ AddDeathScript		     "KL_Charodey_death.scd"
+ AddItem                     "Human\OneHand\Vakadzasi_01\Vakadzasi_01.scr" "Right_Hand"
+ DropEnable	              False
+ Attack 		      False
+ PartitionEnable              False
+ MobParam                    4 35
+});

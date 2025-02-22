@@ -1,0 +1,22 @@
+AddObjectToLib('data\object\fireBall.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_fire_ball','data\spell\fireball\maps\fire_ball.tga',{
+ BlendEnable			True
+ SRCBlend			"SrcAlpha"
+ DSTBlend			"InvSrcAlpha"
+ AlphaTestEnable		False
+ ColorArgOne		id = 0  "Texture"
+ ColorOp		id = 0  "Modulate"
+ ColorArgTwo            id = 0  "Texture"
+ AlphaArgOne		id = 0  "Texture"
+ AlphaOp		id = 0  "Modulate4X"
+ AlphaArgTwo		id = 0  "Diffuse"
+ MatrixTextTransform    id = 0  True
+ MatrixText		id = 0  0 0  1.0
+ MatrixText		id = 0  1 1  1.0
+ TCIFunction		id = 0  "passthru"
+ MapMoveDirect		id = 0  True
+ MapMoveVector		id = 0  1.0 1.0
+ MapMoveSpeed		id = 0  -1.0
+ zWriteEnable			False
+  LightEnable			False
+});

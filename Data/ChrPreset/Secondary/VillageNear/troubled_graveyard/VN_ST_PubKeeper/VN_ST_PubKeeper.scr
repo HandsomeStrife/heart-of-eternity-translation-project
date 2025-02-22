@@ -1,0 +1,26 @@
+AddCharacterPresets('Starosta','CivilMan','VN_ST_PubKeeper',{
+ Description                 "Erik"
+ Position                    1337.0724,2193.8264,7.1551
+ Rotation                    0 0 0
+ VisibleSkin                 "HB_Circ"
+ VisibleSkin                 "I_Otv_FootU"
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "I_SkirtSm"
+ VisibleSkin                 "H_NormLis"
+ VisibleSkin                 "A_PlashS"
+ VisibleSkin                 "I_Otv_HandUp"
+ VisibleSkin                 "STAR_Sh"
+ PlusStrenght                17
+ PlusDexterity               15
+ PlusConstitution            12
+ PlusIntellect               7
+ PlusPermeability            7
+ AddBeforeDialogScript       "VN_ST_PubKeeper_BD.scd"
+ AddDialog		     "VN_ST_PubKeeper_D0.dlg" 0
+ AddDialog		     "VN_ST_PubKeeper_D9.dlg" 9
+ AddItem                     "Human\OneHand\Knife03\Knife03.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

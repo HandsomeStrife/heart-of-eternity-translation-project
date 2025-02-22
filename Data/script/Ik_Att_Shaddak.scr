@@ -1,0 +1,2 @@
+  AddEnemy('Ik_BV_Shadrak','warior');
+  AddEnemy('warior','Ik_BV_Shadrak');

@@ -1,0 +1,7 @@
+AddCharacterPresets('DemonDog','ENEMY1','DemonDog1',{
+ Description                 "DD"
+ Position                    80 85 0.5
+ Rotation                    0 0 0
+ PlusConstitution            1
+ AddItem		     "Animal\Vepr\vepr_box.scr" "DefaultSlot"
+});

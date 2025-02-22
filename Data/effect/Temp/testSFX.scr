@@ -1,0 +1,8 @@
+CreateSFX('TestSFX',{
+    AddSFXPSTag  "data\effect\Temp\testPS.scr" pos: 0 0 0.3 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXTagFlag 0 262144
+    LiveTime        = 1.8
+    LinkParam       = 3
+});

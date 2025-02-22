@@ -1,0 +1,62 @@
+CreateMaterial('M_FBFireAnimG','fire_animG.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Specular"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Diffuse"
+ AlphaOp             id = 0 "Current"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ AnimMaterial      True
+ AnimMatAutoPlay   False
+ AnimMatFPS        12.0000
+ AnimMatWSquare    64
+ AnimMatHSquare    64
+ AnimMatNumFrame   16
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable			False
+ LightEnable			False
+});
+CreateParticlSystem('FB_fireSpawn',{
+ ParticlProcType	"Flue"
+ SpawnType		"Sphere"
+ Radius			3.7
+ SpawnPosTwo		0 0 0
+ SpawnPosThree		0 0 0
+ SpawnSpeed		100.0
+ SizeMin		0.01
+ SizeMax                80.1
+ TimeLive		1
+ MaxNumParticl		100
+ Immortal		False
+ SetPSColor		id = 0	time = 0.0  0 0 0 0
+ SetPSColor		id = 1	time = 0.5  20 20 25 0
+ SetPSColor		id = 2	time = 0.7  60 55 50 0
+ SetPSColor		id = 3	time = 0.8  128 80 50 0
+ SetPSColor		id = 4	time = 1.0  0 0 0 0
+ ForceVector		id = 0  0.0 0.0 1.0
+ ForceStrength		id = 0  1.3
+ AngleZXY		id = 0  0    360
+ AngleXY		id = 0  -180   180
+ InItSelf		id = 0  True
+ ForceVector		id = 1  1.0 0.0 0.0
+ ForceStrength		id = 1  0
+ AngleZXY		id = 1  10    -10
+ AngleXY		id = 1  -10  10
+ Position	        0 0 0
+ Rotation		0 0 0
+ SizeMinSec		2
+ MassMin                1
+ SetMaterial		"M_FBFireAnimG"
+ SpiralRotate           False
+ SpiralSpeedRotate	160
+ SpiralVectorRotate	0 0 1
+ SpeedRotate		150
+ SpawnRandomRot		True
+ AutoAnimate		True
+});

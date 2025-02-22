@@ -1,0 +1,48 @@
+AddAnimationToCharacter('Stand.anm','STAND',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Parenie.anm','STAND1',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Fly_High.anm','RUN_FORWARD',{
+ FPS		30.0
+ Speed		3
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Walk.anm','WALK_FORWARD',{
+ FPS		50.0
+ Speed		5
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Piquet.anm','SPECBOT_SS1',{
+ FPS		90.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ AddDamageZone	242 258
+});
+AddAnimationToCharacter('FireBall.anm','SPECBOT_ADD1',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+});
+AddAnimationToCharacter('Jump.anm','JUMP_UP',{
+ FPS		55.0
+ Speed		4
+ SpeedVector	0 1 0
+ Looped		False
+ TranslateZ	True
+});

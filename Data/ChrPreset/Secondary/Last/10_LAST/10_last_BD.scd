@@ -1,0 +1,17 @@
+SetDialogIfFlagEquale(6,100,0);
+SetDialogIfFlagEquale(0,960,0);
+SetDialogIfFlagEquale(6,960,1);
+SetDialogIfFlagEquale(6,960,11);
+SetDialogIfFlagEquale(1,960,21);
+SetDialogIfFlagEquale(6,960,2);
+SetDialogIfFlagEquale(6,960,12);
+SetDialogIfFlagEquale(2,960,22);
+SetDialogIfFlagEquale(6,960,3);
+SetDialogIfFlagEquale(6,960,13);
+SetDialogIfFlagEquale(3,960,23);
+SetDialogIfFlagEquale(6,960,4);
+SetDialogIfFlagEquale(6,960,14);
+SetDialogIfFlagEquale(4,960,24);
+SetDialogIfFlagEquale(6,960,5);
+SetDialogIfFlagEquale(6,960,15);
+SetDialogIfFlagEquale(5,960,25);

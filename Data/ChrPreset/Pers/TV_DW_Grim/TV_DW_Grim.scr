@@ -1,0 +1,24 @@
+AddCharacterPresets('CivDwarf','CivilMan','TV_DW_Grim',{
+ Description                 "Grim"
+ Position                    557.4429 2541.5750 46.5129
+ Rotation                    0 0 180	
+ MobParam                    1 20
+ VisibleSkin                 "A_Boot_L"
+ VisibleSkin                 "A_BootCh_R"
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "A_Perch_L"
+ VisibleSkin                 "HB_BorDabl"
+ VisibleSkin                 "A_Napl1_L"
+ VisibleSkin                 "A_Naruch_L"
+ VisibleSkin                 "A_NaplCh_R"
+ VisibleSkin                 "A_PerchCh_R"
+ AddProcScript               "TV_DW_Grim_AI.sci"
+ AddBeforeDialogScript       "TV_DW_Grim_BD.scd"
+ AddDeathScript		     "TV_DW_Grim_death.scd"
+ AddDialog                   "TV_DW_Grim_d.dlg" 0
+ AddDialog                   "TV_DW_Grim_d1.dlg" 1
+ AddDialog                   "TV_DW_Grim_d9.dlg" 9
+ AddItem                     "Dwarf\OneHand\Hammer1\Hammer1_g.scr" "Left_Scabbard"
+ AddItem                     "Dwarf\Shield\DwarfShield2\DwarfShield2.scr" "Spine_shield"
+ Attack 		      False
+});

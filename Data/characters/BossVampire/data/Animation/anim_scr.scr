@@ -1,0 +1,159 @@
+AddAnimationToCharacter('stand.anm','STAND',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('DD_F_Run_Forward.anm','WALK_2',{
+ FPS		25.0
+ Speed		6
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('DD_F_Walk_Forward.anm','RUN_FORWARD_F',{
+ FPS		30.0
+ Speed		3
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+ TranslateZ 	True
+});
+AddAnimationToCharacter('DI_Walk_Back.anm','WALK_BACK_F',{
+ FPS		35.0
+ Speed		2
+ SpeedVector	0 -1 0
+ Looped		True
+ UseSpeedLine	False
+ TranslateZ 	True
+});
+AddAnimationToCharacter('Walk_Forward.anm','WALK_FORWARD',{
+ FPS		30.0
+ Speed		2.0
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('DI_Attack.anm','BLOW_UP',{
+ FPS		25.0
+ Speed		0.7
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	15 60
+ AddSpeedLineZone 15 60
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('DD_F_Attack_L.anm','DD_ATTACK_LEFT',{
+ FPS		25.0
+ Speed		0.7
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	10 18
+ AddSpeedLineZone 10 18
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('DD_F_Attack_R.anm','DD_ATTACK_RIGHT',{
+ FPS		25.0
+ Speed		0.7
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 17
+ AddSpeedLineZone 9 17
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('DD_F_Attack_RotL.anm','DD_ATTACK_DOWN',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	5 60
+ AddSpeedLineZone 5 60
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('DD_F_Attack_RotR.anm','DD_ATTACK_UP',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	5 60
+ AddSpeedLineZone 5 60
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('DD_F_Attack_Slash.anm','SPECBOT_DD1',{
+ FPS		40.0
+ Speed		3
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	1 30
+ AddSpeedLineZone 1 30
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('DI_Rotate.anm','SS_ROTATE',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+ TranslateZ     True
+ TranslateX     True
+});
+AddAnimationToCharacter('DD_Rotate.anm','DD_ROTATE',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+ TranslateX     True
+ TranslateZ     True
+});
+AddAnimationToCharacter('SpecialVamp.anm','SPECBOT_SS2',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('SpecialDI1.anm','SPECBOT_SS2',{
+ FPS		35.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ AddDamageZone	1 80
+ AddSpeedLineZone 1 80
+ UseSpeedLine	True
+ TranslateZ	True
+ TranslateX	True
+});
+AddAnimationToCharacter('DI_Throw.anm','SPECBOT_SS1',{
+ FPS		35.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ AddDamageZone	1 80
+ AddSpeedLineZone 1 80
+ UseSpeedLine	True
+ TranslateZ	True
+ TranslateX	True
+});
+AddAnimationToCharacter('SpecialDI2.anm','SPECBOT_D2',{
+ FPS		35.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ AddDamageZone	1 80
+ AddSpeedLineZone 1 80
+ UseSpeedLine	False
+});

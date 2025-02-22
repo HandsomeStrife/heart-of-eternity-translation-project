@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\CivDwarf\data\CivDwarf.mc',
+'CivDwarf',
+'data\characters\CivDwarf\data\','civman','DWARF_Sh');

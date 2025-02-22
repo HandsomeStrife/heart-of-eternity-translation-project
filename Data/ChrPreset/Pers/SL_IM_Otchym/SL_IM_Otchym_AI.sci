@@ -1,0 +1,32 @@
+AIS_EnableInvProc(1);
+AIS_ExecIfInvisible(1);
+IfN_Flag_GoTo(1001,1,@1);
+ AIS_Move('BORN_TA2'); 
+ If_Point_SetFlag('BORN_TA2',1009,1);
+@1:
+IfN_Flag_GoTo(1009,1,@10);
+ AIS_Move('BORN_TA3'); 
+ If_Point_SetFlag('BORN_TA3',1009,2);
+@10:
+IfN_Flag_GoTo(1009,2,@11);
+ AIS_Move('BORN_TA1'); 
+ If_Point_SetFlag('BORN_TA1',1001,2);
+ If_Point_SetFlag('BORN_TA1',1009,0);
+@11:
+IfN_Flag_GoTo(1000,2,@2);
+ IfN_DistToMC_GoTo(3,@2);
+  StartCurrDialog('SL_IM_Otchym');
+@2:
+IfN_Flag_GoTo(1001,2,@3);
+IfN_Flag_GoTo(1000,3,@3);
+ IfN_DistToMC_GoTo(4,@3);
+  SetFlag(1000,5);
+@3:
+IfN_Flag_GoTo(1000,90,@4);
+ AIS_SetState('BORN_D','STATE_CORPSE',-1,0,);
+@4:
+IfN_Flag_GoTo(1,0,@5);
+ IfN_DistToMC_GoTo(3,@5);
+  StartCurrDialog('SL_IM_Otchym');
+@5:
+NOP(1);

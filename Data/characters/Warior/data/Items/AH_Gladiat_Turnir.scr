@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Gladiat_Turnir','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Tournament Helmet"
+  History   	    "A helmet for tournaments, lightened by reducing its own sturdiness. Excellent appearance, but the protection is so-so..."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Gladiat"
+   MaterialPresetId  1
+   AddObjectD        "AH_Gladiat_S.s03"
+   ArmorAutoGenerate  1  1 
+   PlusDexterity     1
+});

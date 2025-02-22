@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Viking_GS','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Silver Helm of the Northern Warrior"
+  History           "Continuous articulated armor, a purely human invention. A heavily armed fighter stands against ten lightly armed ones. Silver armor in gold not only excellently protects against slashing strikes but also significantly increases resistance to magic."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Viking"
+   MaterialPresetId  1
+   AddObjectD        "AH_Viking_GS.s03"
+   ArmorAutoGenerate  9  4 
+   PlusStrenght     8
+});

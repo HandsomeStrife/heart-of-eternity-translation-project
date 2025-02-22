@@ -1,0 +1,33 @@
+IfN_Flag_GoTo(430,0,@3);
+ AIS_GoTo(@2);
+@3:
+CreateDoor('DOOR_SLIDE23',{
+    Axis              1.0000 0.0000 0.0000
+    OpenInTwoSize     True
+    OpenByRotate      False
+    Speed             1.0000
+    Angle             90.0000
+    DeltaTranslate    -0.6000
+    Locked            False
+    MinDistance       2.000
+});
+CreateDoor('DOOR_SLIDE22',{
+    Axis              1.0000 0.0000 0.0000
+    OpenInTwoSize     True
+    OpenByRotate      False
+    Speed             1.0000
+    Angle             90.0000
+    DeltaTranslate    0.6000
+    Locked            False
+    MinDistance       2.000
+});
+ DOOR_Open('DOOR_SLIDE22');
+ DOOR_Open('DOOR_SLIDE23');
+IfN_Flag_GoTo(430,7,@2);
+IfN_TimeRange_GoTo(22,6,@2);
+  SetCharacterPosition('EC_ESk_frlance',1224.1169,378.3801,160.7227);
+  SetFlag(430,2);
+  AIS_GoTo(@1);
+@1:
+ AIPOINT_SetExecute('elfl',0);
+@2:

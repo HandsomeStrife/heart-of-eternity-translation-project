@@ -1,0 +1,5 @@
+BlackScreenStart('...');
+SetCharacterPosition('warior',4098.1519,733.9149,131.6775);
+SetCharacterRotation('warior',0,0,90);
+SetCharacterPosition('CD_OLD_Wiz',4035.9419,726.6749,129.7437);
+SetCharacterRotation('CD_OLD_Wiz',0,0,90);

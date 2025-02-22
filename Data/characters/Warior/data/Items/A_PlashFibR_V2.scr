@@ -1,0 +1,13 @@
+CreateItemSkin('A_PlashFibR_V2','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "A Good Mage's Cloak"
+  History           "The mandatory element of the costume for the entire population remains cloaks. Their main type is called chlamys - a short or long cloak worn draped over the left or right shoulder, fastened with a fibula."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_PlashFibR"
+   MaterialPresetId  1
+   AddObjectD        "A_PlashFibR_V2.s03"
+   ArmorAutoGenerate  4  3 
+   PlusIntellect     5
+});

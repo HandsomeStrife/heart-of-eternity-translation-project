@@ -1,0 +1,10 @@
+CreateDoor('REWOTKA_UP06',{
+    Axis              1.0000 0.0000 0.0000
+    OpenInTwoSize     False
+    OpenByRotate      True
+    Speed             4.0000
+    Angle             90.0000
+    Locked            False
+    MinDistance       0.6000
+});
+DOOR_Open('REWOTKA_UP06');

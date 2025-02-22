@@ -1,0 +1,13 @@
+	CreateItemSkin('AH_VedroP_GS','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Silver barbute in gold"
+  History           "Continuous articulated armor, a purely human invention. A heavily armed fighter stands against ten lightly armed ones. Silver armor in gold not only excellently protects against slashing strikes but also significantly increases resistance to magic."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "AH_VedroP"
+   MaterialPresetId  0
+   AddObjectD        "AH_VedroP_GS.s03"
+   ArmorAutoGenerate  9  4 
+   PlusConstitution 8
+});

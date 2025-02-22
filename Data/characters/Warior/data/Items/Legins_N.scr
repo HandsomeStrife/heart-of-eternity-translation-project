@@ -1,0 +1,14 @@
+CreateItemSkin('Legins_N','Leggings','Leggings', {
+ Visible	         True
+ Cost		         -1
+ Description       "Steel leg protection"
+ History           "Настоящую защиту могут дать только крупные объThe dark solid-forged parts from which the steel armor is made. In addition to breastplates and pauldrons made of solid metal, gauntlets, greaves, cuisses, cuirasses, and helmets are also produced. Full steel armor significantly increases protection against arrows."
+ AddSkinFromItemNoObj   "A_Nanog_L_N.scr"
+ AddSkinFromItemNoObj   "A_Nanog_R_N.scr"
+ AddSkinFromItemNoObj   "A_Sapog1_L_N.scr"
+ AddSkinFromItemNoObj   "A_Sapog1_R_N.scr"
+ AddSkinFromItemNoObj   "A_Skirt_N.scr"
+ AddObject              "Legins_N.zrm"
+ ArmorAutoGenerate   6  2 
+ PlusConstitution    4
+});

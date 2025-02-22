@@ -1,0 +1,11 @@
+AddFlag(93,1);
+DeleteItemChr('warior','KingSword');
+JQuestRecordComplete(35,1);
+JQuestRecordComplete(35,2);
+IfN_Flag_GoTo(93,4,@1);
+ AddTeleport('Город Мертвых',3920.2144,804.7146,127.1534,3917.4885,793.8868,127.7073);
+@1:
+IfN_Flag_GoTo(114,1,@2);
+ SetFlag(94,1);
+@2:
+NOP();

@@ -1,0 +1,10 @@
+IfN_Flag_GoTo(430,9,@1);
+  SetFlag(430,5);
+  AddItemChrSlot('warior','Quest\Elven_flower\Elven_flower.scr','Bag');
+  AIS_GoTo(@2);
+@1:
+IfN_Flag_GoTo(430,10,@2);
+  SetFlag(430,4);
+  AIS_GoTo(@2);
+@2:
+NOP();

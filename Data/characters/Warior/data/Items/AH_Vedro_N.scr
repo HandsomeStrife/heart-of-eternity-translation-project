@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Vedro_N','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Steel Barbute"
+  History           "Настоящую защиту могут дать только крупные объThe dark solid-forged parts that make up the steel armor. In addition to breastplates and pauldrons made of solid metal, gauntlets, greaves, cuisses, cuirasses, and helmets are also made. Full steel armor significantly increases protection against arrows."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "AH_Vedro"
+   MaterialPresetId  0
+   AddObjectD        "AH_Vedro_N.s03"
+   ArmorAutoGenerate  6  2 
+   PlusConstitution 1
+});

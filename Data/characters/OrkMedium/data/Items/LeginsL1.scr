@@ -1,0 +1,8 @@
+CreateItemSkin('OMe_LeggingsL1','Leggings','Leggings', {
+ Visible	         True
+ Cost		         -1
+ Description             "OMe Legins"
+ AddSkinFromItem         "OMe_Nagol_L.scr"
+ AddSkinFromItem         "OMe_Nagol_R.scr"
+ AddSkinFromItem         "OMe_Poyas.scr"
+});

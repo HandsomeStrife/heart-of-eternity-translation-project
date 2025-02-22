@@ -1,0 +1,13 @@
+CreateItemSkin('IM_SecArm','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  Width             2
+  Height            2
+  SkinBlock         0
+   VisibleSkin       "I_Man_Sh"
+   MaterialPresetId  2
+   ArmorAutoGenerate 10  4 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

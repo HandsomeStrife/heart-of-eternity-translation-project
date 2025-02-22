@@ -1,0 +1,14 @@
+CreateItemSkin('AH_Varyag_S','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Reinforced Silver Helmet"
+  History           "A warrior must be ready to pay large sums for their safety, as the quality of armor determines their life. Decorated armor is no less functional than ordinary steel, and also indicates its specific properties. A complete set of silver armor will significantly weaken the damage from slashing weapons aimed at its wearer."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Varyag"
+   MaterialPresetId  2
+   AddObjectD        "AH_Varyag_S.s03"
+   ArmorAutoGenerate  7  3 
+   PlusStrenght     3
+   PlusConstitution 3
+});

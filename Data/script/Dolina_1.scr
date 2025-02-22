@@ -1,0 +1,6 @@
+AddEnemy('DrC_IM_Warrior1','warior');
+AddEnemy('DrC_IM_Warrior2','warior');
+AddEnemy('DrC_IM_Warrior3','warior');
+AddEnemy('DrC_IM_Warrior4','warior');
+AddEnemy('DrC_IM_Warrior5','warior');
+AddEnemy('DrC_IM_Warrior6','warior');

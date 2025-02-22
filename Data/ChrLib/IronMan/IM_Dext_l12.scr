@@ -1,0 +1,19 @@
+AddCharacterPresets('IronMan','Enemy','IM_l12',{
+ Description                 "IM_l12"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    3 12
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkin                 "I_Otv_FootDD"
+ VisibleSkin                 "I_Sumka"
+ VisibleSkinParam            "A_PlashKup" 2
+ VisibleSkin                 "HB_Usy"
+ VisibleSkinParam            "I_Man_Sh" 6
+ VisibleSkin                 "I_NaruchKuz"
+ VisibleSkin                 "AH_PovEys_R"
+ AddDeathScript              "cmdscr.scd"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\ShortBow\Shortbow.scr" "Bow"
+ AddItem                     "Human\OneHand\daga2\daga2.scr" "Left_Scabbard"
+});

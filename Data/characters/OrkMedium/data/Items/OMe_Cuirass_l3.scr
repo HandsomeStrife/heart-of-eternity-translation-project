@@ -1,0 +1,13 @@
+CreateItemSkin('OMe_Cuirass','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "OMe_Cuirass_l3"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "OMe_Cuirass"
+   MaterialPresetId  0
+   ArmorAutoGenerate 0 2
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

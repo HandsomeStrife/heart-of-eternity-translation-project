@@ -1,0 +1,165 @@
+CreateCollisionElement('C_Rthigt','Rthigt','none',{
+ Defence  0.0000 
+ Width  0.1500 
+ Height  0.1500 
+ Length  0.4000 
+ qOrientation 0.4219 -0.5100 0.4965 0.5612 
+ TranslateX 0.0000 
+ TranslateY 0.0000 
+ TranslateZ 0.1000 
+ BoneID 4 
+});
+CreateCollisionElement('C_Rcalf','Rcalf','none',{
+ Defence  0.0000 
+ Width  0.1200 
+ Height  0.1200 
+ Length  0.4178 
+ qOrientation -0.0974 -0.7128 -0.1867 0.6689 
+ TranslateX 0.0000 
+ TranslateY 0.0200 
+ TranslateZ 0.1400 
+ BoneID 5 
+});
+CreateCollisionElement('C_Rfoot','Rfoot','none',{
+ Defence  0.0000 
+ Width  0.1000 
+ Height  0.1000 
+ Length  0.3000 
+ qOrientation 0.6982 0.1050 0.7012 0.0971 
+ TranslateX 0.0200 
+ TranslateY 0.0600 
+ TranslateZ 0.1000 
+ BoneID 6 
+});
+CreateCollisionElement('C_Lthigt','Lthigt','none',{
+ Defence  0.0000 
+ Width  0.1500 
+ Height  0.1500 
+ Length  0.4000 
+ qOrientation 0.7059 0.1463 -0.6876 0.0848 
+ TranslateX 0.0000 
+ TranslateY 0.0000 
+ TranslateZ 0.1000 
+ BoneID 1 
+});
+CreateCollisionElement('C_Lcalf','Lcalf','none',{
+ Defence  0.0000 
+ Width  0.1200 
+ Height  0.1200 
+ Length  0.4178 
+ qOrientation 0.6145 -0.3250 -0.5049 -0.5114 
+ TranslateX 0.0100 
+ TranslateY 0.0000 
+ TranslateZ 0.1400 
+ BoneID 2 
+});
+CreateCollisionElement('C_Lfoot','Lfoot','none',{
+ Defence  0.0000 
+ Width  0.1000 
+ Height  0.1000 
+ Length  0.3000 
+ qOrientation 0.1214 -0.7150 0.1539 -0.6708 
+ TranslateX -0.0200 
+ TranslateY 0.0600 
+ TranslateZ 0.1000 
+ BoneID 3 
+});
+CreateCollisionElement('C_Root','ROOT','none',{
+ Defence  0.0000 
+ Width  0.2000 
+ Height  0.2500 
+ Length  0.3000 
+ qOrientation 0.0000 0.0000 0.0000 1.0000 
+ TranslateX 0.0200 
+ TranslateY -0.1000 
+ TranslateZ 0.0000 
+ BoneID 0 
+});
+CreateCollisionElement('C_Spine2','spine2','none',{
+ Defence  0.0000 
+ Width  0.2500 
+ Height  0.3000 
+ Length  0.4500 
+ qOrientation -0.4262 0.5642 0.4261 -0.5641 
+ TranslateX 0.0000 
+ TranslateY 0.0000 
+ TranslateZ 0.0650 
+ BoneID 7 
+});
+CreateCollisionElement('C_Head','Head','none',{
+ Defence  0.0000 
+ Width  0.2000 
+ Height  0.3000 
+ Length  0.2000 
+ qOrientation 0.0000 0.0000 -0.2955 0.9553 
+ TranslateX 0.0400 
+ TranslateY -0.0400 
+ TranslateZ 0.0000 
+ BoneID 8 
+});
+CreateCollisionElement('C_L_UpperArm','L_UpperArm','none',{
+ Defence  0.0000 
+ Width  0.1200 
+ Height  0.1200 
+ Length  0.3400 
+ qOrientation -0.1354 0.6681 -0.1454 0.7171 
+ TranslateX 0.0000 
+ TranslateY 0.0000 
+ TranslateZ 0.0800 
+ BoneID 9 
+});
+CreateCollisionElement('C_L_ForeArm','L_ForeArm','none',{
+ Defence  0.0000 
+ Width  0.1000 
+ Height  0.1000 
+ Length  0.3000 
+ qOrientation 0.6603 0.0936 -0.7372 -0.1074 
+ TranslateX 0.0000 
+ TranslateY 0.0000 
+ TranslateZ 0.1500 
+ BoneID 10 
+});
+CreateCollisionElement('C_L_Hand','L_Hand','none',{
+ Defence  0.0000 
+ Width  0.1000 
+ Height  0.1000 
+ Length  0.1800 
+ qOrientation 0.0000 0.5646 0.0000 0.8253 
+ TranslateX 0.0000 
+ TranslateY -0.0200 
+ TranslateZ 0.0900 
+ BoneID 11 
+});
+CreateCollisionElement('C_R_UpperArm','R_UpperArm','none',{
+ Defence  0.0000 
+ Width  0.1200 
+ Height  0.1200 
+ Length  0.3400 
+ qOrientation 0.1234 -0.7109 -0.2204 0.6563 
+ TranslateX 0.0000 
+ TranslateY 0.0000 
+ TranslateZ 0.0800 
+ BoneID 12 
+});
+CreateCollisionElement('C_R_ForeArm','R_ForeArm','none',{
+ Defence  0.0000 
+ Width  0.1000 
+ Height  0.1000 
+ Length  0.3000 
+ qOrientation 0.0716 -0.7138 -0.0696 0.6932 
+ TranslateX 0.0000 
+ TranslateY 0.0000 
+ TranslateZ 0.1500 
+ BoneID 13 
+});
+CreateCollisionElement('C_R_Hand','R_Hand','none',{
+ Defence  0.0000 
+ Width  0.1000 
+ Height  0.1000 
+ Length  0.1800 
+ qOrientation 0.0000 -0.6442 0.0000 0.7648 
+ TranslateX 0.0000 
+ TranslateY -0.0200 
+ TranslateZ 0.0900 
+ BoneID 14 
+});

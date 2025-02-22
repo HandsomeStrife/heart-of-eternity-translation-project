@@ -1,0 +1,10 @@
+BlackScreenStart('...');
+SetCharacterPosition('warior',539.6658,2516.7268,43.8594);
+SetCharacterRotation('warior',0,0,350);
+SetCharacterPosition('TV_OLD_Sorcher',536.7826,2524.1426,43.5883);
+SetCharacterRotation('TV_OLD_Sorcher',0,0,180);
+SetCharacterPosition('TV_IM_Archer',546.8130,2513.9131,44.5547);
+SetCharacterRotation('TV_IM_Archer',0,0,270);
+SetCharacterPosition('TV_IM_Rubaka',532.9585,2511.6838,43.3574);
+SetCharacterRotation('TV_IM_Rubaka',0,0,90);
+                      

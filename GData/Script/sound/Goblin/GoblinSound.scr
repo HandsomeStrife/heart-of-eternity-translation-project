@@ -1,0 +1,14 @@
+CreateSoundLib('Gob_VAttack1a.wav','GBa0',2,20,100);
+CreateSoundLib('Gob_VAttack1b.wav','GBa1',2,20,100);
+CreateSoundLib('Gob_VAttack2a.wav','GBa2',2,20,100);
+CreateSoundLib('Gob_VAttack2b.wav','GBa3',2,20,100);
+CreateSoundLibGroup('GBa',4,'GBa');
+CreateSoundLib('Gob_VHit1a.wav','GBh0',2,30,100);
+CreateSoundLib('Gob_VHit1b.wav','GBh1',2,30,100);
+CreateSoundLibGroup('GBh',2,'GBh');
+CreateSoundLib('Gob_VDeath a.wav','GBd0',2,30,100);
+CreateSoundLib('Gob_VDeath b.wav','GBd1',2,30,100);
+CreateSoundLibGroup('GBd',2,'GBd');
+CreateSoundLib('Gob_VVoice.wav','GBs0',2,30,100);
+CreateSoundLib('Gob_VVoice b.wav','GBs1',2,30,100);
+CreateSoundLibGroup('GBs',2,'GBs');

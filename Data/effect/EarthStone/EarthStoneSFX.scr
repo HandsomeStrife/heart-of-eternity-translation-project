@@ -1,0 +1,28 @@
+AddObjectToLib('data\object\EarthStone.zrm',mipmap=0,orientY=1);
+CreateSFXAnimation('ESA1',fps=30,numFrame=70,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 -1.613398544  19
+AddTranslateKey   0 0 0.09428443593  5
+AddTranslateKey   0 0 0.09428443593  15
+AddTranslateKey   0 0 -1.565049177  30
+AddTranslateKey   0 0 -1.565049177  0
+AddRotationKey   0 0 0  24
+AddRotationKey   0 0 0  45
+AddRotationKey   0 0 0  0
+AddColorKey  255 255 255 255   24
+AddColorKey  255 255 255 255   15
+AddColorKey  0 0 0 0   30
+AddColorKey  0 0 0 0   0
+AddScaleKey   1 1 1  24
+AddScaleKey   1 1 1  45
+AddScaleKey   1 1 1  0
+});
+CreateSFX('EarthStoneSFX',{
+    AddSFXObjectTagN  "EARTHSTONE"  pos: 0 0 0  rot: 0 0 0 "ESA1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\spell\Root\PS_RSp.scr" pos: 0 0 0.2 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    LiveTime        = 2
+});

@@ -1,0 +1,7 @@
+AddCharacterPresets('OrkMedium','CivilMan','OMe_slave',{
+ Description                 "OMe_slave"
+ MobParam                    1 7
+ VisibleSkin                 "OMed_HEARE_Sh"
+ VisibleSkin                 "OrkMedium_Sh"
+ VisibleSkin                 "OMe_Poyas"
+});

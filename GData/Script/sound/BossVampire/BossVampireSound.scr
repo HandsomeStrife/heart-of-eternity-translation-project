@@ -1,0 +1,18 @@
+CreateSoundLib('VB_VAttack1a.wav','VBa0',2,20,100);
+CreateSoundLib('VB_VAttack1b.wav','VBa1',2,20,100);
+CreateSoundLib('VB_VAttack2a.wav','VBa2',2,20,100);
+CreateSoundLib('VB_VAttack2b.wav','VBa3',2,20,100);
+CreateSoundLibGroup('VBa',4,'VBa');
+CreateSoundLib('VB_VHit1a.wav','VBh0',2,30,100);
+CreateSoundLib('VB_VHit1b.wav','VBh1',2,30,100);
+CreateSoundLibGroup('VBh',2,'VBh');
+CreateSoundLib('VB_VDeath a.wav','VBd0',2,30,100);
+CreateSoundLib('VB_VDeath b.wav','VBd1',2,30,100);
+CreateSoundLib('VB_VDeath c.wav','VBd2',2,30,100);
+CreateSoundLibGroup('VBd',3,'VBd');
+CreateSoundLib('VB_VSocial1a.wav','VBs0',2,20,100);
+CreateSoundLib('VB_VSocial1b.wav','VBs1',2,20,100);
+CreateSoundLib('VB_VSocial2a.wav','VBs2',2,20,100);
+CreateSoundLib('VB_VSocial2b.wav','VBs3',2,20,100);
+CreateSoundLib('VB_VVoice.wav','VBs4',2,20,100);
+CreateSoundLibGroup('VBs',5,'VBs');

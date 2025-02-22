@@ -1,0 +1,15 @@
+AddCharacterPresets('IronMan','Enemy','IM_l52',{
+ Description                 "IM_l52"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    2 55
+ SetFace                     2
+ VisibleSkin                 "I_Otv_Hand"
+ VisibleSkin                 "I_Otv_FootU"
+ AddSkinItem                 "SecArmor_Sk_l55.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_52.scr" "HandArmor"
+ AddSkinItem                 "AH_VedroP_B_l55.scr" "Helmet"
+ AddSkinItem                 "A_Cuirass_B_l55.scr" "Armor"
+ AddItem                     "Human\TwoHand\flamesword03\flamesword03.scr" "TwoHandSword"
+ SetState                    32
+});

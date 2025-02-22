@@ -1,0 +1,14 @@
+AddCharacterPresets('Civman','CIVILMAN','NV_roader',{
+ Description                 "NV_roader"
+ Position                    1290.3287,2155.6904,10.2161
+ Rotation                    0 0 90
+ AddDialog                   "NV_roader_d0.dlg" 0
+ AddDialog                   "ALL_roaders_d9.dlg" 9
+ VisibleSkin                 "AH_Shapo"
+ VisibleSkin                 "HB_Cirk"
+ AddItem                     "Human\OneHand\Knife01\Knife01.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

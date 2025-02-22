@@ -1,0 +1,12 @@
+IfN_Flag_GoTo(55,1,@1);
+  DOOR_UnLock('DOOR_BARON_GENERAL62_080');
+  BlackScreenStart('Escape from the Dungeon of Rufford');
+  SetCharacterPosition('warior',1096.1187,2389.5376,94.5561);
+  SetCharacterPosition('OV_OB_General',2837.3198,390.9278,203.8019);
+  SetFlag(53,4);
+  SetFlag(55,2);
+  AIS_GoTo(@2);
+@1:
+ AIPOINT_SetExecute('TalgEsk',0);
+@2:
+NOP();

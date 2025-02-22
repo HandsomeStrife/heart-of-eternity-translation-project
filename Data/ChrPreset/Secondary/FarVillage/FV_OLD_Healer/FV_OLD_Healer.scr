@@ -1,0 +1,17 @@
+AddCharacterPresets('MagVillage','CivilMan','FV_OLD_Healer',{
+ Description                 "Tadeus"
+ Position                    260.9731,2233.0527,41.1643
+ Rotation                    0 0 0
+ VisibleSkin                 "Mag_V_Sh"
+ VisibleSkin                 "MV_O_KapDown"
+ VisibleSkin                 "MV_O_SUMA"
+ VisibleSkin                 "MV_H_Long"
+ AddProcScript               "FV_OLD_Healer_AI.sci"
+ AddBeforeDialogScript       "FV_OLD_Healer_BD.scd"
+ AddDialog                   "FV_OLD_Healer_d.dlg" 0
+ AddDialog                   "FV_OLD_Healer_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

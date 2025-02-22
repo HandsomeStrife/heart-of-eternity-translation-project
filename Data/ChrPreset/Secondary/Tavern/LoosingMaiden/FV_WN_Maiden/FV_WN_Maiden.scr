@@ -1,0 +1,19 @@
+AddCharacterPresets('WomanNormal','CivilMan','FV_WN_Maiden',{
+ Description                 "Мари"
+ Position                    268.2560,2278.0212,43.0487
+ Rotation                    0 0 0
+ VisibleSkinParam            "WomanNorm_Sh" 2
+ VisibleSkinParam            "WN_O_Platye_Sh" 1
+ VisibleSkin                 "WN_H_Long_Sh"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "FV_WN_Maiden_BD.scd"
+ AddDeathScript		     "FV_WN_Maiden_death.scd"
+ AddDialog                   "FV_WN_Maiden_d.dlg" 0
+ AddDialog                   "FV_WN_Maiden_d9.dlg" 9
+ PartitionEnable              False
+ Attack 		      False
+});

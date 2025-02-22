@@ -1,0 +1,6 @@
+CreateTorchSFXObj('DWB_',{
+ DeltaTranslate       0 0 0.2
+ AddParticlSystem     "data\effect\Fire\FireDWPS.scr"
+ AddLight             8.0 0.9 255 191 122 0.04 0.1 0.1 
+ AddLightColorEffect  148 95 49 0.03 0.1
+});

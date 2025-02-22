@@ -1,0 +1,66 @@
+//AddObjectToLib('data\object\FAuraA.zrm',mipmap=0,orientY=1);
+AddObjectToLib('data\object\FTrap.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_FireTrap','data\maps\FireTrap.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 0.0000
+ MatrixText          id = 0 1 1 0.0000
+ TCIFunction         id = 0 "passthru"
+ SpeedRotate         id = 0 1.0000
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateMaterial('M_FireAP','FireAP.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('FAA1',fps=30,numFrame=70,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0.008788983282  69
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  39
+AddRotationKey   0 0 0  30
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   9
+AddColorKey  255 255 255 255   30
+AddColorKey  255 255 255 255   15
+AddColorKey  0 0 0 0   15
+AddColorKey  0 0 0 0   0
+AddScaleKey   2.295108026 2.295108026 2.295108026  9
+AddScaleKey   3 3 3  60
+AddScaleKey   4.598852366 4.598852366 4.598852366  0
+});
+CreateSFX('SFX_FAA',{
+    AddSFXObjectTagN  "FTRAP"  pos: 0 0 0  rot: 0 0 0 "FAA1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\spell\FireAuraA\FireACPS.scr" pos: 0 0 0.5 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    LiveTime        = 2
+    LinkParam         33
+});

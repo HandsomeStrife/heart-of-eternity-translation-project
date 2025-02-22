@@ -1,0 +1,12 @@
+CreateItemSkin('A_Cuirass_I','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "Rusty Cuirass"
+  History           "Corrosion, or simply rust, is generally the destruction of metals under the influence of the environment. The cause of corrosion is the interaction of metals with substances found in the air and atmospheric precipitation. These cuirasses are indeed in a state of corrosion, so it is not worth expecting miracles from them, although their protective characteristics are higher than those of leather armor."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Cuirass"
+   MaterialPresetId  7
+   AddObjectD        "A_Cuirass_I.s03"
+   ArmorAutoGenerate  5  0 
+});

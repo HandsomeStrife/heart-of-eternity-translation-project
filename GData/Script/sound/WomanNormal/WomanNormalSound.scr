@@ -1,0 +1,8 @@
+CreateSoundLib('WN_VHit1a.wav','WNh0',2,30,100);
+CreateSoundLib('WN_VHit1b.wav','WNh1',2,30,100);
+CreateSoundLibGroup('WNh',2,'WNh');
+CreateSoundLib('WN_VDeatha.wav','WNd0',2,30,100);
+CreateSoundLib('WN_VDeath b.wav','WNd1',2,30,100);
+CreateSoundLibGroup('WNd',2,'WNd');
+CreateSoundLib('WN_VVoice.wav','WNs0',2,30,100);
+CreateSoundLibGroup('WNs',1,'WNs');

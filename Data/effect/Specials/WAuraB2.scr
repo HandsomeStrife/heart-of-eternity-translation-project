@@ -1,0 +1,68 @@
+AddObjectToLib('data\object\DefCupol.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_LightS','LightS.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 3.0000
+ MatrixText          id = 0 1 1 1.0000
+ TCIFunction         id = 0 "passthru"
+ AddTextureStage   1 "LightS.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Modulate"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "Texture"
+ AlphaOp             id = 1 "SelectArg1"
+ AlphaArgTwo         id = 1 "Diffuse"
+ TextureCIndex       id = 1 0
+ MatrixTextTransform id = 1 True
+ MatrixText          id = 1 0 0 2.0000
+ MatrixText          id = 1 1 1 2.0000
+ TCIFunction         id = 1 "passthru"
+ MapMoveDirect       id = 1 True
+ MapMoveVector       id = 1 1.0000 1.0000
+ MapMoveSpeed        id = 1 0.2000
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('SAT5',fps=30,numFrame=140,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  19
+AddTranslateKey   0 0 0  8
+AddTranslateKey   0 0 0  28
+AddTranslateKey   0 0 0  85
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  19
+AddRotationKey   0 0 0  8
+AddRotationKey   0 0 0  28
+AddRotationKey   0 0 0  85
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   19
+AddColorKey  0 0 0 0   8
+AddColorKey  234 234 234 251   28
+AddColorKey  4 4 4 0   85
+AddColorKey  0 0 0 0   0
+AddScaleKey   0.202663266 0.202663266 0.7466521706  19
+AddScaleKey   0.202663266 0.202663266 0.7466521706  8
+AddScaleKey   0.9332092634 0.9332092634 0.9787777395  5
+AddScaleKey   0.9586023238 0.9586023238 0.9586023238  23
+AddScaleKey   0.9990705977 0.9990705977 0.9990705977  84
+AddScaleKey   1 1 1  1
+AddScaleKey   1 1 1  0
+});
+CreateSFX('WAuraBSFX',{
+    AddSFXObjectTagN  "DEFCUPOL"  pos: 0 0 0  rot: 0 0 0 "SAT5"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    LiveTime        = 4.6
+    LinkParam         33
+});

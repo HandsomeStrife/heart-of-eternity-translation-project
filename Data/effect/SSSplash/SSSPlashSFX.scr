@@ -1,0 +1,43 @@
+CreateSFXAnimation('SSA1',fps=30,numFrame=60,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  14
+AddTranslateKey   -0.160214132 3.318003335 0  15
+AddTranslateKey   0.1496330344 6.873007088 0  15
+AddTranslateKey   -0.1458186833 10.42801085 0  15
+AddTranslateKey   -0.006543702207 13.98301443 0  0
+AddScaleKey   1 1 1  59
+AddScaleKey   1 1 1  0
+});
+CreateSFXAnimation('SSA2',fps=30,numFrame=60,loop=1,autoPlay=1,{
+AddTranslateKey   0.2175293156 0 0  14
+AddTranslateKey   -1.278277765 3.356359245 0  20
+AddTranslateKey   -1.995072602 8.151158167 0  12
+AddTranslateKey   -3.220484481 11.02803752 0  13
+AddTranslateKey   -3.220484481 14.14465682 0  0
+AddScaleKey   1 1 1  59
+AddScaleKey   1 1 1  0
+});
+CreateSFXAnimation('SSA3',fps=30,numFrame=60,loop=1,autoPlay=1,{
+AddTranslateKey   0.2175293156 0 0  14
+AddTranslateKey   1.278277765 3.356359245 0  20
+AddTranslateKey   1.995072602 8.151158167 0  12
+AddTranslateKey   3.220484481 11.02803752 0  13
+AddTranslateKey   3.220484481 14.14465682 0  0
+AddScaleKey   1 1 1  59
+AddScaleKey   1 1 1  0
+});
+CreateSFX('DustSSFX',{
+    AddSFXPSTag  "data\effect\SSSplash\PSSSSplash.scr" pos: 0 0 0.1 "SSA1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\effect\SSSplash\PSSSSplash.scr" pos: 0 0 0.1 "SSA2"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\effect\SSSplash\PSSSSplash.scr" pos: 0 0 0.1 "SSA3"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXTagFlag 0 262144
+    AddSFXTagFlag 1 262144
+    AddSFXTagFlag 2 262144
+    LiveTime        = 4
+    LinkParam       = 33
+});

@@ -1,0 +1,19 @@
+AddCharacterPresets('WomanEvil','CivilMan','EC_WN_Aella',{
+ Description                 "Aella"
+ Position                    1307.8719,663.2429,173.5650
+ Rotation                    0 0 0
+ VisibleSkin                "Rukava_Sh"
+ VisibleSkin		    "HearLong_Sh"
+ MobParam                    4 30
+ PlusDexterity               40
+ PlusConstitution            20
+ PlusIntellect               60
+ PlusMagicPower              20
+ AddProcScript               "EC_WN_Aella_AI.sci"
+ AddDeathScript		     "EC_WN_Aella_death.scd"
+ AddBeforeDialogScript       "EC_WN_Aella_BD.scd"
+ AddDialog                   "EC_WN_Aella_d0.dlg" 0
+ AddDialog                   "EC_WN_Aella_d9.dlg" 9
+ PartitionEnable              False
+ DropEnable	              False
+});

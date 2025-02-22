@@ -1,0 +1,14 @@
+AddCharacterPresets('IronMan','Enemy','IM_l44',{
+ Description                 "IM_l44"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    3 44
+ VisibleSkin                 "H_HvLong"
+ VisibleSkinParam            "A_PlashFibL" 0
+ AddSkinItem                 "SecArmor_K1_l45.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_44.scr" "HandArmor"
+ AddSkinItem                 "Legins_44.scr" "Leggings"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\longbow02\longbow02.scr" "Bow"
+ AddItem                     "Human\OneHand\scimitar03\scimitar03.scr" "Left_Scabbard"
+});

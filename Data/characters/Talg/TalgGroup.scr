@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\Talg\data\Talg.mc',
+'Talg',
+'data\characters\Talg\data\','civman','TalgShape',' ');

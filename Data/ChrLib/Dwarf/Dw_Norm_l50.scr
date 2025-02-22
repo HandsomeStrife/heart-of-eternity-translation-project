@@ -1,0 +1,16 @@
+AddCharacterPresets('CivDwarf','Enemy','DW50',{
+ Description                 "Dwarf_50"
+ Position                    1144.9330,1131.1486,171.8680
+ Rotation                    0 0 155
+ MobParam                    0 50
+ ScaleX                      1.05
+ ScaleY                      1.05
+ ScaleZ                      1.05
+ VisibleSkin                 "I_GrebanHvost"
+ VisibleSkin                 "AH_Monokl"
+ VisibleSkinParam            "HB_BorKolco" 1
+ AddSkinItem                 "A_Plash_l39.scr" "Armor"
+ AddSkinItem                 "AH_War_l49.scr" "Helmet"
+ AddSkinItem                 "HandArmor_Ch_l49.scr" "HandArmor"
+ AddItem		     "Dwarf\TwoHand\DwarfHammerM\DwarfHammerM.scr" "TwoHandSword"
+});

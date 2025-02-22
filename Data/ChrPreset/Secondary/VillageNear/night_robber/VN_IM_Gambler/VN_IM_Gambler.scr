@@ -1,0 +1,21 @@
+AddCharacterPresets('Civman','CivilMan','VN_IM_Gambler',{
+ Description                 "Archibald"
+ Position                    1335.7419,2189.5400,7.1535
+ Rotation                    0 0 0
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "AH_Dvoryan"
+ VisibleSkin                 "I_Otv_FootD"
+ AddProcScript               "VN_IM_Gambler_AI.sci"
+ AddBeforeDialogScript       "VN_IM_Gambler_BD.scd"
+ AddDialog                   "VN_IM_Gambler_D0.dlg" 0
+ AddDialog                   "VN_IM_Gambler_D9.dlg" 9
+ AnimReplace                 0 "WALK_FORWARD" "WALK_2"
+ AnimReplace                 1 "SIT" "SIT_2"
+ AnimReplace                 2 "STAND" "STAND_2"
+ AnimReplace                 3 "TALK" "STAND_2"
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

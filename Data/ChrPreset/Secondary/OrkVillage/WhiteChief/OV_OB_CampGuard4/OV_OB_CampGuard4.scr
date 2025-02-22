@@ -1,0 +1,15 @@
+AddCharacterPresets('OrkMedium','CivilMan','OV_OB_CampGuard4',{
+ Description                 "Battering Ram"
+ Position                    2630.2881,733.7684,178.3985
+ Rotation                    0 0 230
+ MobParam                    2 11
+ AddSkinItem                 "OMe_Helmet_l11.scr" "Helmet"
+ AddSkinItem                 "HandArmor_End_l11.scr" "HandArmor"
+ AddSkinItem                 "Legins_End_l11.scr" "Leggings"
+ AddItem                     "Ork\OneHand\Ork_sabre\Ork_sabre.scr" "Left_Scabbard"
+ AddItem                     "Ork\OneHand\Ork_sabre\Ork_sabre.scr" "Right_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

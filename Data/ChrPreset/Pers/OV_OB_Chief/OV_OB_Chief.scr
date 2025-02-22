@@ -1,0 +1,19 @@
+AddCharacterPresets('OrkBig','CivilMan','OV_OB_Chief',{
+ Description                 "Garrukh Blood Axe"
+ Position                    2834.7266,387.9055,203.8020
+ Rotation                    0 0 0
+ VisibleSkinParam            "OB_Body" 3
+ VisibleSkinParam            "OB_Plasron" 1
+ AddProcScript               "OV_OB_Chief_AI.sci"
+ AddBeforeDialogScript       "OV_OB_Chief_BD.scd"
+ AddDialog                   "OV_OB_Chief_D0.dlg" 0
+ AddDialog                   "OV_OB_Chief_D1.dlg" 1
+ AddDialog                   "OV_OB_Chief_D2.dlg" 2
+ AddDialog                   "OV_OB_Chief_D3.dlg" 3
+ AddDialog                   "OV_OB_Chief_D7.dlg" 7
+ AddDialog                   "OV_OB_Chief_D9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

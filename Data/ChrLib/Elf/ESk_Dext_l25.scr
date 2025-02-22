@@ -1,0 +1,16 @@
+AddCharacterPresets('ElfSkaut','Enemy','ESk_l30',{
+ Description                 "ESk_l30"
+ Position                    80.2812 75.2020 8.024
+ Rotation                    0 0 90
+ MobParam                    3 30
+ VisibleSkin                 "ES_Shit_R"
+ VisibleSkin                 "ES_Shit_L"
+ VisibleSkin                 "ES_Shit_B"
+ AddSkinItem                 "HandArmor_30.scr" "HandArmor"
+ AddSkinItem                 "ES_AH_Helmet1_l30.scr" "Helmet"
+ AddSkinItem                 "Legins_30.scr" "Leggings"
+ AddSkinItem                 "Elf_SK_Sh_l30.scr" "SecArmor"
+ AddItem		     "Elf\OneHand\e_dagger\e_dagger.scr" "Left_Scabbard"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Elf\Ranged\Bows\e_bow01\e_bow01_b.scr" "Bow"
+});

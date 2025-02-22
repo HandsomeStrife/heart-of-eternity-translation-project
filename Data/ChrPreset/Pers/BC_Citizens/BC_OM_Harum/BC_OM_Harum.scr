@@ -1,0 +1,15 @@
+AddCharacterPresets('OrkMag','CivilMan','BC_OM_Harum',{
+ Description                 "Harum"
+ Position                    1071.1678,2284.6643,98.6830
+ Rotation                    0 0 0
+ MobParam                    2 5
+ AddBeforeDialogScript       "BC_OM_Harum_BD.scd"
+ AddDialog                   "BC_OM_Harum_d.dlg" 0
+ AddDialog                   "BC_OM_Harum_d9.dlg" 9
+ AddSkinItem                 "HandArmor.scr" "HandArmor"
+ AddSkinItem                 "Legins.scr" "Leggings"
+ AddSkinItem                 "OM_Chalust.scr" "Helmet"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ Attack 		      False
+});

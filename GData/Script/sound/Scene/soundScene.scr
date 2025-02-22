@@ -1,0 +1,231 @@
+AddSoundScene('WaterWall406.wav',{
+        Position 1264 1706 10
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             195
+        MaxVolume		90
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 1286.1571 1579.9905 159.2934
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             180
+        MaxVolume		90
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 1437.4691 1370.3473 161.4243
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             120
+        MaxVolume		60
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 1370.1974 1397.5760 161.3793
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		50
+        MaxDistance             70
+        MaxVolume		60
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 1112.4391 2871.6306 -6.9263
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             160
+        MaxVolume		80
+        Looped			True
+});
+
+AddSoundScene('WaterWall406.wav',{
+        Position 1498.3549 144.8747 157.6001
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             160
+        MaxVolume		70
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 1582.4725 101.3156 121.2979
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             120
+        MaxVolume		70
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 1714.9860 89.1094 121.2482
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             120
+        MaxVolume		70
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 1850.2827 87.1803 112.2054
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             120
+        MaxVolume		70
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 2043.8018 89.7996 107.3628
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             120
+        MaxVolume		70
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 2133.3684 38.9613 98.6009
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             120
+        MaxVolume		70
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 1104.4277 2602.9788 -5.1872
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             200
+        MaxVolume		60
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 3122.7522 373.1680 136.0475
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             200
+        MaxVolume		60
+        Looped			True
+});
+AddSoundScene('WaterWall406.wav',{
+        Position 3121.728 225.7332 171.1979
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		80
+        MaxDistance             200
+        MaxVolume		60
+        Looped			True
+});
+AddSoundScene('Fountan_small.wav',{
+        Position 2731.8335 561.5331 179.1735
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		15
+        MaxDistance             35
+        MaxVolume		91
+        Looped			True
+});
+AddSoundScene('Fountan_small.wav',{
+        Position 2720.215 602.4137 183.194
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		15
+        MaxDistance             35
+        MaxVolume		91
+        Looped			True
+});
+AddSoundScene('Fountan_small.wav',{
+        Position 2685.309 649.1232 179.0874
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		15
+        MaxDistance             35
+        MaxVolume		91
+        Looped			True
+});
+AddSoundScene('Fountan_small.wav',{
+        Position 2602.315 700.47 178.4393
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		15
+        MaxDistance             35
+        MaxVolume		91
+        Looped			True
+});
+AddSoundScene('Fountan_small.wav',{
+        Position 3091.545 316.7146 169.167
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		15
+        MaxDistance             35
+        MaxVolume		91
+        Looped			True
+});
+AddSoundScene('Fountan_small.wav',{
+        Position 933.1323 1674.6865 170.5734
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		2
+        MaxDistance             15
+        MaxVolume		90
+        Looped			True
+});
+AddSoundScene('Fountan_small.wav',{
+        Position 1120.9928 2335.7378 119.1455
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		3
+	MinDistance		2
+        MaxDistance             10
+        MaxVolume		90
+        Looped			True
+});
+AddSoundScene('GateOpen.wav',{
+        Position -1120.9928 -2335.7378 -119.1455
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		1
+	MinDistance		2
+        MaxDistance             10
+        MaxVolume		90
+        Looped			False
+});
+AddSoundScene('RitualS.wav',{
+        Position -1120.9928 -2335.7378 -119.1455
+        Rotation 0 0 1
+	SoundBufStatic		True
+	TypeSound		1
+	MinDistance		2
+        MaxDistance             10
+        MaxVolume		90
+        Looped			False
+});

@@ -1,0 +1,2 @@
+DeleteItemChr('warior','12_last');
+AddMoneyToMC(3000);

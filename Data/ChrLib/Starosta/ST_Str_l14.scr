@@ -1,0 +1,18 @@
+AddCharacterPresets('Starosta','Enemy','Star14',{
+ Description                 "FatGuerder14"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    1 14
+ AddDeathScript              "cmdscr.scd"
+ VisibleSkin                 "HB_MedCM"
+ VisibleSkin                 "I_Otv_FootDD"
+ VisibleSkin                 "H_GorLis"
+ VisibleSkinParam            "STAR_Sh" 1
+ VisibleSkin                 "A_SkirtKol"
+ VisibleSkin                 "HB_Usy"
+ AddSkinItem                 "A_PlashFib2_l14.scr" "Armor"
+ AddSkinItem                 "Legins_N_l14.scr" "Leggings"
+ AddSkinItem                 "AH_IfantSalad_N_l14.scr" "Helmet"
+ AddItem		     "Human\OneHand\shortscimitar2\shortscimitar2.scr" "Left_Scabbard"
+ AddItem		     "Human\Shield\Shield_Buckler\Shield_Buckler.scr" "Spine_shield"
+});

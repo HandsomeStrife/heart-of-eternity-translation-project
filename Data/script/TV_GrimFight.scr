@@ -1,0 +1,15 @@
+BlackScreenStart('In the glade by the tavern...');
+  AddEnemy('TV_DW_Grim','warior');
+  AddEnemy('TV_DW_Pod_1','warior');
+  AddEnemy('TV_DW_Pod_2','warior');
+  AddEnemy('TV_DW_Pod_3','warior');
+  SetCharacterPosition('TV_DW_Grim',538.7093,2494.7227,45.3022);
+  SetCharacterRotation('TV_DW_Grim',0,0,0);
+  SetCharacterPosition('TV_DW_Pod_1',542.7881,2494.2507,45.4728);
+  SetCharacterRotation('TV_DW_Pod_1',0,0,10);
+  SetCharacterPosition('TV_DW_Pod_2',534.2875,2496.0183,44.7987);
+  SetCharacterRotation('TV_DW_Pod_2',0,0,-10);
+  SetCharacterPosition('TV_DW_Pod_3',528.7960,2514.3826,42.7722);
+  SetCharacterRotation('TV_DW_Pod_3',0,0,180);
+  SetCharacterPosition('warior',535.2972 2503.4126 44.2464);
+  SetCharacterRotation('warior',0,0,180);

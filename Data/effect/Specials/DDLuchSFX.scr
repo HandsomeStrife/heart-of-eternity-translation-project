@@ -1,0 +1,58 @@
+AddObjectToLib('data\object\DDLuch.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_AuraLuchDD','AuraLuchDD.tga',{
+ BlendEnable       True
+ SRCBlend          "SrcColor"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 1.0000
+ MatrixText          id = 0 1 1 1.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 0.0000 1.0000
+ MapMoveSpeed        id = 0 0.1000
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('DDLA',fps=30,numFrame=150,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  25
+AddTranslateKey   0 0 0  10
+AddTranslateKey   0 0 0  115
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  25
+AddRotationKey   0 0 0  10
+AddRotationKey   0 0 0  115
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   25
+AddColorKey  0 0 0 0   10
+AddColorKey  204 204 204 204   10
+AddColorKey  255 255 255 255   31
+AddColorKey  127 127 127 127   66
+AddColorKey  0 0 0 0   8
+AddColorKey  0 0 0 0   0
+AddScaleKey   0.3191082764 0.3191082764 0.05594020175  25
+AddScaleKey   0.3191082764 0.3191082764 0.05594020175  10
+AddScaleKey   0.3191082764 0.3191082764 0.9937637616  10
+AddScaleKey   0.7434809583 0.7434809583 1.006506926  31
+AddScaleKey   1.020872625 1.020872625 1.007640836  73
+AddScaleKey   1.222786542 1.222786542 1.012100586  1
+AddScaleKey   1.22552782 1.22552782 1.012103009  0
+});
+CreateSFX('DDLuchSFX',{
+    AddSFXObjectTagN  "DDLUCH"  pos: 0 0 10  rot: 0 0 0 "DDLA"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\effect\Specials\DDLuchPS.scr" pos: 0 0 0.2 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    LiveTime        = 4.9
+});

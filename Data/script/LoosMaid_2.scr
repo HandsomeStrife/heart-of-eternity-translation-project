@@ -1,0 +1,3 @@
+AddEnemy('FV_CM_HealSF1','warior');
+AddEnemy('FV_IM_HealerSon','warior');
+AddEnemy('FV_ST_HealSF2','warior');

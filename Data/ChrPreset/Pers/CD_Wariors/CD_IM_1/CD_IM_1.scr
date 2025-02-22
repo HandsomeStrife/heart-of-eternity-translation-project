@@ -1,0 +1,14 @@
+AddCharacterPresets('IronManUD','CivilMan','CD_IM_1',{
+ Description                 "Antey"
+ Position                    4219.3247,713.2520,128.2831
+ Rotation                    0 0 0
+ MobParam                    3 40
+ VisibleSkin                 "U_Buviger"
+ VisibleSkin                 "H_KosyLis"
+ AddDeathScript		     "CD_IM_1_death.scd"
+ AddSkinItem                 "U_HelmetSk_l34.scr" "Helmet"
+ AddSkinItem                 "HandArmor_Str_l34.scr" "HandArmor"
+ AddItem                     "Undead\Shield\U_Shield\u_shield.scr" "Spine_shield"
+ AddItem                     "Undead\OneHand\u_klevec\u_klevec.scr" "Right_Scabbard"
+ AddItem                     "Undead\OneHand\u_sword\u_sword.scr"   "Left_Scabbard" 
+});

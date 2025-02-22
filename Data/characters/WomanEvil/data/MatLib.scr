@@ -1,0 +1,5 @@
+AddMaterialToSkin('WomanNorm_Sh','M_WE_Body','Human\WE_Body1.tga',1);
+AddMaterialToSkin('Rukava_Sh','M_WE_Body','Human\WE_Body1.tga',1);
+AddMaterialToSkin('HearLong_Sh','M_WE_Hear','Human\WE_Hear1.tga',1);
+FACE_CreateFace('M_WE_FACE');
+FACE_AddFace('Human\WE_FACE1.tga');

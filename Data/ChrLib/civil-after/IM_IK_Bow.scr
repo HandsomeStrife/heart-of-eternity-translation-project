@@ -1,0 +1,16 @@
+AddCharacterPresets('IronMan','CivilMan','IM_IK_Bow',{
+ Description                 "IM_IK_Bow"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    3 60
+ SetFace                     2
+ VisibleSkin                 "HB_MedN"
+ VisibleSkin                 "AH_Cilindr"
+ VisibleSkinParam            "A_PlashFibL" 1
+ AddSkinItem                 "SecArmor_K2_l55.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_52.scr" "HandArmor"
+ AddSkinItem                 "Legins_56.scr" "Leggings"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\longbow02\longbow02.scr" "Bow"
+ AddItem                     "Human\OneHand\scimitar03\scimitar03.scr" "Left_Scabbard"
+});

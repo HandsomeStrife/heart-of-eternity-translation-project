@@ -1,0 +1,3 @@
+GetBonusForQuest(20,2);
+DeleteItemChr('warior','19_LAST');
+DeleteItemChr('warior','19_LASTC');

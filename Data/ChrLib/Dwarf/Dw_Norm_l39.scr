@@ -1,0 +1,14 @@
+AddCharacterPresets('CivDwarf','Enemy','DW39',{
+ Description                 "Dwarf_39"
+ Position                    1144.9330,1131.1486,171.8680
+ Rotation                    0 0 155
+ MobParam                    0 39
+ ScaleX                      1.05
+ ScaleY                      1.05
+ ScaleZ                      1.05
+ VisibleSkin                 "I_GrebanHvost"
+ VisibleSkin                 "AH_Monokl"
+ VisibleSkin                 "HB_BorKolco"
+ AddSkinItem                 "A_Plash_l39.scr" "Armor"
+ AddItem		     "Dwarf\TwoHand\DwarfSwordM\DwarfSwordM.scr" "TwoHandSword"
+});

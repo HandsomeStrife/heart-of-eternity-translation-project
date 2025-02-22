@@ -1,0 +1,3 @@
+SetCharacterPosition('warior',720.5572,1597.6178,160.5456);
+SetCharacterRotation('warior',0,0,180);
+BlackScreenStart('Ancient tunnel leading to the lands of the elves');

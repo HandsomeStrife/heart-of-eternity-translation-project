@@ -1,0 +1,11 @@
+AIS_EnableInvProc(1);
+AIS_ExecIfInvisible(1);
+IfN_Flag_GoTo(300,10,@1);
+ IfChrVisibleGoTo(@1);
+ AIS_SetChrPosRotZ('BC_IM_TGuard',1339.8063,2189.2395,7.1534,0);
+ SetFlag(300,1);
+@1:
+IfN_Point_GoTo('VNT_G',@2);
+ Sit_InAIP('VNT_G',100);
+@2:
+NOP(1);

@@ -1,0 +1,17 @@
+BlackScreenStart('We are pulling Amnus out of prison..');
+SetCharacterPosition('warior',5811.0986,917.1943,220.2675);
+SetCharacterRotation('warior',0,0,270);
+SetCharacterPosition('GD_IM_DrugAmnus',5808.5415,916.8218,220.3085);
+JQuestRecordComplete(37,4);
+JVisibleRecord(37,7);
+SetFlag(155,2);
+SetFlag(156,1);
+CreateDoor('DOOR_BARON_GENERAL74_078_IKESH',{
+    Axis              0.0000 0.0000 1.0000
+    OpenInTwoSize     True
+    OpenByRotate      True
+    Speed             1.0000
+    Angle             90.0000
+    Locked            False
+    MinDistance       0.6000
+});

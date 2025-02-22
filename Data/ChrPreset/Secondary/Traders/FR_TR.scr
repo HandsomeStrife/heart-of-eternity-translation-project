@@ -1,0 +1,20 @@
+AddCharacterPresets('Civman','CivilMan','FR_TR',{
+ Description                 "FR_TR"
+ Position                    1214.2802,2836.2688,5.5437
+ Rotation                    0 0 0
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkinParam            "AH_SelKolp" 1
+ VisibleSkinParam            "A_PlashFibL" 1
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkin                 "I_PerchIron_R"
+ VisibleSkin                 "HB_MedD"
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkin                 "I_Otv_Hand"
+ VisibleSkinParam            "A_Naruk_L" 3
+AddDialog                   "FR_TR9.dlg" 9
+AddDialog                   "FR_TR_d.dlg" 0
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

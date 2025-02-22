@@ -1,0 +1,10 @@
+AddCharacterPresets('OrkMedium','Enemy','OMe_Dext',{
+ Description                 "NPC_OMe_l15"
+ MobParam                    3 15
+ AddSkinItem                 "OMe_Helmet_l15.scr" "Helmet"
+ AddSkinItem                 "OMe_Cuirass_l15.scr" "Armor"
+ AddSkinItem                 "HandArmor_Dext_l15.scr" "HandArmor"
+ AddSkinItem                 "Legins_Dext_l15.scr" "Leggings"
+ AddItem                     "Ork\OneHand\Great_Clumb2\Great_Clumb2.scr" "Left_Scabbard"
+ AddItem                     "Ork\Shiled\BigShield\BigShield_l15.scr" "Spine_shield"
+});

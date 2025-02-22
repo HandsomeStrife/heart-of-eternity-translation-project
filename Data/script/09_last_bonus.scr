@@ -1,0 +1,4 @@
+GetBonusForQuest(20,1);
+AddMoneyToMC(800);
+DeleteItemChr('warior','09_last');
+SCENE_DeleteItemBySpecType(959);

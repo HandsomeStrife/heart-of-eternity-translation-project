@@ -1,0 +1,13 @@
+AIS_EnableInvProc(1);
+AIS_ExecIfInvisible(1);
+IfN_Flag_GoTo(381,0,@3);
+IfN_Point_GoTo('TV_Grim0',@3);
+ Sit_InAIP('TV_Grim0',180);
+@3:
+IfN_Flag_GoTo(381,1,@1);
+   IfChrVisibleGoTo(@1);
+    AIS_SetChrPosRotZ('TV_DW_Grim',1196.7295,1078.8083,175.2089,0);
+@1:
+IfN_Flag_GoTo(381,1,@2);
+ Sit_InAIP('TM_Grim1',15);
+@2:                

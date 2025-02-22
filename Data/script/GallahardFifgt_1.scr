@@ -1,0 +1,8 @@
+AddEnemy('DC_LV_Kain','warior');
+AddEnemy('DC_BV_Lguard1','warior');
+AddEnemy('DC_BV_Lguard2','warior');
+AddEnemy('DC_IM_VampSlave','warior');
+AddEnemy('DC_LV_Kain','warior');
+AddEnemy('warior','DC_BV_Lguard1');
+AddEnemy('warior','DC_BV_Lguard2');
+AddEnemy('warior','DC_IM_VampSlave');

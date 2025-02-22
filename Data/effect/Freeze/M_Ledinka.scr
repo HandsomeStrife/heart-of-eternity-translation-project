@@ -1,0 +1,38 @@
+CreateMaterial('M_Ledinka','data\maps\Ledinka.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 1.0000
+ MatrixText          id = 0 1 1 1.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 0.0000 -1.0000
+ MapMoveSpeed        id = 0 0.1000
+ AddTextureStage   1 "Ledinka.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Modulate"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "Texture"
+ AlphaOp             id = 1 "SelectArg1"
+ AlphaArgTwo         id = 1 "Diffuse"
+ TextureCIndex       id = 1 0
+ MatrixTextTransform id = 1 True
+ MatrixText          id = 1 0 0 1.0000
+ MatrixText          id = 1 1 1 1.0000
+ TCIFunction         id = 1 "passthru"
+ MapMoveDirect       id = 1 True
+ MapMoveVector       id = 1 0.0000 1.0000
+ MapMoveSpeed        id = 1 0.1000
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});

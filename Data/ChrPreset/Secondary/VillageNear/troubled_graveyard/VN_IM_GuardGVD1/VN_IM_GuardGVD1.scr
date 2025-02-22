@@ -1,0 +1,24 @@
+AddCharacterPresets('IronMan','CivilMan','VN_IM_GuardGVD1',{
+ Description                 "Djey"
+ Position                    1332.5919,2187.7856,7.1535
+ Rotation                    0 0 0
+ VisibleSkinParam            "I_Man_Sh" 2
+ VisibleSkin                 "H_HvLong"
+ PlusStrenght                23
+ PlusDexterity               17
+ PlusConstitution            19
+ PlusIntellect               10
+ PlusPermeability            10
+ AddProcScript               "VN_IM_GuardGVD1_AI.sci"
+ AddBeforeDialogScript       "VN_IM_GuardGVD1_BD.scd"
+ AddDialog                   "VN_IM_GuardGVD1_D0.dlg" 0
+ AddDialog                   "VN_IM_GuardGVD1_D9.dlg" 9
+ AddSkinItem                 "HandArmor_l8.scr" "HandArmor"
+ AddSkinItem                 "A_PlashS_l5.scr" "Armor"
+ AddSkinItem                 "Legins_Sk_l8.scr" "Leggings"
+ AddItem                     "Human\OneHand\sword\sword.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

@@ -1,0 +1,6 @@
+AddCharacterPresets('Horse','CivilMan','Horse_2',{
+ ScaleX                      1.15
+ ScaleY                      1.15
+ ScaleZ                      1.15
+ Attack			     False
+});

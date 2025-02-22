@@ -1,0 +1,39 @@
+AddObjectToLib('data\object\FTrap.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_FireTrap','data\maps\FireTrap.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 0.0000
+ MatrixText          id = 0 1 1 0.0000
+ TCIFunction         id = 0 "passthru"
+ SpeedRotate         id = 0 1.0000
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('FTA1',fps=15,numFrame=150,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0.1  149
+AddTranslateKey   0 0 0.1  0
+AddColorKey  0 0 0 0   19
+AddColorKey  255 255 255 255   110
+AddColorKey  255 255 255 255   20
+AddColorKey  0 0 0 0   0
+AddScaleKey   5 5 5  149
+AddScaleKey   5 5 5  0
+});
+CreateSFX('SFX_FT',{
+    AddSFXObjectTagN  "FTRAP"  pos: 0 0 0.2  rot: 0 0 0 "FTA1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    LiveTime        = 10
+});

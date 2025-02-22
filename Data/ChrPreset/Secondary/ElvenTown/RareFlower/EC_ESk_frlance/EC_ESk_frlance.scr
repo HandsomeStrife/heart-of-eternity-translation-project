@@ -1,0 +1,15 @@
+AddCharacterPresets('ElfSkaut','CivilMan','EC_ESk_frlance',{
+ Description                 "EC_ESk_frlance"
+ Position                    1228.0016,400.1774,160.7209
+ Rotation                    0 0 125
+ MobParam                    0 25
+ AddProcScript               "EC_ESk_frlance_AI.sci"
+ AddBeforeDialogScript       "EC_ESk_frlance_BD.scd"
+ AddDialog                   "EC_ESk_frlance_d0.dlg" 1
+ AddDialog                   "EC_ESk_frlance_d1.dlg" 0
+ AddDialog                   "EC_ESk_frlance_d9.dlg" 9
+ AddDeathScript		     "EC_ESk_frlance_death.scd"
+ AddItem                     "Elf\OneHand\e_sword\e_sword.scr" "Left_Scabbard"
+ PartitionEnable              False
+ DropEnable	              False
+});

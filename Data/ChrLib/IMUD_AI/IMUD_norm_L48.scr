@@ -1,0 +1,23 @@
+AddCharacterPresets('IronManUD','CivilMan','IMUD_norm_L48',{
+ Description                 "Undead_axe44"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 48
+ ScaleX                      1.1
+ ScaleY                      1.1
+ ScaleZ                      1.1
+ AddProcScript               "IMUD_axe_L48_AI.sci"
+ AddSkinItem                 "U_Helmet_l44.scr" "Helmet"
+ AddSkinItem                 "U_Cuirass_l44.scr" "Armor"
+ AddSkinItem                 "HandArmor_Dext_l44.scr" "HandArmor"
+ AddSkinItem                 "Legins_Dext_l44.scr" "Leggings"
+ VisibleSkin                 "U_Schit_F"
+ VisibleSkin                 "U_Schit_B"
+ VisibleSkin                 "U_Schit_R"
+ VisibleSkin                 "U_Schit_LS"
+ VisibleSkin                 "ZombyBig_Sh"
+ AddItem                     "Undead\OneHand\u_sword\u_sword.scr" "Right_Scabbard"
+ AddItem                     "Undead\OneHand\u_sword\u_sword.scr"   "Left_Scabbard" 
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Undead\Ranged\u_bow\u_bow.scr" "Bow"
+});

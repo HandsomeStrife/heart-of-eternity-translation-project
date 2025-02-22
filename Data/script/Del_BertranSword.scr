@@ -1,0 +1,4 @@
+DeleteItemChr('warior','BertranSword');
+BlackScreenStart('To the Gates of Chaos...');
+SetCharacterPosition('warior',4212.4546,798.0476,129.2493);
+SetCharacterPosition('CD_OLD_Sage',4213.2983,796.4245,129.1173);

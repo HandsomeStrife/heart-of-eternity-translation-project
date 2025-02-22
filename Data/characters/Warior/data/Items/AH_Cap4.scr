@@ -1,0 +1,14 @@
+CreateItemSkin('AH_Cap4','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Magnificent grain of the mage"
+  History           "The ritual headdress of the magi of Sarkus, symbolizing magical presence in both life and death."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Cap4"
+   MaterialPresetId  0
+   AddObjectD        "AH_Cap4.s03"
+   ArmorAutoGenerate  5  4 
+   PlusIntellect     4
+   PlusMagicPower    4
+});

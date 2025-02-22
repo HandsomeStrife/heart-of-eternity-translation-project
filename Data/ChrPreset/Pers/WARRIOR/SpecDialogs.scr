@@ -1,0 +1,4 @@
+AddCharacterPresets('WomanEvil','CivilMan','VN_WF_Witch',{
+ AddDialog                   "born_vs_altion.dlg" 0
+ AddDialog                   "Zalkus_vs_Kain.dlg" 1
+});

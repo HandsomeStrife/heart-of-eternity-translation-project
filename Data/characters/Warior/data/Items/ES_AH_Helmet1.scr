@@ -1,0 +1,13 @@
+CreateItemSkin('ES_AH_Helmet1','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Helmet of Mountain Dawn"
+  History           "Elven armor obúThey unite such concepts as: beautiful, elegant, magical. The elves did not achieve success in metallurgy. Practically the entire range of the race's products is made from various parts of the Kuaron tree. Their main property is lightness and strength, indispensable qualities for an archer. Full armor will multiply your agility and perfectly protect against striking cold weapons."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "ES_AH_Helmet1"
+   MaterialPresetId  0
+   AddObjectD        "ES_AH_Helmet1.s03"
+   ArmorAutoGenerate  6  3 
+   PlusDexterity     8
+});

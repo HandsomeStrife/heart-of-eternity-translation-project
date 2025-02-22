@@ -1,0 +1,21 @@
+AddCharacterPresets('Starosta','CivilMan','34_LAST',{
+ Description                 "34_LAST"
+ Position                    1248.9181,2812.7058,12.9082
+ Rotation                    0 0 0
+ AddBeforeDialogScript       "34_LAST_BD.scd"
+ AddDialog                   "34_LAST_00.dlg" 0
+ AddDialog                   "34_LAST_01.dlg" 1
+ AddDialog                   "34_LAST_02.dlg" 2
+ AddDialog                   "34_LAST_09.dlg" 9
+ AddItem                     "Human\Shield\KnightShield_01\KnightShield_01.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\knightsword\knightsword.scr" "Left_Scabbard"
+ VisibleSkin                 "HB_Circ"
+ VisibleSkin                 "HB_Sm"
+ AddSkinItem                 "A_Cuirass_S_l37.scr" "Armor"
+ AddSkinItem                 "HandArmor_37.scr" "HandArmor"
+ AddSkinItem                 "SecArmor_Kol_l37.scr" "SecArmor"
+ AddSkinItem                 "Legins_37.scr" "Leggings"
+ PartitionEnable             False
+ DropEnable	             False
+ Attack 		      False
+});

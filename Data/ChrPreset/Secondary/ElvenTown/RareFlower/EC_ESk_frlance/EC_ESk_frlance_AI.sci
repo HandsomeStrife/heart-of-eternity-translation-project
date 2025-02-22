@@ -1,0 +1,18 @@
+IfN_Flag_GoTo(430,2,@1);
+ IfN_DistToMC_GoTo(1,@2);
+  StartCurrDialog('EC_ESk_frlance');
+ SetFlag(430,9);
+  AIS_GoTo(@1);
+@2:
+ IfN_DistToMC_GoTo(4,@1);
+  IfN_Point_MoveRun('MC');
+@1:
+IfN_Flag_GoTo(430,3,@3);
+ IfN_DistToMC_GoTo(1,@4);
+  StartCurrDialog('EC_ESk_frlance');
+ SetFlag(430,10);
+  AIS_GoTo(@3);
+@4:
+ IfN_DistToMC_GoTo(4,@3);
+  IfN_Point_MoveRun('MC');
+@3:

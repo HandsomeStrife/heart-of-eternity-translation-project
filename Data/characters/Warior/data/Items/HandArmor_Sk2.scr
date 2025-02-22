@@ -1,0 +1,13 @@
+CreateItemSkin('HandArmor_Sk2','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Reinforced leather arm protection"
+ History           "Leather armor is known to all peoples. It does not burden the owner too much and can be worn discreetly under clothing. It is also valued for its ability to be stored for a long time without significant problems or maintenance costs. Full reinforced leather armor provides a moderate bonus to its owner's agility."
+ AddSkinFromItemNoObj          "A_Naruch1_L_Sk2.scr"
+ AddSkinFromItemNoObj          "A_Naruk_L_Sk2.scr"
+ AddSkinFromItemNoObj          "A_Naruch1_R_Sk2.scr"
+ AddSkinFromItemNoObj          "A_Naruk_R_Sk2.scr"
+ AddObject     "HandArmor_SK2.zrm"
+ ArmorAutoGenerate  5  3 
+ PlusDexterity    3
+});

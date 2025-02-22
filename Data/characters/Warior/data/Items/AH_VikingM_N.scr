@@ -1,0 +1,13 @@
+CreateItemSkin('AH_VikingM_N','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Steel helmet of the northern warrior"
+  History           "Настоящую защиту могут дать только крупные объForged solid parts, from which the steel armor is made. In addition to breastplates and pauldrons made of solid metal, gauntlets, greaves, cuisses, cuirasses, and helmets are produced. Full steel armor significantly increases protection against arrows."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_VikingM"
+   MaterialPresetId  0
+   AddObjectD        "AH_VikingM_N.s03"
+   ArmorAutoGenerate  6  2 
+   PlusConstitution 3
+});

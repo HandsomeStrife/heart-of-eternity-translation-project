@@ -1,0 +1,14 @@
+AddCharacterPresets('Civman','Enemy','CM_l9',{
+ Description                 "CM_l9"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    2 9
+ SetFace                     1
+ VisibleSkin                 "HB_Cirk"
+ VisibleSkinParam            "AH_Beret" 4
+ AddSkinItem                 "HandArmor_Sk_l9.scr" "HandArmor"
+ AddSkinItem                 "Legins_Sk_l9.scr" "Leggings"
+ AddItem                     "Human\Shield\Shield_Buckler_wood\Shield_Buckler_wood_l9.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\Jatagan01\Jatagan01.scr" "Left_Scabbard"
+});
+                               			

@@ -1,0 +1,23 @@
+AddCharacterPresets('CivDwarf','CivilMan','TM_DW_Guard3',{
+ Description                 "Tarnir"
+ Position                    1310.8502,1073.2996,167.9937
+ Rotation                    0 0 -30
+ AddBeforeDialogScript       "TM_DW_Guard3_BD.scd"
+ AddDialog                   "TM_DW_Guard3_d0.dlg" 0
+ AddDialog                   "TM_DW_Guard3_d9.dlg" 9
+ VisibleSkin                 "A_BootCh_L"
+ VisibleSkin                 "A_BootCh_R"
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "A_Skirt"
+ VisibleSkinParam            "HB_BorSmall" 1
+ VisibleSkin                 "A_PerchCh_L"
+ VisibleSkin                 "A_NaplCh1_L"
+ VisibleSkin                 "A_NaplCh1_R"
+ VisibleSkin                 "A_PerchCh_R"
+ AddItem                     "Dwarf\OneHand\Hammer1\Hammer1.scr" "Left_Scabbard"
+ AddItem                     "Dwarf\Shield\DwarfShield1\DwarfShield1.scr" "Spine_shield"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

@@ -1,0 +1,20 @@
+AddCharacterPresets('CivDwarf','CivilMan','GG_TR_A',{
+ Description                 "GG_TR_A"
+ Position                    1271.5221,5781.9131,-90.4084
+ Rotation                    0 0 180
+ VisibleSkin                 "I_Fona"
+ VisibleSkin                 "A_Boot_R"
+ VisibleSkin                 "A_Boot_L"
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "A_Perch_L"
+ VisibleSkin                 "HB_BorSmall" 1
+ VisibleSkin                 "A_Napl_L"
+ VisibleSkin                 "A_Napl_R"
+ VisibleSkin                 "A_Perch_R"
+AddDialog                   "GG_TR_A9.dlg" 9
+AddDialog                   "GG_TR_A_d.dlg" 0
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

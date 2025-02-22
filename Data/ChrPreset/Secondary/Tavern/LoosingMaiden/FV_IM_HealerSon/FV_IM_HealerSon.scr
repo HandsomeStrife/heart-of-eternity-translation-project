@@ -1,0 +1,23 @@
+AddCharacterPresets('IronMan','CivilMan','FV_IM_HealerSon',{
+ Description                 "Эндрю"
+ Position                    267.0107,2280.3801,42.9253 
+ Rotation                    0 0 0
+ VisibleSkin                 "IM_B_Sm_Sh"
+ VisibleSkin                 "IM_G_Hunter_Sh"
+ VisibleSkin                 "I_Man_Sh"
+ VisibleSkin                 "IM_A_Naruk_R_Sh"
+ VisibleSkin                 "IM_A_Naruk_L_Sh"
+ VisibleSkin                 "IM_H_KosyLis_Sh"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddDeathScript		     "FV_IM_HealerSon_death.scd"
+ AddBeforeDialogScript       "FV_IM_HealerSon_BD.scd"
+ AddDialog                   "FV_IM_HealerSon_d.dlg" 0
+ AddDialog                   "FV_IM_HealerSon_d9.dlg" 9
+ AddItem                     "Human\OneHand\axe2\axe2.scr" "Left_Scabbard"
+ PartitionEnable              False
+ Attack 		      False
+});

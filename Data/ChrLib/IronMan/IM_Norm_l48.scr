@@ -1,0 +1,14 @@
+AddCharacterPresets('IronMan','Enemy','IM_l48',{
+ Description                 "IM_l48"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 48
+ SetFace                     2
+ AddSkinItem                 "A_Cuirass_B_l45.scr" "Armor"
+ AddSkinItem                 "SecArmor_K1_l45.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_48.scr" "HandArmor"
+ AddSkinItem                 "AH_Palladin_B_l48.scr" "Helmet"
+ AddSkinItem                 "Legins_44.scr" "Leggings"
+ AddItem                     "Human\Shield\KnightShield_02\KnightShield_02_l45.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\bastard03\bastard03.scr" "Left_Scabbard"
+});

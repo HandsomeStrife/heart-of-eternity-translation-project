@@ -1,0 +1,11 @@
+AddCharacterPresets('Ogr','CIVILMAN','OV_OG_Cannibal',{
+ Description                 "OV_OG_Cannibal"
+ Position                    2908.8623,703.6792,170.5900
+ Rotation                    0 0 0
+ MobParam                    2 50
+ AddDeathScript		     "OV_OG_Cannibal_death.scd"
+ PartitionEnable              False
+ AddItem		     "Animal\Ogr\OgrWeapon1L30.scr" "Left_Scabbard"
+ AddItem		     "Animal\Ogr\OgrWeaponL30.scr" "Right_Scabbard"
+ AddItem		     "Animal\Tstone\TstoneL30.scr" "Throw_Item"
+});

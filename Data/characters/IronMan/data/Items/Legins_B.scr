@@ -1,0 +1,12 @@
+CreateItemSkin('IM_LeginsB','Leggings','Leggings', {
+ Visible	         True
+ Cost		         -1
+ Width             2
+ Height            3
+ AddSkinFromItem         "A_Nanog_L_B.scr"
+ AddSkinFromItem         "A_Nanog_R_B.scr"
+ AddSkinFromItem         "A_Sapog2_L_B.scr"
+ AddSkinFromItem         "A_Sapog2_R_B.scr"
+ AddSkinFromItem         "A_Skirt_B.scr"
+   ArmorAutoGenerate  2  4 
+});

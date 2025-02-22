@@ -1,0 +1,52 @@
+CreateMaterial('M_Spark','data\effect\spark\maps\spark01.tga',{
+ BlendEnable			True
+ SRCBlend			"One"
+ DSTBlend			"One"
+ AlphaTestEnable		False
+ ColorArgOne		id = 0  "Texture"
+ ColorOp		id = 0  "Modulate"
+ ColorArgTwo            id = 0  "Current"
+ AlphaArgOne		id = 0  "Texture"
+ AlphaOp		id = 0  "Modulate"
+ AlphaArgTwo		id = 0  "Diffuse"
+ TextureCIndex          id = 0  0
+ MatrixTextTransform    id = 0  False
+ TCIFunction		id = 0  "passthru"
+ zWriteEnable			False
+ LightEnable			False
+});
+CreateParticlSystem('EB_Spark',{
+ ParticlProcType	"Flue"
+ SpawnType		"Sphere"
+ Radius			0.1
+ SpawnPosTwo		0 0 0
+ SpawnPosThree		0 0 0
+ SpawnSpeed		200.0
+ SizeMin		0.2
+ SizeMax                0
+ TimeLive		0.3
+ MaxNumParticl		100
+ Immortal		False
+ SetPSColor		id = 0	time = 0.0  0 0 0 0
+ SetPSColor		id = 1	time = 0.2  255 255 217 255
+ SetPSColor		id = 2	time = 0.8  240 228 181 255
+ SetPSColor		id = 3	time = 1.0  0 0 0 0
+ ForceVector		id = 0  0.0 0.0 1.0
+ ForceStrength		id = 0  2
+ AngleZXY		id = 0  0    360
+ AngleXY		id = 0  0    360
+ ForceVector		id = 1  0.0 0.0 1.0
+ ForceStrength		id = 1  -0.2
+ AngleZXY		id = 1  15  -15
+ AngleXY		id = 1  15  -15
+ Position	        0 0 0
+ Rotation		0 0 0
+ SizeMinSec		2
+ MassMin                1
+ SetMaterial		"M_Spark"
+ SpiralRotate           False
+ SpiralSpeedRotate	360
+ SpiralVectorRotate	0 0 1
+ SpeedRotate		250
+ SpawnRandomRot		True
+});

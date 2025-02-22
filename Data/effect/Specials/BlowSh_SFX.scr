@@ -1,0 +1,91 @@
+AddObjectToLib('data\object\BlowSh.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_BlowShG','BlowShG.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "SelectArg1"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ AddTextureStage   1 "AuraTF.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Modulate"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "Texture"
+ AlphaOp             id = 1 "SelectArg1"
+ AlphaArgTwo         id = 1 "Diffuse"
+ TextureCIndex       id = 1 0
+ MatrixTextTransform id = 1 True
+ MatrixText          id = 1 0 0 1.5000
+ MatrixText          id = 1 1 1 2.1000
+ TCIFunction         id = 1 "passthru"
+ MapMoveDirect       id = 1 True
+ MapMoveVector       id = 1 1.0000 0.1000
+ MapMoveSpeed        id = 1 0.2000
+ AddTextureStage   2 "AuraTF.tga"
+ ColorArgOne         id = 2 "Texture"
+ ColorOp             id = 2 "Modulate"
+ ColorArgTwo         id = 2 "Current"
+ AlphaArgOne         id = 2 "Texture"
+ AlphaOp             id = 2 "SelectArg1"
+ AlphaArgTwo         id = 2 "Diffuse"
+ TextureCIndex       id = 2 0
+ MatrixTextTransform id = 2 True
+ MatrixText          id = 2 0 0 2.1000
+ MatrixText          id = 2 1 1 2.0000
+ TCIFunction         id = 2 "passthru"
+ MapMoveDirect       id = 2 True
+ MapMoveVector       id = 2 0.0000 -1.0000
+ MapMoveSpeed        id = 2 0.2000
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('BShA',fps=30,numFrame=70,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  14
+AddTranslateKey   0 0 0  6
+AddTranslateKey   0 0 0  14
+AddTranslateKey   0 0 0  35
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  14
+AddRotationKey   0 0 0  6
+AddRotationKey   0 0 0  14
+AddRotationKey   0 0 0  35
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   14
+AddColorKey  255 255 255 255   6
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   9
+AddColorKey  0 0 0 0   35
+AddColorKey  0 0 0 0   0
+AddScaleKey   1.806457756 1.806457756 1.806457756  14
+AddScaleKey   1.806457756 1.806457756 1.806457756  6
+AddScaleKey   1.806457756 1.806457756 1.806457756  14
+AddScaleKey   1.806457756 1.806457756 1.806457756  35
+AddScaleKey   1.806457756 1.806457756 1.806457756  0
+});
+CreateSFXAnimation('BSHA',fps=30,numFrame=70,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  14
+AddTranslateKey   0 0 0  6
+AddTranslateKey   0 0 0  10
+AddTranslateKey   0 -0.3432272145 0  9
+AddTranslateKey   0 0 0  30
+AddTranslateKey   0 0 0  0
+});
+CreateSFX('BlowShSFX',{
+    AddSFXObjectTagN  "BLOWSH"  pos: 0 -0.15 0  rot: 0 0 0 "BShA"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\effect\Specials\BlowShPS.scr" pos: 0.0 0.0 0 "BSHA"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXTagFlag     tag=1  flag=262144
+    AddLinkColor      tag=0  flag=3
+    LiveTime        = 1.4
+    LinkParam       = 17
+});

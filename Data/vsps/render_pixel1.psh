@@ -1,0 +1,87 @@
+// DX9 Pixel Shader by NVIDIA Cg compiler
+	ps_2_0
+// cgc version 1.1.0003, build date Jul  7 2003  11:55:19
+// command line args: -profile dx9ps2
+//vendor NVIDIA Corporation
+//version 1.0.02
+//profile dx9ps2
+//program main
+//semantic main.NormalMap
+//semantic main.EnvironmentMap
+//semantic main.deepColor
+//semantic main.shallowColor
+//semantic main.reflectionColor
+//semantic main.reflectionAmount
+//semantic main.waterAmount
+//semantic main.fresnelPower
+//semantic main.fresnelBias
+//semantic main.hdrMultiplier
+//var float2 IN.TexCoord : $vin.TEXCOORD0 : TEXCOORD0 : 0 : 1
+//var float3 IN.tangentSpaceTranspose0 : $vin.TEXCOORD1 : TEXCOORD1 : 0 : 1
+//var float3 IN.tangentSpaceTranspose1 : $vin.TEXCOORD2 : TEXCOORD2 : 0 : 1
+//var float3 IN.tangentSpaceTranspose2 : $vin.TEXCOORD3 : TEXCOORD3 : 0 : 1
+//var float2 IN.bumpCoord0 : $vin.TEXCOORD4 : TEXCOORD4 : 0 : 1
+//var float2 IN.bumpCoord1 : $vin.TEXCOORD5 : TEXCOORD5 : 0 : 1
+//var float2 IN.bumpCoord2 : $vin.TEXCOORD6 : TEXCOORD6 : 0 : 1
+//var float3 IN.eyeVector : $vin.TEXCOORD7 : TEXCOORD7 : 0 : 1
+//var sampler2D NormalMap :  : texunit 0 : 1 : 1
+//var samplerCUBE EnvironmentMap :  : texunit 1 : 2 : 1
+//var half4 deepColor :  :  : 3 : 1
+//var half4 shallowColor :  :  : 4 : 1
+//var half4 reflectionColor :  :  : 5 : 1
+//var half4 reflectionAmount :  :  : 6 : 1
+//var half4 waterAmount :  :  : 7 : 1
+//var half fresnelPower :  :  : 8 : 1
+//var half fresnelBias :  :  : 9 : 1
+//var half hdrMultiplier :  :  : 10 : 1
+//var float4 main : $vout.COLOR : COLOR : -1 : 1
+	dcl_2d	s0
+	dcl_cube	s1
+	def	c0,	0.200000, 1.000000, 0.000000, 2.000000
+	dcl	t1.xyz
+	dcl	t2.xyz
+	dcl	t3.xyz
+	dcl	t4.xy
+	dcl	t5.xy
+	dcl	t6.xy
+	dcl	t7.xyz
+texld   r0, t4, s0
+texld   r1, t5, s0
+mad     r1.xyz, r1, c0.w, -c0.y
+mad     r0.xyz, r0, c0.w, -c0.y
+add     r1.xyz, r0, r1
+texld   r0, t6, s0
+mad     r0.xyz, r0, c0.w, -c0.y
+add     r0.xyz, r1, r0
+mul     r1.xyz, r0.y, t2
+mad     r1.xyz, r0.x, t1, r1
+mad     r1.xyz, r0.z, t3, r1
+dp3     r0.x, r1, r1
+rsq     r0.x, r0.x
+rcp     r0.x, r0.x
+mul     r0.x, c0.y, r0.x
+rcp     r0.x, r0.x
+mul     r0.xyz, r1, r0.x
+dp3     r0.w, t7, t7
+rsq     r0.w, r0.w
+rcp     r0.w, r0.w
+mul     r0.w, c0.y, r0.w
+rcp     r0.w, r0.w
+mul     r2.xyz, t7, r0.w
+dp3     r0.x, r2, r0
+max     r1.w, c0.z, r0.x
+min     r0.x, c0.y, r1.w
+add     r0.x, c0.y, -r0.x
+pow     r1.w, r0.x, c0.x
+dp3     r0.x, r1, r2
+mul     r0.x, c0.w, r0.x
+dp3     r0.y, r1, r1
+mul     r2.xyz, r0.y, r2
+mad     r2.xyz, r0.x, r1, -r2
+mov     r2.xyz, -r2
+texld   r0, r2, s1
+mul     r0.xyz, r0, r1.w
+mov     r0.w, r1.w
+mov     oC0, r0
+// 38 instructions, 3 R-regs.
+// End of program

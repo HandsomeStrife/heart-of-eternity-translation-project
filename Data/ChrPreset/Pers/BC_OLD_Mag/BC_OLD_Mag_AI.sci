@@ -1,0 +1,28 @@
+AIS_EnableInvProc(1);
+AIS_ExecIfInvisible(1);
+@1:
+IfN_Point_GoTo('Zlks_st',@5);
+  Sit_InAIP('Zlks_st',270);
+@5:
+IfN_Flag_GoTo(38,2,@12);
+    AIS_SetChrPosRotZ('BC_OLD_Mag',1090.0625,2334.7178,103.8506,260);
+    SetFlag(38,1);
+@12:
+IfN_Flag_GoTo(38,1,@14);
+ IfN_DistToMC_GoTo(2,@14);
+  StartCurrDialog('BC_OLD_Mag');
+@14:
+IfN_Flag_GoTo(40,1,@7);
+ IfN_DistToMC_GoTo(2,@7);
+  StartCurrDialog('BC_OLD_Mag');
+  AIS_GoTo(@7);
+@8:
+ IfN_Point_MoveRun('MC');
+@7:
+IfN_Flag_GoTo(21,1,@10);
+ IfN_DistToMC_GoTo(2,@10);
+  StartCurrDialog('BC_OLD_Mag');
+  AIS_GoTo(@10);
+@10:
+NOP(1);
+	

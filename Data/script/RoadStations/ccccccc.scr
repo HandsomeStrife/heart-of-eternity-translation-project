@@ -1,0 +1,14 @@
+AddCharacterPresets('Vepr','CivDwarf','TM_DW_Guard3',{
+ Description                 "dsf"
+ Position                    1310.8500 1073.3000 167.9937
+ Rotation                    0 0 0
+ VisibleSkin                 "A_BootCh_L"
+ VisibleSkin                 "A_BootCh_R"
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "A_Skirt"
+ VisibleSkinParam            "HB_BorSmall" 3
+ VisibleSkin                 "A_PerchCh_L"
+ VisibleSkin                 "A_NaplCh1_L"
+ VisibleSkin                 "A_NaplCh1_R"
+ VisibleSkin                 "A_PerchCh_R"
+});

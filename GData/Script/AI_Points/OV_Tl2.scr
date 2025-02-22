@@ -1,0 +1,4 @@
+IfN_Flag_GoTo(13,1,@4);
+  SetFlag(13,2);
+  StartCurrDialog('OV_OB_General');
+@4:

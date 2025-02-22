@@ -1,0 +1,23 @@
+AddCharacterPresets('MagVillage','CivilMan','VN_OLD_Doctor',{
+ Description                 "Vitarus"
+ Position                    1178.4482,2119.9175,5.8914
+ Rotation                    0 0 0
+ VisibleSkin                 "MV_H_Long"
+ VisibleSkin                 "MV_O_KapDown"
+ VisibleSkin                 "MV_O_SUMA"
+ VisibleSkin                 "MV_B_sm"
+ PlusStrenght                15
+ PlusDexterity               15
+ PlusConstitution            14
+ PlusIntellect               30
+ PlusPermeability            30
+ AddBeforeDialogScript       "VN_OLD_Doctor_BD.scd"
+ AddDialog		     "VN_OLD_Doctor_D0.dlg" 0
+ AddDialog                   "VN_OLD_Doctor_D1.dlg" 1
+ AddDialog                   "VN_OLD_Doctor_D9.dlg" 9
+ AddItem                     "Human\OneHand\Knife03\Knife03.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

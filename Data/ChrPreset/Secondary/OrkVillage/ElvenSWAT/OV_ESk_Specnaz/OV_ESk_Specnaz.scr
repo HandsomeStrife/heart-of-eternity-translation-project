@@ -1,0 +1,28 @@
+AddCharacterPresets('ElfSkaut','CIVILMAN','OV_ESk_Specnaz',{
+ Description                 "OV_ESk_Specnaz"
+ Position                  2586.4878,78.1642,172.8723
+ Rotation                    0 0 270
+ VisibleSkin                 "Ponoj_L_Sh"
+ VisibleSkin                 "ESk_Fronkarta_Sh"
+ VisibleSkin                 "ESk_Najopnik_Sh"
+ VisibleSkin                 "ESk_Naplech_R_Sh"
+ VisibleSkin                 "ESk_Naruch_R_Sh"
+ VisibleSkin                 "Ponoj_R_Sh"
+ VisibleSkin                 "Elf_SK_Sh"
+ VisibleSkin                 "ESk_Nabok_R_Sh"
+ PlusStrenght                20
+ PlusDexterity               20
+ PlusConstitution            20
+ PlusIntellect               100
+ PlusPermeability            100
+ AddDeathScript		     "OV_ESk_Specnaz_death.scd"         
+ AddProcScript               "OV_ESk_Specnaz_AI.sci"
+ AddBeforeDialogScript       "OV_ESk_Specnaz_BD.scd"
+ AddDialog                   "OV_ESk_Specnaz_D0.dlg" 0
+ AddDialog                   "OV_ESk_Specnaz_D1.dlg" 1	
+ AddDialog                   "OV_ESk_Specnaz_D9.dlg" 9	
+ AddItem                     "Elf\Ranged\Bows\e_bow04\e_bow04.scr" "Left_Hand"
+ AddItem                     "Elf\OneHand\e_sword\e_sword.scr" "Left_Scabbard"
+ AddItem                     "SPEC\QuiverR\QuiverR.scr" "Quiver"
+ PartitionEnable              False
+});

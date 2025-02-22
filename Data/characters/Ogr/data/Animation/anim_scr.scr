@@ -1,0 +1,90 @@
+AddAnimationToCharacter('stand.anm','STAND',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Shout.anm','DODGE_BACK',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Run_forward_f.anm','RUN_FORWARD_F',{
+ FPS		15.0
+ Speed		1.5
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('walk_forward.anm','WALK_FORWARD',{
+ FPS		30.0
+ Speed		0.8
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Blow_Around.anm','BLOW_DOWN',{
+ FPS		25.0
+ Speed		0.7
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	15 60
+ AddSpeedLineZone 15 60
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('Blow_Forward.anm','SPECBOT_DD1',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	41 53
+ AddSpeedLineZone 41 53
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('Rotate_Left.anm','SS_ROTATE',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+ TranslateZ     True
+ TranslateX     True
+});
+AddAnimationToCharacter('Rotate_Right.anm','DD_ROTATE',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+ TranslateX     True
+ TranslateZ     True
+});
+AddAnimationToCharacter('Awake.anm','CORPSE',{
+ FPS		10
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Sleep.anm','SLEEP',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Throw.anm','THROW',{
+ FPS		35.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ UseSpeedLine	False
+ AddDamageZone  50 88
+});

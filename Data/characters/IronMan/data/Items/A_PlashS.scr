@@ -1,0 +1,9 @@
+CreateItemSkin('A_PlashS','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_PlashS"
+   MaterialPresetId  0
+   ArmorAutoGenerate  0  1 
+});

@@ -1,0 +1,6 @@
+CreateChestEffectObj({
+ Visible	0 1 0
+ AutoCalcOffset	2.0
+ Description	"Hogrus's Chest"
+ Height 0.5
+});

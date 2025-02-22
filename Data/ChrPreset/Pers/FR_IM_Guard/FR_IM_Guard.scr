@@ -1,0 +1,20 @@
+AddCharacterPresets('IronMan','CivilMan','FR_IM_Guard',{
+ Description                 "Fort Guard"
+ Position                    1160.6071,2840.6531,4.8877
+ Rotation                    0 0 0
+ AddBeforeDialogScript       "FR_IM_Guard_BD.scd"
+ AddDialog                   "FR_IM_Guard_d.dlg" 0
+ AddDialog                   "FR_IM_Guard_d9.dlg" 9
+ AddItem                     "Human\Shield\KnightShield_01\KnightShield_01.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\mace01\mace01.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\daga2\daga2.scr" "Right_Scabbard"
+ AddSkinItem                 "AH_IfantSalad_N_l25.scr" "Helmet"
+ AddSkinItem                 "Legins_l36.scr" "Leggings"
+ AddSkinItem                 "HandArmor_36.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_N_l35.scr" "Armor"
+ AddSkinItem                 "SecArmor_K2_l35.scr" "SecArmor"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

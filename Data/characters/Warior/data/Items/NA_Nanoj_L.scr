@@ -1,0 +1,17 @@
+CreateItemSkin('NA_Nanoj_L','L_PonogLeft','L_PonogLeft', {
+  Visible           True
+  Cost              -1
+  Description       "cc"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "NA_Nanoj_L"
+   MaterialPresetId  0
+   AddObjectD        "NA_Nanoj_L.s03"
+   ArmorAutoGenerate  11  4 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+   PlusStrenght     0
+   PlusConstitution 0
+   PlusMagicPower  0
+});

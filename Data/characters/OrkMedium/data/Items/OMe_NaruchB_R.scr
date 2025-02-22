@@ -1,0 +1,13 @@
+CreateItemSkin('OMe_NaruchB_R','HA_NaruchUpRight','HA_NaruchUpRight', {
+  Visible           True
+  Cost              -1
+  Description       "OMe_NaruchB_R"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "OMe_NaruchB_R"
+   MaterialPresetId  0
+   ArmorAutoGenerate  3  2 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

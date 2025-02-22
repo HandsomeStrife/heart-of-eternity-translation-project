@@ -1,0 +1,14 @@
+CreateSoundLib('OM_VAttack1a.wav','OMa0',2,20,100);
+CreateSoundLib('OM_VAttack1b.wav','OMa1',2,20,100);
+CreateSoundLib('OM_VAttack2a.wav','OMa2',2,20,100);
+CreateSoundLib('OM_VAttack2b.wav','OMa3',2,20,100);
+CreateSoundLibGroup('OMa',4,'OMa');
+CreateSoundLib('OM_VHit1a.wav','OMh0',2,30,100);
+CreateSoundLib('OM_VHit1b.wav','OMh1',2,30,100);
+CreateSoundLibGroup('OMh',2,'OMh');
+CreateSoundLib('OM_VDeath_a.wav','OMd0',2,30,100);
+CreateSoundLib('OM_VDeath_b.wav','OMd1',2,30,100);
+CreateSoundLibGroup('OMd',2,'OMd');
+CreateSoundLib('OM_VVoice.wav','OMs0',2,30,100);
+CreateSoundLib('OM_VVoice_b.wav','OMs1',2,30,100);
+CreateSoundLibGroup('OMs',2,'OMs');

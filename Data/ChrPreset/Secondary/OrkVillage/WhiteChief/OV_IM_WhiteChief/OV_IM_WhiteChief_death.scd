@@ -1,0 +1,11 @@
+IfN_Flag_GoTo(410,5,@1);
+ BlackScreenStart('...');
+ RespawnCharacter('OV_IM_WhiteChief');
+ SetCharacterLifeK('OV_IM_WhiteChief',1);
+ SetFlag(410,6);
+ AIS_GoTo(@2);
+@1:
+  RespawnCharacter('OV_IM_WhiteChief');
+  SetCharacterLifeK('OV_IM_WhiteChief',1);
+@2:
+NOP();

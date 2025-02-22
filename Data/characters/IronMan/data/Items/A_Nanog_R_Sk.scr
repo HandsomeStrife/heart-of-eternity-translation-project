@@ -1,0 +1,12 @@
+CreateItemSkin('A_Nanog_R_Sk','L_PonogRight','L_PonogRight', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Nanog_R"
+   MaterialPresetId  3
+   ArmorAutoGenerate  1  2 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

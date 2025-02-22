@@ -1,0 +1,12 @@
+AddCharacterPresets('CivDwarf','CivilMan','DW_2axe',{
+ Description                 "DW_2axe"
+ Position                    1144.9330,1131.1486,171.8680
+ Rotation                    0 0 155
+ MobParam                    2 24
+ VisibleSkin                 "I_Fona"
+ VisibleSkinParam            "HB_BorSmall" 2
+ AddSkinItem                 "HandArmor_24.scr" "HandArmor"
+ AddSkinItem                 "Legins_24.scr" "Leggings"
+ AddItem		     "Dwarf\OneHand\DwarfAxe2\DwarfAxe2.scr" "Left_Scabbard"
+ AddItem		     "Dwarf\OneHand\DwarfAxe1\DwarfAxe1.scr" "Right_Scabbard"
+});

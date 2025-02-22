@@ -1,0 +1,18 @@
+AddCharacterPresets('MagVillage','Enemy','Mag_l37',{
+ Description                 "Mag_l37"
+ Position                    80 80 0
+ Rotation                    0 0 0
+ MobParam                    4 42
+ VisibleSkin                 "MV_B_Long"
+ VisibleSkin                 "MV_H_Med"
+ VisibleSkin                 "I_AMAmulet"
+ VisibleSkin                 "AH_Cap1"
+ VisibleSkin                 "AH_Cap2"
+ VisibleSkin                 "AH_Cap3"
+ VisibleSkin                 "AH_Cap4"
+ VisibleSkin                 "I_AMMTunika"
+ AddSkinItem                 "A_AMPlash_l37.scr" "Armor"
+ AddItem		     "Stuffs\Stuff_7\Stuff_7.scr" "DefaultSlot"
+ PartitionEnable              False
+ SetState                    32
+});

@@ -1,0 +1,23 @@
+IfN_Flag_GoTo(461,3,@1);     
+ AddEnemy('CD_IM_DoorMan_1','warior');
+ AddEnemy('CD_IM_DoorMan_2','warior');
+ AddEnemy('CD_IM_Boss','warior');
+ AddEnemy('CD_CM_Boy_1','warior');
+ AddEnemy('CD_CM_Boy_2','warior');
+ AddEnemy('CD_CM_Boy_3','warior');
+ AddEnemy('CD_CM_Boy_4','warior');
+ AddEnemy('CD_CM_Boy_5','warior');
+ AddEnemy('CD_IM_Boy_1','warior');
+ AddEnemy('CD_IM_Boy_2','warior');
+ AddEnemy('CD_IM_Boy_3','warior');
+ AddEnemy('CD_IM_Boy_4','warior');
+ AddEnemy('CD_IM_Boy_5','warior');
+ AddEnemy('CD_OLD_Wiz','CD_IM_Boss');	
+ SetFlag(461,4);
+@1:
+IfN_Flag_GoTo(461,0,@2);     
+ IfN_DistToMC_GoTo(3,@2);
+  SetFlag(461,1);
+  CHRSCR_AddTimePeriod(461,0,15);  
+  StartCurrDialog('CD_IM_DoorMan_1');
+@2:

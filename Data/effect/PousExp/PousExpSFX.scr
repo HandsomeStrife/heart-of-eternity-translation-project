@@ -1,0 +1,6 @@
+CreateSFX('SmokeESFX',{
+    AddSFXPSTag  "data\effect\PousExp\PousExpPS.scr" pos: 0 0 0 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    LiveTime        = 4
+});

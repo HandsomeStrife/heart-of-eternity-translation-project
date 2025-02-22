@@ -1,0 +1,11 @@
+AddCharacterPresets('ElfSkaut','CIVILMAN','OV_ESk_Scout_3',{
+ Description                 "OV_ESk_Scout_4"
+ Position                    2594.4390,72.9469,172.5318
+ Rotation                    0 0 90
+ MobParam                    3 25
+ AddSkinItem                 "HandArmor_20.scr" "HandArmor"
+ AddSkinItem                 "Legins_20.scr" "Leggings"
+ AddItem                     "Elf\OneHand\e_sword\e_sword.scr" "Left_Scabbard"
+ AddItem                     "Elf\OneHand\e_sword\e_sword.scr" "Right_Scabbard"
+ PartitionEnable              False
+});

@@ -1,0 +1,19 @@
+AddCharacterPresets('IronMan','CivilMan','TV_IM_Interested',{
+ Description                 "Logan"
+ Position                    722.1092,1504.1525,164.5008
+ Rotation                    0 0 96
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkinParam            "I_Man_Sh" 2
+ VisibleSkin                 "I_Otv_Hand"
+ VisibleSkin                 "H_HvLong"
+ AddBeforeDialogScript       "TV_IM_Interested_BD.scd"
+ AddDialog                   "TV_IM_Interested_D0.dlg" 0
+ AddDialog                   "TV_IM_Interested_D1.dlg" 1
+ AddDialog                   "TV_IM_Interested_D9.dlg" 9
+ AddItem                     "Human\OneHand\knightsword\knightsword.scr" "Left_Scabbard"
+ PartitionEnable             False
+ DropEnable	             False
+ Attack 		     False
+ AutoSpawn   1.0
+});

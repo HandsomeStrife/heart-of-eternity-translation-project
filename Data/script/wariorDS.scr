@@ -1,0 +1,53 @@
+IfN_Flag_GoTo(382,1,@1);
+BlackScreenStart('You have shamefully lost the battle...');
+ RespawnCharacter('warior');
+ SetCharacterPosition('warior',1206.2037,1103.6229,174.9816);
+ SetCharacterRotation('warior',0,0,300);
+ AddFriend('TM_DW_Helm','warior');
+ SetFlag(382,0);
+ SetCharacterLife('TM_DW_Helm',-1);
+ SetCharacterPosition('TM_DW_Guard',1137.9761,1120.3622,172.2041);
+ SetCharacterRotation('TM_DW_Guard',0,0,90);
+ SetCharacterPosition('TM_DW_Guard2',1136.9834,1126.7377,172.2041);
+ SetCharacterRotation('TM_DW_Guard2',0,0,90);
+ SetCharacterPosition('TM_DW_Tamoj',1204.7400,1104.3124,175.1286);
+ SetCharacterRotation('TM_DW_Tamoj',0,0,120);
+ SetCharacterPosition('TM_DW_Helm',1210.6346,1113.7448,179.1896);
+ SetCharacterRotation('TM_DW_Helm',0,0,170);
+@1:
+IfN_Flag_GoTo(360,4,@2);
+BlackScreenStart('You have shamefully lost the battle...');
+ SetFlag(360,6);
+ AddFriend('TV_IM_Rubaka','warior');
+ RespawnCharacter('warior');
+ SetCharacterPosition('warior',555.2246,2549.8801,46.5129);
+ SetCharacterPosition('TV_IM_Rubaka',553.8754,2550.9761,46.5129);
+ SetCharacterPosition('TV_IM_Archer',552.4833,2551.0073,46.5129);
+ SetCharacterPosition('TV_OLD_Sorcher',552.4996,2549.8198,46.5129);
+@2:
+IfN_Flag_GoTo(360,10,@3);
+BlackScreenStart('You have shamefully lost the battle...');
+ SetFlag(360,12);
+ AddFriend('TV_OLD_Sorcher','warior');
+ RespawnCharacter('warior');
+ SetCharacterPosition('warior',550.9484,2550.2554,46.5129);
+ SetCharacterPosition('TV_IM_Rubaka',553.8754,2550.9761,46.5129);
+ SetCharacterPosition('TV_IM_Archer',552.4833,2551.0073,46.5129);
+ SetCharacterPosition('TV_OLD_Sorcher',552.4996,2549.8198,46.5129);
+@3:
+IfN_Flag_GoTo(410,5,@4);
+BlackScreenStart('You have shamefully lost the battle...');
+ SetFlag(410,3);
+ AddFriend('OV_IM_WhiteChief','warior');
+ RespawnCharacter('warior');
+ JVisibleRecord(410,3);
+@4:
+IfN_Flag_GoTo(86,2,@5);
+ BlackScreenStart('Your trial is over...');
+ RespawnCharacter('warior');
+ SetCharacterPosition('warior',1660.5640,1856.9178,67.2959);
+ SetFlag(86,3);
+ JVisibleRecord(34,9);
+ JQuestRecordComplete(34,4);
+@5:
+NOP(1);

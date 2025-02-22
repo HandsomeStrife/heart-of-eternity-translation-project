@@ -1,0 +1,52 @@
+CreateMaterial('M_Blood','data\effect\blood\maps\blood01.tga',{
+ BlendEnable			True
+ SRCBlend			"SrcAlpha"
+ DSTBlend			"InvSrcAlpha"
+ AlphaTestEnable		False
+ ColorArgOne		id = 0  "Texture"
+ ColorOp		id = 0  "Modulate"
+ ColorArgTwo            id = 0  "Current"
+ AlphaArgOne		id = 0  "Texture"
+ AlphaOp		id = 0  "Modulate"
+ AlphaArgTwo		id = 0  "Diffuse"
+ TextureCIndex          id = 0  0
+ MatrixTextTransform    id = 0  False
+ TCIFunction		id = 0  "passthru"
+ zWriteEnable			False
+ LightEnable			False
+});
+CreateParticlSystem('EB_blood',{
+ ParticlProcType	"BLOOD"
+ SpawnType		"Sphere"
+ Radius			0.0
+ SpawnPosTwo		0 0 0
+ SpawnPosThree		0 0 0
+ SpawnSpeed		800.0
+ SizeMin		0.25
+ SizeMax                0.82
+ TimeLive		1.2
+ MaxNumParticl		1400
+ Immortal		False
+ SetPSColor		id = 0	time = 0.0  255 255 255 0
+ SetPSColor		id = 1	time = 0.2  255 255 255 128
+ SetPSColor		id = 2	time = 0.7  255 255 255 128
+ SetPSColor		id = 2	time = 1.0  200 200 200 0
+ ForceVector		id = 0  0.0 0.0 1.0
+ ForceStrength		id = 0  4.3
+ AngleZXY		id = 0  -45    45
+ AngleXY		id = 0  -45    45
+ ForceVector		id = 1  0.0 0.0 1.0
+ ForceStrength		id = 1  -10.0
+ AngleZXY		id = 1  15  -15
+ AngleXY		id = 1  15  -15
+ Position	        0 0 0
+ Rotation		0 0 0
+ SizeMinSec		2
+ MassMin                1
+ SetMaterial		"M_Blood"
+ SpiralRotate           False
+ SpiralSpeedRotate	360
+ SpiralVectorRotate	0 0 1
+ SpeedRotate		150
+ SpawnRandomRot		True
+});

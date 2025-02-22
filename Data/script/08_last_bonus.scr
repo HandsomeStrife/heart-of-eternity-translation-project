@@ -1,0 +1,3 @@
+GetBonusForQuest(10,3);
+DeleteItemChr('warior','08_last');
+AddItemChrSlot('warior','Human\Ranged\QuiverBig3\QuiverBig3.scr','Bag');

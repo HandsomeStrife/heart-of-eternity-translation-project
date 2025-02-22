@@ -1,0 +1,23 @@
+AddCharacterPresets('Civman','CivilMan','TV_CM_Richi',{
+ Description                 "Виктор"
+ Position                    552.6907,2536.3545,46.5129
+ Rotation                    0 0 0
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "A_PlashS"
+ VisibleSkin                 "H_Gor"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "TV_CM_Richi_BD.scd"
+ AddProcScript               "TV_CM_Richi_AI.sci"
+ AddDialog                   "TV_CM_Richi_d.dlg" 0
+ AddDialog                   "TV_CM_Richi_d1.dlg" 1
+ AddDialog                   "TV_CM_Richi_d2.dlg" 2
+ AddDialog                   "TV_CM_Richi_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

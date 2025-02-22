@@ -1,0 +1,9 @@
+BlackScreenStart('...');
+SetCharacterPosition('warior',2622.9045,731.3216,178.7606);
+SetCharacterRotation('warior',0,0,135);
+SetCharacterPosition('OV_IM_WhiteChief',2628.3862,723.9888,178.4504);
+SetCharacterRotation('OV_IM_WhiteChief',0,0,315);
+SetCharacterPosition('OV_OB_CampGuard',2630.8918,730.4453,179.3448);
+SetCharacterRotation('OV_OB_CampGuard',0,0,190);
+AddEnemy('OV_IM_WhiteChief','warior');
+SetFlag(410,5);

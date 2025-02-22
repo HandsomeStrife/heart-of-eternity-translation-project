@@ -1,0 +1,14 @@
+AddCharacterPresets('IronMan','Enemy','IM_l56',{
+ Description                 "IM_l56"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    2 56
+ SetFace                     2
+ AddSkinItem                 "A_Cuirass_S_l55.scr" "Armor"
+ AddSkinItem                 "HandArmor_56.scr" "HandArmor"
+ AddSkinItem                 "AH_PalladinP_S_l55.scr" "Helmet"
+ AddSkinItem                 "SecArmor_K2_l55.scr" "SecArmor"
+ AddSkinItem                 "Legins_56.scr" "Leggings"
+ AddItem                     "Human\OneHand\bastard03\bastard03.scr" "Right_Scabbard"
+ AddItem                     "Human\OneHand\Axe_Klevec3\Axe_Klevec3.scr" "Left_Scabbard"
+});

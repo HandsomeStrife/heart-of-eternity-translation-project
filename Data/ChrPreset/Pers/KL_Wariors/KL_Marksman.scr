@@ -1,0 +1,26 @@
+AddCharacterPresets('ElfSkaut','CivilMan','KL_Marksman',{
+ Description                 "Pulya"
+ Position                    1680.0813,1869.0728,62.0475
+ Rotation                    0 0 0
+ AddDeathScript		     "KL_Marksman_death.scd"
+ MobParam                    3 30
+ VisibleSkin                 "ES_Naplech_L"
+ VisibleSkin                 "ES_AH_Helmet2"
+ VisibleSkin                 "ES_Naplech_R"
+ VisibleSkin                 "Elf_SK_Sh"
+ VisibleSkin                 "ES_Naruch_R"
+ VisibleSkin                 "ES_Shit_R"
+ VisibleSkin                 "ES_Shit_F"
+ VisibleSkin                 "ES_Ponoj_R"
+ VisibleSkin                 "ES_Ponoj_L"
+ VisibleSkin                 "ES_Shit_L"
+ VisibleSkin                 "ES_Naruch_L"
+ VisibleSkin                 "ES_Shit_B"
+ AddSkinItem                 "HandArmor_20.scr" "HandArmor"
+ AddSkinItem                 "ES_AH_Helmet2_l20.scr" "Helmet"
+ AddSkinItem                 "Legins_20.scr" "Leggings"
+ AddItem                     "Elf\Ranged\Bows\e_bow05\e_bow05.scr" "Bow"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ Attack 		      False
+ PartitionEnable              False
+});

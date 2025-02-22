@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\DemonDog\data\DemonDog.mc',
+'DemonDog',
+'data\characters\DemonDog\data\','vepr','DemonDog_Sh',' ');

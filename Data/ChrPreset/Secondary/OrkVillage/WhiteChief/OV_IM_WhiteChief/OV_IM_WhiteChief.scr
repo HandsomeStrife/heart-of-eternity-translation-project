@@ -1,0 +1,21 @@
+AddCharacterPresets('IronMan','CivilMan','OV_IM_WhiteChief',{
+ Position                    2630.2361,728.5096,178.3483
+ Rotation                    0 0 0
+ MobParam                    1 25
+ Life			     500
+ PlusStrenght                40
+ PlusDexterity               40
+ PlusIntellect               40
+ PlusPermeability            40
+ AddDeathScript		     "OV_IM_WhiteChief_death.scd"
+ AddBeforeDialogScript       "OV_IM_WhiteChief_BD.scd"
+ AddDialog                   "OV_IM_WhiteChief_d0.dlg" 0
+ AddDialog                   "OV_IM_WhiteChief_d1.dlg" 1
+ AddDialog                   "OV_IM_WhiteChief_d9.dlg" 9
+ VisibleSkin                 "HB_Med"
+ VisibleSkin                 "H_Irok"
+ AddSkinItem                 "SecArmor_K2_l35.scr" "SecArmor"
+ AddItem                     "Ork\TwoHand\o_2handsword\o_2handsword.scr" "TwoHandSword"
+ PartitionEnable              False
+ DropEnable	              False
+});

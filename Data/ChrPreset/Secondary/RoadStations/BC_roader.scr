@@ -1,0 +1,15 @@
+AddCharacterPresets('Starosta','CIVILMAN','BC_roader',{
+ Description                 "BC_roader"
+ Position                    1033.0320,2344.6423,98.7567
+ Rotation                    0 0 180
+ AddDialog                   "BC_roader_d0.dlg" 0
+ AddDialog                   "ALL_roaders_d9.dlg" 9
+ VisibleSkin                 "I_SkirtSm"
+ VisibleSkin                 "AH_SelKolp"
+ VisibleSkin                 "I_Otv_Hand"
+ AddItem                     "Human\OneHand\Knife01\Knife01.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

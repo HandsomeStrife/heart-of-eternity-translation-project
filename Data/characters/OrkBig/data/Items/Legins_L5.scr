@@ -1,0 +1,10 @@
+CreateItemSkin('OB_Legins5','Leggings','Leggings', {
+ Visible	         True
+ Cost		         -1
+ Width             2
+ Height            3
+ Description             "Ork Legins5"
+ AddSkinFromItem         "OB_Plasron.scr"
+ AddSkinFromItem         "OB_Sapog_L.scr"
+ AddSkinFromItem         "OB_Sapog_R.scr"
+});

@@ -1,0 +1,19 @@
+AddCharacterPresets('IronManUD','Enemy','IMUD_27',{
+ Description                 "Undead_27"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    3 27
+ ScaleX                      1.05
+ ScaleY                      1.05
+ ScaleZ                      1.05
+ AddDeathScript              "IMUD_Death.scd"
+ AddSkinItem                 "AH_Greben.scr" "Helmet"
+ AddSkinItem                 "A_Cuirass_l13.scr" "Armor"
+ AddSkinItem                 "HandArmor_Norm_l13.scr" "HandArmor"
+ AddSkinItem                 "Legins_Norm_l13.scr" "Leggings"
+ VisibleSkin                 "ZombyBig_Sh"
+ AddItem                     "Undead\Ranged\u_bow\u_bow.scr" "Bow"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Undead\OneHand\u_klevec\u_klevec.scr" "Left_Scabbard"
+ AddItem                     "Undead\OneHand\u_klevec\u_klevec.scr" "Right_Scabbard"
+});

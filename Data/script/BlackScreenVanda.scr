@@ -1,0 +1,5 @@
+SetFlag(305,9);
+ReposeToATimeMC(7);
+BlackScreenStart('The next morning...');
+AddParamMC(1,0,0,0,0);
+AddHotKeyHelp('Parameters increased',46);

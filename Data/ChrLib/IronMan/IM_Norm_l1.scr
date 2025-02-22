@@ -1,0 +1,16 @@
+AddCharacterPresets('IronMan','Enemy','IM_l1',{
+ Description                 "IM_l1"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 1
+ VisibleSkin                 "AH_SelKolp"
+ VisibleSkin                 "I_Man_Sh"
+ VisibleSkin                 "A_Napl4_L"
+ VisibleSkin                 "A_Naruk_R"
+ VisibleSkin                 "I_NaruchKuz"
+ VisibleSkin                 "I_Otv_FootU"
+ VisibleSkin                 "H_BakiLis"
+ AddDeathScript              "cmdscr.scd"
+ AddItem                     "Human\Shield\buckler01\buckler01_l2.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\club\club.scr" "Left_Scabbard"
+});

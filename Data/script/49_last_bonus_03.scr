@@ -1,0 +1,4 @@
+GetBonusForQuest(15,2);
+DeleteItemChr('warior','49_last3');
+AddItemChrSlot('warior','Dwarf\OneHand\DwarfAxe1\DwarfAxe1.scr','Bag');
+AddMoneyToMC(4000);

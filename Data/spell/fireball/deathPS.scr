@@ -1,0 +1,54 @@
+CreateMaterial('M_FBD_PS1','animExp.tga',{
+ BlendEnable			True
+ SRCBlend			"One"
+ DSTBlend			"InvSrcColor"
+ AlphaTestEnable		False
+ ColorArgOne		id = 0  "Texture"
+ ColorOp		id = 0  "Modulate"
+ ColorArgTwo            id = 0  "Current"
+ AlphaArgOne		id = 0  "Texture"
+ AlphaOp		id = 0  "Modulate"
+ AlphaArgTwo		id = 0  "Diffuse"
+ TextureCIndex          id = 0  0
+ MatrixTextTransform    id = 0  False
+ TCIFunction		id = 0  "passthru"
+ AnimMaterial			True
+ AnimMatAutoPlay		False
+ AnimMatFPS			25
+ AnimMatWSquare			42
+ AnimMatHSquare			42
+ AnimMatNumFrame		36
+ zWriteEnable			False
+ LightEnable			False
+});
+CreateParticlSystem('FB_Death1',{
+ ParticlProcType	"Flue"
+ SpawnType		"Circle"
+ Radius			0.4
+ SpawnPosTwo		0 0 0
+ SpawnPosThree		0 0 0
+ SpawnSpeed		40.0
+ SizeMin		1 
+ SizeMax                3
+ TimeLive		1
+ MaxNumParticl		150
+ Immortal		False
+ SetPSColor		id = 0	time = 0.0  0 0 0 0
+ SetPSColor		id = 1	time = 0.1  128 64 0 0
+ SetPSColor		id = 2	time = 0.9  200 200 200 0
+ SetPSColor		id = 3	time = 1.0  0 0 0 0
+ ForceVector		id = 0  0.0 0.0 1.0
+ ForceStrength		id = 0  2.0
+ AngleZXY		id = 0  0    360
+ AngleXY		id = 0  0   80
+ ForceVector		id = 1  0.0 0.0 1.0
+ ForceStrength		id = 1  0
+ AngleZXY		id = 1  0    360
+ AngleXY		id = 1  -12  12
+ Position	        0 0 0
+ Rotation		0 0 0
+ AutoAnimate		True
+ SetMaterial		"M_FBD_PS1"
+ SpawnRandomRot 	True
+ SpeedRotate		-150
+});

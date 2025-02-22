@@ -1,0 +1,18 @@
+AddCharacterPresets('MagVillage','CivilMan','BC_TR_P',{
+ Description                 "Стивен"
+ Position                    1039.7788,2316.2883,96.8065
+ Rotation                    0 0 0
+ PlusStrenght                100
+ PlusDexterity               100
+ PlusConstitution            100
+ PlusIntellect               100
+ PlusMagicPower              100
+ AddDialog                   "BC_TR_A9.dlg" 9
+ AddDialog                   "BC_TR_P_d.dlg" 0
+ VisibleSkin                 "MV_B_Med"
+ VisibleSkin                 "MV_O_KapDown"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

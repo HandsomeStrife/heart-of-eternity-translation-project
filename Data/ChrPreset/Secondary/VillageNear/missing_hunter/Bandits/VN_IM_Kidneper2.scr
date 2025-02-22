@@ -1,0 +1,16 @@
+AddCharacterPresets('IronMan','CivilMan','VN_IM_Kidneper2',{
+ Description                 "nafnaf"
+ Position                    1692.3728,2128.5381,77.9811
+ Rotation                    0 0 0
+ VisibleSkin                 "AH_SelKolp"
+ VisibleSkin                 "AH_Mask"
+ MobParam                    2 10
+ AddProcScript               "VN_IM_Kidneper2_AI.sci"
+ AddDeathScript		     "Bandits_death.scd"
+ AddItem                     "Human\OneHand\karoling1\karoling1.scr" "Left_Scabbard"
+ AddItem                     "Human\Shield\buckler01\buckler01.scr" "Spine_shield"
+ AddSkinItem                 "HandArmor_l8.scr" "HandArmor"
+ AddSkinItem                 "A_PlashS_l5.scr" "Armor"
+ AddSkinItem                 "Legins_Sk_l8.scr" "Leggings"
+ PartitionEnable              False
+});

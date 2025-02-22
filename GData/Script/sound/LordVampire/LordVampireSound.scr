@@ -1,0 +1,14 @@
+CreateSoundLib('VL_VAttack1a.wav','VLa0',2,20,100);
+CreateSoundLib('VL_VAttack1b.wav','VLa1',2,20,100);
+CreateSoundLib('VL_VAttack1c.wav','VLa2',2,20,100);
+CreateSoundLib('VL_VAttack2a.wav','VLa3',2,20,100);
+CreateSoundLib('VL_VAttack2b.wav','VLa4',2,20,100);
+CreateSoundLib('VL_VAttack2c.wav','VLa5',2,20,100);
+CreateSoundLibGroup('VLa',6,'VLa');
+CreateSoundLib('VL_VHit1a.wav','VLh0',2,30,100);
+CreateSoundLib('VL_VHit1b.wav','VLh1',2,30,100);
+CreateSoundLibGroup('VLh',2,'VLh');
+CreateSoundLib('VL_VDeath .wav','VLd0',2,30,100);
+CreateSoundLibGroup('VLd',1,'VLd');
+CreateSoundLib('VL_VSocial1.wav','VLs0',1,10,40);
+CreateSoundLibGroup('VLs',1,'VLs');

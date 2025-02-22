@@ -1,0 +1,9 @@
+AddCharacterPresets('OrkMedium','CivilMan','OMe_axe',{
+ Description                 "OMe_axe"
+ MobParam                    1 7
+ VisibleSkin                 "OMed_HEARE_Sh"
+ AddSkinItem                 "HandArmor_Str_l7.scr" "HandArmor"
+ AddSkinItem                 "Legins_Str_l7.scr" "Leggings"
+ AddItem                     "Ork\OneHand\o-bloodknife\o-bloodknife.scr" "Left_Scabbard"
+ AddItem                     "Ork\OneHand\skull_axe1\skull_axe1.scr" "Right_Scabbard"
+});

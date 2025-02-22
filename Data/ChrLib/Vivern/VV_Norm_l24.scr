@@ -1,0 +1,11 @@
+AddCharacterPresets('Vivern','Enemy','VV_l24',{
+ Description                 "VV_l24"
+ Position                    80.2812 75.2020 5
+ Rotation                    0 0 90
+ MobParam                    0 24
+ ScaleX                      1.1
+ ScaleY                      1.1
+ ScaleZ                      1.1
+ AddDeathScript              "VV_Norm_l20q.scd"
+ AddItem		     "Animal\Vivern\VivernWeapon.scr" "Right_Hand"
+});

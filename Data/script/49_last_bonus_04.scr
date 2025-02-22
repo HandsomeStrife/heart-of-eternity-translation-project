@@ -1,0 +1,4 @@
+GetBonusForQuest(15,2);
+DeleteItemChr('warior','49_last4');
+AddArmorChrSlot('warior','HandArmor_DW.scr','Bag');
+AddMoneyToMC(5000);

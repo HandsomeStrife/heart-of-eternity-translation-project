@@ -1,0 +1,11 @@
+AddObjectToLib('data\object\Chest\ChestBig.ZRS',mipmap=4,orientY=0);
+AddObjectToLib('data\object\Chest\ChestBig.ZRS',4,0);
+AddObjectToLib('data\object\Chest\ChestBig1.ZRS',4,0);
+AddObjectToLib('data\object\Chest\ChestMed.ZRS',4,0);
+AddObjectToLib('data\object\Chest\ChestMed1.ZRS',4,0);
+AddObjectToLib('data\object\Chest\ChestMed2.ZRS',4,0);
+AddObjectToLib('data\object\Chest\ChestMed3.ZRS',4,0);
+AddObjectToLib('data\object\Chest\ChestSm1.ZRS',4,0);
+AddObjectToLib('data\object\Chest\ChestSm2.ZRS',4,0);
+AddObjectToLib('data\object\Chest\ChestSm3.ZRS',4,0);
+AddObjectToLib('data\object\Chest\CM_Corpse.zrm',4,0);

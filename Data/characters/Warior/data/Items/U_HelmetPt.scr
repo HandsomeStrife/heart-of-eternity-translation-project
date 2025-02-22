@@ -1,0 +1,14 @@
+CreateItemSkin('U_HelmetPt','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Helmet of Terror"
+  History           "The oppressive lines of form and the deep pale color accurately convey the essence of the dead armor. Armor crafted from living flesh to protect the dead - horrifying and paradoxical, like everything about this thoughtless, fearless, and spineless race. The full armor of the dead is weakly vulnerable to ranged weapons and provides a number of bonuses to your primary attributes."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "U_HelmetPt"
+   MaterialPresetId  0
+   AddObjectD        "U_HelmetPt.s03"
+   ArmorAutoGenerate  12  4 
+   PlusIntellect     8
+   PlusMagicPower  8
+});

@@ -1,0 +1,12 @@
+CreateItemSkin('AH_Ifant_I','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Rusty open helmet"
+  History           " оррози€, или попросту ржавчина, - это, как правило, разрушение металлов под действием окружающей среды. ѕричиной коррозии служит взаимодействие металлов с веществами, наход€щимис€ в воздухе и в атмосферных осадках. ƒанные латы наход€тс€ именно в состо€нии коррозии, так что ждать от них чудес не стоит, хот€ их защитные характеристики выше кожаного доспеха."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Ifant"
+   MaterialPresetId  1
+   AddObjectD        "AH_Ifant_I.s03"
+   ArmorAutoGenerate  5  1 
+});

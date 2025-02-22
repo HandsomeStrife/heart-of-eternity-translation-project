@@ -1,0 +1,14 @@
+IfN_Flag_GoTo(985,4,@1);
+AIS_AddQunatityItem(9854);
+SetFlag(985,14);
+JQuestRecordComplete(985,7);
+JVisibleRecord(985,8);
+@1:
+NOP(0);
+IfN_Flag_GoTo(991,5,@2);
+AIS_AddQunatityItem(9915);
+SetFlag(991,15);
+JQuestRecordComplete(991,9);
+JVisibleRecord(991,10);
+@2:
+NOP(0);

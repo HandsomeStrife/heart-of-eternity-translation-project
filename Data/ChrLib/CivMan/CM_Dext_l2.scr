@@ -1,0 +1,18 @@
+AddCharacterPresets('Civman','Enemy','CM_l2',{
+ Description                 "CM_l2"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ VisibleSkin                 "I_SumkaB"
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "I_PerchIron_L"
+ VisibleSkin                 "A_PlashKup"
+ VisibleSkin                 "AH_Mask"
+ VisibleSkin                 "A_Naruch1_R"
+ VisibleSkin                 "I_Otv_FootD"
+ MobParam                    3 2
+ AddDeathScript              "cmdscr.scd"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\ShortBow\Shortbow.scr" "Bow"
+ AddItem                     "Human\OneHand\Mizerikordia1\Mizerikordia1.scr" "Left_Scabbard"
+});
+                               			

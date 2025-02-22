@@ -1,0 +1,460 @@
+AddAnimationToCharacter('run_forward.anm','RUN_FORWARD',{
+ FPS		30.0
+ Speed		3
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "SR" 7
+ AddSoundTag    "SR" 17
+});
+AddAnimationToCharacter('walk_forward.anm','WALK_FORWARD',{
+ FPS		30.0
+ Speed		1.7
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "SR" 7
+ AddSoundTag    "SR" 20
+});
+AddAnimationToCharacter('walk_Q.anm','WALK_2',{
+ FPS		30.0
+ Speed		1.1
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "SW" 15
+ AddSoundTag    "SW" 34
+ AddSoundTag    "SW" 55
+ AddSoundTag    "SW" 74
+});
+AddAnimationToCharacter('Walk_Ghost.anm','WALK_3',{
+ FPS		30.0
+ Speed		1.0
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "SW" 18
+ AddSoundTag    "SW" 50
+});
+AddAnimationToCharacter('ss_stand.anm','STAND_FIGHT',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('stand.anm','STAND',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('stand_Q.anm','STAND_2',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('ss_run_forward.anm','RUN_FORWARD_F',{
+ FPS		16.6
+ Speed		2.0
+ SpeedVector	0 1 0
+ Looped		True
+ Track		0
+ UseSpeedLine	False
+ AddSoundTag    "SR" 9
+ AddSoundTag    "SR" 18
+});
+AddAnimationToCharacter('ss_walk_forward.anm','WALK_FORWARD_F',{
+ FPS		30.0
+ Speed		2
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('ss_walk_back.anm','WALK_BACK_F',{
+ FPS		30.0
+ Speed		1.1
+ SpeedVector	0 -1 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "SW" 8
+ AddSoundTag    "SW" 20
+});
+AddAnimationToCharacter('ss_walk_right.anm','WALK_RIGHT_F',{
+ FPS		40.0
+ Speed		1.5
+ SpeedVector	1 0 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "SW" 12
+ AddSoundTag    "SW" 23
+});
+AddAnimationToCharacter('ss_walk_left.anm','WALK_LEFT_F',{
+ FPS		40.0
+ Speed		1.5
+ SpeedVector	-1 0 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "SW" 12
+ AddSoundTag    "SW" 23
+});
+AddAnimationToCharacter('hitback.anm','HIT_BACK',{
+ FPS		5.0
+ Speed		0.57
+ SpeedVector	0 -1 0
+ Looped		False
+});
+AddAnimationToCharacter('death.anm','DEATH',{
+ FPS		30.0
+ Speed		1
+ SpeedVector	0 -1 0
+ Looped		False
+});
+AddAnimationToCharacter('sit.anm','SIT',{
+ FPS		10.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('sit_Q.anm','SIT_2',{
+ FPS		10.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('D_F_Atack_LU.anm','D_ATTACK_LEFT',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	1 16
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSpeedLineZone 5 15
+ AddSoundTag    "SD" 11
+ AddSoundTag    "SW" 8
+});
+AddAnimationToCharacter('D_F_Atack_RU.anm','D_ATTACK_RIGHT',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	1 13
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSpeedLineZone 5 15
+ AddSoundTag    "SD" 11
+ AddSoundTag    "SW" 8
+});
+AddAnimationToCharacter('D_F_Atack_RD.anm','D_ATTACK_UP',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	1 16
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSpeedLineZone 5 15
+ AddSoundTag    "SD" 11
+ AddSoundTag    "SW" 8
+});
+AddAnimationToCharacter('D_F_Atack_LD.anm','D_ATTACK_DOWN',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	1 13
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSpeedLineZone 5 15
+ AddSoundTag    "SD" 11
+ AddSoundTag    "SW" 8
+});
+AddAnimationToCharacter('D_F_Run_Forward.anm','D_RUN_FORWARD_F',{
+ FPS		23.0
+ Speed		1.5
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "SR" 9
+ AddSoundTag    "SR" 18
+});
+AddAnimationToCharacter('D_F_Walk_Right.anm','D_WALK_RIGHT_F',{
+ FPS		45.0
+ Speed		1.5
+ SpeedVector	1 0 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "SW" 12
+ AddSoundTag    "SW" 23
+});
+AddAnimationToCharacter('D_F_Walk_Left.anm','D_WALK_LEFT_F',{
+ FPS		45.0
+ Speed		1.5
+ SpeedVector	-1 0 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "SW" 12
+ AddSoundTag    "SW" 23
+});
+AddAnimationToCharacter('D_Rotate.anm','D_ROTATE',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('SS_Rotate.anm','SS_ROTATE',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('DD_Rotate.anm','DD_ROTATE',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('D_Stand.anm','STAND_TWOHAND_FIGHT',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('talk.anm','TALK',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('DD_Attack_LU_RD.anm','DD_ATTACK_LEFT',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 18
+ AddSpeedLineZone 9 18
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SSS" 12
+ AddSoundTag    "SW" 17
+});
+AddAnimationToCharacter('DD_Attack_RU_LD.anm','DD_ATTACK_RIGHT',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 18
+ AddSpeedLineZone 11 18
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SSS" 12
+ AddSoundTag    "SW" 17
+});
+AddAnimationToCharacter('DD_Attack_RD_LU.anm','DD_ATTACK_UP',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 18
+ AddSpeedLineZone 9 18
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SSS" 12
+ AddSoundTag    "SW" 17
+});
+AddAnimationToCharacter('DD_Attack_LD_RU.anm','DD_ATTACK_DOWN',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 18
+ AddSpeedLineZone 9 18
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SSS" 12
+ AddSoundTag    "SW" 17
+});
+AddAnimationToCharacter('DD_Stand.anm','DD_STAND_F',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		True
+ Track		0
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('SS_Attack_LU_RD.anm','BLOW_LEFT',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 15
+ AddSpeedLineZone 9 14
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SSS" 12
+ AddSoundTag    "SW" 17
+});
+AddAnimationToCharacter('SS_Attack_RU_LD.anm','BLOW_RIGHT',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 15
+ AddSpeedLineZone 11 15
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SSS" 12
+ AddSoundTag    "SW" 17
+});
+AddAnimationToCharacter('SS_Attack_RD_LU.anm','BLOW_UP',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 15
+ AddSpeedLineZone 9 14
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SSS" 12
+ AddSoundTag    "SW" 17
+});
+AddAnimationToCharacter('SS_Attack_LD_RU.anm','BLOW_DOWN',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 16
+ AddSpeedLineZone 9 14
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SSS" 12
+ AddSoundTag    "SW" 17
+});
+AddAnimationToCharacter('SS_Jump_Left.anm','DODGE_LEFT',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0.0 0.0 0.0
+ Looped		False
+ TranslateX     True
+ AddSoundTag    "SW" 18
+});
+AddAnimationToCharacter('SS_Jump_Right.anm','DODGE_RIGHT',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0.0 0.0 0.0
+ Looped		False
+ TranslateX     True
+ AddSoundTag    "SW" 18
+});
+AddAnimationToCharacter('SpecialsSS1.anm','SPECBOT_SS1',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ AddDamageZone	31 41
+ AddSpeedLineZone 1 41
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SR" 18
+ AddSoundTag    "SR" 36
+ AddSoundTag    "SSS" 16
+ AddSoundTag    "SSS" 33
+});
+AddAnimationToCharacter('SpecialsSS2.anm','SPECBOT_SS2',{
+ FPS		40.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ AddDamageZone	14 41
+ AddSpeedLineZone 1 41
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SSS" 18
+ AddSoundTag    "SR" 26
+});
+AddAnimationToCharacter('SpecialsDD1.anm','SPECBOT_DD1',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ AddDamageZone	12 30
+ AddSpeedLineZone 12 30
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SR" 10
+ AddSoundTag    "SR" 25
+ AddSoundTag    "SSS" 12
+ AddSoundTag    "SSS" 25
+});
+AddAnimationToCharacter('SpecialsDD2.anm','SPECBOT_DD2',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ AddDamageZone	18 22
+ AddSpeedLineZone 18 22
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "SR" 17
+ AddSoundTag    "SSS" 13
+});
+AddAnimationToCharacter('Get_Up_Front.anm','GETUP_B',{
+ FPS		20.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Get_Up_Back.anm','GETUP_F',{
+ FPS		20.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('R_B_Short.anm','BOW_SHORT',{
+ FPS		20.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ UseSpeedLine	False
+ AddDamageZone  6 35
+});
+AddAnimationToCharacter('StandNoStamina.anm','NOSTAMINA',{
+ FPS		20.0
+ Speed		0
+ SpeedVector	1 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('D_F_Jump_Back.anm','D_DODGE_BACK',{
+ FPS		30.0
+ Speed		3
+ SpeedVector	0 -1 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "SW" 18
+});

@@ -1,0 +1,11 @@
+CreateSFXAnimation('ASPS',fps=15,numFrame=30,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 1.7      29
+AddTranslateKey   0 0 0.1    0
+});
+CreateSFX('LifeCSFX',{
+    AddSFXPSTag  "data\effect\Stamina\StaminaPS.scr" pos: 0 0 0 "ASPS"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    LiveTime        = 2.1
+    LinkParam         33
+});

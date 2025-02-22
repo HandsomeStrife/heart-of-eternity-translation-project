@@ -1,0 +1,2 @@
+AddEnemy('DC_LV_KainF','warior');
+AddEnemy('warior','DC_LV_KainF');

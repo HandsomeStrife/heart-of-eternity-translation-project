@@ -1,0 +1,18 @@
+IfN_Flag_GoTo(28,1,@2);
+ SetFlag(28,2);
+ SetFlag(29,1);
+ SetFlag(31,1);
+ JQuestRecordComplete(21,1);
+ JVisibleRecord(21,2);
+ AIS_GoTo(@3);
+ AddExpMC(2500);
+ AddMoneyToMC(5000);
+ AddSkillPointsToMC(500);
+@2:
+ IfN_Flag_GoTo(381,1,@1);
+ SetFlag(381,2);
+@1:                
+  RespawnCharacter('TV_DW_Grim');
+  SetCharacterLifeK('TV_DW_Grim',-1);
+@3:
+NOP();

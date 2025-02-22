@@ -1,0 +1,29 @@
+AddCharacterPresets('IronMan','CivilMan','07_last_fortguard',{
+ Description                 "07_last_fortguard"
+ Position                    1169.9054,2836.6196,5.6675
+ Rotation                    0 0 0
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkinParam            "I_Man_Sh" 2
+ VisibleSkinParam            "A_Cuirass" 2
+ VisibleSkinParam            "A_Napl3_L" 2
+ VisibleSkinParam            "A_Nanog_L" 2
+ VisibleSkinParam            "A_Naruch3_L" 2
+ VisibleSkinParam            "A_Naruch3_R" 2
+ VisibleSkinParam            "A_Naruk_R" 2
+ VisibleSkinParam            "A_Skirt" 2
+ VisibleSkinParam            "A_Nanog_R" 2
+ VisibleSkinParam            "A_Napl3_R" 2
+ VisibleSkinParam            "A_Naruk_L" 2
+ VisibleSkin                 "H_HvLong"
+ VisibleSkinParam            "A_Sapog1_L" 1
+ VisibleSkinParam            "A_Sapog1_R" 1
+ AddDialog                   "07_last_fortguard_00.dlg" 0
+ AddDialog                   "07_last_fortguard_09.dlg" 9
+ AddItem                     "Human\OneHand\mace02\mace02.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\daga1\daga1.scr" "Right_Scabbard"
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

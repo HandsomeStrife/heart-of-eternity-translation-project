@@ -1,0 +1,15 @@
+AddCharacterPresets('WomanNormal','CivilMan','33_LAST_target',{
+ Description                 "33_LAST_target"
+ Position                    1277.0082,2193.8889,7.6368
+ Rotation                    0 0 180
+ AddBeforeDialogScript       "33_LAST_target_BD.scd"
+ AddDialog                   "33_LAST_target_00.dlg" 0
+ AddDialog                   "33_LAST_target_09.dlg" 9
+ VisibleSkin                 "WomanNorm_Sh"
+ VisibleSkin                 "WN_O_Platye_Sh"
+ VisibleSkin                 "WN_O_Meh_Sh"
+ VisibleSkin                 "WN_G_Beret_Sh"
+ PartitionEnable             False
+ DropEnable	             False
+ Attack 		     False
+});

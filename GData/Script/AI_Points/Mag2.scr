@@ -1,0 +1,5 @@
+IfN_Flag_GoTo(78,1,@1);
+ JVisibleRecord(32,10);
+ SetFlag(78,2);
+@1:
+NOP(0);

@@ -1,0 +1,14 @@
+CreateSoundLib('GD_Attack1.wav','GDa0',2,20,100);
+CreateSoundLib('GD_Attack2.wav','GDa1',2,20,100);
+CreateSoundLib('GD_Attack3.wav','GDa2',2,20,100);
+CreateSoundLibGroup('GDa',3,'GDa');
+CreateSoundLib('GD_Hit.wav','GDh0',2,30,100);
+CreateSoundLibGroup('GDh',1,'GDh');
+CreateSoundLib('GD_VDeath.wav','GDd0',2,30,100);
+CreateSoundLibGroup('GDd',1,'GDd');
+CreateSoundLib('GD_VVoice.wav','GDs0',2,30,100);
+CreateSoundLibGroup('GDs',1,'GDs');
+CreateSoundLib('GDS_1.wav','GdS0',1,20,100);
+CreateSoundLib('GDS_2.wav','GdS1',1,20,100);
+CreateSoundLib('GDS_3.wav','GdS2',1,20,100);
+CreateSoundLibGroup('GdS',3,'GdS');

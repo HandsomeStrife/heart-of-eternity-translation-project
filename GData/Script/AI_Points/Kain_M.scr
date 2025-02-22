@@ -1,0 +1,6 @@
+IfN_Flag_GoTo(250,1,@1);
+IfN_Flag_GoTo(95,1,@1);
+SetCharacterPosition('DC_LV_KainF',3919.2776,804.2336,127.1534);
+SetCharacterRotation('DC_LV_KainF',0,0,0);
+SetFlag(250,2);
+@1:

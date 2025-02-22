@@ -1,0 +1,10 @@
+SetDialogIfFlagEquale(6,100,0);
+SetDialogIfFlagEqualeTwo(0,1000,90,1,1);
+SetDialogIfFlagEquale(1,1000,2);
+SetDialogIfFlagEquale(6,1001,2);
+SetDialogIfFlagEqualeTwo(2,1001,2,1000,6);
+SetDialogIfFlagEquale(6,1001,1);
+SetDialogIfFlagEquale(3,1001,3);
+SetDialogIfFlagEqualeTwo(4,1001,3,1000,78);
+SetDialogIfFlagEquale(6,1001,9);
+SetDialogIfFlagEquale(5,1,0);

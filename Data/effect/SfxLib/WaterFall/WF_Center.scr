@@ -1,0 +1,5 @@
+CreateTorchSFXObj('WFC_',{
+ DeltaTranslate       0 0 1
+ AddParticlSystem     "data\effect\WFall\PS_WatFCenter.scr"
+ LinkToObjectPTR      True
+});

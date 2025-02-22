@@ -1,0 +1,13 @@
+CreateItemSkin('U_Naplech1_R','HA_NaplRight','HA_NaplRight', {
+  Visible           True
+  Cost              -1
+  Description       "U_Naplech1_R_l34"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "U_Naplech1_R"
+   MaterialPresetId  0
+   ArmorAutoGenerate  6  3 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

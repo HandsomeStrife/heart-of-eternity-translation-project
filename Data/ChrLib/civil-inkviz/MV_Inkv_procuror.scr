@@ -1,0 +1,9 @@
+AddCharacterPresets('MagVillage','CivilMan','MV_Inkv_procuror',{
+ Description                 "MV_Inkv_procuror"
+ Position                    80 80 0
+ Rotation                    0 0 0
+ MobParam                    4 20
+ VisibleSkinParam            "MV_O_PlashInkviz" 1
+ AddItem		     "Stuffs\Stuff_4\Stuff_4.scr" "DefaultSlot"
+ DropEnable	              False
+});

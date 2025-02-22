@@ -1,0 +1,16 @@
+CreateMaterial('M_SGlow','glow.tga',{
+ BlendEnable			True
+ SRCBlend			"One"
+ DSTBlend			"One"
+ ColorArgOne		id = 0  "Texture"
+ ColorOp		id = 0  "Modulate"
+ ColorArgTwo            id = 0  "Diffuse"
+ AlphaArgOne		id = 0  "Texture"
+ AlphaOp		id = 0  "Modulate"
+ AlphaArgTwo		id = 0  "Diffuse"
+ TextureCIndex          id = 0  0
+ TCIFunction		id = 0  "passthru"
+ MapMoveDirect		id = 0  False
+ zWriteEnable			False
+ LightEnable			False
+});

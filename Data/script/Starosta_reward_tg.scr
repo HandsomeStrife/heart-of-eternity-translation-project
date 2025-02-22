@@ -1,0 +1,4 @@
+AddItemChrSlot('warior','Jewels\Ring_03\Ring_03.scr','Bag');
+AddHotKeyHelp('You have received a new item, press I',23);
+AddExpMC(1000);
+AddMoneyToMC(500);

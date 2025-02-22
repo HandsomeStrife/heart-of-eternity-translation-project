@@ -1,0 +1,7 @@
+IfN_Flag_GoTo(460,0,@1);
+    BlackScreenStart('You were forcefully thrown out.');
+    SetCharacterPosition('warior',4092.9585,730.7229,131.6743);
+    AIS_GoTo(@2);
+@1:
+SetFlag(461,3);
+@2:

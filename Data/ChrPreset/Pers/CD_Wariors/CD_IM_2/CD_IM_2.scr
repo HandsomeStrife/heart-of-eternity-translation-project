@@ -1,0 +1,12 @@
+AddCharacterPresets('IronManUD','CivilMan','CD_IM_2',{
+ Description                 "Argon"
+ Position                    4218.6392,713.0203,128.2831
+ Rotation                    0 0 0
+ MobParam                    2 40
+ VisibleSkin                 "U_Buviger"
+ VisibleSkin                 "H_KosyLis"
+ AddDeathScript		     "CD_IM_2_death.scd"
+ AddSkinItem                 "U_HelmetSk_l34.scr" "Helmet"
+ AddSkinItem                 "HandArmor_Str_l34.scr" "HandArmor"
+ AddItem                     "Undead\TwoHand\U_GrateAxe\U_GrateAxe.scr" "TwoHandSword"
+});

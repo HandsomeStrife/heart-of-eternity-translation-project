@@ -1,0 +1,25 @@
+AddCharacterPresets('ElfSenat','CivilMan','VF_ES_ETeacher',{
+ Description                 "Altion"
+ Position                    1230.6184,2070.8047,8.6391
+ Rotation                    0 0 0
+ VisibleSkin                 "E_A_Prajka"
+ VisibleSkin                 "E_A_Naruch"
+ VisibleSkin                 "Elf_Sen_Sh"
+ VisibleSkin                 "E_A_Ponog"
+ VisibleSkinParam            "E_AH_Shapo" 1
+ PlusStrenght                38
+ PlusDexterity               34
+ PlusConstitution            29
+ PlusIntellect               21
+ PlusPermeability            21
+ AddBeforeDialogScript       "VF_ES_ETeacher_BD.scd"
+ AddDialog                   "VF_ES_ETeacher_d1.dlg" 0 
+ AddDialog                   "VF_ES_ETeacher_d3.dlg" 2
+ AddDialog                   "VF_ES_ETeacher_d9.dlg" 9
+ AddItem                     "Elf\TwoHand\e_2handSword\e_2handSword.scr" "TwoHandSword"
+ AddItem		     "Elf\OneHand\e_sword\e_sword.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

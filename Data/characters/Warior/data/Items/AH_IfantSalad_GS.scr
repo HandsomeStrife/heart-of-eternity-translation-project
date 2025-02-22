@@ -1,0 +1,13 @@
+CreateItemSkin('AH_IfantSalad_GS','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Silver helmet in gold"
+  History           "Continuous articulated armor, a purely human invention. A heavily armed fighter stands ten lightly armed. Silver armor in gold will not only excellently protect against a slashing strike but also significantly increase resistance to magic."
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "AH_IfantSalad"
+   MaterialPresetId  1
+   AddObjectD        "AH_IfantSalad_GS.s03"
+   ArmorAutoGenerate  9  3 
+   PlusConstitution 7
+});

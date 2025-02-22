@@ -1,0 +1,3 @@
+GetBonusForQuest(20,2);
+DeleteItemChr('warior','10_last3');
+AddItemChrSlot('warior','Human\OneHand\katana01\katana01.scr','Bag');

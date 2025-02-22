@@ -1,0 +1,2 @@
+AddItemChrSlot('warior','Quest\CrownOfGallahard\CrownOfGallahard.scr','Bag');
+AddHotKeyHelp('You have received the Crown of Gallahard.',23);

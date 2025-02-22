@@ -1,0 +1,18 @@
+AddCharacterPresets('WomanNormal','CivilMan','07_Last',{
+ Description                 "07_Last"
+ Position                    1071.8665,2360.8904,98.7517
+ Rotation                    0 0 180
+ VisibleSkinParam            "WomanNorm_Sh" 1
+ VisibleSkin                 "WN_O_Platye_Sh"
+ VisibleSkin                 "WN_G_Goroj_Sh"
+ VisibleSkin                 "WN_O_Meh_Sh"
+ VisibleSkin                 "WN_O_Rukava_Sh"
+ AddBeforeDialogScript       "07_last_BD.scd"
+ AddDialog                   "07_last_00.dlg" 0
+ AddDialog                   "07_last_01.dlg" 1
+ AddDialog                   "07_last_09.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

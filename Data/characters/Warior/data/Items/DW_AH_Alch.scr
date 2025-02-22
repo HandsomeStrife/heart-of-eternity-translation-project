@@ -1,0 +1,14 @@
+CreateItemSkin('DW_AH_Alch','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Leather Helmet of the Greybeard"
+  History           "The technological achievements of the dwarves have fully manifested in the creation of protective armor, which combines: high durability, relatively low weight, and the inherent bonuses of the underground race - being clad in full dwarven plate, its owner will significantly enhance their strength and gain resistance to magic."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "DW_AH_Alch"
+   MaterialPresetId  0
+   AddObjectD        "DW_AH_Alch.s03"
+   ArmorAutoGenerate  6  3 
+   PlusIntellect     5
+   PlusMagicPower    5
+});

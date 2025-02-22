@@ -1,0 +1,14 @@
+CreateItemSkin('Legins_Sk1','Leggings','Leggings', {
+ Visible                 True
+ Cost                    -1
+ Description       "Simple leather leg protection"
+ History           "Skin is skin. Nothing more.úOne should not expect anything natural from it. A leather armor is pierced by a strong strike of a spear or sword and does not protect at all from blunt force weapons, although it withstands strikes from light swords and daggers. A full simple leather armor provides a minor bonus to agility."
+
+ AddSkinFromItemNoObj "A_Nanog_L_Sk1.scr"
+ AddSkinFromItemNoObj "A_Nanog_R_Sk1.scr"
+ AddSkinFromItemNoObj "A_Skirt_Sk1.scr"
+ AddSkinFromItemNoObj "A_SapogSk_L_Sk1.scr"
+ AddSkinFromItemNoObj "A_SapogSk_R_Sk1.scr"
+ AddObject       "Legins_SK1.zrm" 
+ ArmorAutoGenerate  3  1 
+});

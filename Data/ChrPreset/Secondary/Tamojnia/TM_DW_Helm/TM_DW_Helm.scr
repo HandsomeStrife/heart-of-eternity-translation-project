@@ -1,0 +1,14 @@
+AddCharacterPresets('CivDwarf','CivilMan','TM_DW_Helm',{
+ Description                 "Helm"
+ Position                    1210.1019 1080.6533 175.8357
+ Rotation                    0 0 170
+ PartitionEnable 	false
+ VisibleSkinParam            "HB_BorRabby" 2
+ MobParam                    1 25
+ AddDeathScript		     "TM_DW_Helm_death.scd"
+ AddSkinItem                 "AH_Shlemem_l34.scr" "Helmet"
+ AddSkinItem                 "HandArmor_Ch_34.scr" "HandArmor"
+ AddSkinItem                 "Legins_Ch_l34.scr" "Leggings"
+ AddItem		     "Dwarf\TwoHand\DwarfGreateAxe1M\DwarfGreateAxe1M.scr" "TwoHandSword"
+ PartitionEnable              False
+});

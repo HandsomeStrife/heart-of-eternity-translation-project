@@ -1,0 +1,25 @@
+AddCharacterPresets('IronManUD','Enemy','IMUD_6',{
+ Description                 "Undead_6"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    2 6
+ AddDeathScript              "IMUD_Death.scd"
+ AddSkinItem                 "HandArmor_End_l6.scr" "HandArmor"
+ AddItem                     "Undead\OneHand\u_knife\u_knife.scr" "Right_Scabbard"
+ AddItem                     "Undead\OneHand\u_knife\u_knife.scr" "Left_Scabbard"
+ VisibleSkin                 "A_PlashKup"
+ VisibleSkin                 "AH_Mask"
+ VisibleSkin                 "ZombyBig_Sh"
+ VisibleSkin                 "A_Napl1_L"
+ VisibleSkin                 "A_Nanog_L"
+ VisibleSkin                 "A_Naruch3_L"
+ VisibleSkin                 "A_Napl1_R"
+ VisibleSkin                 "A_Naruch3_R"
+ VisibleSkin                 "A_Naruk_R"
+ VisibleSkin                 "A_Nanog_R"
+ VisibleSkin                 "H_NormLis"
+ VisibleSkin                 "A_Naruk_L"
+ VisibleSkin                 "AH_PovEys_R"
+ VisibleSkin                 "A_Sapog1_L"
+ VisibleSkin                 "A_Sapog1_R" 
+});

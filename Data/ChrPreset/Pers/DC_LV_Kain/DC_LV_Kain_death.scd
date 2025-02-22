@@ -1,0 +1,13 @@
+IfN_Flag_GoTo(201,2,@1);
+ SetFlag(201,4);
+ SetFlag(200,2);
+ AddItemChrSlot('warior','Quest\CrownOfGallahard\CrownOfGallahard.scr','Bag');
+ JVisibleQuest(33,1);
+ JQuestRecordComplete(32,3);
+ JQuestComplete(32);
+ AIS_GoTo(@2);
+@1:
+  RespawnCharacter('DC_LV_Kain');
+  SetCharacterLifeK('DC_LV_Kain',1);
+@2:
+NOP();

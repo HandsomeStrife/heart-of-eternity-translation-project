@@ -1,0 +1,13 @@
+CreateItemSkin('A_Cuirass_GSS','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "Segmented Silver Cuirass"
+  History           "Solid articulated armor, a purely human invention. A heavily armed fighter stands against ten lightly armed ones. Silver armor in gold will not only excellently protect against slashing strikes but also significantly increase resistance to magic."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Cuirass"
+   MaterialPresetId  5
+   AddObjectD        "A_Cuirass_GSS.s03"
+   ArmorAutoGenerate  10  4 
+   PlusConstitution 10
+});

@@ -1,0 +1,29 @@
+AddCharacterPresets('OrkMag','CIVILMAN','OV_OS_Lekar',{
+ Description                 "OV_OS_Lekar"
+ Position                    2641.1716,424.2147,221.3129
+ Rotation                    0 0 0
+ VisibleSkinParam            "OM_Body" 2
+ VisibleSkin                 "OM_Greben"
+ VisibleSkin                 "OM_Schild_B"
+ VisibleSkin                 "OM_Schild_F"
+ VisibleSkin                 "OM_Cuirass"
+ VisibleSkin                 "OM_Ponoj_L"
+ VisibleSkin                 "OM_Ponoj_R"
+ VisibleSkin                 "OM_Poyas"
+ VisibleSkin                 "OM_Chalust"
+ VisibleSkin                 "OM_Naruch_R"
+ VisibleSkin                 "OM_Naruch_L"
+ PlusStrenght                20
+ PlusDexterity               20
+ PlusConstitution            200
+ PlusIntellect               100
+ PlusPermeability            100
+ AddDeathScript		     "OV_OS_Lekar_death.scd"
+ AddProcScript               "OV_OS_Lekar_AI.sci"
+ AddBeforeDialogScript       "OV_OS_Lekar_BD.scd"
+ AddDialog                   "OV_OS_Lekar_D0.dlg" 0
+ AddDialog                   "OV_OS_Lekar_D1.dlg" 1	
+ AddDialog                   "OV_OS_Lekar_D9.dlg" 9	
+ AddItem                     "Ork\OneHand\o-bloodknife\o-bloodknife.scr" "Left_Scabbard"
+ PartitionEnable              False
+});

@@ -1,0 +1,15 @@
+AddCharacterPresets('CivDwarf','CIVILMAN','OC_roader',{
+ Description                 "OC_roader"
+ Position                    2664.3372,644.4591,180.7929
+ Rotation                    0 0 45
+ AddDialog                   "OC_roader_d0.dlg" 0
+ AddDialog                   "ALL_roaders_d9.dlg" 9
+ VisibleSkin                 "HB_BorSmall"
+ VisibleSkin                 "I_PerchKojaR"
+ VisibleSkin                 "I_PerchKojaL"
+ AddItem		     "Dwarf\OneHand\DwarfAxe2\DwarfAxe2.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

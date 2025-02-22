@@ -1,0 +1,13 @@
+AddCharacterPresets('Starosta','Enemy','Star20',{
+ Description                 "FatBandit20"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    3 20
+ SetFace                     2
+ VisibleSkin                 "I_SkirtSm"
+ VisibleSkin                 "HB_Gig"
+ AddSkinItem                 "HandArmor_20.scr" "HandArmor"
+ AddSkinItem                 "AH_Kliky_N_l20.scr" "Helmet"
+ AddSkinItem                 "Legins_20.scr" "Leggings"
+ AddItem                     "Human\TwoHand\h_naginata02\h_naginata02.scr" "TwoHandSword"
+});

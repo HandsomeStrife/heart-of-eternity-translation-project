@@ -1,0 +1,12 @@
+CreateItemSkin('AH_SelKolp_V2','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "A sturdy village hat"
+  History           "The cap of a rural poor man. It's better not to appear in such a baron's castle - you'll be laughed at or immediately thrown out."
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "AH_SelKolp"
+   MaterialPresetId  1
+   AddObjectD        "AH_SelKolp_V2.s03"
+   ArmorAutoGenerate  1  0 
+});

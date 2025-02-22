@@ -1,0 +1,14 @@
+AddCharacterPresets('MagVillage','CivilMan','WW_OLD_Narrator',{
+ Description                 "Нараян"
+ Position                    4325.5854,913.7707,151.4085
+ Rotation                    0 0 267
+ PlusConstitution            80
+ PlusIntellect               80
+ PlusMagicPower              80
+ VisibleSkin                 "MV_O_PlashInkviz"
+ AddBeforeDialogScript       "WW_OLD_Narrator_BD.scd"
+ AddDeathScript		     "WW_OLD_Narrator_death.scd"
+ AddDialog                   "WW_OLD_Narrator_d0.dlg" 0 
+ AddDialog                   "WW_OLD_Narrator_d9.dlg" 9 
+ DropEnable	              False
+);

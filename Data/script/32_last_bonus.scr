@@ -1,0 +1,4 @@
+GetBonusForQuest(20,1);
+AddItemChrSlot('warior','Human\OneHand\Jatagan03\Jatagan03.scr','Bag');
+AddHotKeyHelp('Southern blade obtained',23);
+DeleteItemChr('warior','32_last');

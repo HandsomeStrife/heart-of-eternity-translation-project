@@ -1,0 +1,13 @@
+CreateItemSkin('A_Nagol1S_L','L_BootLeft','L_BootLeft', {
+  Visible           True
+  Cost              -1
+  Description       "A_Nagol1S_L"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Nagol1S_L"
+   MaterialPresetId  0
+   ArmorAutoGenerate  4  4 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

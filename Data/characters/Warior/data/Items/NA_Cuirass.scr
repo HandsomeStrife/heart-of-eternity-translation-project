@@ -1,0 +1,18 @@
+CreateItemSkin('NA_Cuirass','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "Cuirass of the Great"
+ History           "The Lost One has departed, but in Sarkus there remain relics created by him or his disciples. Legends speak of one of Darion's mightiest creations: the Armor of the Great - two of the strongest warriors of the past, close to the Seeder himself. Fortune has smiled upon you - you have become the bearer of a part of the relic. This will grant you power. But remember: only the bearer of all parts of the Armor of the Great will attain true might."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "NA_Cuirass"
+   MaterialPresetId  0
+   AddObjectD        "NA_Cuirass.s03"
+   ArmorAutoGenerate  9  4 
+   PlusDexterity     3
+   PlusIntellect     3
+   PlusStrenght      3
+   PlusConstitution  10
+   PlusMagicPower    3
+  AddTakeScript  "Take_NA_Cuirass.sc"
+});

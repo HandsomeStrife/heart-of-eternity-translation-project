@@ -1,0 +1,13 @@
+AddCharacterPresets('OrkBig','Enemy','OB_l42',{
+ Description                 "Big Ork_42"
+ Position                    88.2812 128.2020 5.0747
+ Rotation                    0 0 0
+ MobParam                    1 42
+ VisibleSkin                 "OB_Shild_B"
+ VisibleSkin                 "OB_Shild_F"
+ AddSkinItem                 "OB_Helmet_l42.scr" "Helmet"
+ AddSkinItem                 "OB_Cuirass_l42.scr" "Armor"
+ AddSkinItem                 "Legins_L42.scr" "Leggings"
+ AddSkinItem                 "HandArmor_L42.scr" "HandArmor"
+ AddItem                     "Ork\TwoHand\o_sword\o_sword.scr" "TwoHandSword"
+});

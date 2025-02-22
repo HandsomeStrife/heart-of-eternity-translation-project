@@ -1,0 +1,3 @@
+AddItemChrSlot('warior','Quest\InkvizPlanSheme\InkvizPlanSheme.scr','Bag');
+AddEnemy('BG_7','warior');
+DOOR_Lock('DOOR_BARON_GENERAL62_080');

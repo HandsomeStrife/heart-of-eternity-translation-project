@@ -1,0 +1,13 @@
+If_Flag_GoTo(82,2,@1);
+If_Flag_GoTo(82,1,@1);
+AIS_GoTo(@2);
+@1:
+ AddItemChrSlot('warior','Quest\WitchHead\WitchHead.scr','Bag');
+ InvisibleChrP('VN_WF_Witch');
+ JVisibleRecord(34,6);
+ AIS_GoTo(@3);
+@2:
+  RespawnCharacter('VN_WF_Witch');
+  SetCharacterLifeK('VN_WF_Witch',1);
+@3:
+NOP();

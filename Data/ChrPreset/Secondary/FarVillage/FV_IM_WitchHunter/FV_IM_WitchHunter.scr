@@ -1,0 +1,18 @@
+AddCharacterPresets('IronMan','CivilMan','FV_IM_WitchHunter',{
+ Description                 "Djag"
+ Position                    266.1070,2230.2371,41.2450
+ Rotation                    0 0 0
+ AddDeathScript		     "FV_IM_WitchHunter_death.scd"
+ AddBeforeDialogScript       "FV_IM_WitchHunter_BD.scd"
+ AddDialog                   "FV_IM_WitchHunter_d.dlg" 0
+ AddDialog                   "FV_IM_WitchHunter_d1.dlg" 1
+ AddDialog                   "FV_IM_WitchHunter_d9.dlg" 9
+ MobParam                    0 15
+ AddItem                     "Human\Shield\dropshild01\dropshild01.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\mace01\mace01.scr" "Left_Scabbard"
+ AddSkinItem                 "HandArmor_56.scr" "HandArmor"
+ AddSkinItem                 "Legins_56.scr" "Leggings"
+ AddSkinItem                 "A_Cuirass_In.scr" "Armor"
+ PartitionEnable              False
+ DropEnable	              False
+});

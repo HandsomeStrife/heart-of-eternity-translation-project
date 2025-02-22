@@ -1,0 +1,23 @@
+AddCharacterPresets('IronMan','CivilMan','BC_IM_TGuard2',{
+ Description                 "Torn"
+ Position                    1003.8092 2344.1492 97.7889
+ Rotation                    0 0 185
+ PlusStrenght                23
+ PlusDexterity               17
+ PlusConstitution            19
+ PlusIntellect               10
+ PlusPermeability            10
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "H_HvMed"
+ AddItem                     "Human\Shield\KnightShield_02\KnightShield_02.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\mace02\mace02.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\daga1\daga1.scr" "Right_Scabbard"
+ AddSkinItem                 "Legins_l36.scr" "Leggings"
+ AddSkinItem                 "HandArmor_36.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_N_l35.scr" "Armor"
+ AddSkinItem                 "SecArmor_K2_l35.scr" "SecArmor"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

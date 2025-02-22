@@ -1,0 +1,21 @@
+AddCharacterPresets('OrkMag','CivilMan','OV_OS_Guide',{
+ Description                 "¿¯¯‡„ı"
+ Position                    2735.4487,776.9053,176.5901
+ Rotation                    0 0 125
+ VisibleSkin                 "OM_Body"
+ VisibleSkin                 "OM_Schild_F"
+ VisibleSkin                 "OM_Ponoj_L"
+ VisibleSkin                 "OM_Ponoj_R"
+ VisibleSkin                 "OM_Poyas"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ AddBeforeDialogScript       "OV_OS_Guide_BD.scd"
+ AddDialog                   "OV_OS_Guide_d0.dlg" 0
+ AddDialog                   "OV_OS_Guide_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

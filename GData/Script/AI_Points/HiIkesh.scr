@@ -1,0 +1,8 @@
+IfN_Flag_GoTo(124,1,@1);
+ JVisibleQuest(37,1);
+ SetFlag(125,2);
+ SetFlag(149,1);
+ SetFlag(124,3);
+ JQuestRecordComplete(36,13);
+ JQuestComplete(36);
+@1:

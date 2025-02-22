@@ -1,0 +1,21 @@
+AddCharacterPresets('CivDwarf','CivilMan','DwC_DW_RespectDW',{
+ Description                 "Starper"
+ Position                    1342.0266,5744.6328,-47.8413
+ Rotation                    0 0 90
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "AH_Monokl"
+ VisibleSkin                 "I_Rukav"
+ VisibleSkin                 "A_Plash"
+ VisibleSkinParam            "HB_BorKolco" 1
+ VisibleSkin                 "A_NaplCh1_L"
+ VisibleSkin                 "A_NaplCh1_R"
+ VisibleSkin                 "I_Fona"
+ AddBeforeDialogScript       "DwC_DW_RespectDW_BD.scd"
+ AddDialog                   "DwC_DW_RespectDW_d.dlg" 0
+ AddDialog                   "DwC_DW_RespectDW_d1.dlg" 1
+ AddDialog                   "DwC_DW_RespectDW_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

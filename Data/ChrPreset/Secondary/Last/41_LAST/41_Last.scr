@@ -1,0 +1,18 @@
+AddCharacterPresets('OrkBoss','CivilMan','41_Last',{
+ Description                 "41_Last"
+ Position                    2807.0151,384.8121,199.5889
+ Rotation                    0 0 0
+ AddBeforeDialogScript       "41_last_BD.scd"
+ AddDialog                   "41_last_00.dlg" 0
+ AddDialog                   "41_last_01.dlg" 1
+ AddDialog                   "41_last_02.dlg" 2
+ AddDialog                   "41_last_03.dlg" 3
+ AddDialog                   "41_last_04.dlg" 4
+ AddDialog                   "41_last_05.dlg" 5
+ AddDialog                   "41_last_06.dlg" 6
+ AddDialog                   "41_last_09.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

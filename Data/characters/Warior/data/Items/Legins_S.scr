@@ -1,0 +1,14 @@
+CreateItemSkin('Legins_S','Leggings','Leggings', {
+ Visible                 True
+ Cost                    -1
+ Description       "Silver leg protection"
+ History           "A warrior must be ready to pay large sums for their safety, as the quality of armor determines their life. Decorated armor is no less functional than ordinary steel and also indicates its specific properties. A full set of silver armor will significantly reduce damage from slashing weapons directed against its wearer."
+ AddSkinFromItemNoObj   "A_Nanog_L_S.scr"
+ AddSkinFromItemNoObj   "A_Nanog_R_S.scr"
+ AddSkinFromItemNoObj   "A_Sapog1_L_S.scr"
+ AddSkinFromItemNoObj   "A_Sapog1_R_S.scr"
+ AddSkinFromItemNoObj   "A_Skirt_S.scr"
+ AddObject            "Legins_S.zrm" 
+ ArmorAutoGenerate   7  3 
+ PlusConstitution    6
+});

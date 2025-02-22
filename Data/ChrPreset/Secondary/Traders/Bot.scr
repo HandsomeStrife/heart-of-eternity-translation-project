@@ -1,0 +1,13 @@
+AddCharacterPresets('Civman','CivilMan','Bot',{
+ Description                 "Bot"
+ Position                    926.8448,1672.8162,170.2235
+ Rotation                    0 0 -85
+ PlusConstitution            1000
+ PlusPermeability            1000
+ AddDialog                   "Bot.dlg" 9
+ AddDialog                   "Bot_d.dlg" 0
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

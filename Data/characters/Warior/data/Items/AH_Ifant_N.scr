@@ -1,0 +1,12 @@
+CreateItemSkin('AH_Ifant_N','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Steel Open Helm"
+  History           "Настоящую защиту могут дать только крупные объSolid forged parts, from which the steel armor is made. In addition to breastplates and pauldrons made of solid metal, gauntlets, greaves, cuisses, cuirasses, and helmets are also produced. Full steel armor significantly increases protection against arrows."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Ifant"
+   MaterialPresetId  0
+   AddObjectD        "AH_Ifant_N.s03"
+   ArmorAutoGenerate  6  2 
+});

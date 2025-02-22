@@ -1,0 +1,12 @@
+CreateSoundLib('OMa_Cast1a.wav','OAc0',2,20,100);
+CreateSoundLib('OMa_Cast1b.wav','OAc1',2,20,100);
+CreateSoundLibGroup('OAc',2,'OAc');
+CreateSoundLib('OMa_Death a.wav','OAd0',2,30,100);
+CreateSoundLib('OMa_Death b.wav','OAd1',2,30,100);
+CreateSoundLibGroup('OAd',2,'OAd');
+CreateSoundLib('OMa_Hit1a.wav','OAh0',2,30,100);
+CreateSoundLib('OMa_Hit1b.wav','OAh1',2,30,100);
+CreateSoundLibGroup('OAh',2,'OAh');
+CreateSoundLib('OMa_VSocial1.wav','OAs0',2,30,100);
+CreateSoundLib('OMa_VSocial1b.wav','OAs1',2,30,100);
+CreateSoundLibGroup('OAs',2,'OAs');

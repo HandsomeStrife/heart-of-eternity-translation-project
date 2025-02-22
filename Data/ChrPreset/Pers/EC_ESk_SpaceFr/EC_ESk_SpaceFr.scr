@@ -1,0 +1,17 @@
+AddCharacterPresets('ElfSenat','CIVILMAN','EC_ESk_SpaceFr',{
+ Description                 "Πΰτΰύλότ"
+ Position                    1265.0264,606.4957,172.1915
+ Rotation                    0 0 -90
+ VisibleSkin                 "E_A_Prajka"
+ VisibleSkin                 "Elf_Sen_Sh"
+ VisibleSkin                 "E_A_Ponog"
+ VisibleSkinParam            "E_AH_Shapo" 1
+ AddProcScript               "EC_ESk_SpaceFr_AI.sci"
+ AddBeforeDialogScript       "EC_ESk_SpaceFr_BD.scd"
+ AddDialog                   "EC_ESk_SpaceFr_D0.dlg" 0
+ AddDialog                   "EC_ESk_SpaceFr_D9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

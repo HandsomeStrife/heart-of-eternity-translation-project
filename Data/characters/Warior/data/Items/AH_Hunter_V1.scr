@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Hunter_V1','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Low-quality hunter's hat"
+  History           "A comfortable wide-brimmed hat is just what an experienced tracker needs."
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "AH_Hunter"
+   MaterialPresetId  0
+   AddObjectD        "AH_Hunter_V1.s03"
+   ArmorAutoGenerate  2  1 
+   PlusDexterity     2
+});

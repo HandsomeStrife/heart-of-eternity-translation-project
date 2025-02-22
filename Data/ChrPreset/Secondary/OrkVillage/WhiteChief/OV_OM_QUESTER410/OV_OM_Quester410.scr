@@ -1,0 +1,17 @@
+AddCharacterPresets('OrkBig','CivilMan','OV_OM_Quester410',{
+ Description                 "OV_OM_Quester410"
+ Position                    2726.7197,456.7963,196.6981
+ Rotation                    0 0 0
+ VisibleSkinParam            "OB_Body" 3
+ VisibleSkinParam            "OB_Plasron" 1
+ AddProcScript               "OV_OM_Quester410_AI.sci"
+ AddBeforeDialogScript       "OV_OM_Quester410_BD.scd"
+ AddDialog                   "OV_OM_Quester410_D4.dlg" 4
+ AddDialog                   "OV_OM_Quester410_D5.dlg" 5
+ AddDialog                   "OV_OM_Quester410_D6.dlg" 6
+ AddDialog                   "OV_OM_Quester410_D9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

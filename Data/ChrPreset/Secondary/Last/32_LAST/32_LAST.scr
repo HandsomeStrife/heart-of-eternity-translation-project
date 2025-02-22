@@ -1,0 +1,20 @@
+AddCharacterPresets('IronMan','CivilMan','32_LAST',{
+ Description                 "32_LAST"
+ Position                    1287.0441,2833.3562,11.2890
+ Rotation                    0 0 135
+ AddBeforeDialogScript       "32_last_BD.scd"
+ AddDialog                   "32_last_00.dlg" 0
+ AddDialog                   "32_last_01.dlg" 1
+ AddDialog                   "32_last_02.dlg" 2
+ AddDialog                   "32_last_09.dlg" 9
+ AddItem                     "Human\Shield\Shield_Buckler\Shield_Buckler.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\dagger02\dagger02.scr" "Left_Scabbard"
+ AddSkinItem                 "AH_IfantSalad_N_l25.scr" "Helmet"
+ AddSkinItem                 "Legins_l36.scr" "Leggings"
+ AddSkinItem                 "HandArmor_36.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_N_l35.scr" "Armor"
+ AddSkinItem                 "SecArmor_K2_l35.scr" "SecArmor"
+ PartitionEnable             False
+ DropEnable	             False
+ Attack 		      False
+});

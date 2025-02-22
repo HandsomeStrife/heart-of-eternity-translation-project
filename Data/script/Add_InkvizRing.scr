@@ -1,0 +1,2 @@
+AddItemChrSlot('warior','Quest\InkvizRing\InkvizRing.scr','Bag');
+AddHotKeyHelp('You have received the Inquisitor's Ring.',23);

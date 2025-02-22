@@ -1,0 +1,13 @@
+AddCharacterPresets('CivDwarf','Enemy','DW29',{
+ Description                 "Dwarf_29"
+ Position                    1144.9330,1131.1486,171.8680
+ Rotation                    0 0 155
+ MobParam                    1 29
+ VisibleSkin                 "I_Buviger"
+ VisibleSkin                 "HB_BorFonar"
+ AddSkinItem                 "AH_Alch_29.scr" "Helmet"
+ AddSkinItem                 "HandArmor_29.scr" "HandArmor"
+ AddSkinItem                 "Legins_29.scr" "Leggings"
+ AddItem		     "Dwarf\OneHand\DwarfAxe1\DwarfAxe1.scr" "Left_Scabbard"
+ AddItem		     "Dwarf\OneHand\DwarfAxe2\DwarfAxe2.scr" "Right_Scabbard"
+});

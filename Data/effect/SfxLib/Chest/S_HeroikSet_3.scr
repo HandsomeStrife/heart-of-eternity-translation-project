@@ -1,0 +1,7 @@
+CreateChestEffectObj({
+ Visible	0 1 0
+ AutoCalcOffset	2.0
+ SetFlag	"AR02" 2 1 -1
+ Description	"Ark of the Great"
+ Height 1.5
+});

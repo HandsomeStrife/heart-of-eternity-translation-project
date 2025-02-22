@@ -1,0 +1,5 @@
+IfN_Flag_GoTo(1000,86,@1);
+ ExecuteScriptSys('data\ChrPreset\SL_OB_Tutor\SL_OB_Tutor.scr');
+ SetFlag(1000,88);
+@1:
+NOP();

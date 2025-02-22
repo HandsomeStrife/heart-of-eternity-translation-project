@@ -1,0 +1,14 @@
+AddCharacterPresets('IronMan','CivilMan','CD_IM_Dead',{
+ Description                 "Dead"
+ Position                    4135.5293,761.8473,114.0444
+ Rotation                    0 0 0
+ VisibleSkin                 "ZombyBig_Sh"
+ AddBeforeDialogScript       "CD_IM_Dead_BD.scd"
+ AddDialog                   "CD_IM_Dead_d1.dlg" 0
+ AddDialog                   "CD_IM_Dead_d2.dlg" 1
+ AddDialog                   "CD_IM_Dead_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

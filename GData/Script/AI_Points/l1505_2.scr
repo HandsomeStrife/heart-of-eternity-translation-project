@@ -1,0 +1,5 @@
+AIPOINT_SetExecute('l1505_1',0);
+IfN_Flag_GoTo(504,0,@1);
+SetFlag(504,1);
+@1:
+NOP(0);

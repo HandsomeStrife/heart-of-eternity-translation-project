@@ -1,0 +1,12 @@
+CreateItemSkin('AH_Dvoryan_V1','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Poor quality nobleman's hat"
+  History           "Since ancient times, headgear has defined not only aesthetic level but also the social significance of its owner. Symbols of state and church authority, as well as academic or official positions, are worn on the head."
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "AH_Dvoryan"
+   MaterialPresetId  0
+   AddObjectD        "AH_Dvoryan_V1.s03"
+   ArmorAutoGenerate  3  1 
+});

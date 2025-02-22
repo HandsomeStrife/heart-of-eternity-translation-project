@@ -1,0 +1,6 @@
+IfN_Flag_GoTo(153,3,@1);
+BlackScreenStart('You took your belongings from the Hogrus chest.');
+JQuestRecordComplete(37,6);
+RestoreMCHRItems();
+SetFlag(153,4);
+@1:

@@ -1,0 +1,20 @@
+CreateItemSkin('W_HandArmor_NA','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Protection of the Great Hands"
+ History           "The Lost One has departed, but in Sarkus there remain relics created by him or his disciples. Legends speak of one of the mightiest creations of Darion: the Armor of the Great - two of the strongest warriors of the past, close to the Seeder himself. Fortune has smiled upon you - you have become the bearer of a part of the relic. This will bring you power. But remember: only the one who possesses all parts of the Armor of the Great will attain true might."
+ AddSkinFromItemNoObj          "NA_Naplech_L.scr"
+ AddSkinFromItemNoObj          "NA_Naplech_R.scr"
+ AddSkinFromItemNoObj          "NA_Naruch_L.scr"
+ AddSkinFromItemNoObj          "NA_Naruch_R.scr"
+ AddSkinFromItemNoObj          "NA_Naruk_L.scr"
+ AddSkinFromItemNoObj          "NA_Naruk_R.scr"
+ AddObject     "HandArmor_NA.zrm"
+  AddTakeScript  "Take_HandArmor_NA.sc"
+   ArmorAutoGenerate  9  4 
+   PlusDexterity     3
+   PlusIntellect     3
+   PlusStrenght      10
+   PlusConstitution  3
+   PlusMagicPower    3
+});

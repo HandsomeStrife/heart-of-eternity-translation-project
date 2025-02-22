@@ -1,0 +1,16 @@
+CreateMaterial('M_SpellInt','spellInterface.tga',{
+ BlendEnable			True
+ SRCBlend			"SrcAlpha"
+ DSTBlend			"InvSrcAlpha"
+ ColorArgOne		id = 0  "Texture"
+ ColorOp		id = 0  "Modulate"
+ ColorArgTwo            id = 0  "Texture"
+ AlphaArgOne		id = 0  "Texture"
+ AlphaOp		id = 0  "SelectArg1"
+ AlphaArgTwo		id = 0  "Diffuse"
+ TextureCIndex          id = 0  0
+ TCIFunction		id = 0  "passthru"
+ zWriteEnable			False
+ zTestEnable			True
+ zTestFunc			"Always"
+});

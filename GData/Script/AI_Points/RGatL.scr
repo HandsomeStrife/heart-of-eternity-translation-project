@@ -1,0 +1,5 @@
+If_Flag_GoTo(73,1,@1);
+ DOOR_Close('OBJECT05');
+ DOOR_Lock('OBJECT05');
+@1:
+NOP(0);

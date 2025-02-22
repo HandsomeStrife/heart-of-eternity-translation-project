@@ -1,0 +1,18 @@
+AIS_ExecIfInvisible(1);
+IfN_Flag_GoTo(450,7,@1);
+ IfN_DistToMC_GoTo(3,@2);
+  StartCurrDialog('OV_OS_Lekar');
+  AIS_GoTo(@1);
+@2:
+ IfN_DistToMC_GoTo(10,@1);
+  IfN_Point_MoveRun('MC');
+@1:
+IfN_Flag_GoTo(450,8,@3);
+   IfChrVisibleGoTo(@3);
+    AIS_SetChrPosRotZ('OV_OS_Lekar',2641.1716,424.2147,221.3129,15);
+    SetCharacterLife('OV_OB_Seal_0',0);
+    SetCharacterLife('OV_OB_Seal_1',0);
+    SetCharacterLife('OV_OB_Seal_2',0);
+    SetCharacterLife('OV_OB_Seal_3',0);
+    SetCharacterLife('OV_OB_Seal_4',0);
+@3:

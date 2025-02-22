@@ -1,0 +1,8 @@
+AddCharacterPresets('Vepr','vepr','vepr',{
+ Description                 "Vepr"
+ Position                    1673.2168,2297.4626,84.6314
+ Rotation                    0 0 0
+ PlusConstitution            11
+ VisibleSkin                 "Vepr_Sh"
+ AddItem		     "Animal\Vepr\vepr_box.scr" "DefaultSlot"
+});

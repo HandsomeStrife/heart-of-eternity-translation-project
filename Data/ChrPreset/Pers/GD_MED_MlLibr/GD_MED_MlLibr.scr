@@ -1,0 +1,17 @@
+AddCharacterPresets('IronMan','CivilMan','GD_MED_MlLibr',{
+ Description                 "Titus"
+ Position                    5893.2778,846.5273,226.0403
+ Rotation                    0 0 270
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "AH_Cilindr"
+ VisibleSkinParam            "A_PlashFib2" 2
+ VisibleSkinParam            "I_Man_Sh" 3
+ AddBeforeDialogScript       "GD_MED_MlLibr_BD.scd"
+ AddDialog                   "GD_MED_MlLibr_d.dlg" 0
+ AddDialog                   "GD_MED_MlLibr_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

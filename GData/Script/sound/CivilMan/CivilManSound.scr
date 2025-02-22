@@ -1,0 +1,17 @@
+CreateSoundLib('CM_VAttack1.wav','CMa0',2,20,100);
+CreateSoundLib('CM_VAttack1b.wav','CMa1',2,20,100);
+CreateSoundLib('CM_VAttack2.wav','CMa2',2,20,100);
+CreateSoundLib('CM_VAttack2b.wav','CMa3',2,20,100);
+CreateSoundLibGroup('CMa',4,'CMa');
+CreateSoundLib('CM_VHit1.wav','CMh0',2,30,100);
+CreateSoundLib('CM_VHit1b.wav','CMh1',2,30,100);
+CreateSoundLibGroup('CMh',2,'CMh');
+CreateSoundLib('CM_VDeath.wav','CMd0',2,30,100);
+CreateSoundLib('CM_VDeath b.wav','CMd1',2,30,100);
+CreateSoundLibGroup('CMd',2,'CMd');
+CreateSoundLib('CM_VSocial1.wav','CMs0',2,20,100);
+CreateSoundLib('CM_VSocial1b.wav','CMs1',2,20,100);
+CreateSoundLib('CM_VSocial2.wav','CMs2',2,20,100);
+CreateSoundLib('CM_VSocial2b.wav','CMs3',2,20,100);
+CreateSoundLib('CM_VVoice.wav','CMs4',2,20,100);
+CreateSoundLibGroup('CMs',5,'CMs');

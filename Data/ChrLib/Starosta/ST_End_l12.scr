@@ -1,0 +1,26 @@
+AddCharacterPresets('Starosta','Enemy','Star12',{
+ Description                 "FatBandit12"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    2 12
+ SetFace                     1
+ AddDeathScript              "cmdscr.scd"
+ VisibleSkin                 "I_Otv_FootU"
+ VisibleSkin                 "I_SkirtSm"
+ VisibleSkin                 "HB_Long"
+ VisibleSkin                 "A_PlashKup"
+ VisibleSkin                 "A_Napl3_L"
+ VisibleSkinParam            "A_Nanog_L" 3
+ VisibleSkin                 "A_Naruch3_L"
+ VisibleSkinParam            "A_Nanog_R" 3
+ VisibleSkin                 "A_Naruk_R"
+ VisibleSkin                 "A_Napl3_R"
+ VisibleSkin                 "I_PovEyes_L"
+ VisibleSkin                 "A_Naruk_L"
+ VisibleSkinParam            "STAR_Sh" 1
+ VisibleSkin                 "A_Naruch3_R"
+ VisibleSkin                 "HB_Long"
+ AddSkinItem                 "A_PlashKup_l12.scr" "Armor"
+ AddSkinItem                 "HandArmor_12.scr" "HandArmor"
+ AddItem                     "Human\TwoHand\Axe_Broad1\Axe_Broad1.scr" "TwoHandSword"
+});

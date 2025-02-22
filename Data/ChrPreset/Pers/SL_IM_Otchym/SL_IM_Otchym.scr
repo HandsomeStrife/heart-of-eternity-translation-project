@@ -1,0 +1,39 @@
+AddCharacterPresets('IronMan','CivilMan','SL_IM_Otchym',{
+ Description                 "Born"
+ Position                    911.1550 1676.3889 172.2447
+ Rotation                    0 0 90
+ SetFace                     1
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkinParam            "I_Man_Sh" 3
+ VisibleSkinParam            "A_Napl3_L" 2
+ VisibleSkin                 "A_Naruch1_L"
+ VisibleSkinParam            "A_Nanog_L" 3
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkinParam            "A_Nanog_R" 3
+ VisibleSkin                 "HB_CM"
+ VisibleSkin                 "HB_Kosichky"
+ VisibleSkin                 "A_Naruch1_R"
+ VisibleSkinParam            "A_Naruk_L" 3
+ VisibleSkin                 "AH_PovEys_R"
+ VisibleSkin                 "H_HvMedLis"
+ VisibleSkin                 "H_IrokHv"
+ PlusStrenght                100
+ PlusDexterity               100
+ PlusConstitution            200
+ PlusIntellect               100
+ PlusMagicPower              100
+ AddBeforeDialogScript       "SL_IM_Otchym_BD.scd"
+ AddProcScript               "SL_IM_Otchym_AI.sci"
+ AddDialog                   "SL_IM_Otchym_d1.dlg" 0
+ AddDialog                   "SL_IM_Otchym_d2.dlg" 1
+ AddDialog                   "SL_IM_Otchym_d3.dlg" 2
+ AddDialog                   "SL_IM_Otchym_d4.dlg" 3
+ AddDialog                   "SL_IM_Otchym_d5.dlg" 4
+ AddDialog                   "SL_IM_Otchym_d0.dlg" 5
+ AddDialog                   "SL_IM_Otchym_d9.dlg" 9
+ AddItem                     "Human\OneHand\karoling2\karoling2.scr" "Left_Scabbard"
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

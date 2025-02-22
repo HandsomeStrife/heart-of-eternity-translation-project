@@ -1,0 +1,5 @@
+GetBonusForQuest(18,2);
+AddItemChrSlot('warior','Human\OneHand\sword\sword.scr','Bag');
+AddHotKeyHelp('Sword received',23);
+DeleteItemChr('warior','34_LAST');
+SCENE_DeleteItemBySpecType(984);

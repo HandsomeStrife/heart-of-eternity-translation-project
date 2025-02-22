@@ -1,0 +1,12 @@
+CreateItemSkin('Legins_Or','Leggings','Leggings', {
+ Visible                 True
+ Cost                    -1
+ Description       "Simple Orc Leggings"
+ History           "An orc dressed in brocade and silk is nonsense. The preferred attire of orcs is its absence or leather loincloths. As for weapons and armor, you are unlikely to see an orc in full plate armor wielding a bastard sword. Bone armor is the choice of the masters of the steppes. Full orcish armor significantly increases the constitution of the warrior clad in it."
+ AddSkinFromItemNoObj                  "Or_Clouthe.scr"
+ AddSkinFromItemNoObj                  "Or_Sapog_L.scr"
+ AddSkinFromItemNoObj                  "Or_Sapog_R.scr"
+ AddObject     "Legins_Or.zrm" 
+ ArmorAutoGenerate  6  3 
+ PlusConstitution    8
+});

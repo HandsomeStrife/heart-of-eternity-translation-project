@@ -1,0 +1,18 @@
+AddCharacterPresets('CivDwarf','CivilMan','DwC_DW_OhrPutonTr_2',{
+ Description                 "DwC_DW_OhrPutonTr_2"
+ Position                    1191.5721,1095.3727,174.4556
+ Rotation                    0 0 0
+ MobParam                    0 6
+ VisibleSkin                 "A_BootCh_R"
+ VisibleSkin                 "A_Boot_L"
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "A_Perch_L"
+ VisibleSkin                 "AH_Shlemem"
+ VisibleSkin                 "HB_BorSmall" 1
+ VisibleSkin                 "A_Napl_L"
+ VisibleSkin                 "A_NaplCh1_R"
+ VisibleSkin                 "A_PerchCh_R"
+ AddItem                     "Dwarf\OneHand\Hammer1\Hammer1_g.scr" "Left_Scabbard"
+ AddItem                     "Dwarf\Shield\DwarfShield1\DwarfShield1.scr" "Spine_shield"
+ Attack 		      False
+});

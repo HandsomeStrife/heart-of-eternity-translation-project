@@ -1,0 +1,8 @@
+AddCharacterPresets('Vivern','Enemy','41Last_Vivern2',{
+ Position                    2576.5083,422.2078,204.2857
+ Rotation                    0 0 0
+ MobParam                    0 10
+ VisibleSkinParam            "Vivern" 1
+ AddDeathScript              "41Last_Vivern.scd"
+ AddItem		     "Animal\Vivern\VivernWeapon.scr" "Right_Hand"
+});

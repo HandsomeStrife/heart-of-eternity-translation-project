@@ -1,0 +1,14 @@
+CreateItemSkin('A_Napl1_L_B','HA_NaplLeft','HA_NaplLeft', {
+  Visible           True
+  Cost              -1
+  Description       "cc"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Napl1_L"
+   MaterialPresetId  1
+   AddObjectD        "A_Napl1_L_B.s03"
+   ArmorAutoGenerate  6  2 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

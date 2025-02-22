@@ -1,0 +1,7 @@
+CreateSFX('FreezeCSFX',{
+    AddSFXPSTag  "data\effect\Freeze\FreezeCPS.scr" pos: 0 0 0 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    LiveTime        = 20
+    LinkParam         33
+});

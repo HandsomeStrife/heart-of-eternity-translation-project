@@ -1,0 +1,4 @@
+DeleteItemChr('TV_IM_Archer','Hakonbow');
+AddItemChrSlot('warior','Quest\COMP\Hakonbow.scr','Bag');
+AddHotKeyHelp('You have received the beautiful bow of the warrior Hakon: I',23);
+SetFlag(360,20);

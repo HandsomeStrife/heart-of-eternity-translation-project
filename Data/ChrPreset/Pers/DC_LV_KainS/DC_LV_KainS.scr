@@ -1,0 +1,20 @@
+AddCharacterPresets('LordVampireS','CivilMan','DC_LV_KainS',{
+ Position                    1627.0270,2450.8704,150.2854
+ Rotation                    0 0 0
+ VisibleSkin                 "pShape8"
+ VisibleSkin                 "pShape11"
+ VisibleSkin                 "pShape4"
+ VisibleSkin                 "pShape13"
+ VisibleSkin                 "pShape12"
+ VisibleSkin                 "pShape7"
+ VisibleSkin                 "pShape9"
+ VisibleSkin                 "pShape6"
+ VisibleSkin                 "pShape10"
+ VisibleSkin                 "pShape2"
+ VisibleSkin                 "pShape1"
+ VisibleSkin                 "pShape5"
+ VisibleSkin                 "pShape3"
+ PlusConstitution            40
+ AddDeathScript		     "DC_LV_KainS_death.scd"
+ Attack			     False
+});

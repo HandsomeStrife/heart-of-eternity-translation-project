@@ -1,0 +1,12 @@
+CreateItemSkin('AH_Vedro_B','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "AH_Vedro"
+   MaterialPresetId  1
+   ArmorAutoGenerate  3  10 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

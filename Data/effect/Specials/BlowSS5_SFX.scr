@@ -1,0 +1,8 @@
+CreateSFX('BlowSSRSFX',{
+    AddSFXPSTag  "data\effect\Specials\BlowSS5.scr" pos: 0 0 0.5 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXTagFlag 0 262144
+    LiveTime        = 1.7
+    LinkParam       = 9
+});

@@ -1,0 +1,7 @@
+CreateChestEffectObj({
+ Visible	0 1 0
+ AutoCalcOffset	2.0
+ SetFlag	"CG39" 2 1 -1
+ Description	"Soldier's corpse"
+ Height 0.5
+});

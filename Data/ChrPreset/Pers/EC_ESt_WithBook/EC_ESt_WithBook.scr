@@ -1,0 +1,17 @@
+AddCharacterPresets('ElfSenat','CIVILMAN','EC_ESt_WithBook',{
+ Description                 "Parleol"
+ Position                    1181.5221,564.7807,197.3300
+ VisibleSkin                 "E_A_Prajka"
+ VisibleSkin                 "E_A_Naruch"
+ VisibleSkin                 "Elf_Sen_Sh"
+ VisibleSkin                 "E_A_Ponog"
+ Rotation                    0 0 180
+ AddBeforeDialogScript       "EC_ESt_WithBook_BD.scd"
+ AddDialog                   "EC_ESt_WithBook_d1.dlg" 0
+ AddDialog                   "EC_ESt_WithBook_d2.dlg" 1
+ AddDialog                   "EC_ESt_WithBook_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

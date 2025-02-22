@@ -1,0 +1,9 @@
+CreateItemSkin('AH_PalladinR_N','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "AH_PalladinR"
+   MaterialPresetId  0
+   ArmorAutoGenerate  3  1 
+});

@@ -1,0 +1,24 @@
+AddCharacterPresets('Starosta','CivilMan','BC_ST_Baron',{
+ Description                 "Rafus"
+ Position                    1092.3756,2336.2295,119.1500
+ Rotation                    0 0 0
+ SetFace                     2
+ VisibleSkin                 "BaronPlash_Sh"
+ VisibleSkinParam            "S_B_CM_Sh" 2
+ VisibleSkinParam            "STAR_Sh" 1
+ VisibleSkinParam            "S_A_SKIRT_Sh" 1
+ VisibleSkinParam            "S_H_HvLys_Sh" 2
+ AddProcScript               "BC_ST_Baron_AI.sci"
+ AddBeforeDialogScript       "BC_ST_Baron_BD.scd"
+ AddDialog                   "BC_ST_Baron_d1.dlg" 0
+ AddDialog                   "BC_ST_Baron_d2.dlg" 1
+ AddDialog		     "BC_ST_Baron_d3.dlg" 2
+ AddDialog		     "BC_ST_Baron_d4.dlg" 3
+ AddDialog		     "BC_ST_Baron_d5.dlg" 4
+ AddDialog		     "BC_ST_Baron_d9.dlg" 9
+ AddItem                     "Human\OneHand\espada\espada.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

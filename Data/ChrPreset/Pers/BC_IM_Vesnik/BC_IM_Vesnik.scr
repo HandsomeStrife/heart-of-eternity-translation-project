@@ -1,0 +1,22 @@
+AddCharacterPresets('IronMan','CivilMan','BC_IM_Vesnik',{
+ Description                 "Dirmas"
+ Position                    1062.3182,2360.2292,98.7334  
+ Rotation                    0 0 90
+ VisibleSkin                 "HB_Sm"
+ VisibleSkinParam            "AH_SelKolp" 1
+ VisibleSkinParam            "A_PlashFibL" 2
+ VisibleSkin                 "I_Man_Sh"
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkin                 "I_NaruchKuz"
+ VisibleSkin                 "I_Otv_Hand"
+ VisibleSkin                 "I_Otv_FootU"
+ VisibleSkinParam            "A_Naruk_L" 3
+ AddBeforeDialogScript       "BC_IM_Vesnik_BD.scd"
+ AddProcScript               "BC_IM_Vesnik_AI.sci"
+ AddDialog                   "BC_IM_Vesnik_d.dlg" 0
+ AddDialog                   "BC_IM_Vesnik_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Kolpak_V1','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Poor-quality mage's hood"
+  History           "The hood of a village healer or forest sorcerer."
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "AH_Kolpak"
+   MaterialPresetId  0
+   AddObjectD        "AH_Kolpak_V1.s03"
+   ArmorAutoGenerate  2  1 
+   PlusMagicPower  2
+});

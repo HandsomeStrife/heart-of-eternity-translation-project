@@ -1,0 +1,16 @@
+AddCharacterPresets('IronManUD','Enemy','IMUD_30',{
+ Description                 "Undead_30"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    1 30
+ ScaleX                      1.05
+ ScaleY                      1.05
+ ScaleZ                      1.05
+ AddSkinItem                 "U_HelmetSk_l34.scr" "Helmet"
+ AddSkinItem                 "HandArmor_Str_l34.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_l13.scr" "Armor"
+ AddSkinItem                 "Legins_Norm_l13.scr" "Leggings"
+ VisibleSkin                 "ZombyBig_Sh"
+ AddItem                     "Human\Shield\KnightShield_01\KnightShield_01.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\bastard01\bastard01.scr" "Left_Scabbard"
+});

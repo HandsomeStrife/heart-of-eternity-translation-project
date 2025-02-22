@@ -1,0 +1,73 @@
+AddAnimationToCharacter('stand.anm','STAND',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+ BlendEnable    0.04
+});
+AddAnimationToCharacter('Walk.anm','RUN_FORWARD_F',{
+ FPS		40.0
+ Speed		1
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+ BlendEnable    0.04
+ AddSoundTag    "GdS" 0
+ AddSoundTag    "GdS" 10
+});
+AddAnimationToCharacter('death.anm','DEATH',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ AddSoundTag    "GDh" 0
+});
+AddAnimationToCharacter('Attack1.anm','BLOW_DOWN',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	13 50
+ AddSpeedLineZone 13 50
+ UseSpeedLine	True
+ TranslateZ     True
+ BlendEnable	0.04
+ AddSoundTag    "GDa" 10
+});
+AddAnimationToCharacter('Attack2.anm','SPECBOT_DD1',{
+ FPS		20.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	41 46
+ AddSpeedLineZone 41 46
+ UseSpeedLine	True
+ TranslateZ     True
+ AddSoundTag    "GDa" 14
+ AddSoundTag    "GSS" 45
+});
+AddAnimationToCharacter('Rotate_Right.anm','SS_ROTATE',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+ TranslateZ     True
+ TranslateX     True
+ BlendEnable    0.04
+ AddSoundTag    "GdS" 0
+});
+AddAnimationToCharacter('Rotate_Left.anm','DD_ROTATE',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+ TranslateX     True
+ TranslateZ     True
+ BlendEnable    0.04
+ AddSoundTag    "GdS" 0
+});

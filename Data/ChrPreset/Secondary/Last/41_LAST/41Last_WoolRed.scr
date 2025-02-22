@@ -1,0 +1,12 @@
+AddCharacterPresets('Wolf','Enemy','41Last_WoolRed',{
+ Position                    2815.2725,792.7184,175.6987
+ Rotation                    0 0 0
+ VisibleSkinParam            "WOLF_Sh" 1
+ MobParam                    2 25
+ ScaleX                      1.8
+ ScaleY                      1.8
+ ScaleZ                      1.8
+ AddDeathScript              "41Last_WoolRed.scd"
+ AddItem		     "Animal\Wolf\wolf_box_15.scr" "DefaultSlot"
+ Life   1000
+});

@@ -1,0 +1,12 @@
+AddSkillPointsToMC(200);
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddHotKeyHelp('Received 10 healing vials',23);

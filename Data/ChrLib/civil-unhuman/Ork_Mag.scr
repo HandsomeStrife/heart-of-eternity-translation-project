@@ -1,0 +1,10 @@
+AddCharacterPresets('OrkMag','CivilMan','Ork_Mag',{
+ Description                 "Ork_Mag"
+ MobParam                    2 5
+ PlusStrenght                -10
+ PlusIntellect               20
+ AddSkinItem                 "HandArmor.scr" "HandArmor"
+ AddSkinItem                 "Legins.scr" "Leggings"
+ AddItem                     "Ork\Magick\o_torch\o_torch.scr" "Right_Hand"
+ DropEnable	              False
+});

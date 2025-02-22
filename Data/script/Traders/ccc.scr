@@ -1,0 +1,20 @@
+AddCharacterPresets('IronMan','IronMan','SL_IM_Otchym',{
+ Description                 "zxczxc"
+ Position                    887.2600 1674.6470 172.2447
+ Rotation                    0 0 0
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkinParam            "I_Man_Sh" 3
+ VisibleSkinParam            "A_Napl3_L" 2
+ VisibleSkin                 "A_Naruch1_L"
+ VisibleSkinParam            "A_Nanog_L" 4
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkinParam            "A_Nanog_R" 3
+ VisibleSkin                 "HB_CM"
+ VisibleSkin                 "HB_Kosichky"
+ VisibleSkin                 "A_Naruch1_R"
+ VisibleSkinParam            "A_Naruk_L" 3
+ VisibleSkin                 "AH_PovEys_R"
+ VisibleSkin                 "H_HvMedLis"
+ VisibleSkin                 "H_IrokHv"
+});

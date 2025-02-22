@@ -1,0 +1,23 @@
+AddCharacterPresets('OrkMag','CivilMan','OV_OB_Shaman',{
+ Description                 "Шака-Зан"
+ Position                    3088.5098,303.2672,166.5308
+ Rotation                    0 0 0
+ VisibleSkinParam            "OM_Body" 2
+ VisibleSkin                 "OM_Greben"
+ VisibleSkin                 "OM_Schild_F"
+ VisibleSkin                 "OM_Poyas"
+ VisibleSkin                 "OM_Chalust"
+ AddProcScript               "OV_OB_Shaman_AI.sci"
+ AddBeforeDialogScript       "OV_OB_Shaman_BD.scd"
+ AddDialog                   "OV_OB_Shaman_D1.dlg" 0 
+ AddDialog                   "OV_OB_Shaman_D2.dlg" 1
+ AddDialog                   "OV_OB_Shaman_D3.dlg" 2
+ AddDialog                   "OV_OB_Shaman_D4.dlg" 3
+ AddDialog                   "OV_OB_Shaman_D5.dlg" 4
+ AddDialog                   "OV_OB_Shaman_D9.dlg" 9
+ AddItem                     "Ork\Magick\o_posoh_sham\o_posoh_sham.scr" "Right_Hand"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

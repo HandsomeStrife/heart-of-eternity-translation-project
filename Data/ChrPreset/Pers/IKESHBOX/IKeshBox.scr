@@ -1,0 +1,10 @@
+AddCharacterPresets('Box','CivilMan','IKeshBox',{
+ Position                    5865.3271 817.0225 221.6015
+ Rotation                    0 0 0
+ AddBeforeDialogScript       "IKeshBox_BD.scd"
+ AddDialog		     "IKeshBox.dlg" 0
+ AddDialog		     "IKeshBox_d9.dlg" 9
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

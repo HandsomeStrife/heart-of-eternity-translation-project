@@ -1,0 +1,22 @@
+AddCharacterPresets('CivDwarf','CivilMan','DwC_DW_Putontracker',{
+ Description                 "Mestnyi"
+ Position                    1193.0087,1108.0245,174.2294
+ Rotation                    0 0 170
+ VisibleSkin                 "A_Skirt"
+ VisibleSkin                 "HB_BorSmall" 1
+ VisibleSkin                 "I_PerchKojaL"
+ VisibleSkin                 "I_PerchKojaR"
+ VisibleSkin                 "I_Fona"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "DwC_DW_Putontracker_BD.scd"
+ AddDialog                   "DwC_DW_Putontracker_d0.dlg" 0
+ AddDialog                   "DwC_DW_Putontracker_d9.dlg" 9
+ AddItem                     "Dwarf\OneHand\Hammer1\Hammer1_g.scr" "Left_Scabbard"
+ AddItem                     "Dwarf\OneHand\Hammer1\Hammer1_g.scr" "Right_Scabbard"
+ Attack 		      False
+ PartitionEnable              False
+});

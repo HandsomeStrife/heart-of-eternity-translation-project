@@ -1,0 +1,12 @@
+AddCharacterPresets('IronMan','Enemy','32_LAST_target',{
+ Description                 "32_LAST_target"
+ Position                    1379.6674,2838.4124,4.8474
+ Rotation                    0 0 260
+ AddDeathScript		     "32_LAST_target_death.scd"
+ PartitionEnable             False
+ VisibleSkin                 "ZombyBig_Sh"
+ AddSkinItem                 "HandArmor_36.scr" "HandArmor"
+ AddItem		     "Human\OneHand\club\club.scr" "Left_Scabbard"
+ DropEnable	             False
+ MobParam                    1 30
+});

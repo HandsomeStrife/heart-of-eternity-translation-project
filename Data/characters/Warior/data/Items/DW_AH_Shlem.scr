@@ -1,0 +1,13 @@
+CreateItemSkin('DW_AH_Shlem','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Helmet of the Best Hunter"
+  History           "The technological achievements of the dwarves are fully manifested in the creation of protective armor, which combines: high durability, relatively low weight, and the bonuses inherent to the underground race - being clad in full dwarven plate, its owner will significantly enhance their strength and gain resistance to magic."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "DW_AH_Shlem"
+   MaterialPresetId  0
+   AddObjectD        "DW_AH_Shlem.s03"
+   ArmorAutoGenerate  6  3 
+   PlusStrenght     5
+});

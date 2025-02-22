@@ -1,0 +1,2 @@
+AddItemChrSlot('warior','Human\OneHand\Mizerikordia3\Mizerikordia3.scr','Bag');
+AddHotKeyHelp('You received a dagger!',23);

@@ -1,0 +1,21 @@
+AddCharacterPresets('IronMan','CivilMan','IK_TR_WA',{
+ Description                 "IK_TR_WA"
+ Position                    5824.7192,875.2204,220.2397
+ Rotation                    0 0 270
+AddDialog                   "IK_TR_WA9.dlg" 9
+AddDialog                   "IK_TR_WA_d.dlg" 0
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkinParam            "A_PlashFib2" 1
+ VisibleSkinParam            "I_Man_Sh" 3
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkinParam            "A_Skirt" 3
+ VisibleSkin                 "HB_Kosichky"
+ VisibleSkin                 "I_Otv_Hand"
+ VisibleSkinParam            "A_Naruk_L" 3
+ VisibleSkin                 "H_Irok"
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

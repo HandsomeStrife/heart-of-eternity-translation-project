@@ -1,0 +1,23 @@
+IfN_Flag_GoTo(5,1,@1);
+  BlackScreenStart('We welcome the first contender - Bart the Grey!');
+  SetCharacterPosition('warior',1049.2537,2343.0554,99.5814);
+  SetCharacterPosition('BC_CM_Glashatay',1054.2283,2334.5266,98.7500);
+  SetCharacterPosition('BC_IM_Commandant',1067.8881,2339.6855,99.1628);
+  SetCharacterRotation('BC_IM_Commandant',0,0,-85);
+  SetCharacterPosition('BC_IM_Gotfrid',1049.3771,2336.2073,99.5814);
+  SetCharacterPosition('BC_OLD_Inkviz',1066.9012,2337.4697,99.8240);
+  SetCharacterRotation('BC_OLD_Inkviz',0,0,-85);
+  SetCharacterPosition('BC_OLD_Mag',1066.7983,2335.0251,99.8240);
+  SetCharacterRotation('BC_OLD_Mag',0,0,-85);
+  SetCharacterPosition('BC_ST_Baron',1066.8713,2336.2817,99.8240);
+  SetCharacterRotation('BC_ST_Baron',0,0,-85);
+  SetCharacterPosition('BC_WN_Kurtizanka',1067.8229,2334.2637,98.7524);
+  SetCharacterRotation('BC_WN_Kurtizanka',0,0,-85);
+  SetFlag(5,2);
+  AddEnemy('BC_IM_Gotfrid','warior');
+  AIS_GoTo(@2);
+  StartTournament(1045.5,2337.7,1052,2345); 
+@1:
+ AIPOINT_SetExecute('Tourn_1',0);
+@2:
+NOP();

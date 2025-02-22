@@ -1,0 +1,17 @@
+AddCharacterPresets('IronMan','CivilMan','BC_IM_WoundedFinal',{
+ Description                 "Bart Grey"
+ Position                    1028.5262,2351.2754,99.0798
+ Rotation                    0 0 0
+ AddBeforeDialogScript       "BC_IM_WoundedFinal_BD.scd"
+ AddDialog                   "BC_IM_WoundedFinal_d.dlg" 0
+ AddDialog                   "BC_IM_WoundedFinal_d9.dlg" 9
+ AddProcScript               "BC_IM_WoundedFinal_AI.sci"
+ VisibleSkinParam            "I_Man_Sh" 4
+ AddSkinItem                 "SecArmor_Sk_l15.scr" "SecArmor"
+ AddSkinItem                 "Legins_Sk_l20.scr" "Leggings"
+ AddSkinItem                 "HandArmor_l20.scr" "HandArmor"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

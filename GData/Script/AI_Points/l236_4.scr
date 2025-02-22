@@ -1,0 +1,6 @@
+AIPOINT_SetExecute('l236_3',1);
+AIPOINT_SetAutoExec('l236_3',0);
+IfN_Flag_GoTo(506,0,@1);
+SetFlag(506,1);
+@1:
+NOP(0);

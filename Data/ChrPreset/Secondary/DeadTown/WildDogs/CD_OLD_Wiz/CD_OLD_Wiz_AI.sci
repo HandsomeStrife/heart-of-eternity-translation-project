@@ -1,0 +1,12 @@
+IfN_Flag_GoTo(460,3,@1);
+ IfN_DistToMC_GoTo(2,@2);
+  StartCurrDialog('CD_OLD_Wiz');
+  AIS_GoTo(@1);
+@2:
+ IfN_DistToMC_GoTo(4,@1);
+  IfN_Point_MoveRun('MC');
+@1:
+IfN_Flag_GoTo(460,6,@3);
+   IfChrVisibleGoTo(@3);
+    AIS_SetChrPosRotZ('CD_OLD_Wiz',4034.3623,726.5059,129.7462,15);
+@3:

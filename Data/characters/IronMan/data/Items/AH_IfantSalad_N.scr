@@ -1,0 +1,9 @@
+CreateItemSkin('AH_IfantSalad_N','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "AH_IfantSalad"
+   MaterialPresetId  0
+   ArmorAutoGenerate  3  1 
+});

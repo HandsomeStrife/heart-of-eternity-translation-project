@@ -1,0 +1,17 @@
+AddCharacterPresets('WomanFat','CivilMan','DrC_WN_MatNast',{
+ Description                 "Elza the Wise"
+ Position                    7059.0728,907.8798,239.4319
+ Rotation                    0 0 135
+ VisibleSkin                 "WF_O_Platye_Sh"
+ VisibleSkin                 "WF_O_Rukava_Sh"
+ VisibleSkin                 "Woman_Fat_Sh"
+ VisibleSkin                 "H_Uchilka_Sh"
+ AddBeforeDialogScript       "DrC_WN_MatNast_BD.scd"
+ AddDialog                   "DrC_WN_MatNast_d.dlg" 0
+ AddDialog                   "DrC_WN_MatNast_d1.dlg" 1
+ AddDialog                   "DrC_WN_MatNast_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

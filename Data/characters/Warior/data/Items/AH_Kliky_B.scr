@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Kliky_B','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Black Closed Helmet"
+  History           "Full articulated armor provides a high level of protection in melee combat. Solid armor withstands crossbow bolts, a mace or sword strike. The main drawback of armor is the significant limitation on the warrior's mobility. Full black steel armor greatly increases protection against crushing strikes."
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "AH_Kliky"
+   MaterialPresetId  1
+   AddObjectD        "AH_Kliky_B.s03"
+   ArmorAutoGenerate  8  3 
+   PlusConstitution 5
+});

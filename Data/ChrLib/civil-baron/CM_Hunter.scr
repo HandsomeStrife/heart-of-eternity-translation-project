@@ -1,0 +1,16 @@
+AddCharacterPresets('Civman','CivilMan','CM_Hunter',{
+ Description                 "CM_Hunter"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    3 11
+ SetFace                     1
+ VisibleSkin                 "HB_CmS"
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkin                 "H_Kosy"
+ AddSkinItem                 "HandArmor_Sk_l11.scr" "HandArmor"
+ AddSkinItem                 "A_PlashS_l11.scr" "Armor"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\ShortBow\Shortbow.scr" "Bow"
+ AddItem                     "Human\OneHand\Mizerikordia2\Mizerikordia2.scr" "Left_Scabbard"
+});
+                               			

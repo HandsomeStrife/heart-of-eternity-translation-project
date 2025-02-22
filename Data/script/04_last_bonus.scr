@@ -1,0 +1,7 @@
+GetBonusForQuest(20,2);
+DeleteItemChr('warior','04_last');
+AddItemChrSlot('warior','Stuf\BottleBig_E\BottleBig_E.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_E\BottleBig_E.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_E\BottleBig_E.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_E\BottleBig_E.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_E\BottleBig_E.scr','Bag');

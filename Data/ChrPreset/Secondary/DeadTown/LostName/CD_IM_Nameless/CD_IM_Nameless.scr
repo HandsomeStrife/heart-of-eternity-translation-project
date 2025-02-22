@@ -1,0 +1,25 @@
+AddCharacterPresets('IronMan','CivilMan','CD_IM_Nameless',{
+ Description                 "CD_IM_Nameless"
+ Position                    4097.2607,687.6677,141.7949
+ Rotation                    0 0 0
+ VisibleSkin                 "ZombyBig_Sh"
+ VisibleSkin                 "A_Cuirass"
+ VisibleSkin                 "A_Sapog1_L"
+ VisibleSkin                 "A_Sapog1_R"
+ PlusStrenght                23
+ PlusDexterity               17
+ PlusConstitution            200
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "CD_IM_Nameless_BD.scd"
+ AddDialog                   "CD_IM_Nameless_d0.dlg" 0
+ AddDialog                   "CD_IM_Nameless_d1.dlg" 1
+ AddDialog                   "CD_IM_Nameless_d9.dlg" 9
+ AddItem                     "Human\Shield\KnightShield_01\KnightShield_01.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\sword\sword.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\sword\sword.scr" "Right_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

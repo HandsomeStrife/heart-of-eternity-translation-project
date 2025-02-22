@@ -1,0 +1,14 @@
+CreateItemSkin('Warior_Sh_K3','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  Description       "Reinforced leather jacket"
+  History           "Leather attire with average protective properties, enhanced comfort, and an aesthetic appearance."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "Warior_Sh"
+   MaterialPresetId  4
+   AddObject         "Warior_Sh_K3.zrm"
+   ArmorAutoGenerate  6  2 
+   PlusStrenght     2
+   PlusConstitution 2
+});

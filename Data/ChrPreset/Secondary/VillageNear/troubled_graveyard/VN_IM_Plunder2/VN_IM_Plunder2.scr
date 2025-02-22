@@ -1,0 +1,15 @@
+AddCharacterPresets('Civman','CivilMan','VN_IM_Plunder2',{
+ Description                 "Rokstedy"
+ Position                    1267.7899,2082.9741,11.0107
+ Rotation                    0 0 0
+ AnimReplace                 0 "WALK_FORWARD" "WALK_3"
+ AddProcScript               "VN_IM_Plunder2_AI.sci"
+ PlusConstitution            70
+ VisibleSkin                 "IM_G_Hunter_Sh"
+ VisibleSkin                 "CM_Ghost"
+ VisibleSkin                 "I_Man_Sh"
+ AddItem		     "Human\OneHand\Axe_Klevec1\Axe_Klevec1.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+});

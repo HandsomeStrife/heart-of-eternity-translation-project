@@ -1,0 +1,22 @@
+AddCharacterPresets('IronMan','CivilMan','BC_TR_W',{
+ Description                 "Мартин"
+ Position                    1064.5648,2381.7278,98.7522
+ Rotation                    0 0 180
+ PlusStrenght                100
+ PlusDexterity               100
+ PlusConstitution            100
+ PlusIntellect               100
+ PlusMagicPower              100
+ AddDialog                   "BC_TR_W9.dlg" 9
+ AddDialog                   "BC_TR_W_d.dlg" 0
+ SetFace  		     2
+ VisibleSkin                 "I_Fartuh"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "H_Kosy"
+ AddSkinItem                 "SecArmor_K2_l55.scr" "SecArmor"
+ AddItem                     "Human\OneHand\scimitar03\scimitar03.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

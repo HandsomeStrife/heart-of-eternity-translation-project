@@ -1,0 +1,14 @@
+CreateItemSkin('Warior_Sh_Sk3','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  Description       "Composite Leather Armor"
+  History           "A noticeable increase in the level of protection provided by leather armor is achieved by attaching plates of soft iron to it. The leather used for crafting the armor is taken as thick and as stiff as possible. Then, by boiling in oil, the leather is given additional hardness. Full composite leather armor provides a high bonus to the warrior's agility."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "Warior_Sh"
+   MaterialPresetId  7
+   AddObject         "Warior_Sh_Sk3.zrm"
+   ArmorAutoGenerate  7  3 
+   PlusDexterity    5
+   PlusConstitution 5
+});

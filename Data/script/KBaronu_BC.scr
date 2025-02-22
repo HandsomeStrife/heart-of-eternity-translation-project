@@ -1,0 +1,6 @@
+BlackScreenStart('In the chambers of Baron Rafus...');
+SetCharacterPosition('warior',1103.8451,2333.8049,119.1500);
+SetCharacterPosition('BC_CM_Glashatay',1057.4347,2346.5420,98.7340);
+SetCharacterRotation('BC_CM_Glashatay',0,0,275);
+SetCharacterPosition('BC_IM_WoundedFinal',1170.5750,2145.9863,5.6898);
+SetCharacterRotation('BC_IM_WoundedFinal',0,0,160);

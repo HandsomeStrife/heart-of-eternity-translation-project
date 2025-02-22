@@ -1,0 +1,14 @@
+AddCharacterPresets('IronMan','CivilMan','GD_IM_DereGuard4',{
+ Description                 "NONAMES"
+ Position                    5995.8823,880.9279,226.2799
+ Rotation                    0 0 0
+ MobParam                    1 40
+ SetFace                     2
+ VisibleSkin                 "HB_Med"
+ VisibleSkin                 "AH_Cilindr"
+ AddSkinItem                 "SecArmor_Sk_l55.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_52.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_B_l55.scr" "Armor"
+ AddItem                     "Human\TwoHand\h_naginata03\h_naginata03.scr" "TwoHandSword"
+ Attack 		      False
+});

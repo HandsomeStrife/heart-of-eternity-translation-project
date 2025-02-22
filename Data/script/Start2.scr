@@ -1,0 +1,11 @@
+GD_DisableEsc(0);
+BlackScreenStart('Morning...');
+SetCharacterPosition('SL_IM_Otchym',911.1550 1676.3889 172.2447);
+SetCharacterRotation('SL_IM_Otchym',0,0,90);
+SetCharacterPosition('VF_ES_ETeacher',1230.6184,2070.8047,8.6391);
+SetCharacterRotation('VF_ES_ETeacher',0,0,0);
+SetCharacterPosition('warior',925.8597,1676.1093,170.2594);
+SetCharacterRotation('warior',0,0,-90);
+SYS_SetSunSpeed(3);
+CHRSCR_SetTime(14);
+StartTutorial();

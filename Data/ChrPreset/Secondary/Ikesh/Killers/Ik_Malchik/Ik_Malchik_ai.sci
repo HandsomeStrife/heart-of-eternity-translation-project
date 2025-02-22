@@ -1,0 +1,12 @@
+IfN_Flag_GoTo(491,0,@3);
+IfN_Flag_GoTo(490,0,@1);
+ IfN_DistToMC_GoTo(2,@2);
+  StartCurrDialog('Ik_Malchik');
+  AIS_GoTo(@1);
+@2:
+ IfN_DistToMC_GoTo(30,@1);
+  IfN_Point_MoveRun('MC');
+@1:
+  SetFlag(491,1);
+  CHRSCR_AddTimePeriod(491,0,5);  
+@3:

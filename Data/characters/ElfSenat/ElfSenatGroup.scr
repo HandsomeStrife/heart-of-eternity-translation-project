@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\ElfSenat\data\ElfSenat.mc',
+'ElfSenat',
+'data\characters\ElfSenat\data\','civman','Elf_Sen_Sh');

@@ -1,0 +1,14 @@
+CreateItemSkin('Legins_GS','Leggings','Leggings', {
+ Visible                 True
+ Cost                    -1
+ Description       "Silver leg protection in gold"
+ History           "Continuous articulated armor, a purely human invention. A heavily armed fighter stands for ten lightly armed ones. Silver armor in gold not only excellently protects against slashing strikes but also significantly increases resistance to magic."
+ AddSkinFromItemNoObj   "A_Nanog_L_GS.scr"
+ AddSkinFromItemNoObj   "A_Nanog_R_GS.scr"
+ AddSkinFromItemNoObj   "A_Sapog1_L_GS.scr"
+ AddSkinFromItemNoObj   "A_Sapog1_R_GS.scr"
+ AddSkinFromItemNoObj   "A_Skirt_GS.scr"
+ AddObject            "Legins_GS.zrm" 
+ ArmorAutoGenerate  11  4 
+ PlusConstitution    8
+});

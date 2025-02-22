@@ -1,0 +1,15 @@
+CreateItemSkin('Legins_B','Leggings','Leggings', {
+ Visible                 True
+ Cost                    -1
+ Description       "Black steel leg protection"
+ History           "Full articulated plate armor provides a high level of protection in melee combat. Solid armor withstands crossbow bolts, a mace strike, or a sword. The main drawback of plate armor is the significant limitation on the warrior's mobility. Full black steel plate armor greatly enhances protection against bludgeoning strikes."
+
+ AddSkinFromItemNoObj   "A_Nanog_L_B.scr"
+ AddSkinFromItemNoObj   "A_Nanog_R_B.scr"
+ AddSkinFromItemNoObj   "A_Sapog1_L_B.scr"
+ AddSkinFromItemNoObj   "A_Sapog1_R_B.scr"
+ AddSkinFromItemNoObj   "A_Skirt_B.scr"
+ AddObject            "Legins_B.zrm" 
+ ArmorAutoGenerate   8  3 
+ PlusConstitution    8
+});

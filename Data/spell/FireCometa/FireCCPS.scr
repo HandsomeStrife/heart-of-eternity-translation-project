@@ -1,0 +1,49 @@
+CreateMaterial('M_PSFireCA','FirePart.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "SelectArg1"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateParticlSystem('PS_FireCCPS',{
+ ParticlProcType	"Flue"
+ SpawnType		"Sphere"
+ Radius			1.0000
+ SpawnPosTwo		0.000 0.000 1.000
+ SpawnPosThree		0.000 0.000 0.000
+ SpawnSpeed             100.0000
+ SizeMin                0.8000
+ SizeMax                3.0000
+ TimeLive               2.5000
+ MaxNumParticl          300
+ SetPSColor		id = 0	time = 0.0000  0 0 0 255
+ SetPSColor		id = 1	time = 0.5000  166 103 90 255
+ SetPSColor		id = 2	time = 0.8000  65 65 65 255
+ SetPSColor		id = 3	time = 1.0000  0 0 0 255
+ ForceVector            id = 0  0.0000 0.0000 1.0000
+ ForceStrength          id = 0  6.00000
+ AngleZXY               id = 0  0.000  0.000
+ AngleXY                id = 0  0.000  0.000
+ ForceVector            id = 1  0.0000 0.0000 -1.0000
+ ForceStrength          id = 1  0.10000
+ AngleZXY               id = 1  0.000  180.000
+ AngleXY                id = 1  -90.000  90.000
+ Position               92.4282 66.4736 -2.7479
+ Rotation               0 0 0
+ SizeMinSec             0.0000
+ MassMin                0.0000
+ SetMaterial		"M_PSFireCA"
+ SpeedRotate            50
+ SpiralRotate           False
+ SpawnRandomRot         True
+});

@@ -1,0 +1,16 @@
+AddCharacterPresets('IronMan','CIVILMAN','DT_roader',{
+ Description                 "TV_roader"
+ Position                    551.5146,2518.6436,45.9339
+ Rotation                    0 0 275
+ AddDialog                   "TV_roader_d0.dlg" 0
+ AddDialog                   "ALL_roaders_d9.dlg" 9
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "AH_Hunter"
+ VisibleSkin                 "H_GorLis"
+ AddSkinItem                 "SecArmor_Sk_l15.scr" "SecArmor"
+ AddItem                     "Human\OneHand\Knife01\Knife01.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+});

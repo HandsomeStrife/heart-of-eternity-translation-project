@@ -1,0 +1,7 @@
+IfN_Flag_GoTo(958,1,@1);
+AddItemChrSlot('warior','Quest\08_last\08_last.scr','Bag');
+SetFlag(958,2);
+AddMoneyToMC(-100);
+JQuestRecordComplete(958,1);
+JVisibleRecord(958,2);
+@1:

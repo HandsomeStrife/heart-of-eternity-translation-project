@@ -1,0 +1,10 @@
+CreateItemSkin('A_Cuirass_S','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "A_Cuirass_S"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Cuirass"
+   MaterialPresetId  2
+   ArmorAutoGenerate  6  4 
+});

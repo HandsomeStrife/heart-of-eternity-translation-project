@@ -1,0 +1,8 @@
+BlackScreenStart('The old man is being led out of the cell...');
+SetCharacterPosition('GD_OLD_Libr',5865.8281,842.4444,221.9763);
+SetCharacterRotation('GD_OLD_Libr',0,0,225);
+SetCharacterPosition('GD_IM_Hogrus',5856.3145,827.5179,221.6015);
+SetCharacterRotation('warior',0,0,177);
+AddEnemy('GD_IM_Hogrus','warior');
+AddItemChrSlot('warior','Human\OneHand\Mizerikordia1\zatochka.scr','Bag');
+AddHotKeyHelp('You received a handmade dagger.',23);

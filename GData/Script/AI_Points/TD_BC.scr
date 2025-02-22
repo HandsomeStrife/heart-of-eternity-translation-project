@@ -1,0 +1,5 @@
+SetCharacterRotation('warior',0,0,110);
+BlackScreenStart('Dungeons of Castle Rufford');
+SetCharacterPosition('warior',1052.8624,2312.8411,48.9691);
+AddExpMC(2000);
+SetFlag(906,1);

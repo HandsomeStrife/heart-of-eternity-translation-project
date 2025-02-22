@@ -1,0 +1,13 @@
+CreateItemSkin('DW_AH_Monokl','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Gnomes' Monocle"
+  History           "The one who puts on this monocle instantly acquires the appearance of a refined gnomish intellectual."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "DW_AH_Monokl"
+   MaterialPresetId  0
+   AddObjectD        "DW_AH_Monokl.s03"
+   ArmorAutoGenerate  2  2 
+   PlusDexterity     5
+});

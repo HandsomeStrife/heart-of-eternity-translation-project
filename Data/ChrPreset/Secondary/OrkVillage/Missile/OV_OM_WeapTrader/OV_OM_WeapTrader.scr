@@ -1,0 +1,24 @@
+AddCharacterPresets('OrkMedium','CivilMan','OV_OM_WeapTrader',{
+ Description                 "House Gar"
+ Position                    2839.2300,427.5306,189.3033
+ Rotation                    0 0 0
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ AddBeforeDialogScript       "OV_OM_WeapTrader_BD.scd"
+ AddDialog                   "OV_OM_WeapTrader_D0.dlg" 0
+ AddDialog                   "OV_OM_WeapTrader_D1.dlg" 1
+ AddDialog                   "OV_OM_WeapTrader_D2.dlg" 2
+ AddDialog                   "OV_OM_WeapTrader_D3.dlg" 3
+ AddDialog                   "OV_OM_WeapTrader_D4.dlg" 4
+ AddDialog                   "OV_OM_WeapTrader_D9.dlg" 9
+ AddSkinItem                 "OMe_Cuirass_l3.scr" "Armor"
+ AddSkinItem                 "HandArmor_Norm_l3.scr" "HandArmor"
+ AddSkinItem                 "Legins_Norm_l3.scr" "Leggings"
+ AddItem                     "Ork\OneHand\Ork_sabre\Ork_sabre.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

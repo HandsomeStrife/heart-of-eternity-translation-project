@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Kliky_N','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Steel Closed Helmet"
+  History           "Настоящую защиту могут дать только крупные объThe dark solid-forged parts that make up the steel armor. In addition to breastplates and pauldrons made of solid metal, gauntlets, greaves, cuisses, cuirasses, and helmets are also crafted. Full steel armor significantly increases protection against arrows."
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "AH_Kliky"
+   MaterialPresetId  0
+   AddObjectD        "AH_Kliky_N.s03"
+   ArmorAutoGenerate  6  2 
+   PlusStrenght     3
+});

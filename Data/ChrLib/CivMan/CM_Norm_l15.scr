@@ -1,0 +1,14 @@
+AddCharacterPresets('Civman','Enemy','CM_l15',{
+ Description                 "CM_l15"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 15
+ AddDeathScript              "cmdscr.scd"
+ VisibleSkin                 "HB_Sm"
+ AddSkinItem                 "AH_IfantSalad_N_l15.scr" "Helmet"
+ AddSkinItem                 "SecArmor_Kol_l15.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_15.scr" "HandArmor"
+ AddItem                     "Human\Shield\buckler03\buckler03_l15.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\sabre01\sabre01.scr" "Left_Scabbard"
+});
+                               			

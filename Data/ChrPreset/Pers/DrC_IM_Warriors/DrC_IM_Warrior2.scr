@@ -1,0 +1,15 @@
+AddCharacterPresets('IronMan','CivilMan','DrC_IM_Warrior2',{
+ Description                 "DrC_IM_Warrior2"
+ Position                    7028.6460,889.2133,243.6885
+ Rotation                    0 0 180
+ MobParam                    3 44
+ VisibleSkinParam            "A_PlashFibL" 0
+ AddSkinItem                 "SecArmor_K1_l45.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_44.scr" "HandArmor"
+ AddSkinItem                 "Legins_44.scr" "Leggings"
+ AddSkinItem                 "AH_GladiatP_S_l44.scr" "Helmet"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Elf\Ranged\Bows\e_bow03\e_bow03.scr" "Bow"
+ AddItem                     "Human\OneHand\katana03\katana03.scr" "Left_Scabbard"
+ Attack 		      False
+});

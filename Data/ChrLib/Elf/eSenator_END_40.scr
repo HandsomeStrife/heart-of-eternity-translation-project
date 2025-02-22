@@ -1,0 +1,13 @@
+AddCharacterPresets('ElfSenat','Enemy','Elf_50',{
+ Description                 "Elf_50"
+ Position                    1230.6184,2070.8047,8.6391
+ Rotation                    0 0 0
+ MobParam                    2 40
+ VisibleSkin                 "E_A_Prajka"
+ VisibleSkin                 "E_A_Naruch"
+ VisibleSkin                 "Elf_Sen_Sh"
+ VisibleSkin                 "E_A_Ponog"
+ VisibleSkinParam            "E_AH_Shapo" 2
+ AddItem                     "Elf\TwoHand\e_2handSword\e_2handSword.scr" "TwoHandSword"
+ AddItem		     "Elf\OneHand\e_sword\e_sword.scr" "Left_Scabbard"
+});

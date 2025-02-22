@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\IronMan\data\IronMan.mc',
+'IronMan',
+'data\characters\IronMan\data\','civman','I_Man_Sh','ZombyBig_Sh');

@@ -1,0 +1,14 @@
+AddCharacterPresets('Starosta','Enemy','Star29',{
+ Description                 "FatBandit29"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    1 29
+ SetFace                     1
+ VisibleSkin                 "HB_Circ"
+ AddSkinItem                 "HandArmor_B3.scr" "HandArmor"
+ AddSkinItem                 "Legins_Sk_l29.scr" "Leggings"
+ AddSkinItem                 "AH_Kliky_B_l29.scr" "Helmet"
+ AddSkinItem                 "SecArmor_Kol_l29.scr" "SecArmor"
+ AddItem		     "Human\OneHand\mace01\mace01.scr" "Left_Scabbard"
+ AddItem		     "Human\Shield\Shield_Buckler\Shield_Buckler_l29.scr" "Spine_shield"
+});

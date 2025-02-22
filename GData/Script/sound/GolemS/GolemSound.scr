@@ -1,0 +1,6 @@
+CreateSoundLib('G_Step1.wav','GOr0',2,20,100);
+CreateSoundLib('G_Step2.wav','GOr1',2,20,100);
+CreateSoundLibGroup('GOr',2,'GOr');
+CreateSoundLib('G_Swish1.wav','GOw0',2,20,100);
+CreateSoundLib('G_Swish2.wav','GOw1',2,20,100);
+CreateSoundLibGroup('GOw',2,'GOw');

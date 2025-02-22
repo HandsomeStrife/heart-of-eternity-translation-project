@@ -1,0 +1,22 @@
+AddCharacterPresets('Starosta','CivilMan','OV_ST_Caravaner',{
+ Description                 "Kon"
+ Position                    2741.2498,776.3201,176.5663
+ Rotation                    0 0 125
+ VisibleSkin                 "HB_Circ"
+ VisibleSkin                 "I_Otv_FootU"
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "A_PlashKup"
+ VisibleSkin                 "STAR_Sh"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ AddBeforeDialogScript       "OV_ST_Caravaner_BD.scd"
+ AddDialog                   "OV_ST_Caravaner_d0.dlg" 0
+ AddDialog                   "OV_ST_Caravaner_d1.dlg" 1
+ AddDialog                   "OV_ST_Caravaner_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ Attack 		      False
+ DropEnable	              False
+});

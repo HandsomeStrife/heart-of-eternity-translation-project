@@ -1,0 +1,14 @@
+AddCharacterPresets('IronMan','Enemy','IM_l32',{
+ Description                 "IM_l32"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 32
+ SetFace                     1
+ VisibleSkin                 "I_NaruchKuz"
+ AddSkinItem                 "SecArmor_K2_l35.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_32.scr" "HandArmor"
+ AddSkinItem                 "AH_Kliky_N_l35.scr" "Helmet"
+ AddSkinItem                 "Legins_l32.scr" "Leggings"
+ AddItem                     "Human\Shield\target01\target01_l35.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\scimitar02\scimitar02.scr" "Left_Scabbard"
+});

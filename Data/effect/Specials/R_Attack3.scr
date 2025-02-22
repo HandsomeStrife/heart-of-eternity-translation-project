@@ -1,0 +1,67 @@
+AddObjectToLib('data\object\VertDisk.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_VertDLightn','VertDLightn.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 4.0000
+ MatrixText          id = 0 1 1 1.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 0.0000 1.0000
+ MapMoveSpeed        id = 0 -1.0000
+ AddTextureStage   1 "VertDLightn.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Modulate"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "Texture"
+ AlphaOp             id = 1 "SelectArg1"
+ AlphaArgTwo         id = 1 "Diffuse"
+ TextureCIndex       id = 1 0
+ MatrixTextTransform id = 1 True
+ MatrixText          id = 1 0 0 5.0000
+ MatrixText          id = 1 1 1 1.0000
+ TCIFunction         id = 1 "passthru"
+ MapMoveDirect       id = 1 True
+ MapMoveVector       id = 1 0.0000 1.0000
+ MapMoveSpeed        id = 1 1.0000
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('SVDA',fps=30,numFrame=60,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  34
+AddTranslateKey   0 0 0  4
+AddTranslateKey   0 0 0  7
+AddTranslateKey   0 0 0  14
+AddTranslateKey   0 0 0  0
+AddColorKey  0 0 0 0   34
+AddColorKey  0 0 0 0   4
+AddColorKey  255 255 255 255   7
+AddColorKey  0 0 0 0   14
+AddColorKey  0 0 0 0   0
+AddScaleKey   1 1 1  34
+AddScaleKey   0.05216260298 0.05216260298 0.05216260298  4
+AddScaleKey   1.31861715 1.31861715 1.31861715  7
+AddScaleKey   4.87263871 4.87263871 4.87263871  14
+AddScaleKey   1 1 1  0
+});
+CreateSFX('testSFXM',{
+    AddSFXObjectTagN  "VERTDISK"  pos: 0 0 0  rot: 0 0 0 "SVDA"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\effect\Specials\PS_StarGlow.scr" pos: 0 0 0 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    LiveTime        = 1.5
+    LinkParam       = 3
+});

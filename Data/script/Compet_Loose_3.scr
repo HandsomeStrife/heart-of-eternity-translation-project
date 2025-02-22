@@ -1,0 +1,4 @@
+DeleteItemChrSlot('warior','Right_Hand');
+DeleteItemChrSlot('warior','Left_Hand');
+AddHotKeyHelp('You have lost your weapon: I',23);
+SetFlag(360,20);

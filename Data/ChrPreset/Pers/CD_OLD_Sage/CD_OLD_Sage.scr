@@ -1,0 +1,22 @@
+AddCharacterPresets('MagVillage','CivilMan','CD_OLD_Sage',{
+ Description                 "Markus"
+ Position                    4134.8013,701.3097,141.9805
+ Rotation                    0 0 45
+ VisibleSkin                 "MV_B_Long"
+ VisibleSkin                 "MV_H_Med"
+ VisibleSkin                 "I_AMAmulet"
+ VisibleSkin                 "AH_Cap1"
+ VisibleSkin                 "AH_Cap2"
+ VisibleSkin                 "AH_Cap3"
+ VisibleSkin                 "AH_Cap4"
+ VisibleSkin                 "I_AMMTunika"
+ AddProcScript               "CD_OLD_Sage_ai.sci"
+ AddBeforeDialogScript       "CD_OLD_Sage_BD.scd"
+ AddDialog                   "CD_OLD_Sage_d1.dlg" 0
+ AddDialog                   "CD_OLD_Sage_d2.dlg" 1
+ AddDialog                   "CD_OLD_Sage_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

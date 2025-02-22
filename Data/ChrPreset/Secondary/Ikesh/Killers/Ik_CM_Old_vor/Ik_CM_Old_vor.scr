@@ -1,0 +1,22 @@
+AddCharacterPresets('Civman','CivilMan','Ik_CM_Old_vor',{
+ Description                 "Ik_CM_Old_vor"
+ Position                    5838.4194,918.0082,223.8988
+ Rotation                    0 0 0
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "A_PlashS"
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "I_PerchIron_L"
+ VisibleSkin                 "I_PerchIron_R"
+ VisibleSkin                 "HB_Kosichky"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "Ik_CM_Old_vor_BD.scd"
+ AddDialog                   "Ik_CM_Old_vor_d0.dlg" 0
+ AddDialog                   "Ik_CM_Old_vor_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+});

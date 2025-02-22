@@ -1,0 +1,5 @@
+AddArmorChrSlot('warior','Warior_Sh_K1.scr','SecArmor');
+AddArmorChrSlot('warior','A_PlashFib2_V2s.scr','Armor');
+SetCharacterPosition('warior',214.2753,31.9408,137.9959);
+SetCameraPosition(0,214.2753,31.9408,137.9959);
+SetCameraPosition(1,214.2753,31.9408,137.9959);

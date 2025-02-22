@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Varyag_I','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Reinforced Rusty Helmet"
+  History           "Corrosion, or simply rust, is generally the destruction of metals under the influence of the environment. The cause of corrosion is the interaction of metals with substances present in the air and atmospheric precipitation. These plates are indeed in a state of corrosion, so it is not worth expecting miracles from them, although their protective characteristics are higher than those of leather armor."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Varyag"
+   MaterialPresetId  0
+   AddObjectD        "AH_Varyag_I.s03"
+   ArmorAutoGenerate  5  2 
+   PlusConstitution 1
+});

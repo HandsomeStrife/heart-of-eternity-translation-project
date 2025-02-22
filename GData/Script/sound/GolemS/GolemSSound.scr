@@ -1,0 +1,4 @@
+CreateSoundLib('GS_Step1.wav','GSS0',2,20,100);
+CreateSoundLib('GS_Step2.wav','GSS1',2,20,100);
+CreateSoundLib('GS_Step3.wav','GSS2',2,20,100);
+CreateSoundLibGroup('GSS',3,'GSS');

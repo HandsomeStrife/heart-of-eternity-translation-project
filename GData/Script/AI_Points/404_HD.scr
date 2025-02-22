@@ -1,0 +1,7 @@
+IfN_Flag_GoTo(1000,90,@1);
+DOOR_UnLock('DOOR_OUT_BEG03');
+AIS_GoTo(@2);
+@1:
+DOOR_Lock('DOOR_OUT_BEG03');
+@2:
+NOP(0);

@@ -1,0 +1,4 @@
+GetBonusForQuest(14,3);
+AddArmorChrSlot('warior','A_PlashFibL_V3.scr','Bag');
+AddHotKeyHelp('Received travel cloak',23);
+DeleteItemChr('warior','33_LAST');

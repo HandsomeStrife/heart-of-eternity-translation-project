@@ -1,0 +1,9 @@
+AddCharacterPresets('MagVillage','Enemy','Mag_l14',{
+ Description                 "Mag_l14"
+ Position                    80 80 0
+ Rotation                    0 0 0
+ MobParam                    4 14
+ VisibleSkin                 "MV_O_PlashInkviz"
+ AddItem		     "Stuffs\Stuff_2\Stuff_2.scr" "DefaultSlot"
+ PartitionEnable              False
+});

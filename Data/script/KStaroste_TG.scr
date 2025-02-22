@@ -1,0 +1,4 @@
+BlackScreenStart('To the elder...');
+SetCharacterPosition('warior',1232.5649,2119.2942,9.1135);
+SetCharacterPosition('VN_IM_Plunder1',1234.6237,2117.6528,9.1135);
+SetCharacterPosition('VN_IM_Plunder2',1234.6798,2118.7107,9.1135);

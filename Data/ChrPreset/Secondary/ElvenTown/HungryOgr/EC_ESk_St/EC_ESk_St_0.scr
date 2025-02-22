@@ -1,0 +1,9 @@
+AddCharacterPresets('ElfSkaut','CIVILMAN','EC_ESk_St_0',{
+ Description                 "EC_ESk_St_0"
+ Position                    1223.1763,682.1628,172.4304
+ Rotation                    0 0 160
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

@@ -1,0 +1,79 @@
+GTUTORIAL_AddEllement(1000,1,'Basic Controls','W, A, S, D - movement. Space - jump. + and - or mouse wheel - zoom in and out of camera.',{
+ SetFlag  1000 = 2
+});
+GTUTORIAL_AddEllement(1000,5,'Action - E','E or Enter - take action. Esc - cancel action. Use these.',{
+ SetFlag  1000 = 6
+});
+GTUTORIAL_AddEllement(1000,8,'Journal - J','J - journal. Contains information about quests. Active quests are automatically marked on the map and compass.',{
+ SetFlag  1000 = 9
+});
+GTUTORIAL_AddEllement(1000,11,'Interaction - E','E and Enter - interact with doors, chests, and items.',{
+ SetFlag  1000 = 14
+});
+GTUTORIAL_AddEllement(1000,15,'Inventory - I','I - inventory. You can equip items in the inventory.',{
+ SetFlag  1000 = 17
+});
+GTUTORIAL_AddEllement(1000,17,'Combat Mode - Tab','F1 - melee. F2 - bow. F3 - spellcasting. F4 - unarmed. Tab - enter and exit combat mode. W, S, A, D + mouse left button - attack. Mouse right button - block attack.',{
+ SetFlag  1000 = 20
+});
+GTUTORIAL_AddEllement(1000,22,'Help Menu - H','H - help menu.',{
+ SetFlag  1000 = 24
+});
+GTUTORIAL_AddEllement(1000,24,'Combat Training','You can practice combat and improve your skills at the training ground. Training dummies are available for both melee and ranged practice. Basic controls: 1 - 6.',{
+ SetFlag  1000 = 26
+});
+GTUTORIAL_AddEllement(1000,26,'Melee - F1','Task: Practice basic melee attacks against the training dummy. Use the "Quick Attack" technique.',{
+ SetFlag  1000 = 28
+});
+GTUTORIAL_AddEllement(1000,30,'Melee Complete!','Well done on the basic training, now try a moving target. The dummy will now move.',{
+ SetFlag  1000 = 32
+ ExecuteScript "TUTOR_SCR1.scr"
+});
+GTUTORIAL_AddEllement(1000,34,'Spellcasting - F3','Time to practice magic, as you will need it in future battles. Start with basic spells. Use the "Lightning Strike" spell.',{
+ SetFlag  1000 = 36
+});
+GTUTORIAL_AddEllement(1000,38,'Spellcasting Complete!','Excellent! Practice on the dummy with fire and frost. Magic mastered. You can now learn more advanced spells.',{
+ SetFlag  1000 = 40
+ ExecuteScript "TUTOR_SCR2.scr"
+});
+GTUTORIAL_AddEllement(1000,42,'Bow - F2','Time to practice with ranged weapons. Start with basic archery. Use the "Steady Shot" technique.',{
+ SetFlag  1000 = 44
+});
+GTUTORIAL_AddEllement(1000,46,'Bow Complete!','Perfect shots! Now practice on moving targets. Training complete.',{
+ SetFlag  1000 = 48
+ ExecuteScript "TUTOR_SCR3.scr"
+});
+GTUTORIAL_AddEllement(1000,50,'Unarmed - F4','First mouse button - attack. Second mouse button - block.',{
+ SetFlag  1000 = 52
+});
+GTUTORIAL_AddEllement(1000,52,'Training','Start training.',{
+ SetFlag  1000 = 54
+ ExecuteScript "TUTOR_SCR7.scr"
+});
+GTUTORIAL_AddEllement(1000,56,'Unarmed Complete!','Great! Practice blocking attacks and counters.',{
+ SetFlag  1000 = 58
+ ExecuteScript "TUTOR_SCR4.scr"
+});
+GTUTORIAL_AddEllement(1000,68,'Combat Complete!','Yes! You have mastered basic combat. Now learn more advanced techniques.',{
+ SetFlag  1000 = 70
+});
+GTUTORIAL_AddEllement(1000,70,'Combat Directions','Forward, back, left, right - directional attacks.',{
+ SetFlag  1000 = 72
+});
+GTUTORIAL_AddEllement(1000,72,'Help - H','Use "Quick Help" to learn more.',{
+ SetFlag  1000 = 74
+ ExecuteScript "balda_magik.scr"
+});
+GTUTORIAL_AddEllement(1000,76,'Magic Complete!','Congratulations, mage. You have mastered the fundamentals. Continue your journey.',{
+ SetFlag  1000 = 78
+ ExecuteScript "TUTOR_SCR5.scr"
+});
+GTUTORIAL_AddEllement(1000,80,'Skills - I','"Strength", "Agility", "Magic", "Life", "Armor" - 5 basic attributes. Improve them as you level up.',{
+ SetFlag  1000 = 82
+});
+GTUTORIAL_AddEllement(1000,82,'Inventory - I','Items in your inventory can be equipped in their respective slots. Some items can be combined to create more powerful equipment.',{
+ SetFlag  1000 = 84
+});
+GTUTORIAL_AddEllement(1000,84,'Map - M','M - map. Click on the map to set waypoints for navigation. Active quests are marked on the map.',{
+ SetFlag  1000 = 86
+});

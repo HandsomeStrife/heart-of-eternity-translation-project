@@ -1,0 +1,14 @@
+CreateItemSkin('Warior_Sh_Kol','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  Description       "Short Chainmail"
+  History           "Light armor that protects most of the body and has a relatively insignificant weight."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "Warior_Sh"
+   MaterialPresetId  3
+   AddObject         "Warior_Sh_Kol.zrm"
+   ArmorAutoGenerate  7  3 
+   PlusStrenght     4
+   PlusConstitution 4
+});

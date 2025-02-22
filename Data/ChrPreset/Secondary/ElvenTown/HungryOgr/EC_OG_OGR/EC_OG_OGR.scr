@@ -1,0 +1,14 @@
+AddCharacterPresets('Ogr','CIVILMAN','EC_OG_OGR',{
+ Description                 "EC_OG_OGR"
+ Position                    1221.1763,680.1628,172.4304
+ Rotation                    0 0 180
+ AddProcScript               "EC_OG_OGR_AI.sci"
+ AddBeforeDialogScript       "EC_OG_OGR_BD.scd"
+ AddDialog                   "EC_OG_OGR_d0.dlg" 0
+ AddDialog                   "EC_OG_OGR_d1.dlg" 1
+ AddDialog                   "EC_OG_OGR_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

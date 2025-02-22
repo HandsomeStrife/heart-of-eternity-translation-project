@@ -1,0 +1,17 @@
+AddCharacterPresets('MagVillage','CivilMan','CD_OLD_Wiz',{
+ Description                 "CD_OLD_Wiz"
+ Position                    4101.8857,760.1704,129.1625
+ Rotation                    0 0 15
+ VisibleSkin                 "ArchiMag"
+ VisibleSkin                 "MV_B_Long_Sh"
+ VisibleSkin                 "MV_O_SUMA_Sh"
+ PlusConstitution            200
+ AddProcScript               "CD_OLD_Wiz_AI.sci"
+ AddBeforeDialogScript       "CD_OLD_Wiz_BD.scd"
+ AddDialog                   "CD_OLD_Wiz_d0.dlg" 0 
+ AddDialog                   "CD_OLD_Wiz_d1.dlg" 1 
+ AddDialog                   "CD_OLD_Wiz_d9.dlg" 9
+ AddItem                     "Human\OneHand\chinkvedea3\Chinkvedea3.scr" "Left_Scabbard"
+ Attack 		      False
+ PartitionEnable              False
+});

@@ -1,0 +1,6 @@
+IfN_Flag_GoTo(156,1,@1);
+BlackScreenStart('Together with Amnus, you escape from the cell.');
+SetCharacterPosition('warior',5810.4517,917.0546,220.2675);
+SetCharacterPosition('GD_OLD_Libr',5809.7749,915.8281,220.3085);
+SetFlag(155,2);
+@1:

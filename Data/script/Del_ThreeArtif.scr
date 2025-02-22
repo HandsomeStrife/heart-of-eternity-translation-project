@@ -1,0 +1,12 @@
+DeleteItemChr('warior','CrownOfGallahard');
+DeleteItemChr('warior','IdolOfFertility');
+DeleteItemChr('warior','KingSword');
+JQuestRecordComplete(35,1);
+JQuestRecordComplete(35,2);
+SetCharacterPosition('BC_OLD_Mag2',3919.8835,841.0914,127.1534);
+JQuestRecordComplete(35,5);
+IfN_Flag_GoTo(181,1,@1);
+JQuestRecordComplete(35,1);
+JVisibleRecord(35,4);
+SetFlag(94,1);
+@1:

@@ -1,0 +1,5 @@
+AddCharacterPresets('ElfSenat','CIVILMAN','ES_01',{
+ Description                 "Elf Skaut"
+ Position                    80.2812 75.2020 8.024
+ Rotation                    0 0 90
+});

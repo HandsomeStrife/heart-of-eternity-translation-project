@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Vedro_GB','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Black steel barbute in gold"
+  History           "Plate armor - armor made of large plates. Full articulated plate armor not only provides a high level of protection in melee combat but also serves as an exoskeleton, significantly increasing the warrior's survivability. Full black armor with gold greatly improves resistance to bludgeoning strikes in close combat, as well as enhances resistance to various types of magic."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "AH_Vedro"
+   MaterialPresetId  1
+   AddObjectD        "AH_Vedro_GB.s03"
+   ArmorAutoGenerate  11  4 
+   PlusConstitution  12
+});

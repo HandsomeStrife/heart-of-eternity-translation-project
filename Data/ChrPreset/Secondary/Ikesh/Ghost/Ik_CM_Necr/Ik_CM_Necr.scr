@@ -1,0 +1,28 @@
+AddCharacterPresets('IronMan','CivilMan','Ik_CM_Necr',{
+ Description                 "Ik_CM_Necr"
+ Position                    5793.1436,824.8986,227.1488
+ Rotation                    0 0 0
+ VisibleSkin                 "A_PlashKup"
+ VisibleSkin                 "AH_Mask"
+ VisibleSkinParam            "I_Man_Sh" 2
+ VisibleSkin                 "A_Napl1_L"
+ VisibleSkinParam            "A_Nanog_L" 3
+ VisibleSkin                 "A_Napl1_R"
+ VisibleSkin                 "A_Naruk_R"
+ VisibleSkinParam            "A_Nanog_R" 3
+ VisibleSkin                 "HB_Kosichky"
+ VisibleSkin                 "I_NaruchKuz"
+ VisibleSkin                 "A_Naruk_L"
+ VisibleSkin                 "AH_PovEys_R"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddDeathScript		     "Ik_CM_Necr_death.scd"
+ AddBeforeDialogScript       "Ik_CM_Necr_BD.scd"
+ AddDialog                   "Ik_CM_Necr_d0.dlg" 0
+ AddDialog                   "Ik_CM_Necr_d9.dlg" 9
+ AddItem                     "Elf\OneHand\e_sword\e_sword.scr" "Left_Scabbard"
+ PartitionEnable              False
+});

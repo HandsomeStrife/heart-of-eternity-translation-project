@@ -1,0 +1,47 @@
+CreateMaterial('LB_Mat','light_a3.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "SelectArg1"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ AddTextureStage   1 "particl5-1.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Modulate"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "Texture"
+ AlphaOp             id = 1 "SelectArg1"
+ AlphaArgTwo         id = 1 "Diffuse"
+ TextureCIndex       id = 1 0
+ TCIFunction         id = 1 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateParticlSystem('PS_LBall',{
+ ParticlProcType	"Flue"
+ SpawnType		"Point"
+ SpawnSpeed             50.0000
+ SizeMin                0.6000
+ SizeMax                0.8000
+ TimeLive               0.3000
+ MaxNumParticl          100
+ Immortal               True
+ SetPSColor		id = 0	time = 0.0000  0 0 0 255
+ SetPSColor		id = 1	time = 0.3000  200 200 200 255
+ SetPSColor		id = 2	time = 0.7000  200 200 200 255
+ SetPSColor		id = 3	time = 1.0000  0 0 0 255
+ Position               76.4497 77.9987 1.5262
+ Rotation               0 0 0
+ SizeMinSec             0.0000
+ MassMin                0.0000
+ SetMaterial		"LB_Mat"
+ SpiralRotate           False
+ SpawnRandomRot         True
+});

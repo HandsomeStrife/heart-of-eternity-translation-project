@@ -1,0 +1,15 @@
+AddCharacterPresets('IronMan','CivilMan','IM_Guard_bow',{
+ Description                 "IM_Guard_bow"
+ MobParam                    3 30
+ AddItem                     "Human\Ranged\ShortBow\Shortbow.scr" "Bow"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\OneHand\sword\sword.scr" "Left_Scabbard"
+ AddSkinItem                 "AH_IfantSalad_N_l25.scr" "Helmet"
+ AddSkinItem                 "Legins_l36.scr" "Leggings"
+ AddSkinItem                 "HandArmor_36.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_N_l35.scr" "Armor"
+ AddSkinItem                 "SecArmor_K2_l35.scr" "SecArmor"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+});

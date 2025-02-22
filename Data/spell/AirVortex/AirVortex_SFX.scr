@@ -1,0 +1,108 @@
+AddObjectToLib('data\object\airVortex.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_AirCloud','AirCloud.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 4.0000
+ MatrixText          id = 0 1 1 3.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 1.0000 1.0000
+ MapMoveSpeed        id = 0 1.0000
+ AddTextureStage   1 "AuraT1.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Modulate"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "Texture"
+ AlphaOp             id = 1 "SelectArg1"
+ AlphaArgTwo         id = 1 "Diffuse"
+ TextureCIndex       id = 1 0
+ TCIFunction         id = 1 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('AAV1',fps=30,numFrame=120,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  4
+AddTranslateKey   0 0 0  4
+AddTranslateKey   0 0 0  4
+AddTranslateKey   0 0 0  87
+AddTranslateKey   0 0 0  20
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  4
+AddRotationKey   0 0 -33.46592311  4
+AddRotationKey   0 0 -66.93184494  4
+AddRotationKey   0 0 -100.3977645  7
+AddRotationKey   0 0 -158.9631256  10
+AddRotationKey   0 0 -242.627924  10
+AddRotationKey   0 0 -326.2927222  10
+AddRotationKey   0 0 -409.9575202  10
+AddRotationKey   0 0 -493.6223283  10
+AddRotationKey   0 0 -577.2871364  10
+AddRotationKey   0 0 -660.951944  10
+AddRotationKey   0 0 -744.6167511  10
+AddRotationKey   0 0 -882.4490416  20
+AddRotationKey   0 0 -1219.410604  0
+AddColorKey  0 0 0 0   4
+AddColorKey  50 50 50 50   4
+AddColorKey  107 107 107 107   4
+AddColorKey  158 158 158 158   11
+AddColorKey  255 255 255 255   76
+AddColorKey  0 0 0 0   20
+AddColorKey  0 0 0 0   0
+AddScaleKey   0.2296830953 0.2296830953 0.2296830953  4
+AddScaleKey   0.3828980953 0.3828980953 0.3828980953  4
+AddScaleKey   0.5532878896 0.5532878896 0.5532878896  4
+AddScaleKey   0.7087853942 0.7087853942 0.7087853942  11
+AddScaleKey   1 1 1  76
+AddScaleKey   1 1 1  20
+AddScaleKey   1 1 1  0
+});
+CreateSFXAnimation('AAV2',fps=30,numFrame=120,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  99
+AddTranslateKey   0 0 0  20
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  19
+AddRotationKey   0 0 -101.7364003  10
+AddRotationKey   0 0 -155.2818712  10
+AddRotationKey   0 0 -208.827342  10
+AddRotationKey   0 0 -262.3728127  10
+AddRotationKey   0 0 -315.9182898  10
+AddRotationKey   0 0 -369.463767  10
+AddRotationKey   0 0 -423.0092438  10
+AddRotationKey   0 0 -476.5547202  10
+AddRotationKey   0 0 -958.4639946  20
+AddRotationKey   0 0 -958.4639946  0
+AddColorKey  0 0 0 0   9
+AddColorKey  255 255 255 255   90
+AddColorKey  0 0 0 0   20
+AddColorKey  0 0 0 0   0
+AddScaleKey   0.2296830953 0.2296830953 0.2296830953  9
+AddScaleKey   0.6031193339 0.6031193339 0.6031193339  90
+AddScaleKey   0.6031193339 0.6031193339 0.6031193339  20
+AddScaleKey   0.6031193339 0.6031193339 0.6031193339  0
+});
+CreateSFX('SFX_AV',{
+    AddSFXObjectTagN  "AIRVORTEX"  pos: 0 0 0  rot: 0 0 0 "AAV1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXObjectTagN  "AIRVORTEX"  pos: 0 0 0  rot: 0 0 0 "AAV2"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\spell\AirVortex\AirVortex_PS.scr" pos: 0 0 0 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    AddLinkColor      tag=1  flag=3
+    LiveTime        = 3.2
+    LinkParam       = 33
+});

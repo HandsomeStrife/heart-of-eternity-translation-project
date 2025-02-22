@@ -1,0 +1,6 @@
+AddItemChrSlot('warior','Human\OneHand\Mizerikordia1\Mizerikordia1.scr','Bag');
+AddItemChrSlot('warior','Human\OneHand\club\club.scr','Bag');
+AddItemChrSlot('warior','Human\Shield\buckler01\buckler01.scr','Bag');
+AddItemChrSlot('warior','Human\TwoHand\Twohand_sword\Twohand_sword.scr','Bag');
+AddItemChrSlot('warior','Tutor\Range\Range.scr','Bag');
+AddItemChrSlot('warior','Tutor\QuiverR\QuiverR.scr','Bag');

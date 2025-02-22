@@ -1,0 +1,22 @@
+AddCharacterPresets('IronMan','CivilMan','BG_3',{
+ Description                 "dddd"
+ Position                    1064.0607,2334.3303,98.7524
+ Rotation                    0 0 -85
+ PlusStrenght                30
+ PlusDexterity               30
+ PlusConstitution            30
+ PlusIntellect               30
+ PlusPermeability            30
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\ShortBow\Shortbow.scr" "Bow"
+ AddItem                     "Human\OneHand\sword\sword.scr" "Left_Scabbard"
+ AddSkinItem                 "AH_IfantSalad_N_l25.scr" "Helmet"
+ AddSkinItem                 "Legins_l36.scr" "Leggings"
+ AddSkinItem                 "HandArmor_36.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_N_l35.scr" "Armor"
+ AddSkinItem                 "SecArmor_K2_l35.scr" "SecArmor"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

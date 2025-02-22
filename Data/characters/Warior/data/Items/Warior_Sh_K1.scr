@@ -1,0 +1,12 @@
+CreateItemSkin('Warior_Sh_K1','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  Description       "Shirt"
+  History           "Simple linen shirt"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "Warior_Sh"
+   MaterialPresetId  1
+   AddObject         "Warior_Sh_K1.zrm"
+   ArmorAutoGenerate  0  0 
+});

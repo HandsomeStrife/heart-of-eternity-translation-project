@@ -1,0 +1,97 @@
+AddObjectToLib('data\object\AirP1.zrm',mipmap=0,orientY=1);
+AddObjectToLib('data\object\AirP2.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_APink1','APink1.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateMaterial('M_APink2','APink2.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('ASA1',fps=30,numFrame=90,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0.4280554563  29
+AddTranslateKey   0 0 0.2966210332  10
+AddTranslateKey   0 0 0.2516170807  10
+AddTranslateKey   0 0 0.2068109804  10
+AddTranslateKey   0 0 0.1617595713  10
+AddTranslateKey   0 0 0.1169660051  10
+AddTranslateKey   0 0 0.08241086729  10
+AddTranslateKey   0 0 0.09879003896  0
+AddRotationKey   0 0 0  19
+AddRotationKey   0 0 -50  10
+AddRotationKey   0 0 -75.16025694  10
+AddRotationKey   0 0 -100  10
+AddRotationKey   0 0 -124.986646  10
+AddRotationKey   0 0 -150  10
+AddRotationKey   0 0 -172.9177791  10
+AddRotationKey   0 0 -200  10
+AddRotationKey   0 0 -250  0
+AddColorKey  0 0 0 0   19
+AddColorKey  255 255 255 255   10
+AddColorKey  255 255 255 255   10
+AddColorKey  233 233 233 233   10
+AddColorKey  184 184 184 184   10
+AddColorKey  127 127 127 127   10
+AddColorKey  48 48 48 48   10
+AddColorKey  0 0 0 0   10
+AddColorKey  0 0 0 0   0
+AddScaleKey   1 1 1  29
+AddScaleKey   1.417615676 1.417615676 1.417615676  10
+AddScaleKey   1.556116459 1.556116459 1.556116459  10
+AddScaleKey   1.691195279 1.691195279 1.691195279  10
+AddScaleKey   1.83051685 1.83051685 1.83051685  10
+AddScaleKey   1.965378905 1.965378905 1.965378905  10
+AddScaleKey   1.923160602 1.923160602 1.923160602  10
+AddScaleKey   1 1 1  0
+});
+CreateSFXAnimation('ASA2',fps=30,numFrame=90,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  89
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  29
+AddRotationKey   0 0 25  30
+AddRotationKey   0 0 50  30
+AddRotationKey   0 0 75  0
+AddColorKey  0 0 0 0   29
+AddColorKey  255 255 255 255   50
+AddColorKey  0 0 0 0   10
+AddColorKey  0 0 0 0   0
+AddScaleKey   2 2 2  89
+AddScaleKey   2 2 2  0
+});
+CreateSFX('SFX_ASA',{
+    AddSFXObjectTagN  "AIRP1"  pos: 0 0 0  rot: 0 0 0 "ASA1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXObjectTagN  "AIRP2"  pos: 0 0 0  rot: 0 0 0 "ASA2"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    AddLinkColor      tag=1  flag=3
+    LiveTime        = 3
+});

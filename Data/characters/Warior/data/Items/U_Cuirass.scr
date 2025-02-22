@@ -1,0 +1,17 @@
+CreateItemSkin('U_Cuirass','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "Cuirass of the Dead"
+  History           "The oppressive lines of form and the deep pale color accurately convey the essence of dead armor. Armor created from living flesh to protect the dead - horrid and paradoxical, like everything about this thoughtless, fearless, and spineless race. The full armor of the dead is weakly vulnerable to ranged weapons and has a number of bonuses to your main attributes."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "U_Cuirass"
+   MaterialPresetId  0
+   AddObjectD        "U_Cuirass.s03"
+ ArmorAutoGenerate  12  4 
+ PlusStrenght     5
+ PlusDexterity    5
+ PlusIntellect    5
+ PlusConstitution 5
+ PlusMagicPower   5
+});

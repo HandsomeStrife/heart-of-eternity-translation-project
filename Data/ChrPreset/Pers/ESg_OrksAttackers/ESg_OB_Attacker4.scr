@@ -1,0 +1,23 @@
+AddCharacterPresets('OrkBig','CivilMan','ESg_OB_Attacker4',{
+ Description                 "ESg_OB_Attacker4"
+ Position                    2281.5073,358.1373,179.1718
+ Rotation                    0 0 0
+ MobParam                    3 30
+ VisibleSkin                 "OB_Helmet"
+ VisibleSkin                 "OB_Plasron"
+ VisibleSkin                 "OB_Nagolen_R"
+ VisibleSkin                 "OB_Sapog_R"
+ VisibleSkin                 "OB_Nagolen_L"
+ VisibleSkin                 "OB_Sapog_L"
+ VisibleSkin                 "OB_Krag_R"
+ VisibleSkin                 "OB_Naruch_R"
+ VisibleSkin                 "OB_Shild_B"
+ VisibleSkin                 "OB_Shild_F"
+ VisibleSkin                 "OB_Naruch_L"
+ VisibleSkin                 "OB_Cuirass"
+ VisibleSkin                 "OB_Napl_R"
+ VisibleSkin                 "OB_Napl_L"
+ VisibleSkin                 "OB_Krag_L"
+ AddItem		     "Ork\TwoHand\o_2handsword\o_2handsword.scr" "TwoHandSword"
+ Attack 		      False
+});

@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\ElfSkaut\data\ElfSkaut.mc',
+'ElfSkaut',
+'data\characters\ElfSkaut\data\','civman','Elf_SK_Sh');

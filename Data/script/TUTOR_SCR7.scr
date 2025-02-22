@@ -1,0 +1,4 @@
+TUT_CreateDartBoard('TARGET_BEG03');
+TUT_CreateDartBoard('TARGET_BEG02');
+TUT_CreateDartBoard('TARGET_BEG01');
+TUT_CreateDartBoard('TARGET_BEG04');

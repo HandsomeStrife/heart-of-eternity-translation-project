@@ -1,0 +1,12 @@
+CreateItemSkin('IMUD_Legins_l13','Leggings','Leggings', {
+ Visible	         True
+ Cost		         -1
+ Width             2
+ Height            3
+ Description       "IMUD_Legins_l13"
+ AddSkinFromItem         "A_Nanog_L_l13.scr"
+ AddSkinFromItem         "A_Nanog_R_l13.scr"
+ AddSkinFromItem         "A_Sapog1_L_l13.scr"
+ AddSkinFromItem         "A_Sapog1_R_l13.scr"
+ AddSkinFromItem         "A_Skirt_l13.scr"
+});

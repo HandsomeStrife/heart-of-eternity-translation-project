@@ -1,0 +1,15 @@
+AddCharacterPresets('ElfSenatD','CIVILMAN','DF_ESk_Custodian',{
+ Description                 "Eravil"
+ Position                    2494.1086,2231.4329,-35.2799
+ Rotation                    0 0 0
+ VisibleSkin                 "E_A_Naruch"
+ VisibleSkin                 "Elf_Sen_Sh"
+ VisibleSkin                 "E_A_PonogKit"
+ AddBeforeDialogScript       "DF_ESk_Custodian_BD.scd"
+ AddDialog                   "DF_ESk_Custodian_d.dlg" 0
+ AddDialog                   "DF_ESk_Custodian_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

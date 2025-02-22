@@ -1,0 +1,46 @@
+CreateMaterial('M_PSLife','DipolL.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateParticlSystem('PSLife',{
+ ParticlProcType	"Flue"
+ SpawnType		"CircleR"
+ Radius			0.5000
+ SpawnSpeed             400.0000
+ SizeMin                0.200
+ SizeMax                0.200
+ TimeLive               1.0000
+ MaxNumParticl          500
+ Immortal               False
+ SetPSColor		id = 0	time = 0.0000  255 255 128 255
+ SetPSColor		id = 1	time = 0.3000  225 0 0 255
+ SetPSColor		id = 2	time = 0.8000  64 0 0 255
+ SetPSColor		id = 3	time = 1.0000  0 0 0 255
+ ForceVector            id = 0  0.0000 0.0000 1.0000
+ ForceStrength          id = 0  -0.50000
+ AngleZXY               id = 0  0.000  0.000
+ AngleXY                id = 0  0.000  0.000
+ Position               104.2867 100.4342 1.0120
+ Rotation               0 0 0
+ SizeMinSec             0.0000
+ MassMin                0.0000
+ SetMaterial		"M_PSLife"
+ SpeedRotate            -100
+ SpiralRotate           True
+ SpiralSpeedRotate      -80.0000
+ SpiralVectorRotate     0.0000 0.0000 1.0000
+ SpawnRandomRot         True
+});

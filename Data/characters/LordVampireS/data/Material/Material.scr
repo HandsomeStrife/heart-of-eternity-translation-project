@@ -1,0 +1,53 @@
+CreateMaterial('M_LV_AuraTF','LV_AuraTF.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate2X"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "SelectArg1"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 2.0000
+ MatrixText          id = 0 1 1 2.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 1.0000 0.0000
+ MapMoveSpeed        id = 0 -0.1000
+ AddTextureStage   1 "LightS.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Modulate2X"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "Texture"
+ AlphaOp             id = 1 "SelectArg1"
+ AlphaArgTwo         id = 1 "Diffuse"
+ TextureCIndex       id = 1 0
+ MatrixTextTransform id = 1 True
+ MatrixText          id = 1 0 0 3.0000
+ MatrixText          id = 1 1 1 3.0000
+ TCIFunction         id = 1 "passthru"
+ MapMoveDirect       id = 1 True
+ MapMoveVector       id = 1 1.0000 1.0000
+ MapMoveSpeed        id = 1 0.1000
+ AddTextureStage   2 "LightS.tga"
+ ColorArgOne         id = 2 "Texture"
+ ColorOp             id = 2 "Modulate"
+ ColorArgTwo         id = 2 "Current"
+ AlphaArgOne         id = 2 "Texture"
+ AlphaOp             id = 2 "SelectArg1"
+ AlphaArgTwo         id = 2 "Diffuse"
+ TextureCIndex       id = 2 0
+ MatrixTextTransform id = 2 True
+ MatrixText          id = 2 0 0 2.0000
+ MatrixText          id = 2 1 1 0.5000
+ TCIFunction         id = 2 "passthru"
+ MapMoveDirect       id = 2 True
+ MapMoveVector       id = 2 1.0000 0.0000
+ MapMoveSpeed        id = 2 0.0100
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});

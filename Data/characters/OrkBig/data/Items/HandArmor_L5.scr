@@ -1,0 +1,11 @@
+CreateItemSkin('OB_HandArmor5','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Width             2
+ Height            2
+ Description             "Ork HandArmor5"
+ AddSkinFromItem         "OB_Napl_L.scr"
+ AddSkinFromItem         "OB_Napl_R.scr"
+ AddSkinFromItem         "OB_Naruch_L.scr"
+ AddSkinFromItem         "OB_Naruch_R.scr"
+});

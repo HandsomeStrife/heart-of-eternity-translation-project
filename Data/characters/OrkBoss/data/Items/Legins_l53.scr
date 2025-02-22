@@ -1,0 +1,8 @@
+CreateItemSkin('OBo_Leggings','Leggings','Leggings', {
+ Visible	         True
+ Cost		         -1
+ Width             2
+ Height            3
+ Description             "OrkBossLegins"
+ AddSkinFromItem         "OBo_Skirt_l53.scr"
+});

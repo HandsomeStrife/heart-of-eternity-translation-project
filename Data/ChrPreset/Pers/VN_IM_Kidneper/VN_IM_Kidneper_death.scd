@@ -1,0 +1,10 @@
+IfN_Flag_GoTo(84,1,@1);
+ AddItemChrSlot('warior','Quest\BanditHead\BanditHead.scr','Bag');
+ InvisibleChrP('VN_IM_Kidneper');
+ JVisibleRecord(34,8);
+ AIS_GoTo(@2);
+@1:
+  RespawnCharacter('VN_IM_Kidneper');
+  SetCharacterLifeK('VN_IM_Kidneper',1);
+@2:
+NOP();

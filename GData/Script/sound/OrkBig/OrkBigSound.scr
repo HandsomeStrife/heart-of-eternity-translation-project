@@ -1,0 +1,17 @@
+CreateSoundLib('OB_VAttack1a.wav','OBa0',2,20,100);
+CreateSoundLib('OB_VAttack1b.wav','OBa1',2,20,100);
+CreateSoundLib('OB_VAttack2a.wav','OBa2',2,20,100);
+CreateSoundLib('OB_VAttack2b.wav','OBa3',2,20,100);
+CreateSoundLibGroup('OBa',4,'OBa');
+CreateSoundLib('OB_VHit1a.wav','OBh0',2,30,100);
+CreateSoundLib('OB_VHit1b.wav','OBh1',2,30,100);
+CreateSoundLibGroup('OBh',2,'OBh');
+CreateSoundLib('ob_0.wav','ob_0',2,30,100);
+CreateSoundLibGroup('ob_',1,'ob_');
+CreateSoundLib('OB_VDeath a.wav','OBd0',2,30,100);
+CreateSoundLib('OB_VDeath b.wav','OBd1',2,30,100);
+CreateSoundLibGroup('OBd',2,'OBd');
+CreateSoundLib('OB_VSocial2.wav','OBs0',2,30,100);
+CreateSoundLib('OB_VSocial2b.wav','OBs1',2,30,100);
+CreateSoundLib('OB_VVoice.wav','OBs2',2,30,100);
+CreateSoundLibGroup('OBs',3,'OBs');

@@ -1,0 +1,9 @@
+CreateItemSkin('A_PlashFib2_V','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_PlashFib2"
+   MaterialPresetId  1
+   ArmorAutoGenerate  2  1 
+});

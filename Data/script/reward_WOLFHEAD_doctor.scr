@@ -1,0 +1,6 @@
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddHotKeyHelp('You have received new items, press I',23);
+DeleteItemChr('warior','WolfHead');
+AddExpMC(1500);
+AddSkillPointsToMC(500);
+AddParamMC(0,0,3,0,0);

@@ -1,0 +1,13 @@
+  BlackScreenStart('Fight!');
+  SetCharacterPosition('warior',1219.6721,1107.0948,175.3952);
+  SetCharacterRotation('warior',0,0,0);
+  AddItemChrSlot('warior','Dwarf\TwoHand\DwarfHammerM\DwarfHammerM.scr','Right_Hand');
+  SetCharacterPosition('TM_DW_Helm',1217.5590,1114.6438,175.4848);
+  SetCharacterRotation('TM_DW_Helm',0,0,170);
+  SetCharacterPosition('TM_DW_Tamoj',1210.9346,1113.7448,179.1896);
+  SetCharacterRotation('TM_DW_Tamoj',0,0,135);
+  SetCharacterPosition('TM_DW_Guard',1211.6347,1113.7448,179.1896);
+  SetCharacterRotation('TM_DW_Guard',0,0,145);
+  SetCharacterPosition('TM_DW_Guard2',1211.6348,1114.7448,179.1896);
+  SetCharacterRotation('TM_DW_Guard2',0,0,150);
+  AddEnemy('TM_DW_Helm','warior');

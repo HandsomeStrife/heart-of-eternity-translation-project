@@ -1,0 +1,27 @@
+BlackScreenStart('The gates of Rufford open. You were expected.');
+CreateDoor('OBJECT05',{
+    Axis              0.0000 0.0000 1.0000
+    OpenInTwoSize     False
+    OpenByRotate      False
+    Speed             0.2000
+    Angle             90.0000
+    DeltaTranslate    9.0000
+    Locked            False
+    MinDistance       0.6
+});
+CreateDoor('BOX11',{
+    Axis              0.0000 0.0000 1.0000
+    OpenInTwoSize     False
+    OpenByRotate      False
+    Speed             0.3000
+    Angle             90.0000
+    DeltaTranslate    9.0000
+    Locked            False
+    MinDistance       5.0000
+});
+DOOR_Open('OBJECT05');
+DOOR_Open('BOX11');
+DOOR_Open('DOOR_BARON_GENERAL88');
+IfN_Flag_GoTo(111,1,@1);
+ JQuestComplete(24);
+@1:

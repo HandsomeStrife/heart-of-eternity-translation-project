@@ -1,0 +1,14 @@
+AddCharacterPresets('MagVillage','CIVILMAN','FV_roader',{
+ Description                 "FV_roader"
+ Position                    227.7435,2304.0754,40.1098
+ Rotation                    0 0 270
+ AddDialog                   "FV_roader_d0.dlg" 0
+ AddDialog                   "ALL_roaders_d9.dlg" 9
+ VisibleSkin                 "MV_B_Long_Sh"
+ VisibleSkin                 "MV_O_SUMA_Sh"
+ AddItem                     "Human\OneHand\Knife01\Knife01.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

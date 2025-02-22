@@ -1,0 +1,17 @@
+AddCharacterPresets('Civman','Enemy','CM_SK_L11',{
+ Description                 "CM_SK_L11"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ VisibleSkin                 "Skeleton_Sh"
+ SetBloodEff                 3
+ MobParam                    1 11
+ ScaleX                      1.1
+ ScaleY                      1.1
+ ScaleZ                      1.1
+ VisibleSkin                 "I_RogB"
+ AddSkinItem                 "AH_Greben_N_11.scr" "Helmet"
+ AddSkinItem                 "HandArmor_N2.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_N.scr" "Armor"
+ AddSkinItem                 "Legins_Sk_l9.scr" "Leggings"
+ AddItem                     "Human\TwoHand\Axe_Broad1\Axe_Broad1.scr" "TwoHandSword"
+});

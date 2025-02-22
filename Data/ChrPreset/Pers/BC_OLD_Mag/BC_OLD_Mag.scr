@@ -1,0 +1,31 @@
+AddCharacterPresets('MagVillage','CivilMan','BC_OLD_Mag',{
+ Description                 "Zulkas"
+ Position                    1024.8373,2316.9548,103.3250
+ Rotation                    0 0 15
+ PlusConstitution            100
+ AddProcScript               "BC_OLD_Mag_AI.sci"
+ AddBeforeDialogScript       "BC_OLD_Mag_BD.scd"
+ AddDialog                   "BC_OLD_Mag_d1.dlg" 0 
+ AddDialog                   "BC_OLD_Mag_d2.dlg" 1
+ AddDialog                   "BC_OLD_Mag_d3.dlg" 2
+ AddDialog                   "BC_OLD_Mag_d4.dlg" 3
+ AddDialog                   "BC_OLD_Mag_d5.dlg" 4
+ AddDialog                   "BC_OLD_Mag_d6.dlg" 5
+ AddDialog                   "BC_OLD_Mag_d8.dlg" 7
+ AddDialog                   "BC_OLD_Mag_d9.dlg" 9
+ VisibleSkin                 "I_AMAmulet"
+ VisibleSkin                 "AH_Cap6"
+ VisibleSkin                 "ArchiMag"
+ VisibleSkin                 "AH_Cap1"
+ VisibleSkin                 "AH_Cap2"
+ VisibleSkin                 "AH_Cap3"
+ VisibleSkin                 "AH_Cap4"
+ VisibleSkin                 "AH_Cap5"
+ VisibleSkin                 "I_AMMTunika"
+ AddSkinItem                 "A_AMPlash.scr" "Armor"
+ AddItem                     "Human\OneHand\chinkvedea3\Chinkvedea3.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

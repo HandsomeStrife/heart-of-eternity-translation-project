@@ -1,0 +1,9 @@
+CreateSFX('FireESFX',{
+    AddSFXPSTag  "data\spell\fireball\deathPS1.scr" pos: 0 0 0 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\spell\fireball\deathPS.scr" pos: 0 0 0 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    LiveTime        = 3
+});

@@ -1,0 +1,12 @@
+AddCharacterPresets('Civman','CivilMan','CD_CM_Boy_4',{
+ Description                 "CD_CM_Boy_4"
+ Position                    4144.2778,748.5856,133.4243
+ Rotation                    0 0 -85
+ VisibleSkin                 "AH_Mask"
+ VisibleSkin                 "Skeleton_Sh"
+ MobParam                    3 40
+ AddItem                     "Undead\OneHand\u_klevec\u_klevec.scr" "Right_Scabbard"
+ AddItem                     "Undead\OneHand\u_klevec\u_klevec.scr"   "Left_Scabbard" 
+ Attack 		      False
+ PartitionEnable              False
+});

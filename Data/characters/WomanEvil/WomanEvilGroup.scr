@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\WomanEvil\data\WomanEvil.mc',
+'WomanEvil',
+'data\characters\WomanEvil\data\','civman','WomanNorm_Sh','ZombieWN_Sh');

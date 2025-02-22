@@ -1,0 +1,16 @@
+AddCharacterPresets('Starosta','CivilMan','ST_Fatman',{
+ Description                 "ST_Fatman"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    2 9
+ SetFace                     2
+ VisibleSkin                 "H_HvMedLis"
+ VisibleSkin                 "HB_Circ"
+ VisibleSkin                 "I_Otv_FootDD"
+ VisibleSkin                 "I_SkirtSm"
+ VisibleSkin                 "AH_Hunter"
+ VisibleSkin                 "H_HvMedLis"
+ VisibleSkin                 "STAR_Sh"
+ VisibleSkin                 "I_Otv_Hand"
+ AddItem		     "Human\OneHand\club\club.scr" "Left_Scabbard"
+});

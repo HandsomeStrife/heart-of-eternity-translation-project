@@ -1,0 +1,22 @@
+AddCharacterPresets('IronMan','CivilMan','03_Last',{
+ Description                 "03_Last"
+ Position                    1310.9583,2208.9492,7.3408
+ Rotation                    0 0 90
+ VisibleSkin                 "I_Sumka"
+ VisibleSkinParam            "AH_SelKolp" 1
+ VisibleSkin                 "I_Man_Sh"
+ VisibleSkin                 "A_PlashS"
+ VisibleSkin                 "I_Otv_FootU"
+ VisibleSkin                 "HB_Med"
+ VisibleSkin                 "H_KosyLis"
+ AddBeforeDialogScript       "03_last_BD.scd"
+ AddDialog                   "03_last_00.dlg" 0
+ AddDialog                   "03_last_01.dlg" 1
+ AddDialog                   "03_last_02.dlg" 2
+ AddDialog                   "03_last_09.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+ SetFace                     1
+});

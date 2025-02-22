@@ -1,0 +1,19 @@
+AddCharacterPresets('IronMan','Enemy','IM_l4',{
+ Description                 "IM_l4"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    1 4
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "AH_Shapo"
+ VisibleSkin                 "A_PlashFibL"
+ VisibleSkin                 "I_Man_Sh"
+ VisibleSkin                 "A_Napl3_L"
+ VisibleSkin                 "A_Naruch1_L"
+ VisibleSkin                 "HB_Long"
+ VisibleSkin                 "A_Naruch1_R"
+ VisibleSkin                 "A_Naruk_L"
+ AddDeathScript              "cmdscr.scd"
+ AddSkinItem                 "HandArmor_l4.scr" "HandArmor"
+ AddItem                     "Human\TwoHand\bludgeon01\bludgeon01_l4.scr" "TwoHandSword"
+});

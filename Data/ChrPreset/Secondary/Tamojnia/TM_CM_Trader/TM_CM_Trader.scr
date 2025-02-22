@@ -1,0 +1,24 @@
+AddCharacterPresets('Civman','CivilMan','TM_CM_Trader',{
+ Description                 "TM_CM_Trader"
+ Position                    1251.0417,1073.6495,169.0400
+ Rotation                    0 0 -45
+ VisibleSkin                 "A_PlashKup" 1
+ VisibleSkin                 "HB_CmS"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "TM_CM_Trader_BD.scd"
+ AddDialog                   "TM_CM_Trader_d9.dlg" 9
+ AddDialog                   "TM_CM_Trader_d0.dlg" 0
+ AddDialog                   "TM_CM_Trader_d1.dlg" 1
+ AddDialog                   "TM_CM_Trader_d2.dlg" 2
+ AddItem                     "Human\OneHand\axe1\axe1.scr" "Left_Scabbard"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\ShortBow\Shortbow.scr" "Bow"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

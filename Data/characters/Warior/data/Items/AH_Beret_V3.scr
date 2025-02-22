@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Beret_V3','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Beautiful Merchant's Beret"
+  History           "Thanks to its design and additional details, the beret can protect against both the sun and the cold."
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "AH_Beret"
+   MaterialPresetId  2
+   AddObjectD        "AH_Beret_V3.s03"
+   ArmorAutoGenerate  3  2 
+   PlusStrenght     3
+});

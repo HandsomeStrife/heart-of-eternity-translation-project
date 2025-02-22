@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\GirlSmall\data\GirlSmall.mc',
+'GirlSmall',
+'data\characters\GirlSmall\data\','civman','GirlShape',' ');

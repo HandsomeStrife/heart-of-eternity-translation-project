@@ -1,0 +1,6 @@
+CreateChestEffectObj({
+ Visible	0 1 0
+ AutoCalcOffset	0.001
+ Description	"Chest"
+ Height 0.5
+});

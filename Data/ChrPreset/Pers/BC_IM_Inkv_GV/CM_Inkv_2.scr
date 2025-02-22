@@ -1,0 +1,13 @@
+AddCharacterPresets('Civman','CivilMan','CM_Inkv_2',{
+ Description                 "CM_Inkv_2"
+ Position                    1080.7338,2330.3953,99.6015
+ Rotation                    0 0 180
+ MobParam                    1 25
+ AddSkinItem                 "SecArmor_Kol_l25.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_25.scr" "HandArmor"
+ AddSkinItem                 "Legins_25.scr" "Leggings"
+ AddSkinItem                 "A_Cuirass_In.scr" "Armor"
+ AddItem                     "Human\TwoHand\greathammer02\greathammer02.scr" "TwoHandSword"
+ Attack 		      False
+});
+                               			

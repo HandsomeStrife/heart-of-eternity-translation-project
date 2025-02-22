@@ -1,0 +1,14 @@
+AddCharacterPresets('IronMan','Enemy','IM_l22',{
+ Description                 "IM_l22"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    2 22
+ SetFace                     1
+ VisibleSkin                 "HB_Gig"
+ AddSkinItem                 "HandArmor_24.scr" "HandArmor"
+ AddSkinItem                 "A_PlashS_l25.scr" "Armor"
+ AddSkinItem                 "Legins_Sk_l25.scr" "Leggings"
+ AddSkinItem                 "AH_IfantSalad_N_l25.scr" "Helmet"
+ AddItem                     "Human\OneHand\Vakadzasi_03\Vakadzasi_03.scr" "Right_Scabbard"
+ AddItem                     "Human\OneHand\katana01\katana01.scr" "Left_Scabbard"
+});

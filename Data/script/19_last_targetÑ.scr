@@ -1,0 +1,3 @@
+DeleteItemChr('warior','19_LAST');
+AddItemChrSlot('warior','Quest\19_LAST\19_LASTC.scr','Bag');
+AddHotKeyHelp('You have received a miner's sharp pickaxe.',23);

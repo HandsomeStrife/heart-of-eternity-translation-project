@@ -1,0 +1,9 @@
+BlackScreenStart('You have lost your abilities, you woke up behind bars.');
+SetCharacterPosition('warior',5856.3809,823.5765,221.6015);
+StoreMCHRItems();
+SetCharacterPosition('GD_IM_Guard',5863.5005,835.0060,221.6015);
+SetCharacterRotation('GD_IM_Guard',0,0,0);
+SetCharacterPosition('GD_IM_Guard2',5862.3423,833.8608,221.6015);
+SetCharacterRotation('GD_IM_Guard2',0,0,0);
+SetCharacterPosition('GD_IM_Guard3',5864.8901,833.9577,221.6015);
+SetCharacterRotation('GD_IM_Guard3',0,0,0);

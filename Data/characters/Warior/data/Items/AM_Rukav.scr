@@ -1,0 +1,13 @@
+CreateItemSkin('AM_Rukav','HandArmor','HandArmor', {
+  Visible           True
+  Cost              -1
+  Description       "Hand Protection"
+  History           "The hand protection of the enlightened mage Ursula possesses extraordinary properties that enhance magical abilities."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "AM_Rukav"
+   MaterialPresetId  0
+   AddObjectD        "AM_Rukav.s03"
+   ArmorAutoGenerate  10  4 
+   PlusMagicPower  10
+});

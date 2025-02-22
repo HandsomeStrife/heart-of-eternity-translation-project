@@ -1,0 +1,42 @@
+
+W
+S
+D
+A
+
+
+Shift + arrows
+Ctrl
+Alt 
+Пробел
+E,Enter
+C
+I
+H
+Q/M
+1 - 6
+V
+B
+F
+G
+
+
+Tab
+F1
+F2
+F3
+F4
+
+
+W + LMB
+S + LMB
+D + LMB
+A + LMB
+
+ПКМ
+Mouse Wheel
+1 - 6
+Alt + 1 - 5
+Shift + RMB
+F5
+F6

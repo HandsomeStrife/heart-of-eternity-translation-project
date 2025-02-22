@@ -1,0 +1,7 @@
+IfN_Flag_GoTo(157,1,@1);
+ AddEnemy('GD_IM_DereGuard','warior');
+ AddEnemy('GD_IM_DereGuard2','warior');
+ AddEnemy('GD_IM_DereGuard3','warior');
+ AddEnemy('GD_IM_DereGuard4','warior');
+ AddEnemy('GD_OLD_Vershitel','warior');
+@1:

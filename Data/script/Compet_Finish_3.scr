@@ -1,0 +1,3 @@
+AddItemChrSlot('warior','Quest\AmuletRene\AmuletRene.scr','Bag');
+AddHotKeyHelp('You have received a wonderful amulet of the mage Rene: I',23);
+SetFlag(360,20);

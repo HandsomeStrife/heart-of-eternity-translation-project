@@ -1,0 +1,4 @@
+  AddEnemy('Ik_CM_Boss','warior');
+  AddEnemy('Ik_CM_Gop2','warior');
+  AddEnemy('Ik_CM_Gop1','warior');
+  AddEnemy('Ik_Malchik','warior');

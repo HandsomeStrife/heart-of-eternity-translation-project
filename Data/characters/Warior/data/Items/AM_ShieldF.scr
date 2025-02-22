@@ -1,0 +1,14 @@
+CreateItemSkin('AM_ShieldF','L_Skirt','L_Skirt', {
+  Visible           True
+  Cost              -1
+  Description       "Festoon"
+  History           "Magical festoon. Increases magical power."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "AM_ShieldF"
+   MaterialPresetId  0
+   AddObjectD        "AM_ShieldF.s03"
+   ArmorAutoGenerate  10  4 
+   PlusIntellect   5
+   PlusMagicPower  5
+});

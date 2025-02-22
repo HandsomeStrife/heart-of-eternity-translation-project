@@ -1,0 +1,11 @@
+AddCharacterPresets('OrkBig','CivilMan','Ork_Straj',{
+ Description                 "Ork_Straj"
+ Position                    88.2812 128.2020 5.0747
+ Rotation                    0 0 0
+ MobParam                    0 60
+ VisibleSkin                 "OB_Shild_B"
+ VisibleSkin                 "OB_Shild_F"
+ AddSkinItem                 "Legins_L35.scr" "Leggings"
+ AddSkinItem                 "HandArmor_L35.scr" "HandArmor"
+ AddItem                     "Ork\TwoHand\o_naginata\o_naginata.scr" "TwoHandSword"
+});

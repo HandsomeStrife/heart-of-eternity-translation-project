@@ -1,0 +1,42 @@
+Movement keys:
+Forward               
+Back               
+Right           
+Left            
+
+Auxiliary keys:
+Walking                  
+Блок                      
+Highlight items on the ground   
+Jump                        
+Use, start dialogue    
+Window of main characteristics  
+Inventory Window               
+Window of special skills    
+Journal / Map
+Using a special skill   
+Use the red bottle
+Use the blue bottle
+Use the yellow bottle
+Use the green bottle
+
+Activation keys for combat modes:
+Combat mode on/off.       
+Shield and one-handed weapon        
+Pair of one-handed weapons      
+two-handed weapon          
+ranged weapon       
+
+Combat combinations:
+Strike from the bottom right      
+Strike from the bottom left     
+Strike from above right    
+Strike from above left     
+
+Using active special skill
+Selection of active special skill
+Hotkeys for skill usage
+Change current skill slot
+Quick sale/purchase of items in the shop
+Quick save game
+Quick game loading

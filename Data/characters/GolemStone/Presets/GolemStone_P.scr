@@ -1,0 +1,5 @@
+AddCharacterPresets('GolemStone','CivilMan','GS_',{
+ Description                 "Golem Stone"
+ AddItem		     "Animal\Ogr\OgrWeapon.scr" "Left_Hand"
+ AddItem		     "Animal\Ogr\OgrWeapon.scr" "Right_Hand"
+});

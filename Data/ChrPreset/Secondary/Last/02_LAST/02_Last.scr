@@ -1,0 +1,23 @@
+AddCharacterPresets('Starosta','CivilMan','02_Last',{
+ Description                 "02_Last"
+ Position                    1206.3927,2105.2703,7.1753
+ Rotation                    0 0 0
+ VisibleSkin                 "H_HvMedLis"
+ VisibleSkin                 "HB_Circ"
+ VisibleSkin                 "I_Otv_FootDD"
+ VisibleSkin                 "I_SkirtSm"
+ VisibleSkin                 "AH_Hunter"
+ VisibleSkin                 "H_HvMedLis"
+ VisibleSkin                 "STAR_Sh"
+ VisibleSkin                 "I_Otv_Hand"
+ AddBeforeDialogScript       "02_last_BD.scd"
+ AddDialog                   "02_last_00.dlg" 0
+ AddDialog                   "02_last_01.dlg" 1
+ AddDialog                   "02_last_02.dlg" 2
+ AddDialog                   "02_last_09.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+ AddItem		     "Human\OneHand\club\club.scr" "Left_Scabbard"
+});

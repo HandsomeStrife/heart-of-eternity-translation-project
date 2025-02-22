@@ -1,0 +1,25 @@
+AddCharacterPresets('Starosta','CivilMan','11_Last',{
+ Description                 "11_Last"
+ Position                    707.3456,2782.4897,23.0372
+ Rotation                    0 0 180
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "I_Otv_FootDD"
+ VisibleSkin                 "I_SkirtSm"
+ VisibleSkin                 "AH_Hunter"
+ VisibleSkin                 "H_GorLis"
+ VisibleSkinParam            "A_Naruk_R" 1
+ VisibleSkin                 "A_PlashS"
+ VisibleSkinParam            "A_Naruk_L" 1
+ VisibleSkinParam            "STAR_Sh" 1
+ VisibleSkin                 "A_SkirtKol"
+ VisibleSkin                 "HB_Usy"
+ AddBeforeDialogScript       "11_last_BD.scd"
+ AddDialog                   "11_last_00.dlg" 0
+ AddDialog                   "11_last_01.dlg" 1
+ AddDialog                   "11_last_02.dlg" 2
+ AddDialog                   "11_last_09.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

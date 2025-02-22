@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\StarostaD\data\StarostaD.mc',
+'StarostaD',
+'data\characters\StarostaD\data\','civman','STAR_Sh');

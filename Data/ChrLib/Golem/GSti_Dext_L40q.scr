@@ -1,0 +1,10 @@
+AddCharacterPresets('GolemStoneI','Enemy','Golem50',{
+ MobParam                    3 40
+ ScaleX      1.5
+ ScaleY      1.5
+ ScaleZ      1.5
+ PlusConstitution            30
+ AddDeathScript              "GSti_Dext_L40q.scd"
+ AddItem		     "Animal\Ogr\OgrWeapon1.scr" "Left_Scabbard"
+ AddItem		     "Animal\Ogr\OgrWeapon.scr" "Right_Scabbard"
+});

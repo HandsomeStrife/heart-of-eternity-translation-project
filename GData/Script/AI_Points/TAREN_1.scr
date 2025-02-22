@@ -1,0 +1,26 @@
+IfN_Flag_GoTo(1001,3,@1);
+IfN_Flag_GoTo(1000,9,@1);
+ SetFlag(1000,10);
+ SetFlag(1030,1);
+ CreateDoor('DOOR_BEG_TRAIN03',{
+    Axis              0.0000 0.0000 1.0000
+    OpenInTwoSize     False
+    OpenByRotate      True
+    Speed             1.0000
+    Angle             110.0000
+    Locked            False
+    MinDistance       0.6000
+ });
+ DOOR_Open('DOOR_BEG_TRAIN03');
+SetSpecialLevel('SkillOneHand',1);
+SetSpecialLevel('SS2',1);
+AddItemFromScriptSpecRot('Tutor\Onehand\Onehand.scr',873.2977,1672.2498,172.2986,90.0000,0.0000,0.0000);
+AddItemFromScriptSpecRot('Tutor\Shield\Shield.scr',872.3136,1672.5979,172.2986,87.7764,-5.3456,-51.5381);
+AIS_GoTo(@3);
+@1:
+ If_Flag_GoTo(1030,1,@2);
+ DOOR_Lock('DOOR_BEG_TRAIN03');
+@2:
+ AIPOINT_SetExecute('TAREN_1',0);
+@3:
+NOP();

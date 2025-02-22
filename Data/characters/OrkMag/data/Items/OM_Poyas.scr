@@ -1,0 +1,13 @@
+CreateItemSkin('OM_Poyas','L_Skirt','L_Skirt', {
+  Visible           True
+  Cost              -1
+  Description       "OM_Poyas"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "OM_Poyas"
+   MaterialPresetId  0
+   ArmorAutoGenerate  0  4 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

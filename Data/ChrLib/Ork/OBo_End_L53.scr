@@ -1,0 +1,11 @@
+AddCharacterPresets('OrkBoss','Enemy','OBoss_53',{
+ Description                 "OrkBoss_53"
+ ScaleX      1.3
+ ScaleY      1.3
+ ScaleZ      1.3
+ MobParam                    2 53
+ AddSkinItem                 "OBos_Shlem_Sh_l53.scr" "Helmet"
+ AddSkinItem                 "Kirassa_Sh_l53.scr" "Armor"
+ AddSkinItem                 "Legins_l53.scr" "Leggings"
+ AddItem                     "Ork\TwoHand\o_2handswordB\o_2handswordB.scr" "TwoHandSword"
+});

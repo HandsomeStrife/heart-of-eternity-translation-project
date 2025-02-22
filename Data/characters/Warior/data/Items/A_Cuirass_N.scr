@@ -1,0 +1,13 @@
+CreateItemSkin('A_Cuirass_N','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "Steel Cuirass"
+  History           "Настоящую защиту могут дать только крупные объSolid forged parts that make up the steel armor. In addition to breastplates and pauldrons, solid metal is used to make gauntlets, greaves, cuisses, corselets, and helmets. Full steel armor significantly increases protection against arrows."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Cuirass"
+   MaterialPresetId  0
+   AddObjectD        "A_Cuirass_N.s03"
+   ArmorAutoGenerate  6  1 
+   PlusConstitution 4
+});

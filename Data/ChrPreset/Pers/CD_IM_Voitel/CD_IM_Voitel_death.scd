@@ -1,0 +1,13 @@
+IfN_Flag_GoTo(121,1,@1);
+ SetFlag(121,2);
+ SetFlag(907,1);
+ InvisibleChrP('CD_IM_Voitel');
+ AddItemChrSlot('warior','Quest\BertranSword\BertranSword.scr','Bag');
+ JQuestRecordComplete(36,1);
+ JVisibleRecord(36,2);
+ AIS_GoTo(@2);
+@1:
+  RespawnCharacter('CD_IM_Voitel');
+  SetCharacterLifeK('CD_IM_Voitel',1);
+@2:
+NOP();

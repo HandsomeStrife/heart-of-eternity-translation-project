@@ -1,0 +1,15 @@
+IfN_Point_GoTo('OV_Tlg',@1);
+  Sit_InAIP('OV_Tlg',88);
+@1:
+IfN_Flag_GoTo(53,3,@2);
+  IfN_Point_MoveRun('MC');
+@2:
+IfN_Flag_GoTo(13,999,@4);
+ IfN_DistToMC_GoTo(3,@4);
+  StartCurrDialog('OV_OB_General');
+@4:
+IfN_Flag_GoTo(58,2,@5);
+IfN_Flag_GoTo(57,2,@5);
+  IfN_Point_Move('TalMV');
+@5:
+NOP();

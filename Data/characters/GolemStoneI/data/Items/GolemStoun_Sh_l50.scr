@@ -1,0 +1,12 @@
+CreateItemSkin('GolemStoun_Sh','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "GolemStoun_Sh"
+   MaterialPresetId  0
+   ArmorAutoGenerate  7  1
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

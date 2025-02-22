@@ -1,0 +1,44 @@
+IfN_Flag_GoTo(61,2,@1);
+ IfN_Point_MoveNP('el11');
+ If_Point_SetFlag('el11',61,3);
+@1:
+IfN_Flag_GoTo(61,3,@2);
+ IfN_Point_MoveNP('el21');
+ If_Point_SetFlag('el21',61,4);
+@2:
+IfN_Flag_GoTo(61,4,@3);
+ IfN_Point_MoveNP('el31');
+ If_Point_SetFlag('el31',61,5);
+@3:
+IfN_Flag_GoTo(61,5,@4);
+ IfN_Point_MoveNP('el41');
+ If_Point_SetFlag('el41',61,6);
+@4:
+IfN_Flag_GoTo(61,6,@5);
+ IfN_Point_MoveNP('el51');
+ If_Point_SetFlag('el51',61,7);
+@5:
+IfN_Flag_GoTo(61,7,@6);
+ IfN_Point_MoveNP('el61');
+ If_Point_SetFlag('el61',61,8);
+@6:
+IfN_Flag_GoTo(61,8,@7);
+ IfN_Point_MoveNP('el71');
+ If_Point_SetFlag('el71',61,9);
+@7:
+IfN_Flag_GoTo(61,9,@8);
+ IfN_Point_MoveNP('el81');
+ If_Point_SetFlag('el81',61,10);
+@8:
+IfN_Flag_GoTo(61,10,@9);
+ IfN_Point_MoveNP('EL_HS');
+ If_Point_SetFlag('EL_HS',61,11);
+@9:
+IfN_Flag_GoTo(61,11,@10);
+SetFlag(61,12);
+SetCharacterPosition('EC_ESk_SpaceElf',1314.6206,663.5051,173.9762);
+SetCharacterRotation('EC_ESk_SpaceElf',0,0,225);
+SetCharacterPosition('EC_WN_Aella',1314.1875,664.1053,173.5689);
+SetCharacterRotation('EC_WN_Aella',0,0,135);
+@10:
+NOP();

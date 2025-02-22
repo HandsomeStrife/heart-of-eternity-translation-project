@@ -1,0 +1,55 @@
+AddObjectToLib('data\effect\Atmosphere\Dragon\Env3D\S3D_Dragon.ZRS',mipmap=1,orientY=0);
+CreateMaterial('M_S3D_Dragon_1','data\effect\Atmosphere\Dragon\Env3D\maps\S3D_Dragon.tga',{
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate2X"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateAtmoZone('atmo_ikesh',expandBorder=1,renderDefault=1,{
+ MinDistance    5594.000    480.000   -300.000
+ MaxDistance    6790.000    2690.000    320.000
+ Phase          4 12 18 21
+ FogDistMin     0   20  40   0
+ FogDistMax     380 380 440 380
+ FogColor       id=0   91  95  112 0
+ FogColor       id=1   109 111 146 0
+ FogColor       id=2   98  98  85  0
+ FogColor       id=3   16  21  28  0
+ EnvTDColor     id=0   91  95  112 0
+ EnvTDColor     id=1   109 111 146 0
+ EnvTDColor     id=2   117  89  66 0
+ EnvTDColor     id=3   16  21  28 0
+ SunColor       id=0   201 128 54  0
+ SunColor       id=1   177 177 177 0
+ SunColor       id=2   24  3   2   0
+ SunColor       id=3   100 100 100 0
+ SunSize        70 50 80 80
+ AmbientColor   id=0   77  65  53  0
+ AmbientColor   id=1   51  51  51  0
+ AmbientColor   id=2   89  60  38  0
+ AmbientColor   id=3   24  29  48  0
+ DiffuseColor   id=0   107 114 148 0
+ DiffuseColor   id=1   255 255 255 0
+ DiffuseColor   id=2   247 182 111 0
+ DiffuseColor   id=3   34  46  45  0
+ SkyColor       id=0   206  193  179 0
+ SkyColor       id=1   192  192  192 0
+ SkyColor       id=2   91  58  36 0
+ SkyColor       id=3   11  12  15 0
+ BoxEnvColor    id=0   213  199  193 0 
+ BoxEnvColor    id=1   192  192  192 0
+ BoxEnvColor    id=2   88  62  39 0
+ BoxEnvColor    id=3   128  128  128 0
+ BloomEnable   True
+ BloomLuminance  0.0360 0.0890  0.0550 0.0090
+ BloomScale      0.7400 0.8000 0.9000 0.4400
+TDEnvObj       "S3D_DRAGON"
+});

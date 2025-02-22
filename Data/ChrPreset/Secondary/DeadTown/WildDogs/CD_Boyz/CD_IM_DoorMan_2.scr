@@ -1,0 +1,16 @@
+AddCharacterPresets('IronManUD','CivilMan','CD_IM_DoorMan_2',{
+ Description                 "CD_IM_DoorMan_2"
+ Position                    4145.8848,738.1304,141.9783
+ Rotation                    0 0 180
+ VisibleSkin                 "ZombyBig_Sh"
+ MobParam                    1 45
+ AddProcScript               "CD_IM_DoorMan_2_AI.sci"
+ AddDialog                   "CD_IM_DoorMan_d2.dlg" 0
+ AddDialog                   "CD_IM_DoorMan_d9.dlg" 9
+ AddSkinItem                 "U_Cuirass_l44.scr" "Armor"
+ AddSkinItem                 "HandArmor_Dext_l44.scr" "HandArmor"
+ AddSkinItem                 "Legins_Dext_l44.scr" "Leggings"
+ AddItem                     "Undead\TwoHand\U_DemonSword\U_DemonSword.scr" "TwoHandSword"
+ Attack 		      False
+ PartitionEnable              False
+});

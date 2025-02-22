@@ -1,0 +1,3 @@
+DeleteItemChr('warior','05_last');
+GetBonusForQuest(20,2);
+AddItemChrSlot('warior','Human\OneHand\chinkvedea2\chinkvedea2.scr','Bag');

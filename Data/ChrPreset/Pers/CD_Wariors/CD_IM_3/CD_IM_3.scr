@@ -1,0 +1,13 @@
+AddCharacterPresets('IronManUD','CivilMan','CD_IM_3',{
+ Description                 "Ahil"
+ Position                    4220.5562,713.6680,128.2831
+ Rotation                    0 0 0
+ MobParam                    0 40
+ VisibleSkin                 "U_Buviger"
+ VisibleSkin                 "H_KosyLis"
+ AddDeathScript		     "CD_IM_3_death.scd"
+ AddSkinItem                 "U_HelmetSk_l34.scr" "Helmet"
+ AddSkinItem                 "HandArmor_Str_l34.scr" "HandArmor"
+ AddItem                     "Undead\OneHand\u_sword\u_sword.scr" "Left_Scabbard"
+ AddItem                     "Undead\Shield\U_Shield\u_shield.scr" "Spine_shield"
+});

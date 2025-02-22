@@ -1,0 +1,21 @@
+AddCharacterPresets('Civman','CivilMan','BC_CM_Glashatay',{
+ Description                 "Luk"
+ Position                    1049.2640,2339.0776,99.5814
+ Rotation                    0 0 -85
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "AH_Beret" 1
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkinParam            "A_PlashFibL" 1
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "BC_CM_Glashatay_BD.scd"
+ AddDialog                   "BC_CM_Glashatay_d9.dlg" 9
+ AddDialog                   "BC_CM_Glashatay_d.dlg" 0
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

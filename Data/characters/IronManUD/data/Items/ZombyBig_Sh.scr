@@ -1,0 +1,13 @@
+CreateItemSkin('ZombyBig_Sh','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  Description       "unk"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "ZombyBig_Sh"
+   MaterialPresetId  0
+   ArmorAutoGenerate  1  2 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

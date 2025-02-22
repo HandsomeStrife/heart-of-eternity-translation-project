@@ -1,0 +1,51 @@
+CreateMaterial('M_FBFire','cloud.tga',{
+ BlendEnable			True
+ SRCBlend			"One"
+ DSTBlend			"One"
+ AlphaTestEnable		False
+ ColorArgOne		id = 0  "Texture"
+ ColorOp		id = 0  "Modulate"
+ ColorArgTwo            id = 0  "Current"
+ AlphaArgOne		id = 0  "Texture"
+ AlphaOp		id = 0  "Modulate"
+ AlphaArgTwo		id = 0  "Diffuse"
+ TextureCIndex          id = 0  0
+ MatrixTextTransform    id = 0  False
+ TCIFunction		id = 0  "passthru"
+ zWriteEnable			False
+ LightEnable			False
+});
+CreateParticlSystem('FB_fire',{
+ ParticlProcType	"Flue"
+ SpawnType		"Circle"
+ Radius			0.15
+ SpawnPosTwo		0 0 0
+ SpawnPosThree		0 0 0
+ SpawnSpeed		20.0
+ SizeMin		0.7 
+ SizeMax                0.3
+ TimeLive		1.2
+ MaxNumParticl		100
+ Immortal		False
+ SetPSColor		id = 0	time = 0.0  0 0 0 0
+ SetPSColor		id = 1	time = 0.3  125 80 39 147
+ SetPSColor		id = 2	time = 1.0  0 0 0 0
+ ForceVector		id = 0  0.0 0.0 2.0
+ ForceStrength		id = 0  1
+ AngleZXY		id = 0  0    360
+ AngleXY		id = 0  -16   16
+ ForceVector		id = 1  0.0 0.0 1.0
+ ForceStrength		id = 1  0
+ AngleZXY		id = 1  0    360
+ AngleXY		id = 1  -12  12
+ Position	        0 0 0
+ Rotation		0 0 0
+ SizeMinSec		2
+ MassMin                1
+ SetMaterial		"M_FBFire"
+ SpiralRotate           False
+ SpiralSpeedRotate	360
+ SpiralVectorRotate	0 0 1
+ SpeedRotate		150
+ SpawnRandomRot		True
+});

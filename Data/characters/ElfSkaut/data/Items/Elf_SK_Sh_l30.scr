@@ -1,0 +1,15 @@
+CreateItemSkin('Elf_SK_Sh','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "Elf_SK_Sh"
+   MaterialPresetId  0
+   ArmorAutoGenerate  5  4 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+   PlusStrenght     0
+   PlusConstitution 0
+   PlusMagicPower  0
+});

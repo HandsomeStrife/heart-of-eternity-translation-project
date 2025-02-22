@@ -1,0 +1,21 @@
+AddCharacterPresets('Civman','CivilMan','Ik_CM_Boss',{
+ Description                 "Ik_CM_Boss"
+ Position                    5743.7886,943.6328,216.1322
+ Rotation                    0 0 90
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "A_PlashS"
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "I_PerchIron_L"
+ VisibleSkin                 "I_PerchIron_R"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddProcScript               "Ik_CM_Boss_AI.sci"
+ AddBeforeDialogScript       "Ik_CM_Boss_BD.scd"
+ AddDialog                   "Ik_CM_Boss_d0.dlg" 0
+ AddDialog                   "Ik_CM_Boss_d9.dlg" 9
+ AddItem                     "Human\OneHand\Knife01\Knife01.scr" "Left_Scabbard"
+ PartitionEnable              False
+});

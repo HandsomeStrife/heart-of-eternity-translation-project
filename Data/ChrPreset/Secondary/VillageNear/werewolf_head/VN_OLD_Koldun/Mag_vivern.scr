@@ -1,0 +1,12 @@
+AddCharacterPresets('Vivern','CivilMan','Mag_vivern',{
+ Description                 "Mag_vivern"
+ Position                    1318.7578,2329.8438,16.1685
+ Rotation                    0 0 -90
+ ScaleX                      0.3
+ ScaleY                      0.3
+ ScaleZ                      0.3
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

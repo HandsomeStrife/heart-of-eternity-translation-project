@@ -1,0 +1,15 @@
+AddCharacterPresets('GolemDirty','Enemy','Golem_l45',{
+ Description                 "Golem Dirty_l45"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    2 45
+ ScaleX      1.2
+ ScaleY      1.2
+ ScaleZ      1.2
+ PlusConstitution            25
+ AddDeathScript              "GDi_Norm_L40q.scd"
+ VisibleSkinParam            "GolemDirty_Sh" 1
+ AddSkinItem                 "GolemDirty_Sec_L45.scr" "SecArmor"
+ AddItem		     "Animal\Ogr\OgrWeapon1.scr" "Left_Scabbard"
+ AddItem		     "Animal\Ogr\OgrWeapon.scr" "Right_Scabbard"
+});

@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\Wolf\data\wolf.mc',
+'Wolf',
+'data\characters\wolf\data\','vepr','WOLF_Sh','DSkelSh');

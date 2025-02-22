@@ -1,0 +1,17 @@
+GD_DisableEsc(1);
+CHRSCR_SetTime(1);
+SetCharacterPosition('warior',901.3411,1672.9165,172.2447);
+SetCharacterRotation('warior',0,0,-90);
+SetCharacterPosition('SL_IM_Otchym',912.3134,1676.4637,172.2442);
+SetCharacterRotation('SL_IM_Otchym',0,0,0);
+SetCharacterPosition('VF_ES_ETeacher',912.1255,1677.6384,172.2443);
+SetCharacterRotation('VF_ES_ETeacher',0,0,180);
+SetCameraPosition(0,909.6945,1677.07,173.6506);
+SetCameraRotation(0,90,-90,0);
+SetCameraPosition(1,909.6945,1677.07,173.6506);
+SetCameraRotation(1,90,-90,0);
+DIALOG_SetCameraPos(909.6945,1677.07,173.6506);
+DIALOG_SetCameraRot(-0.5273088,0.5113773,0.4731754,-0.4863593);
+GDSND_SetCharacterName(0,'VF_ES_ETeacher');
+GDSND_SetCharacterName(1,'SL_IM_Otchym')
+StartAutoDialog('born_vs_altion.dlg');

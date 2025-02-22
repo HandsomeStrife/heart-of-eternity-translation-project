@@ -1,0 +1,3 @@
+SetCharacterRotation('warior',0,0,-130);
+BlackScreenStart('The tunnels of the dwarves...');
+SetCharacterPosition('warior',1107.4298,6241.4741,-60.8094);

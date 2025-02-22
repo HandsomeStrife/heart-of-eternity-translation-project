@@ -1,0 +1,21 @@
+AddCharacterPresets('Civman','CivilMan','Ik_IM_Adept',{
+ Description                 "Ik_IM_Adept"
+ Position                    5851.1895,868.4373,246.8539
+ Rotation                    0 0 0
+ VisibleSkin                 "A_PlashKup" 
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkin                 "I_Otv_Hand"
+ VisibleSkinParam            "A_Naruk_L" 3
+ VisibleSkin                 "A_Nagol1S_L"
+ VisibleSkin                 "A_Nagol1S_R"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddProcScript               "Ik_IM_Adept_ai.sci" 
+ AddBeforeDialogScript       "Ik_IM_Adept_BD.scd"
+ AddDialog                   "Ik_IM_Adept_d0.dlg" 0
+ AddDialog                   "Ik_IM_Adept_d9.dlg" 9
+ PartitionEnable              False
+});

@@ -1,0 +1,5 @@
+GetBonusForQuest(16,2);
+DeleteItemChr('warior','22_LAST');
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddItemChrSlot('warior','Stuf\BottleBig_L\BottleBig_L.scr','Bag');
+AddHotKeyHelp('You have received 2 healing potions.',23);

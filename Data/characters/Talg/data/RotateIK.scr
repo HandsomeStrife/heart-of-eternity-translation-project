@@ -1,0 +1,4 @@
+CreateRotIKSystem(3);
+AddRotIKNodeScript(0,'Golova',-5,5,0,1,0);
+AddRotIKNodeScript(1,'Grud',-10,10,0,1,0);
+AddRotIKNodeScript(2,'root',0,0,0,1,0);

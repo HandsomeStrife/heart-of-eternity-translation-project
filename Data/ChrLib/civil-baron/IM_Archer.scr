@@ -1,0 +1,18 @@
+AddCharacterPresets('IronMan','CivilMan','IM_Archer',{
+ Description                 "IM_Archer"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    3 28
+ SetFace                     1
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkin                 "I_Otv_FootDD"
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "A_PlashKup"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "I_Otv_Hand"
+ AddSkinItem                 "SecArmor_K1_l25.scr" "SecArmor"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\longbow01\longbow01.scr" "Bow"
+ AddItem                     "Human\OneHand\Knife01\Knife01.scr" "Left_Scabbard"
+});

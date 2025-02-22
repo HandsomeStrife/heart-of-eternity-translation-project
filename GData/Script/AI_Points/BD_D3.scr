@@ -1,0 +1,16 @@
+If_Flag_GoTo(201,3,@1);
+If_Flag_GoTo(201,2,@1);
+If_Flag_GoTo(201,1,@1);
+AIS_GoTo(@2);
+@1:
+CreateDoor('DOOR_BARON_GENERAL561_60',{
+    Axis              0.0000 0.0000 1.0000
+    OpenInTwoSize     False
+    OpenByRotate      True
+    Speed             1.0000
+    Angle             90.0000
+    Locked            False
+    MinDistance       2.0000
+});
+@2:
+NOP(0);

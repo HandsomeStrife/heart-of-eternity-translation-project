@@ -1,0 +1,13 @@
+CreateItemSkin('OB_Helmet','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "OB_Helmet_l42"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "OB_Helmet"
+   MaterialPresetId  0
+   ArmorAutoGenerate  8  1 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

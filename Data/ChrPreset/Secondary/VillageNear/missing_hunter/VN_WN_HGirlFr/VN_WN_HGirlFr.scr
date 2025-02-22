@@ -1,0 +1,19 @@
+AddCharacterPresets('WomanNormal','CivilMan','VN_WN_HGirlFr',{
+ Description                 "Mariya"
+ Position                    1697.1215,2137.8730,77.5317
+ Rotation                    0 0 0
+ PlusStrenght                12
+ PlusDexterity               12
+ PlusConstitution            12
+ PlusIntellect               8
+ PlusPermeability            8
+ SetFace                     0
+ VisibleSkinParam            "WomanNorm_Sh" 1
+ VisibleSkin                 "WN_O_Platye_Sh"
+ VisibleSkinParam            "H_Uchilka_Sh" 1
+ AddItem                     "Human\OneHand\Vakadzasi_02\Vakadzasi_02.scr" "Right_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

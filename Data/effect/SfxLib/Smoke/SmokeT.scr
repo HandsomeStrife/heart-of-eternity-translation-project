@@ -1,0 +1,5 @@
+CreateTorchSFXObj('SMT_',{
+ DeltaTranslate       0 0 0.1
+ AddParticlSystem     "data\effect\SmokeT\PS_SmokeT.scr"
+ LinkToObjectPTR      True
+});

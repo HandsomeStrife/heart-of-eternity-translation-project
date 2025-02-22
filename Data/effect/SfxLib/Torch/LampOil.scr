@@ -1,0 +1,26 @@
+CreateMaterial('M_CGlow','glow_c.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Diffuse"
+ AlphaOp             id = 0 "Disable"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateTorchSFXObj('OL_',{
+ DeltaTranslate       0 0 0.1
+ AddParticlSystem     "data\effect\OilLamp\OilLampPS.scr"
+ AddGlowEffect        "M_CGlow"  0.4 0.1 255 224 212
+ AddLight             10.0 0.2 255 191 122 0.1 0.1 0.03
+ AddLightColorEffect  148 95 49 0.03 0.1
+ AutoCalcOffset       type = 1 0.3 -0.02
+ LinkToObjectPTR      True
+});

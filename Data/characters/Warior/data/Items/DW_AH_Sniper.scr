@@ -1,0 +1,13 @@
+CreateItemSkin('DW_AH_Sniper','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Loki's Bomber Helmet"
+  History           "The technological achievements of the dwarves are fully manifested in the creation of protective gear, which combines: high durability, relatively low weight, and the inherent bonuses of the underground race - when clad in full dwarven armor, its owner will noticeably enhance their strength and gain resistance to magic."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "DW_AH_Sniper"
+   MaterialPresetId  0
+   AddObjectD        "DW_AH_Sniper.s03"
+   ArmorAutoGenerate  7  3 
+   PlusDexterity     5
+});

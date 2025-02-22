@@ -1,0 +1,8 @@
+ExecuteScriptSys('data\ChrPreset\Secondary\DeadTown\WildDogs\CD_Boyz\CD_CM_Boy_1.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\DeadTown\WildDogs\CD_Boyz\CD_CM_Boy_2.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\DeadTown\WildDogs\CD_Boyz\CD_CM_Boy_3.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\DeadTown\WildDogs\CD_Boyz\CD_CM_Boy_5.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\DeadTown\WildDogs\CD_Boyz\CD_IM_Boy_1.scr'); 
+ExecuteScriptSys('data\ChrPreset\Secondary\DeadTown\WildDogs\CD_Boyz\CD_IM_Boy_2.scr'); 
+ExecuteScriptSys('data\ChrPreset\Secondary\DeadTown\WildDogs\CD_Boyz\CD_IM_Boy_3.scr'); 
+ExecuteScriptSys('data\ChrPreset\Secondary\DeadTown\WildDogs\CD_Boyz\CD_IM_Boy_5.scr'); 

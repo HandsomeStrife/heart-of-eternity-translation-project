@@ -1,0 +1,8 @@
+IfN_Flag_GoTo(157,1,@1);
+ SetFlag(157,2);
+ SetFlag(158,1);
+ BlackScreenStart('The airship carries you to the Valley of Dragons...');
+ SetCharacterPosition('warior',7018.2383,878.3146,244.1496);
+ JQuestComplete(37);
+@1:
+NOP(0);

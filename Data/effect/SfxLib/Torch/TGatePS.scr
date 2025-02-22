@@ -1,0 +1,25 @@
+CreateMaterial('M_CGlow','glow_c.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Diffuse"
+ AlphaOp             id = 0 "Disable"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateTorchSFXObj('Ge_',{
+ DeltaTranslate       0 0 7
+ AddParticlSystem     "data\effect\GatePS\GatePS.scr"
+ AddGlowEffect        "M_CGlow"  3.7 0.03 200 180 180
+ AddLight             20.0 0.2 238 130 106 0.1 0.1 0.03
+ AddLightColorEffect  119 65 53 0.03 0.1
+ LinkToObjectPTR      True
+});

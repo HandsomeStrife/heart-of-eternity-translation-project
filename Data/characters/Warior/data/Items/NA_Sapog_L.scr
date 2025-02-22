@@ -1,0 +1,17 @@
+CreateItemSkin('NA_Sapog_L','L_BootLeft','L_BootLeft', {
+  Visible           True
+  Cost              -1
+  Description       "cc"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "NA_Sapog_L"
+   MaterialPresetId  0
+   AddObjectD        "NA_Sapog_L.s03"
+   ArmorAutoGenerate  11  4 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+   PlusStrenght     0
+   PlusConstitution 0
+   PlusMagicPower  0
+});

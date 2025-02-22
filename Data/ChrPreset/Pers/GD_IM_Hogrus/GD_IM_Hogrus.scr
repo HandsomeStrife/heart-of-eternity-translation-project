@@ -1,0 +1,14 @@
+AddCharacterPresets('IronMan','CivilMan','GD_IM_Hogrus',{
+ Description                 "Hogrus"
+ Position                    5864.9463,820.0981,221.6015
+ Rotation                    0 0 0
+ MobParam                    1 10
+ VisibleSkin                 "AH_Cilindr"
+ VisibleSkin                 "I_Man_Sh"
+ VisibleSkin                 "HB_Gig"
+ VisibleSkin                 "I_NaruchKuz"
+ VisibleSkin                 "A_PlashS"
+ AddDeathScript		     "GD_IM_Hogrus_death.scd"
+ AddProcScript               "GD_IM_Hogrus_ai.sci"
+ AddItem                     "Human\OneHand\club\club.scr" "Left_Scabbard"
+});

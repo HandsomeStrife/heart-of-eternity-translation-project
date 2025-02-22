@@ -1,0 +1,8 @@
+CreateSFX('RadBlowSSFX',{
+    AddSFXPSTag  "data\effect\Specials\RadialBlowW_PS.scr" pos: 0 0 0.6 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXTagFlag 0 262144
+    LiveTime        = 1.1
+    LinkParam       = 9
+});

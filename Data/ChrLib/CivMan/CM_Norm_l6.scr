@@ -1,0 +1,24 @@
+AddCharacterPresets('Civman','Enemy','CM_l6',{
+ Description                 "CM_l6"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 6
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "A_Naruch1_L"
+ VisibleSkin                 "I_PerchIron_L"
+ VisibleSkin                 "AH_Dvoryan"
+ VisibleSkin                 "A_PlashFib2"
+ VisibleSkin                 "A_Napl2_R"
+ VisibleSkin                 "A_Naruch1_R"
+ VisibleSkin                 "A_Naruk_R"
+ VisibleSkin                 "I_PerchIron_R"
+ VisibleSkin                 "H_NormLis"
+ VisibleSkin                 "I_Otv_FootD"
+ AddDeathScript              "cmdscr.scd"
+ AddSkinItem                 "HandArmor_Sk_l6.scr" "HandArmor"
+ AddItem                     "Human\OneHand\dagger02\dagger02.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\Vakadzasi_01\Vakadzasi_01.scr" "Right_Scabbard"
+});
+                               			

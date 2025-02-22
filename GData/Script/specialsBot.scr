@@ -1,0 +1,473 @@
+CreateSpecial('BOT_IM_SS_FrontA',1,{
+  MinimumLevel  5
+  SetState       "STATE_SPECBOT_SS2"
+  RechargeTime   5
+  ExpendStamina  21.0
+  MultDamage     2
+  ColorArgOne	 100 98 255 255
+  AddSFX         "data\effect\Specials\IM_FrontA.scr"
+  AddSFX         "data\effect\Specials\BlowSSR_SFX.scr"
+  AddSFX         "data\effect\DustS\DustSFX.scr"
+});
+CreateSpecial('BOT_IM_SS_Shield',1,{
+  MinimumLevel  10
+  SetState       "STATE_SPECBOT_SS1"
+  RechargeTime   60
+  ExpendStamina  1.0
+  ColorArgOne	 100 98 255 255
+  AddSFX         "data\effect\Specials\WAuraB.scr"
+  AddSFX         "data\effect\Specials\WAuraB2.scr"
+});
+CreateSpecial('BOT_OM_SS_Shield',1,{
+  MinimumLevel  10
+  SetState       "STATE_SPECBOT_SS1"
+  RechargeTime   40
+  ExpendStamina  1.0
+  ColorArgOne	 100 98 255 255
+  AddSFX         "data\effect\Specials\WAuraB.scr"
+  AddSFX         "data\effect\Specials\WAuraB2.scr"
+});
+CreateSpecial('BOT_OM_SS_RotAttack',1,{
+  MinimumLevel  15
+  SetState       "STATE_SPECBOT_SS2"
+  RechargeTime   5
+  ExpendStamina  10
+  DamageMax     50
+  DamageMin     30
+  MultDamage     2
+  ColorArgOne	 100 98 255 255
+  AddSFX         "data\effect\Specials\BlowSSR_SFX.scr"
+  AddSFX         "data\effect\DustS\DustSFX.scr"
+});
+CreateSpecial('BOT_IM_DD_MillStrike',1,{
+  MinimumLevel  12
+  SetState       "STATE_SPECBOT_DD1"
+  RechargeTime   10
+  ExpendStamina  1.0
+  MultDamage     1.5
+  ColorArgOne	 0 255 210 255
+  AddSFX         "data\effect\Specials\BlowDD2R_SFX.scr"
+  AddSFX         "data\effect\Specials\BlowDD2L_SFX.scr"
+});
+CreateSpecial('BOT_IM_DD_FrontA',1,{
+  MinimumLevel  8
+  SetState       "STATE_SPECBOT_DD2"
+  RechargeTime   10
+  ExpendStamina  1.0
+  MultDamage     1.5
+  ColorArgOne	 0 255 210 255
+  AddSFX         "data\effect\Specials\BlowDD2R_SFX.scr"
+  AddSFX         "data\effect\Specials\BlowDD2L_SFX.scr"
+});
+CreateSpecial('BOT_IM_D_FrontRotA',1,{
+  MinimumLevel  15
+  SetState       "STATE_SPECBOT_D1"
+  RechargeTime   15
+  ExpendStamina  1.0
+  DamageMax     50
+  DamageMin     40
+  ColorArgOne	 255 111 6 255
+  AddSFX         "data\effect\DustS\DustSFX.scr"
+  AddSFX         "data\effect\Specials\RadBlowWS_SFX.scr"
+});
+CreateSpecial('BOT_IM_D_FrontA',1,{
+  MinimumLevel  10
+  SetState       "STATE_SPECBOT_D2"
+  RechargeTime   10
+  ExpendStamina  1.0
+  DamageMax     50
+  DamageMin     40
+  ColorArgOne	 255 111 6 255
+  AddSFX         "data\effect\DustS\DustSFX.scr"
+  AddSFX         "data\effect\Specials\RadBlowWS_SFX.scr"
+});
+CreateSpecial('BOT_CM_SS_FrontA',1,{
+  MinimumLevel  5
+  SetState       "STATE_SPECBOT_SS2"
+  RechargeTime   5
+  ExpendStamina  50.0
+  MultDamage     2
+  ColorArgOne	 100 98 255 255
+  AddSFX         "data\effect\Specials\IM_FrontA.scr"
+  AddSFX         "data\effect\Specials\BlowSSR_SFX.scr"
+  AddSFX         "data\effect\DustS\DustSFX.scr"
+});
+CreateSpecial('BOT_CM_SS_DoubleStrike',1,{
+  MinimumLevel  10
+  SetState       "STATE_SPECBOT_SS1"
+  RechargeTime   10
+  ExpendStamina  50.0
+  MultDamage     1.5
+  ColorArgOne	 100 98 255 255
+  AddSFX         "data\effect\Specials\BlowSSR_SFX.scr"
+  AddSFX         "data\effect\DustS\DustSFX.scr"
+});
+CreateSpecial('BOT_CM_DD1',1,{
+  MinimumLevel  12
+  SetState       "STATE_SPECBOT_DD1"
+  RechargeTime   10
+  ExpendStamina  50.0
+  MultDamage     2
+  ColorArgOne	 0 255 210 255
+  AddSFX         "data\effect\Specials\BlowDD2R_SFX.scr"
+  AddSFX         "data\effect\Specials\BlowDD2L_SFX.scr"
+});
+CreateSpecial('BOT_CM_DD2',1,{
+  MinimumLevel   8
+  SetState       "STATE_SPECBOT_DD2"
+  RechargeTime   7
+  ExpendStamina  50.0
+  MultDamage     1.5
+  ColorArgOne	 0 255 210 255
+  AddSFX         "data\effect\Specials\BlowDD2R_SFX.scr"
+  AddSFX         "data\effect\Specials\BlowDD2L_SFX.scr"
+});
+CreateSpecial('BOT_OB_D_StrikeUp',1,{
+  MinimumLevel  20
+  SetState       "STATE_SPECBOT_D1"
+  RechargeTime   4
+  ExpendStamina  30.0
+  DamageMax     90
+  DamageMin     70
+  ColorArgOne	 255 111 6 255
+  AddSFX         "data\effect\Specials\RadBlowWS_SFX.scr"
+});
+CreateSpecial('BOT_OB_D_ComposeAttack',1,{
+  MinimumLevel  30
+  SetState       "STATE_SPECBOT_D2"
+  RechargeTime   10.0
+  ExpendStamina  30.0
+  DamageMax     150
+  DamageMin     100
+  ColorArgOne	 255 111 6 255
+  AddSFX         "data\effect\Specials\RadBlowWS_SFX.scr"
+});
+CreateSpecial('BOT_OB_SS_ForwardBlow',1,{
+  MinimumLevel  20
+  SetState       "STATE_SPECBOT_SS2"
+  RechargeTime   5
+  ExpendStamina  30.0
+  MultDamage     2
+  ColorArgOne	 100 98 255 255
+  AddSFX         "data\effect\Specials\BlowSSR_SFX.scr"
+});
+CreateSpecial('BOT_VL_DI1',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_DD1"
+  RechargeTime   5
+  ExpendStamina  1.0
+  MultDamage     2
+  ColorArgOne	 0 255 210 255
+});
+CreateSpecial('BOT_VL_DI2',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_DD2"
+  RechargeTime   5.0
+  ExpendStamina  1.0
+  MultDamage     2
+  ColorArgOne	 0 255 210 255
+});
+CreateSpecial('BOT_VL_DI3',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_SS1"
+  RechargeTime   2.5
+  ExpendStamina  1.0
+  MultDamage     2
+  ColorArgOne	 0 255 210 255
+});
+CreateSpecial('BOT_VL_VAMP',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_SS2"
+  RechargeTime   15.0
+  ExpendStamina  1.0
+  MultDamage     2
+  DamageMax     70
+  DamageMin     50
+});
+CreateSpecial('BOT_VL_VAMP2',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_SS2"
+  RechargeTime   15.0
+  ExpendStamina  1.0
+  MultDamage     2
+  DamageMax     400
+  DamageMin     200
+});
+CreateSpecial('BOT_VL_TAKE_WEAPON',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_D1"
+  RechargeTime   1.5
+  ExpendStamina  1.0
+  MultDamage     1.5
+});
+CreateSpecial('BOT_GN_DD_JUMPA',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_DD1"
+  RechargeTime   2.5
+  ExpendStamina  1.0
+  DamageMax     70
+  DamageMin     50
+  ColorArgOne	 0 255 210 255
+  AddSFX         "data\effect\Specials\BlowDD2R_SFX.scr"
+  AddSFX         "data\effect\Specials\BlowDD2L_SFX.scr"
+});
+CreateSpecial('BOT_GN_D_JUMPA',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_D1"
+  RechargeTime   2.5
+  ExpendStamina  1.0
+  DamageMax     40
+  DamageMin     20
+  ColorArgOne	 255 111 6 255
+  AddSFX         "data\effect\Specials\RadBlowWS_SFX.scr"
+});
+CreateSpecial('BOT_GN_SS_ROTA',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_SS1"
+  RechargeTime   5
+  ExpendStamina  1.0
+  MultDamage     2
+  ColorArgOne	 100 98 255 255
+  AddSFX         "data\effect\Specials\BlowSSR_SFX.scr"
+  AddSFX         "data\effect\DustS\DustSFX.scr"
+});
+CreateSpecial('BOT_GN_DD_ROTA',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_DD2"
+  RechargeTime   1.5
+  ExpendStamina  1.0
+  MultDamage     1.5
+  ColorArgOne	 0 255 210 255
+  AddSFX         "data\effect\Specials\BlowDD2R_SFX.scr"
+  AddSFX         "data\effect\Specials\BlowDD2L_SFX.scr"
+});
+CreateSpecial('BOT_OBS_D1',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_D1"
+  RechargeTime   10
+  ExpendStamina  1.0
+DamageMax     40
+  DamageMin     20
+  ColorArgOne	 255 111 6 255
+  AddSFX         "data\effect\Specials\RadBlowWS_SFX.scr"
+});
+CreateSpecial('BOT_OMG_C2',1,{
+  MinimumLevel  10
+  SetState       "STATE_CAST2"
+  RechargeTime   5.5
+  ExpendStamina  1.0
+  MultDamage     0
+});
+CreateSpecial('BOT_OG_DD1',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_DD1"
+  RechargeTime   5.0
+  ExpendStamina  1.0
+  MultDamage     2
+  ColorArgOne	 0 255 210 255
+});
+CreateSpecial('BOT_GD_DD1',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_DD1"
+  RechargeTime   5.0
+  ExpendStamina  1.0
+  MultDamage     2
+  ColorArgOne	 0 255 210 255
+});
+CreateSpecial('BOT_VB_DD1',1,{
+  MinimumLevel  250
+  SetState       "STATE_SPECBOT_DD1"
+  RechargeTime   15.0
+  ExpendStamina  10.0
+  MultDamage     1.5
+  ColorArgOne	 0 255 210 255
+  AddSFX         "data\effect\Specials\BlowDD2R_SFX.scr"
+  AddSFX         "data\effect\Specials\BlowDD2L_SFX.scr"
+});
+CreateSpecial('BOT_VB_DI1',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_SS2"
+  RechargeTime   7.0
+  ExpendStamina  1.0
+  MultDamage     2
+  ColorArgOne	 0 255 210 255
+  AddSFX         "data\effect\Specials\BlowDD2R_SFX.scr"
+  AddSFX         "data\effect\Specials\BlowDD2L_SFX.scr"
+});
+CreateSpecial('BOT_VB_DI2',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_D2"
+  RechargeTime   7.0
+  ExpendStamina  1.0
+  MultDamage     2
+  ColorArgOne	 0 255 210 255
+  AddSFX         "data\effect\Specials\BlowDD2R_SFX.scr"
+  AddSFX         "data\effect\Specials\BlowDD2L_SFX.scr"
+});
+CreateSpecial('BOT_ST_SS1',1,{
+  MinimumLevel  5
+  SetState       "STATE_SPECBOT_SS1"
+  RechargeTime   7
+  ExpendStamina  1.0
+  MultDamage     2
+  ColorArgOne	 100 98 255 255
+  AddSFX         "data\effect\Specials\BlowSSR_SFX.scr"
+  AddSFX         "data\effect\DustS\DustSFX.scr"
+});
+CreateSpecial('BOT_ST_D1',1,{
+  MinimumLevel  10
+  SetState       "STATE_SPECBOT_D1"
+  RechargeTime   10.0
+  ExpendStamina  10.0
+  MultDamage     1.5
+  ColorArgOne	 25`5 111 6 255
+  AddSFX         "data\effect\Specials\RadBlowWS_SFX.scr"
+});
+CreateSpecial('BOT_CD_SS1',1,{
+  MinimumLevel  15
+  SetState       "STATE_SPECBOT_SS1"
+  RechargeTime   7.0
+  ExpendStamina  10.0
+  MultDamage     2
+  ColorArgOne	 100 98 255 255
+  AddSFX         "data\effect\Specials\BlowSSR_SFX.scr"
+  AddSFX         "data\effect\DustS\DustSFX.scr"
+});
+CreateSpecial('BOT_CD_DD1',1,{
+  MinimumLevel  18
+  SetState       "STATE_SPECBOT_DD1"
+  RechargeTime   7.0
+  ExpendStamina  10.0
+  MultDamage     1.5
+  ColorArgOne	 0 255 210 255
+  AddSFX         "data\effect\Specials\BlowDD2R_SFX.scr"
+  AddSFX         "data\effect\Specials\BlowDD2L_SFX.scr"
+});
+CreateSpecial('BOT_CD_D1',1,{
+  MinimumLevel  200
+  SetState       "STATE_SPECBOT_D1"
+  RechargeTime   10
+  ExpendStamina  10.0
+  MultDamage     1.5
+  ColorArgOne	 255 111 6 255
+  AddSFX         "data\effect\Specials\RadBlowWS_SFX.scr"
+});
+CreateSpecial('BOT_CD_D2',1,{
+  MinimumLevel  15
+  SetState       "STATE_SPECBOT_D2"
+  RechargeTime   10
+  ExpendStamina  10.0
+  MultDamage     2.5
+  ColorArgOne	 255 111 6 255
+  AddSFX         "data\effect\Specials\RadBlowWS_SFX.scr"
+});
+CreateSpecial('BOT_VI_SS1',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_SS1"
+  RechargeTime   7.0
+  ExpendStamina  10.0
+  MultDamage     2
+});
+CreateSpecial('BOT_VI_FIREBALL',1,{
+  MinimumLevel  1
+  SetState       "STATE_SPECBOT_ADD1"
+  SpellId	 29
+  RechargeTime   3.0
+  ExpendStamina  20.0
+  AtackFire      100
+  Accuracy       0.99
+  SpawnSpell	 False
+  AddSoundTag	 "FireClot" 0 False
+  AddSoundTag	 "FireExplosion" 1000 False
+});
+CreateSpecial('BOT_MV_C1',1,{
+  MinimumLevel  1
+  SetState       "STATE_CAST1"
+  RechargeTime   3.0
+  ExpendStamina  20.0
+});
+CreateSpecial('BOT_MV_FIRECLOT',1,{
+  MinimumLevel  1
+  SetState       "STATE_CAST1"
+  RechargeTime   2.0
+  ExpendStamina  10.0
+  SpellId	 42
+  AtackFire      30
+  Accuracy       0.2
+  AddSoundTag	 "FireClot" 0 False
+  AddSoundTag	 "FireExplosion" 1000 False
+});
+CreateSpecial('BOT_MV_FIRECLOT2',1,{
+  MinimumLevel  1
+  SetState       "STATE_CAST1"
+  RechargeTime   2.0
+  ExpendStamina  10.0
+  SpellId	 42
+  AtackFire      100
+  Accuracy       0.2
+  AddSoundTag	 "FireClot2" 0 False
+  AddSoundTag	 "FireExplosion" 1000 False
+});
+CreateSpecial('BOT_MV_ICEPULEMET',1,{
+  MinimumLevel  5
+  SetState       "STATE_CAST1"
+  RechargeTime   4.0
+  ExpendStamina  30.0
+  SpellId	 43
+  AtackWater	 15
+  Accuracy       0.2
+});
+CreateSpecial('BOT_MV_FIREBALL',1,{
+  MinimumLevel  10
+  SetState       "STATE_CAST1"
+  RechargeTime   10
+  ExpendStamina  30.0
+  SpellId	 45
+  AtackFire	 80
+  Accuracy       0.2
+  SpawnSpell	 False
+});
+CreateSpecial('BOT_MV_ICEAURA',1,{
+  MinimumLevel  1
+  SetState       "STATE_CAST1"
+  RechargeTime   15
+  ExpendStamina  30.0
+  AddSFX         "data\spell\IceAuraA\IceAuraASFX.scr"
+});
+CreateSpecial('BOT_MV_EARTHAURA',1,{
+  MinimumLevel  1
+  SetState       "STATE_CAST1"
+  RechargeTime   20
+  ExpendStamina  30.0
+  AddSFX         "data\spell\EarthAuraD\EarthAuraDSFX.scr"
+});
+CreateSpecial('BOT_ICEAURA',1,{
+  MinimumLevel  1
+  SpellId	 46
+  AddSFX         "data\spell\IceAuraA\IceAuraASFX.scr"
+});
+CreateSpecial('BOT_EARTHAURA',1,{
+  MinimumLevel  1
+  SpellId	 47
+  AddSFX         "data\spell\EarthAuraD\EarthAuraDSFX.scr"
+});
+CreateSpecial('BOT_PUSHCIRCLE',1,{
+  MinimumLevel  1
+  SetState       "STATE_CAST1"
+  SpellId        19
+  RechargeTime   3.5
+  ExpendStamina  30
+  Accuracy       0.4
+  AddSFX         "data\spell\PushCircle\PushCircle_SFX.scr"
+  AddSoundTag	 "PushCircle" 0 False
+});
+CreateSpecial('BOT_ES_DD1',1,{
+  MinimumLevel  12
+  SetState       "STATE_SPECBOT_DD1"
+  RechargeTime   10.0
+  ExpendStamina  25.0
+  MultDamage     2
+  ColorArgOne	 0 255 210 255
+  AddSFX         "data\effect\Specials\BlowDD2R_SFX.scr"
+  AddSFX         "data\effect\Specials\BlowDD2L_SFX.scr"
+});

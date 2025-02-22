@@ -1,0 +1,17 @@
+CreateSoundLib('DW_VAttack1a.wav','DWa0',2,20,100);
+CreateSoundLib('DW_VAttack1b.wav','DWa1',2,20,100);
+CreateSoundLib('DW_VAttack2a.wav','DWa2',2,20,100);
+CreateSoundLib('DW_VAttack2b.wav','DWa3',2,20,100);
+CreateSoundLibGroup('DWa',4,'DWa');
+CreateSoundLib('DW_VHit1a.wav','DWh0',2,30,100);
+CreateSoundLib('DW_VHit1b.wav','DWh1',2,30,100);
+CreateSoundLibGroup('DWh',2,'DWh');
+CreateSoundLib('DW_VDeath a.wav','DWd0',2,30,100);
+CreateSoundLib('DW_VDeath b.wav','DWd1',2,30,100);
+CreateSoundLibGroup('DWd',2,'DWd');
+CreateSoundLib('DW_VSocial1a.wav','DWs0',2,20,100);
+CreateSoundLib('DW_VSocial1b.wav','DWs1',2,20,100);
+CreateSoundLib('DW_VSocial2.wav','DWs2',2,20,100);
+CreateSoundLib('DW_VSocial2b.wav','DWs3',2,20,100);
+CreateSoundLib('DW_VVoice.wav','DWs4',2,20,100);
+CreateSoundLibGroup('DWs',5,'DWs');

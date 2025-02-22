@@ -1,0 +1,19 @@
+AddCharacterPresets('IronMan','CivilMan','BC_IM_GotfridF',{
+ Description                 "GotfridF"
+ Position                    975.4290,1648.6306,177.2813
+ Rotation                    0 0 0
+ PlusStrenght                160
+ PlusDexterity               170
+ PlusConstitution            180
+ AddDeathScript		     "BC_IM_GotfridF_death.scd"
+ AddItem                     "Human\Shield\Shild_Squra_Big\Shild_Squra_Big_GOT.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\sword\sword.scr" "Left_Scabbard"
+ AddSkinItem                 "A_Cuirass_B_GOT.scr" "Armor"
+ AddSkinItem                 "AH_VedroP_B_got.scr" "Helmet"
+ AddSkinItem                 "Legins_GOT.scr" "Leggings"
+ AddSkinItem                 "HandArmor_got.scr" "HandArmor"
+ AddSkinItem                 "SecArmor_Sk_got.scr" "SecArmor"
+ PartitionEnable 	     false
+ DropEnable False
+ Attack 		      False
+});

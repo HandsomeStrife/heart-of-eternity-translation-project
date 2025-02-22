@@ -1,0 +1,12 @@
+AddCharacterPresets('GolemStoneI','Enemy','26_Last4Golem',{
+ Position                    675.4883,2068.4246,70.1101
+ Rotation                    0 0 -90
+ MobParam                    3 40
+ ScaleX      1.5
+ ScaleY      1.5
+ ScaleZ      1.5
+ PlusConstitution            30
+ AddDeathScript              "26_Last4Golem.scd"
+ AddItem		     "Animal\Ogr\OgrWeapon1.scr" "Left_Scabbard"
+ AddItem		     "Animal\Ogr\OgrWeapon.scr" "Right_Scabbard"
+});

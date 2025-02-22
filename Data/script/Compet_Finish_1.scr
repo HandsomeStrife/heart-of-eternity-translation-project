@@ -1,0 +1,4 @@
+DeleteItemChr('TV_IM_Rubaka','Swargsword');
+AddItemChrSlot('warior','Quest\COMP\Swargsword.scr','Bag');
+AddHotKeyHelp('You have received the beautiful sword of the warrior Svarog: I',23);
+SetFlag(360,20);

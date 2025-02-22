@@ -1,0 +1,12 @@
+CreateItemSkin('AH_Kupun','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "The cap of the townsman"
+  History           "A cap that warriors usually wear under their helmet, while a townsman wears it as a separate headpiece."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Kupun"
+   MaterialPresetId  0
+   AddObjectD        "AH_Kupun.s03"
+   ArmorAutoGenerate  0  0 
+});

@@ -1,0 +1,15 @@
+CreateSoundLib('U_VAttack1.wav','UNa0',2,20,100);
+CreateSoundLib('U_VAttack1b.wav','UNa1',2,20,100);
+CreateSoundLib('U_VAttack2a.wav','UNa2',2,20,100);
+CreateSoundLib('U_VAttack2b.wav','UNa3',2,20,100);
+CreateSoundLibGroup('UNa',4,'UNa');
+CreateSoundLib('U_VHit1a.wav','UNh0',2,30,100);
+CreateSoundLib('U_VHit1b.wav','UNh1',2,30,100);
+CreateSoundLibGroup('UNh',2,'UNh');
+CreateSoundLib('U_VDeath a.wav','UNd0',2,30,100);
+CreateSoundLib('U_VDeath b.wav','UNd1',2,30,100);
+CreateSoundLibGroup('UNd',2,'UNd');
+CreateSoundLib('U_VSocial1.wav','UNs0',2,30,100);
+CreateSoundLib('U_VSocial1 b.wav','UNs1',2,30,100);
+CreateSoundLib('U_VVoice.wav','UNs2',2,30,100);
+CreateSoundLibGroup('UNs',3,'UNs');

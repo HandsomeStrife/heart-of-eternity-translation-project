@@ -1,0 +1,17 @@
+AddCharacterPresets('WomanNormal','CivilMan','WN_Koketka',{
+ Description                 "WN_Koketka"
+ PlusStrenght                12
+ PlusDexterity               12
+ PlusConstitution            12
+ PlusIntellect               8
+ PlusPermeability            8
+ SetFace                     1
+ VisibleSkin                 "WomanNorm_Sh"
+ VisibleSkin                 "WN_O_Platye_Sh"
+ VisibleSkin                 "WN_G_Goroj_Sh"
+ VisibleSkin                 "WN_O_Meh_Sh"
+ VisibleSkin                 "WN_O_Rukava_Sh"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+});

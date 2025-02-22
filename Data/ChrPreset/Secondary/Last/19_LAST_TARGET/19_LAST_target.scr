@@ -1,0 +1,23 @@
+AddCharacterPresets('IronMan','CivilMan','19_LAST_target',{
+ Description                 "19_LAST_target"
+ Position                    1067.7644,2381.8528,98.7524
+ Rotation                    0 0 140
+ PlusStrenght                100
+ PlusDexterity               100
+ PlusConstitution            100
+ PlusIntellect               100
+ PlusMagicPower              100
+ AddDialog                   "19_LAST_target_00.dlg" 0
+ AddDialog                   "19_LAST_target_09.dlg" 9
+ VisibleSkin                 "HB_CM"
+ VisibleSkin                 "H_Gor"
+ AddSkinItem                 "A_Cuirass_S_l55.scr" "Armor"
+ AddSkinItem                 "SecArmor_K1_l45.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_52.scr" "HandArmor"
+ AddSkinItem                 "Legins_56.scr" "Leggings"
+ AddItem                     "Human\OneHand\mace03\mace03.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

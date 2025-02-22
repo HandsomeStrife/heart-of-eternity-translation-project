@@ -1,0 +1,9 @@
+AddCharacterPresets('BossVampire','CivilMan','DC_BV_Lguard1',{
+ Description                 "Zen"
+ Position                    1670.0032,2456.8757,154.5278
+ Rotation                    0 0 0
+ MobParam                    2 40
+ AddItem		     "Vampire\onehand\V_short_sword\V_short_sword.scr" "Left_Scabbard"
+ AddItem		     "Vampire\onehand\V_disk2\V_disk2.scr" "Right_Scabbard"
+ Attack			     False
+});

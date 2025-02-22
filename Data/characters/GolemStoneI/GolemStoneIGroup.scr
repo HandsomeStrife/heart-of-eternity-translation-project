@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\GolemStoneI\data\GolemStoneI.mc',
+'GolemStoneI',
+'data\characters\GolemStoneI\data\','civman','GolemStoun_Sh');

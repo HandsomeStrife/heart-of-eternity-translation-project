@@ -1,0 +1,11 @@
+AddCharacterPresets('IronMan','CivilMan','CD_IM_Nameless',{
+ AddDialog                   "e_01.dlg" 0
+ AddDialog                   "e_02.dlg" 1
+ AddDialog                   "e_03.dlg" 2
+ AddDialog                   "e_04.dlg" 3
+ AddDialog                   "e_05.dlg" 4
+ AddDialog                   "e_06.dlg" 5
+ AddDialog                   "e_07.dlg" 6
+ AddDialog                   "e_08.dlg" 7
+ AddDialog                   "e_09.dlg" 8
+});

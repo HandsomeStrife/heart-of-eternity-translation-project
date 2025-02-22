@@ -1,0 +1,14 @@
+CreateSoundLib('GS_Step1.wav','GSS0',2,20,100);
+CreateSoundLib('GS_Step2.wav','GSS1',2,20,100);
+CreateSoundLib('GS_Step3.wav','GSS2',2,20,100);
+CreateSoundLibGroup('GSS',1,'GSS');
+CreateSoundLib('GS_VAttack1.wav','GSa0',2,20,100);
+CreateSoundLib('GS_VAttack2.wav','GSa1',2,20,100);
+CreateSoundLibGroup('GSa',2,'GSa');
+CreateSoundLib('GS_VHit.wav','GSh0',2,20,100);
+CreateSoundLib('GS_VHit2.wav','GSh1',2,20,100);
+CreateSoundLibGroup('GSh',2,'GSh');
+CreateSoundLib('GS_VDeath.wav','GSd0',2,20,100);
+CreateSoundLibGroup('GSd',1,'GSd');
+CreateSoundLib('GS_VVoice.wav','GSv0',2,20,100);
+CreateSoundLibGroup('GSs',1,'GSs');

@@ -1,0 +1,13 @@
+AddCharacterPresets('WomanEvil','CivilMan','VN_WF_Witch',{
+ Description                 "Natalya"
+ Position                    1209.9026,2177.4753,5.9889
+ Rotation                    0 0 0
+ SetFace                     1
+ VisibleSkinParam            "Rukava_Sh" 1
+ VisibleSkinParam            "HearLong_Sh"  1
+ VisibleSkinParam            "WomanNorm_Sh"  1
+ AddDeathScript		     "VN_WF_Witch_death.scd"
+ AddBeforeDialogScript       "VN_WF_Witch_BD.scd"
+ AddDialog                   "VN_WF_Witch_d0.dlg" 0
+ AddDialog                   "VN_WF_Witch_d9.dlg" 9
+});

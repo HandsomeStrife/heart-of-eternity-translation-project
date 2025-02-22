@@ -1,0 +1,16 @@
+CreateSoundLib('Wo_Step.wav','FSt0',1,15,80);
+CreateSoundLibGroup('FSt',1,'FSt');
+CreateSoundLib('Wo_StepR.wav','FSr0',1,15,80);
+CreateSoundLibGroup('FSr',1,'FSr');
+CreateSoundLib('Wo_VAttack1.wav','Fa0',2,20,100);
+CreateSoundLib('Wo_VAttack2.wav','Fa1',2,20,100);
+CreateSoundLib('Wo_VAttack3.wav','Fa2',2,20,100);
+CreateSoundLib('Wo_VAttack4.wav','Fa3',2,20,100);
+CreateSoundLibGroup('Fa',4,'Fa');
+CreateSoundLib('Wo_VHit1.wav','Fh0',2,20,100);
+CreateSoundLibGroup('Fh',1,'Fh');
+CreateSoundLib('Wo_VVoice.wav','FVo0',2,40,50);
+CreateSoundLib('Wo_VVoice2.wav','FVo1',2,40,50);
+CreateSoundLibGroup('FVo',2,'FVo');
+CreateSoundLib('Wo_VDeath.wav','Fd0',2,20,100);
+CreateSoundLibGroup('Fd',1,'Fd');

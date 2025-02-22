@@ -1,0 +1,3 @@
+BlackScreenStart('The Road to the Eagle's Nest');
+SetCharacterPosition('warior',2402.4534,260.8924,187.5982);
+SetFlag(551,2);

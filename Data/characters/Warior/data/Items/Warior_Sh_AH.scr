@@ -1,0 +1,14 @@
+CreateItemSkin('Warior_Sh_AH','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  Description       "Robes of the Mage"
+  History           "The robe of the enlightened mage Ursula possesses extraordinary properties that enhance the magical abilities of its wearer."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "Warior_Sh"
+   MaterialPresetId  8
+   AddObject        "Warior_Sh_AH.zrm"
+   ArmorAutoGenerate  8  4 
+   PlusIntellect   8
+   PlusMagicPower  8
+});

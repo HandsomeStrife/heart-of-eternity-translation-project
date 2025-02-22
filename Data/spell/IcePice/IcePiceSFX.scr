@@ -1,0 +1,61 @@
+AddObjectToLib('data\object\iceK1.zrm',mipmap=0,orientY=1);
+CreateSFXAnimation('IEX1',fps=30,numFrame=120,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0.9388662813  14
+AddTranslateKey   0 0 0.9388662813  20
+AddTranslateKey   0 0 0.9388662813  20
+AddTranslateKey   0 0 0.9388662813  14
+AddTranslateKey   0 0 0.9388662813  51
+AddTranslateKey   0 0 0.9388662813  0
+AddRotationKey   0 0 0  14
+AddRotationKey   0 0 0  20
+AddRotationKey   0 0 0  20
+AddRotationKey   0 0 0  14
+AddRotationKey   0 0 0  51
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   14
+AddColorKey  255 255 255 255   20
+AddColorKey  255 255 255 255   20
+AddColorKey  255 255 255 255   14
+AddColorKey  0 0 0 0   51
+AddColorKey  0 0 0 0   0
+AddScaleKey   0.3636284191 0.3636284191 0.3636284191  14
+AddScaleKey   1 1 1  20
+AddScaleKey   1.3 1.3 1.3  20
+AddScaleKey   1.065831543 1.065831543 1.065831543  14
+AddScaleKey   0.8 0.8 0.8  51
+AddScaleKey   0.4 0.4 0.4  0
+});
+CreateMaterial('M_Ledinka2','data\maps\Ledinka2.tga',{
+ BlendEnable       True
+ SRCBlend          "SrcAlpha"
+ DSTBlend          "InvSrcAlpha"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 1.0000
+ MatrixText          id = 0 1 1 1.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 1.0000 0.0000
+ MapMoveSpeed        id = 0 0.0300
+ LightEnable         False
+ DoubleSize          True
+ CollisionDisable    False
+ zWriteEnable	     False
+});
+CreateSFX('SFX_IEX',{
+    AddSFXObjectTagN  "ICEK1"  pos: 0 0 0  rot: 0 0 0 "IEX1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXPSTag  "data\spell\IcePice\IcePicePS.scr" pos: 0 0 0.2 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    LiveTime        = 3.5
+    LinkParam         33
+});

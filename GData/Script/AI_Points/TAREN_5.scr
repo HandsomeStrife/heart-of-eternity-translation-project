@@ -1,0 +1,4 @@
+IfN_Flag_GoTo(1000,48,@1);
+ SetFlag(1000,50);
+@1:
+NOP();

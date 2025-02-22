@@ -1,0 +1,16 @@
+AddCharacterPresets('IronMan','CivilMan','IM_inkv_bow1',{
+ Description                 "IM_inkv_bow1"
+ Position                    1074.1608,2321.9971,98.7512
+ Rotation                    0 0 270
+ MobParam                    3 40
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\longbow02\longbow02.scr" "Bow"
+ AddItem                     "Human\OneHand\mace03\mace03.scr" "Left_Scabbard"
+ AddItem                     "Human\Shield\Shild_Triangle_Big\Shild_Triangle_Big.scr" "Spine_shield"
+ AddSkinItem                 "HandArmor_56.scr" "HandArmor"
+ AddSkinItem                 "AH_PalladinP_S_l55.scr" "Helmet"
+ AddSkinItem                 "SecArmor_K2_l55.scr" "SecArmor"
+ AddSkinItem                 "Legins_56.scr" "Leggings"
+ AddSkinItem                 "A_Cuirass_In.scr" "Armor"
+ Attack 		      False
+});

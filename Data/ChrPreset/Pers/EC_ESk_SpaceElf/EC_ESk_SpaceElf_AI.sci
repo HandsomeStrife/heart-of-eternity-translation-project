@@ -1,0 +1,28 @@
+IfN_Flag_GoTo(61,2,@2);
+ IfN_Point_MoveRunNP('el1');
+@2:
+IfN_Flag_GoTo(61,3,@3);
+ IfN_Point_MoveRunNP('el2');
+@3:
+IfN_Flag_GoTo(61,4,@4);
+ IfN_Point_MoveRunNP('el3');
+@4:
+IfN_Flag_GoTo(61,5,@5);
+ IfN_Point_MoveRunNP('el4');
+@5:
+IfN_Flag_GoTo(61,6,@6);
+ IfN_Point_MoveRunNP('el5');
+@6:
+IfN_Flag_GoTo(61,7,@7);
+ IfN_Point_MoveRunNP('el6');
+@7:
+IfN_Flag_GoTo(61,8,@8);
+ IfN_Point_MoveRunNP('el7');
+@8:
+IfN_Flag_GoTo(61,9,@9);
+ IfN_Point_MoveRunNP('el8');
+@9:
+IfN_Flag_GoTo(61,10,@10);
+ IfN_Point_MoveRunNP('EL_HS');
+@10:
+NOP();

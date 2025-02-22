@@ -1,0 +1,13 @@
+AddCharacterPresets('Starosta','Enemy','Star25',{
+ Description                 "FatGuerder25"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 25
+ AddSkinItem                 "A_Cuirass_N_l25.scr" "Armor"
+ AddSkinItem                 "Legins_25.scr" "Leggings"
+ AddSkinItem                 "AH_Vedro_N_l25.scr" "Helmet"
+ AddSkinItem                 "SecArmor_Kol_l25.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_25.scr" "HandArmor"
+ AddItem		     "Human\OneHand\Klevec2\Klevec2.scr" "Left_Scabbard"
+ AddItem		     "Human\OneHand\karoling2\karoling2.scr" "Right_Scabbard"
+});

@@ -1,0 +1,19 @@
+CreateItemSkin('HandArmor_GB','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Steel hand protection in gold"
+ History           "Plate armor - armor made of large plates. Full articulated plate armor provides a high level of protection in melee combat. Full black armor with gold significantly improves resistance to bludgeoning strikes in close combat, as well as increases resistance to various magic."
+ AddSkinFromItemNoObj          "A_Napl1_L_GB.scr"
+ AddSkinFromItemNoObj          "A_Napl1_R_GB.scr"
+ AddSkinFromItemNoObj          "A_Naruch3_L_GB.scr"
+ AddSkinFromItemNoObj          "A_Naruch3_R_GB.scr"
+ AddSkinFromItemNoObj          "A_Naruk_L_GB.scr"
+ AddSkinFromItemNoObj          "A_Naruk_R_GB.scr"
+ AddObject     "HandArmor_GB.zrm"
+ ArmorAutoGenerate  12  4 
+ PlusStrenght     3
+ PlusDexterity    3
+ PlusIntellect    3
+ PlusConstitution 3
+ PlusMagicPower   3
+});

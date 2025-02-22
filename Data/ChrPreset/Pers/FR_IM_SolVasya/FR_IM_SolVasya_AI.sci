@@ -1,0 +1,9 @@
+IfN_Flag_GoTo(44,1,@1);
+ IfN_DistToMC_GoTo(2,@2);
+  StartCurrDialog('FR_IM_SolVasya');
+  AIS_GoTo(@1);
+@2:
+ IfN_DistToMC_GoTo(20,@1);
+ IfN_Point_MoveRun('MC');
+@1:
+NOP();

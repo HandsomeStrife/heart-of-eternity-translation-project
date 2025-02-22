@@ -1,0 +1,19 @@
+CreateItemSkin('PlashInkv_Sh','Cuirass','Cuirass', {
+  Visible           True
+  Cost              1299
+  Description       ""
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "PlashInkv_Sh"
+   MaterialPresetId  0
+   Weight            20.00
+   Armor             200
+   Longevity         0.01
+   Toughness         0.99
+   DeflectionHack    0.60
+   DeflectionBlow    0.60
+   DeflectionPrick   0.60
+   PlusDexterity     20
+   PlusIntellect     40
+   PlusMagicImmunity 40
+});

@@ -1,0 +1,6 @@
+IfN_Flag_GoTo(7,2,@1);
+//SetObjectPosition(555,'FLAZH09',1079.0984,2336.1797,95.2244);
+//SetObjectPosition(555,'ARENA',1050.1277,2339.4141,92.9699);
+@1:
+//SetObjectPosition(555,'ESHAFOT01',1046.7368,2337.9287,98.6327);
+NOP(0);

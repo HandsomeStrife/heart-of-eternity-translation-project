@@ -1,0 +1,13 @@
+CreateItemSkin('OMe_Boot_R','L_PonogRight','L_PonogRight', {
+  Visible           True
+  Cost              -1
+  Description       "OMe_Boot_R_l11"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "OMe_Boot_R"
+   MaterialPresetId  0
+   ArmorAutoGenerate 2 0 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

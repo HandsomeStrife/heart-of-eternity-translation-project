@@ -1,0 +1,18 @@
+CreateItemSkin('Legins_U','Leggings','Leggings', {
+ Visible                 True
+ Cost                    -1
+ Description       "Dead Men's Leggings"
+ History           "The oppressive lines of the form and the deep pale color accurately convey the essence of the dead armor. Armor created from living flesh to protect the dead - horrifying and paradoxical, like everything about this thoughtless, fearless, and spineless race. The full armor of the dead is weakly vulnerable to ranged weapons and has a number of bonuses to your primary attributes."
+ AddSkinFromItemNoObj         "U_Nanoj_L.scr"
+ AddSkinFromItemNoObj       "U_Nanoj_R.scr"
+ AddSkinFromItemNoObj         "U_Sapog_L.scr"
+ AddSkinFromItemNoObj         "U_Sapog_R.scr"
+ AddSkinFromItemNoObj         "U_Skirt.scr"
+ AddObject     "Legins_U.zrm"     
+ ArmorAutoGenerate  12  4 
+ PlusStrenght     5
+ PlusDexterity    5
+ PlusIntellect    5
+ PlusConstitution 5
+ PlusMagicPower   5
+});

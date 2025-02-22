@@ -1,0 +1,13 @@
+CreateItemSkin('A_Cuirass_B','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "Black Cuirass"
+  History           "Full articulated plate armor provides a high level of protection in melee combat. Solid armor withstands crossbow bolts, a mace or sword strike. The main drawback of plate armor is the significant restriction of the warrior's mobility. Full black steel plate armor greatly increases protection against bludgeoning strikes."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Cuirass"
+   MaterialPresetId  1
+   AddObjectD        "A_Cuirass_B.s03"
+   ArmorAutoGenerate  8  3 
+   PlusConstitution 8
+});

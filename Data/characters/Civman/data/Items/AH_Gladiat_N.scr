@@ -1,0 +1,12 @@
+CreateItemSkin('AH_Gladiat_N','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "AH_Gladiat"
+   MaterialPresetId  0
+   ArmorAutoGenerate  1  4 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

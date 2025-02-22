@@ -1,0 +1,13 @@
+CreateItemSkin('U_NaruchR','HA_NaruchRight','HA_NaruchRight', {
+  Visible           True
+  Cost              -1
+  Description       "U_NaruchR_l44"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "U_NaruchR"
+   MaterialPresetId  0
+   ArmorAutoGenerate  8  3
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

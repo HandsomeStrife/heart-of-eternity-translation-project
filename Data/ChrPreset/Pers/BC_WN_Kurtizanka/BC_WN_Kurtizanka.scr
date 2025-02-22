@@ -1,0 +1,20 @@
+AddCharacterPresets('WomanNormal','CivilMan','BC_WN_Kurtizanka',{
+ Description                 "Biatris"
+ Position                    1094.7340,2345.9011,119.6544
+ Rotation                    0 0 0
+ VisibleSkin                 "WomanNorm_Sh"
+ VisibleSkin                 "WN_O_Platye_Sh"
+ VisibleSkin                 "WN_O_Meh_Sh"
+ VisibleSkin                 "WN_G_Beret_Sh"
+ AddProcScript               "BC_WN_Kurtizanka_AI.sci"
+ PlusStrenght                12
+ PlusDexterity               12
+ PlusConstitution            12
+ PlusIntellect               8
+ PlusPermeability            8
+ SetFace                     0
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

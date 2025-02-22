@@ -1,0 +1,29 @@
+CreateParticlSystem('FB_fire',{
+ ParticlProcType	"Flue"
+ SpawnType		"Circle"
+ Radius			0.15
+ SpawnPosTwo		0 0 0
+ SpawnPosThree		0 0 0
+ SpawnSpeed		20.0
+ SizeMin		0.5 
+ SizeMax                0.6
+ TimeLive		1
+ MaxNumParticl		100
+ Immortal		False
+ SetPSColor		id = 0	time = 0.0  0 0 0 0
+ SetPSColor		id = 1	time = 0.3  39 30 255 147
+ SetPSColor		id = 2	time = 1.0  0 0 0 0
+ ForceVector		id = 0  0.0 0.0 1.0
+ ForceStrength		id = 0  1
+ AngleZXY		id = 0  0    360
+ AngleXY		id = 0  -16   16
+ ForceVector		id = 1  0.0 0.0 1.0
+ ForceStrength		id = 1  0
+ AngleZXY		id = 1  0    360
+ AngleXY		id = 1  -12  12
+ Position	        0 0 0
+ Rotation		0 0 0
+ SizeMinSec		2
+ MassMin                1
+ SetMaterial		"Mat_Particl_1"
+});

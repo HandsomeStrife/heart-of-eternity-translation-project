@@ -1,0 +1,46 @@
+CreateMaterial('M_FireOL','fire_anim.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "SelectArg1"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ AnimMaterial      True
+ AnimMatAutoPlay   False
+ AnimMatFPS        20.0000
+ AnimMatWSquare    64
+ AnimMatHSquare    64
+ AnimMatNumFrame   16
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateParticlSystem('Particl_59',{
+ ParticlProcType	"Flue"
+ SpawnType		"Sphere"
+ Radius			0.6000
+ SpawnSpeed             10.0000
+ SizeMin                0.4000
+ SizeMax                1.0000
+ TimeLive               5.0000
+ MaxNumParticl          100
+ Immortal               True
+ SetPSColor		id = 0	time = 0.0000  0 0 0 255
+ SetPSColor		id = 1	time = 0.1000  200 200 200 255
+ SetPSColor		id = 2	time = 0.9000  200 200 200 255
+ SetPSColor		id = 3	time = 1.0000  0 0 0 255
+ Position               1107.6630 2336.2910 119.8070
+ Rotation               0 0 0
+ SizeMinSec             0.6000
+ SizeMaxSec             1.0000
+ MassMin                0.0000
+ SetMaterial		"M_FireOL"
+ AutoAnimate            True
+ SpiralRotate           False
+});

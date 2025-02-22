@@ -1,0 +1,2 @@
+SetCharacterPosition('OV_OG_Cannibal',2854.9377,789.9395,158.9342);
+AddEnemy('OV_OG_Cannibal','warior');

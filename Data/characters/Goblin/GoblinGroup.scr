@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\Goblin\data\Goblin.mc',
+'Goblin',
+'data\characters\Goblin\data\','Enemy','Goblin_Sh',' ');

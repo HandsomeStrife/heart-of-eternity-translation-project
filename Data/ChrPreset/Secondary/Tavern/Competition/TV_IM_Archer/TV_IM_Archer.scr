@@ -1,0 +1,32 @@
+AddCharacterPresets('IronMan','CivilMan','TV_IM_Archer',{
+ Description                 "Хакон"
+ Position                    552.4833,2551.0073,46.5129
+ Rotation                    0 0 90
+ PartitionEnable 	false
+ SetFace                     1
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "AH_Hunter"
+ VisibleSkinParam            "A_PlashFibL" 1
+ VisibleSkinParam            "I_Man_Sh" 3
+ VisibleSkin                 "A_Naruch1_L"
+ VisibleSkin                 "I_Otv_FootU"
+ VisibleSkin                 "A_Naruch1_R"
+ VisibleSkin                 "H_HvMedLis"
+ PlusStrenght                27
+ PlusDexterity               36
+ PlusConstitution            52
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "TV_IM_Archer_BD.scd"
+ AddProcScript               "TV_IM_Archer_AI.sci"
+ AddDialog                   "TV_IM_Archer_d.dlg" 0
+ AddDialog                   "TV_IM_Archer_d1.dlg" 1
+ AddDialog                   "TV_IM_Archer_d2.dlg" 2
+ AddDialog                   "TV_IM_Archer_d9.dlg" 9
+ AddItem                     "Quest\COMP\Hakonbow.scr" "Bow"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\OneHand\Knife01\Knife01.scr" "Left_Scabbard"
+ Attack 		      False
+ PartitionEnable              False
+});

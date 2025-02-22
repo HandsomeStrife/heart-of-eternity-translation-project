@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\Bolvan\data\Bolvan.mc',
+'Bolvan',
+'data\characters\Bolvan\data\','civman','Bolvan_Sh');

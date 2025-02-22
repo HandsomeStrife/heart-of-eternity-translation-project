@@ -1,0 +1,10 @@
+AddCharacterPresets('Bolvan','CivilMan','Bolvan_04',{
+ Description                 "Bolvan_04"
+ Position                    878.4977,1670.8693,172.1883
+ Rotation                    0 0 0
+ AddProcScript               "Bolvan_AI.sci"
+ SetBloodEff                 1
+ PlusConstitution            5
+ AddDeathScript		     "Bolvan_04_death.scd"
+ PartitionEnable 	false
+});

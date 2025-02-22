@@ -1,0 +1,21 @@
+AddCharacterPresets('OrkMedium','ENEMY2','OM_mob7',{
+ Position                    1548.7391,1951.8652,52.1588
+ Rotation                    0 0 0
+ VisibleSkin                 "OMed_HEARE_Sh"
+ VisibleSkin                 "OMed_Kirassa_Sh"
+ VisibleSkin                 "OMed_Naplech_L_Sh"
+ VisibleSkin                 "OMed_Naruch_L_Sh"
+ VisibleSkin                 "OMed_Naplech_R_Sh"
+ VisibleSkin                 "OrkMedium_Sh"
+ VisibleSkin                 "OMed_Naruch_R_Sh"
+ VisibleSkin                 "OMed_Sapog_L_Sh"
+ VisibleSkin                 "OMed_Sapog_R_Sh"
+ VisibleSkin                 "OMed_Poyas_Sh"
+ PlusStrenght                18
+ PlusDexterity               15
+ PlusConstitution            13
+ PlusIntellect               10
+ PlusPermeability            10
+ AddItem                     "Ork\OneHand\skull_axe1\skull_axe1.scr" "Left_Scabbard"
+ AddItem                     "Ork\OneHand\skull_axe1\skull_axe1.scr" "Right_Scabbard"
+});

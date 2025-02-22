@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Mask','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Mask of the Bandit"
+  History           "The bandit's mask from the highway well conceals the features of any criminal."
+  SetHairChangeMode  8
+  SkinBlock         0
+   VisibleSkin       "AH_Mask"
+   MaterialPresetId  0
+   AddObjectD        "AH_Mask.s03"
+   ArmorAutoGenerate  1  0 
+   PlusConstitution 1
+});

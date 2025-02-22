@@ -1,0 +1,14 @@
+IfN_Flag_GoTo(91,1,@1);
+ SetFlag(91,2);
+ SetCharacterPosition('BC_OLD_Inkviz',3918.3572,860.5990,127.1534);
+ SetCharacterRotation('BC_OLD_Inkviz',0,0,355);
+ SetCharacterPosition('CM_Inkv_1',3915.8997,859.4778,127.1534);
+ SetCharacterRotation('CM_Inkv_1',0,0,350);
+ SetCharacterPosition('CM_Inkv_2',3921.2534,859.5975,127.1534);
+ SetCharacterRotation('CM_Inkv_2',0,0,10);
+ SetCharacterPosition('IM_inkv_bow1',3917.1643,857.8386,127.1534);
+ SetCharacterRotation('IM_inkv_bow1',0,0,0);
+ SetCharacterPosition('IM_inkv_bow2',3920.9521,858.3800,127.1534);
+ SetCharacterRotation('IM_inkv_bow2',0,0,340);
+@1:
+NOP();

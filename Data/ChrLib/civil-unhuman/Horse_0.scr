@@ -1,0 +1,3 @@
+AddCharacterPresets('Horse','CivilMan','Horse_0',{
+ Attack			     False
+});

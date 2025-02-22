@@ -1,0 +1,17 @@
+CreateSoundLib('V_Step.wav','VSt0',2,20,100);
+CreateSoundLibGroup('VSt',1,'VSt');
+CreateSoundLib('V_StepR.wav','VSr0',2,20,100);
+CreateSoundLibGroup('VSr',1,'VSr');
+CreateSoundLib('V_VAttack1.wav','Va0',2,20,100);
+CreateSoundLib('V_VAttack2.wav','Va1',2,20,100);
+CreateSoundLib('V_VAttack3.wav','Va2',2,20,100);
+CreateSoundLib('V_VAttack4.wav','Va3',2,20,100);
+CreateSoundLib('V_VAttack5.wav','Va4',2,20,100);
+CreateSoundLib('V_VAttack6.wav','Va5',2,20,100);
+CreateSoundLibGroup('Va',6,'Va');
+CreateSoundLib('V_VHit1.wav','Vh0',2,30,100);
+CreateSoundLibGroup('Vh',1,'Vh');
+CreateSoundLib('V_VVoice.wav','VVo0',2,40,50);
+CreateSoundLibGroup('VVo',1,'VVo');
+CreateSoundLib('V_VDeath.wav','Vd0',2,30,100);
+CreateSoundLibGroup('Vd',1,'Vd');

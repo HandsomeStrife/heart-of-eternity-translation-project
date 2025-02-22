@@ -1,0 +1,9 @@
+AddItemFromScriptSpecRot('Human\Shield\buckler03\buckler03.scr',874.2948,1673.7958,174.4982,0,0,-90);
+AddItemFromScriptSpecRot('Human\Shield\KnightShield_02\KnightShield_02.scr',874.2720,1674.5244,174.5755,0,0,-90);
+AddItemFromScriptSpecRot('Human\Shield\Shield_Buckler\Shield_Buckler.scr',874.2802,1675.3359,174.4281,0,0,-90);
+AddItemFromScriptSpecRot('Human\Shield\dropshild01\dropshild01.scr',874.2825,1676.0154,174.5020,0,0,-90);
+AddItemFromScriptSpecRot('Human\Shield\Shield_Buckler_wood\Shield_Buckler_wood.scr',874.2744,1676.8901,174.3818,0,0,-90);
+AddItemFromScriptSpecRot('Human\Shield\Shild_Round_small\SHild_Round_small.scr',874.2493,1677.5330,174.3999,0,0,-90);
+AddItemFromScriptSpecRot('Human\Shield\Shild_Squra_Big\Shild_Squra_Big.scr',874.3156,1678.0735,174.5739,0,0,-90);
+AddItemFromScriptSpecRot('Human\Shield\Shild_Triangle_Big\Shild_Triangle_Big.scr',874.2915,1678.7256,174.5658,0,0,-90);
+AddItemFromScriptSpecRot('Human\Shield\target02\target02.scr',874.2824,1679.4515,174.5155,0,0,-90);

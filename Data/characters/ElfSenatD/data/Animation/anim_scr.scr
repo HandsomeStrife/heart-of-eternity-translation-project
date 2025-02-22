@@ -1,0 +1,106 @@
+AddAnimationToCharacter('talk.anm','TALK',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('walk_forward.anm','WALK_FORWARD',{
+ FPS		30.0
+ Speed		3
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('SS_stand.anm','STAND_FIGHT',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('stand.anm','STAND',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('SS_walk_right.anm','WALK_RIGHT_F',{
+ FPS		45.0
+ Speed		1.5
+ SpeedVector	1 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('SS_walk_left.anm','WALK_LEFT_F',{
+ FPS		45.0
+ Speed		1.5
+ SpeedVector	-1 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('SS_Run_Forward.anm','RUN_FORWARD_F',{
+ FPS		22.5
+ Speed		3
+ SpeedVector	0 1 0.0
+ Looped		True
+});
+AddAnimationToCharacter('SS_Attack_LU_RD.anm','BLOW_LEFT',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 15
+ AddSpeedLineZone 9 15
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('SS_Attack_RU_LD.anm','BLOW_RIGHT',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 15
+ AddSpeedLineZone 9 15
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('SS_Attack_RD_LU.anm','BLOW_UP',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	9 15
+ AddSpeedLineZone 9 15
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('SS_Attack_LD_RU.anm','BLOW_DOWN',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 1 0
+ Looped		False
+ Track		0
+ AddDamageZone	10 15
+ AddSpeedLineZone 10 15
+ UseSpeedLine	True
+ TranslateZ     True
+});
+AddAnimationToCharacter('SS_rotate.anm','SS_ROTATE',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('sit.anm','SIT',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});

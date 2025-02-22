@@ -1,0 +1,17 @@
+AddCharacterPresets('Civman','Enemy','CM_SK_L15',{
+ Description                 "CM_SK_L15"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ VisibleSkin                 "Skeleton_Sh"
+ SetBloodEff                 3
+ MobParam                    0 15
+ ScaleX                      1.2
+ ScaleY                      1.2
+ ScaleZ                      1.2
+ AddSkinItem                 "AH_Kliky_B_l15.scr" "Helmet"
+ AddSkinItem                 "HandArmor_B3.scr" "HandArmor"
+ AddSkinItem                 "Legins_B.scr" "Leggings"
+ AddSkinItem                 "A_Cuirass_B_l21.scr" "Armor"
+ AddItem                     "Human\Shield\Shield_Buckler\Shield_Buckler_l15.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\karoling1\karoling1.scr" "Left_Scabbard"
+});

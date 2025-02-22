@@ -1,0 +1,24 @@
+AddCharacterPresets('Civman','CivilMan','Ik_Malchik',{
+ Description                 "Ik_Malchik"
+ Position                    5752.7358,880.5613,213.9855
+ Rotation                    0 0 0
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "A_PlashFib2"
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkin                 "I_Otv_Hand"
+ VisibleSkinParam            "A_Naruk_L" 3
+ VisibleSkin                 "A_Nagol1S_L"
+ VisibleSkin                 "A_Nagol1S_R"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddProcScript               "Ik_Malchik_AI.sci"
+ AddBeforeDialogScript       "Ik_Malchik_BD.scd"
+ AddDialog                   "Ik_Malchik_d0.dlg" 0
+ AddDialog                   "Ik_Malchik_d9.dlg" 9
+ AddItem                     "Human\OneHand\Knife01\Knife01.scr" "Left_Scabbard"
+ Attack 		      False
+ PartitionEnable              False
+});

@@ -1,0 +1,11 @@
+AddCharacterPresets('Wolf','Enemy','Woolf',{
+ Position                    1161.1183,1743.9174,121.5527
+ Rotation                    0 0 0
+ VisibleSkin                 "WOLF_Sh"
+ MobParam                    0 4
+ ScaleX                      1.35
+ ScaleY                      1.35
+ ScaleZ                      1.35
+ AddDeathScript              "wolfl2.scd"
+ AddItem		     "Animal\Wolf\wolf_box_10.scr" "DefaultSlot"
+});

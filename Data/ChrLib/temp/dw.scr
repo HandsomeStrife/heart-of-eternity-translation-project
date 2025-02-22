@@ -1,0 +1,23 @@
+AddCharacterPresets('LordVampire','Enemy','DC_LV_Kain',{
+ Description                 "Gallahard"
+ Position                    1627.0270,2450.8704,150.2854
+ Rotation                    0 0 0
+ MobParam                    3 60
+ AddProcScript               "DC_LV_Kain_AI.sci"
+ AddBeforeDialogScript       "DC_LV_Kain_BD.scd"
+ AddDeathScript		     "DC_LV_Kain_death.scd"
+ AddHitScript 	             "DC_LV_Kain_HT.sch"
+ VisibleSkin                 "LV_Nanoj_L_Sh"
+ VisibleSkin                 "LV_Naruk_L_Sh"
+ VisibleSkin                 "LV_Naplech_L_Sh"
+ VisibleSkin                 "LV_Nanoj_R_Sh"
+ VisibleSkin                 "LV_Naruk_R_Sh"
+ VisibleSkin                 "LV_Naplech_R_Sh"
+ VisibleSkin                 "LV_Naruch_L_Sh"
+ VisibleSkin                 "LV_Naruch_R_Sh"
+ AddSkinItem                 "LordVampire_Sh.scr" "SecArmor"
+ AddItem                     "Vampire\onehand\V_disk2\V_disk2.scr" "Left_Scabbard"
+ AddItem                     "Vampire\onehand\V_disk2\V_disk2.scr" "Right_Scabbard"
+ DropEnable	              False
+ PartitionEnable              False
+});

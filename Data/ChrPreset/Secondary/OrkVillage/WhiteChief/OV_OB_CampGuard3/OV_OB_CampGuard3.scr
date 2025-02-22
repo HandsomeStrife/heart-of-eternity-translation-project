@@ -1,0 +1,16 @@
+AddCharacterPresets('OrkMag','CivilMan','OV_OB_CampGuard3',{
+ Description                 "Каран"
+ Position                    2632.1995,732.3442,178.2502
+ Rotation                    0 0 200
+ PlusIntellect               20
+ AddSkinItem                 "HandArmor.scr" "HandArmor"
+ AddSkinItem                 "Legins.scr" "Leggings"
+ AddSkinItem                 "OM_Chalust.scr" "Helmet"
+ AddItem                     "Ork\Magick\o_torch\o_torch.scr" "Right_Hand"
+ AddItem                     "Ork\Ranged\o_sarbakan\o_sarbakan.scr" "Bow"
+ AddItem		     "Bottle\BottleFrozenS.scr" "Throw_Item"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

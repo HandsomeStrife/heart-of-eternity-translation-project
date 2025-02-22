@@ -1,0 +1,15 @@
+CreateItemSkin('Legins_GB','Leggings','Leggings', {
+ Visible                 True
+ Cost                    -1
+ Description       "Black steel leg protection in gold"
+ History           "Plate armor - armor made of large plates. Full articulated plate armor provides a high level of protection in melee combat. Full black armor with gold significantly improves protection against bludgeoning strikes in close combat, as well as increases resistance to various magic."
+
+ AddSkinFromItemNoObj   "A_Nanog_L_GB.scr"
+ AddSkinFromItemNoObj   "A_Nanog_R_GB.scr"
+ AddSkinFromItemNoObj   "A_Sapog1_L_GB.scr"
+ AddSkinFromItemNoObj   "A_Sapog1_R_GB.scr"
+ AddSkinFromItemNoObj   "A_Skirt_GB.scr"
+ AddObject            "Legins_GB.zrm" 
+ ArmorAutoGenerate  12  4 
+ PlusConstitution 10
+});

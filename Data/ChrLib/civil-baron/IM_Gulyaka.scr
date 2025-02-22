@@ -1,0 +1,10 @@
+AddCharacterPresets('IronMan','CivilMan','IM_Gulyaka',{
+ Description                 "IM_Gulyaka"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    1 4
+ VisibleSkin                 "A_PlashFib2"
+ VisibleSkin                 "H_Gor"
+ AddSkinItem                 "HandArmor_l4.scr" "HandArmor"
+ AddItem                     "Human\TwoHand\bludgeon01\bludgeon01_l4.scr" "TwoHandSword"
+});

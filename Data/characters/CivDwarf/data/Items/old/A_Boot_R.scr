@@ -1,0 +1,12 @@
+CreateItemSkin('A_Boot_R','L_BootRight','L_BootRight', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Boot_R"
+   MaterialPresetId  0
+   ArmorAutoGenerate  2  4 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

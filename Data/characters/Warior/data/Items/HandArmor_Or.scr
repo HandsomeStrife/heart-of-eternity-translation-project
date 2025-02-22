@@ -1,0 +1,13 @@
+CreateItemSkin('HandArmor_Or','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Orcish Hand Protection"
+ History           "An orc dressed in brocade and silk is nonsense. The favorite attire of orcs is its absence or leather loincloths. As for weapons and armor, you are unlikely to see an orc in full plate armor wielding a bastard sword. Bone armor is the choice of the masters of the steppes. Full orcish armor significantly increases the constitution of the warrior clad in it."
+ AddSkinFromItemNoObj          "Or_Napl_L.scr"
+ AddSkinFromItemNoObj          "Or_Napl_R.scr"
+ AddSkinFromItemNoObj          "Or_Naruch_L.scr"
+ AddSkinFromItemNoObj          "Or_Naruch_R.scr"
+ AddObject     "HandArmor_Or.zrm"
+ ArmorAutoGenerate  6  3 
+ PlusConstitution    8
+});

@@ -1,0 +1,15 @@
+CreateItemSkin('ES_Naplech_R','HA_NaruchUpRight','HA_NaruchUpRight', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "ES_Naplech_R"
+   MaterialPresetId  0
+   ArmorAutoGenerate  5  4 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+   PlusStrenght     0
+   PlusConstitution 0
+   PlusMagicPower  0
+});

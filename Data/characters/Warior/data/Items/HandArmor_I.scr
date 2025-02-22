@@ -1,0 +1,14 @@
+CreateItemSkin('HandArmor_I','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Rusty steel hand protection"
+ History           " оррози€, или попросту ржавчина, - это, как правило, разрушение металлов под действием окружающей среды. ѕричиной коррозии служит взаимодействие металлов с веществами, наход€щимис€ в воздухе и в атмосферных осадках. ƒанные латы наход€тс€ именно в состо€нии коррозии, так что ждать от них чудес не стоит, хот€ их защитные характеристики выше кожаного доспеха."
+ AddSkinFromItemNoObj          "A_Napl1_L_I.scr"
+ AddSkinFromItemNoObj          "A_Napl1_R_I.scr"
+ AddSkinFromItemNoObj          "A_Naruch3_L_I.scr"
+ AddSkinFromItemNoObj          "A_Naruch3_R_I.scr"
+ AddSkinFromItemNoObj          "A_Naruk_L_I.scr"
+ AddSkinFromItemNoObj          "A_Naruk_R_I.scr"
+ AddObject     "HandArmor_I.zrm"
+ ArmorAutoGenerate  5  1 
+});

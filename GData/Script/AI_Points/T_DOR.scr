@@ -1,0 +1,15 @@
+IfN_Flag_GoTo(153,2,@1);
+CreateDoor('OBJECT158',{
+    Axis              0.0000 0.0000 1.0000
+    OpenInTwoSize     True
+    OpenByRotate      True
+    Speed             1.0000
+    Angle             90.0000
+    Locked            False
+    MinDistance       0.6000
+});
+ DOOR_Open('OBJECT158');
+SetFlag(151,3);
+SetFlag(153,3);
+@1:
+NOP();

@@ -1,0 +1,17 @@
+CreateSoundLib('ESk_VAttack1.wav','ETa0',2,20,100);
+CreateSoundLib('ESk_VAttack2.wav','ETa1',2,20,100);
+CreateSoundLib('ESk_VAttack3.wav','ETa2',2,20,100);
+CreateSoundLib('ESk_VAttack4.wav','ETa3',2,20,100);
+CreateSoundLibGroup('ETa',4,'ETa');
+CreateSoundLib('ESk_VHit1.wav','ETh0',2,30,100);
+CreateSoundLib('ESk_VHit2.wav','ETh1',2,30,100);
+CreateSoundLibGroup('ETh',2,'ETh');
+CreateSoundLib('ESk_VDeath1.wav','ETd0',2,30,100);
+CreateSoundLib('ESk_VDeath2.wav','ETd1',2,30,100);
+CreateSoundLibGroup('ETd',2,'ETd');
+CreateSoundLib('ESk_VSocial1.wav','ETs0',2,20,100);
+CreateSoundLib('ESk_VSocial2.wav','ETs1',2,20,100);
+CreateSoundLib('ESk_VSocial3.wav','ETs2',2,20,100);
+CreateSoundLib('ESk_VSocial4.wav','ETs3',2,20,100);
+CreateSoundLib('ESk_VVoice.wav','ETs4',2,20,100);
+CreateSoundLibGroup('ETs',5,'ETs');

@@ -1,0 +1,19 @@
+AddCharacterPresets('IronManUD','CivilMan','DC_IM_VampSlave',{
+ Description                 "Vamp Slave"
+ Position                    1632.6737,2452.0276,150.0698
+ Rotation                    0 0 180
+ VisibleSkin                 "ZombyBig_Sh"
+ AddBeforeDialogScript       "DC_IM_VampSlave_BD.scd"
+ AddDialog                   "DC_IM_VampSlave_d.dlg" 0
+ AddDialog                   "DC_IM_VampSlave_d1.dlg" 1
+ AddDialog                   "DC_IM_VampSlave_d9.dlg" 9
+ AddSkinItem                 "U_Helmet_l44.scr" "Helmet"
+ AddSkinItem                 "U_Cuirass_l44.scr" "Armor"
+ AddSkinItem                 "HandArmor_Dext_l44.scr" "HandArmor"
+ AddSkinItem                 "Legins_Dext_l44.scr" "Leggings"
+ AddItem                     "Undead\TwoHand\U_DemonSword\U_DemonSword.scr" "TwoHandSword"
+ MobParam                     1 45
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

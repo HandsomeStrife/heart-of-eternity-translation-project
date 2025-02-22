@@ -1,0 +1,25 @@
+AddCharacterPresets('StarostaD','CivilMan','Ik_ST_Ghost',{
+ Description                 "Ik_ST_Ghost"
+ Position                    5837.3115,855.7251,207.0810
+ Rotation                    0 0 0
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ VisibleSkin                 "S_O_PlashMeh_Sh"
+ VisibleSkin                 "S_B_Circ_Sh"
+ VisibleSkin                 "S_O_Otv_UD_Sh"
+ VisibleSkin                 "S_H_LongLis_Sh"
+ VisibleSkin                 "S_O_OTV_HD_Sh"
+ VisibleSkin                 "STAR_Sh"
+ AddProcScript               "Ik_ST_Ghost_AI.sci"
+ AddBeforeDialogScript       "Ik_ST_Ghost_BD.scd"
+ AddDialog                   "Ik_ST_Ghost_d0.dlg" 0
+ AddDialog                   "Ik_ST_Ghost_d1.dlg" 1
+ AddDialog                   "Ik_ST_Ghost_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

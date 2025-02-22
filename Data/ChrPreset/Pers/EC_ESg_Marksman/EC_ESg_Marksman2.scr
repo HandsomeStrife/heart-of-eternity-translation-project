@@ -1,0 +1,22 @@
+AddCharacterPresets('ElfSkaut','Civilman','EC_ESg_Marksman2',{
+ Description                 "EC_ESg_Marksman2"
+ Position                    2408.9705,206.9623,211.7139
+ Rotation                    0 0 90
+ MobParam                    3 30
+ VisibleSkin                 "ES_Naplech_L"
+ VisibleSkin                 "ES_Naplech_R"
+ VisibleSkin                 "Elf_SK_Sh"
+ VisibleSkin                 "ES_Naruch_R"
+ VisibleSkin                 "ES_Shit_R"
+ VisibleSkin                 "ES_Shit_F"
+ VisibleSkin                 "ES_Ponoj_R"
+ VisibleSkin                 "ES_Ponoj_L"
+ VisibleSkin                 "ES_Shit_L"
+ VisibleSkin                 "ES_Naruch_L"
+ VisibleSkin                 "ES_Shit_B"
+ VisibleSkin                 "ES_AH_Helmet1"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Elf\Ranged\Bows\e_bow03\e_bow03.scr" "Bow"
+ Attack 		      False
+ SetState                    32
+});

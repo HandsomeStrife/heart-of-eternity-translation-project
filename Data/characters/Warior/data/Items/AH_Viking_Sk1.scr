@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Viking_Sk1','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Leather helmet of the northern warrior"
+  History           "Skin is skin. Nothing more.úOne should not expect anything natural from it. A leather armor can be pierced by a strong strike of a spear or sword and does not protect against blunt force weapons, although it can withstand strikes from light swords and daggers. A full simple leather armor provides a slight bonus to agility."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Viking"
+   MaterialPresetId  0
+   AddObjectD        "AH_Viking_Sk1.s03"
+   ArmorAutoGenerate  5  3 
+   PlusDexterity     5
+});

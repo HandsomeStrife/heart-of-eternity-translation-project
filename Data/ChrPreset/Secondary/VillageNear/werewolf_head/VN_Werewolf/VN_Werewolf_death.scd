@@ -1,0 +1,10 @@
+IfN_Flag_GoTo(310,1,@1);
+ SetFlag(310,2);
+ AddItemChrSlot('warior','Quest\WolfHead\wolf_head.scr','Bag');
+ InvisibleChrP('VN_Werewolf');
+ AIS_GoTo(@2);
+@1:
+  RespawnCharacter('VN_Werewolf');
+  SetCharacterLifeK('VN_Werewolf',-1);
+@2:
+NOP();

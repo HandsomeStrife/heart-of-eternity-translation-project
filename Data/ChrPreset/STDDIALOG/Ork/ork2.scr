@@ -1,0 +1,4 @@
+AddCharacterPresets('IronMan','CivilMan','CD_IM_Nameless',{
+ AddDialog                   "orc_09.dlg" 0
+ AddDialog                   "orc_10.dlg" 1
+});

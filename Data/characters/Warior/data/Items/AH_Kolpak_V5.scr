@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Kolpak_V5','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Cloak of Mage Supremacy"
+  History           "The hood of a village healer or forest sorcerer."
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "AH_Kolpak"
+   MaterialPresetId  4
+   AddObjectD        "AH_Kolpak_V5.s03"
+   ArmorAutoGenerate  5  4 
+   PlusMagicPower  5
+});

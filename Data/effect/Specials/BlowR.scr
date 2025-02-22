@@ -1,0 +1,41 @@
+CreateMaterial('M_PSBlowSS','BlowShC.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateParticlSystem('PSBlowR',{
+ ParticlProcType	"Flue"
+ SpawnType		"Sphere"
+ Radius			0.2000
+ SpawnPosTwo		0.000 0.000 0.000
+ SpawnPosThree		0.000 0.000 0.000
+ SpawnSpeed             150.0000
+ SizeMin                0.25000
+ SizeMax                1.20000
+ TimeLive               0.4000
+ MaxNumParticl          100
+ Immortal               False
+ SetPSColor		id = 0	time = 0.0000  0 0 0 255
+ SetPSColor		id = 1	time = 0.2000  100 98 157 255
+ SetPSColor		id = 2	time = 0.4000  60 60 100 255
+ SetPSColor		id = 3	time = 1.0000  0 0 0 255
+ Position               95.5878 88.8182 2.9002
+ Rotation               0 0 0
+ SizeMinSec             0.0000
+ MassMin                0.0000
+ SetMaterial		"M_PSBlowSS"
+ SpeedRotate            20
+ SpawnRandomRot         True
+});

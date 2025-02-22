@@ -1,0 +1,5 @@
+AddMaterialToSkin('OB_Body','M_OB_BodyFace','Ork\OB_BodyFace1.tga',1);
+AddMaterialToSkin('OB_Body','M_OB_BodyFace','Ork\OB_BodyFace2.tga',2);
+AddMaterialToSkin('OB_Body','M_OB_BodyFace','Ork\OB_BodyFace3.tga',3);
+AddMaterialToSkin('OB_Body','M_OB_BodyFace','Ork\OB_BodyFace_S.tga',4);
+AddMaterialToSkin('OB_Plasron','M_OB_Colouzes2','Ork\OB_Colouzes21.tga',1);

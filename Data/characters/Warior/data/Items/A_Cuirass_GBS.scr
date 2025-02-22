@@ -1,0 +1,13 @@
+CreateItemSkin('A_Cuirass_GBS','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "Segmented Black Cuirass"
+  History           "Plate armor - armor made of large plates. Full articulated plate armor provides a high level of protection in melee combat. Full black armor with gold significantly improves protection against bludgeoning strikes in close combat, as well as increases resistance to various magic."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Cuirass"
+   MaterialPresetId  3
+   AddObjectD        "A_Cuirass_GBS.s03"
+   ArmorAutoGenerate  12  4 
+   PlusConstitution 15
+});

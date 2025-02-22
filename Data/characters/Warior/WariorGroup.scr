@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\Warior\data\warior.mc',
+'Warior',
+'data\characters\Warior\data\','MainCharacter','Warior_Sh',' ');

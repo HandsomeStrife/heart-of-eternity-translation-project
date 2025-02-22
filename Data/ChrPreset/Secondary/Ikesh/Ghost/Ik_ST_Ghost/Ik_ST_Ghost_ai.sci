@@ -1,0 +1,11 @@
+IfN_Flag_GoTo(480,0,@1);
+ IfN_DistToMC_GoTo(3,@2);
+  StartCurrDialog('Ik_ST_Ghost');
+  AIS_GoTo(@1);
+@2:
+ IfN_DistToMC_GoTo(10,@1);
+  IfN_Point_Move('MC');
+@1:
+IfN_Flag_GoTo(480,6,@3);
+    SetCharacterLife('Ik_ST_Ghost',0);
+@3: 	

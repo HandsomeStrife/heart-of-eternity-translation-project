@@ -1,0 +1,19 @@
+AddCharacterPresets('ElfSenat','CIVILMAN','EC_ESk_SpaceElf',{
+ Description                 "Elessar"
+ Position                    1310.2222,665.3066,173.5689
+ Rotation                    0 0 0
+ PlusConstitution            80
+ VisibleSkin                 "E_A_Prajka"
+ VisibleSkin                 "E_A_Naruch"
+ VisibleSkin                 "Elf_Sen_Sh"
+ VisibleSkin                 "E_A_Ponog"
+ AddProcScript               "EC_ESk_SpaceElf_AI.sci"
+ AddBeforeDialogScript       "EC_ESk_SpaceElf_BD.scd"
+ AddDialog                   "EC_ESk_SpaceElf_D0.dlg" 0
+ AddDialog                   "EC_ESk_SpaceElf_D1.dlg" 1
+ AddDialog                   "EC_ESk_SpaceElf_D9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

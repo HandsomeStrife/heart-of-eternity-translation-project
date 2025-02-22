@@ -1,0 +1,17 @@
+CreateMaterialP('M_IWeapon','data\iterface\IWindow\IWeapon.tga',0,{
+ BlendEnable			True
+ SRCBlend			"SrcAlpha"
+ DSTBlend			"InvSrcAlpha"
+ AlphaTestEnable		False
+ ColorArgOne		id = 0  "Texture"
+ ColorOp		id = 0  "Modulate"
+ ColorArgTwo            id = 0  "Current"
+ AlphaArgOne		id = 0  "Texture"
+ AlphaOp		id = 0  "Modulate"
+ AlphaArgTwo		id = 0  "Diffuse"
+ TextureCIndex          id = 0  0
+ MatrixTextTransform    id = 0  False
+ TCIFunction		id = 0  "passthru"
+ zWriteEnable			False
+ LightEnable			False
+});

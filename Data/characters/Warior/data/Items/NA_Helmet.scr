@@ -1,0 +1,18 @@
+CreateItemSkin('NA_Helmet','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Helmet of the Great"
+ History           "The Lost One has departed, but in Sarkus there are still relics left, created by him or his disciples. Legends speak of one of the mightiest creations of Darion: the Armor of the Great - two of the strongest warriors of the past, close to the Seeder himself. Fortune has smiled upon you - you have become the bearer of a part of the relic. This will grant you power. But remember: only the one who possesses all parts of the Armor of the Great will attain true might."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "NA_Helmet"
+   MaterialPresetId  0
+   AddObjectD        "NA_Helmet.s03"
+   ArmorAutoGenerate  9  4 
+   PlusDexterity     3
+   PlusIntellect     10
+   PlusStrenght      3
+   PlusConstitution  3
+   PlusMagicPower    3
+  AddTakeScript  "Take_NA_Helmet.sc"
+});

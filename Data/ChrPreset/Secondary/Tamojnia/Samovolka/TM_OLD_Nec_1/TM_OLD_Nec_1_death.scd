@@ -1,0 +1,10 @@
+IfN_Flag_GoTo(390,2,@1);
+ JVisibleRecord(390,3);
+ JQuestRecordComplete(390,2);
+ SetFlag(390,4);
+ AIS_GoTo(@2);
+@1:
+  RespawnCharacter('TM_OLD_Nec_1');
+  SetCharacterLifeK('TM_OLD_Nec_1',1);
+@2:
+NOP(0);

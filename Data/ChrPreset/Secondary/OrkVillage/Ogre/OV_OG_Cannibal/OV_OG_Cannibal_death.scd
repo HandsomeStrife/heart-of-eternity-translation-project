@@ -1,0 +1,9 @@
+IfN_Flag_GoTo(440,2,@1);
+ JQuestRecordComplete(440,2);
+ AddItemChrSlot('warior','Quest\OgrHand\OgrHand.scr','Bag');
+ AIS_GoTo(@2);
+@1:
+  RespawnCharacter('OV_OG_Cannibal');
+  SetCharacterLifeK('OV_OG_Cannibal',1);
+@2:
+NOP();

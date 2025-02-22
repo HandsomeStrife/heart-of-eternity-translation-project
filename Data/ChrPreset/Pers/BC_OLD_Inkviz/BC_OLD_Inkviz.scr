@@ -1,0 +1,26 @@
+AddCharacterPresets('IronMan','CivilMan','BC_OLD_Inkviz',{
+ Description                 "ร่"
+ Position                    1078.5161,2329.2095,99.6015
+ Rotation                    0 0 0
+ SetFace                     2
+ VisibleSkinParam            "I_Man_Sh" 5
+ VisibleSkin                 "PlashInkv_Sh"
+ MobParam                    2 55
+  Life 			     1500
+ AddProcScript               "BC_OLD_Inkviz_AI.sci"
+ AddBeforeDialogScript       "BC_OLD_Inkviz_BD.scd"
+ AddDeathScript		     "BC_OLD_Inkviz_death.scd"
+ AddHitScript 	             "BC_OLD_Inkviz_HT.sch"
+ AddDialog                   "BC_OLD_Inkviz_d1.dlg" 0
+ AddDialog                   "BC_OLD_Inkviz_d2.dlg" 1
+ AddDialog                   "BC_OLD_Inkviz_d3.dlg" 2
+ AddDialog                   "BC_OLD_Inkviz_d4.dlg" 4
+ AddDialog                   "BC_OLD_Inkviz_d5.dlg" 3
+ AddDialog                   "BC_OLD_Inkviz_d6.dlg" 5
+ AddDialog                   "BC_OLD_Inkviz_d9.dlg" 9
+ AddItem                     "Human\OneHand\mace03\mace03.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\mace03\mace03.scr" "Right_Scabbard"
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

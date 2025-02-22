@@ -1,0 +1,6 @@
+CreateSFX('SmokeCSFX',{
+    AddSFXPSTag  "data\effect\Smoke\SmokePSC.scr" pos: 0 0 0 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    LiveTime        = 10
+});

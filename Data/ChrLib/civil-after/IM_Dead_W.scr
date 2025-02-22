@@ -1,0 +1,12 @@
+AddCharacterPresets('IronMan','CivilMan','IM_l36',{
+ Description                 "IM_l36"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    1 36
+ SetFace                     1
+ VisibleSkin                 "ZombyBig_Sh"
+ AddSkinItem                 "Legins_l36.scr" "Leggings"
+ AddSkinItem                 "HandArmor_36.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_N_l35.scr" "Armor"
+ AddItem                     "Human\TwoHand\celticsword01\celticsword01.scr" "TwoHandSword"
+});

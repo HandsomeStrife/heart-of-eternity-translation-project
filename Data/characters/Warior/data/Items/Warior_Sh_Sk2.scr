@@ -1,0 +1,13 @@
+CreateItemSkin('Warior_Sh_Sk2','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  Description       "Reinforced Leather Armor"
+  History           "Leather armor is known to all peoples. It does not burden the owner too much and can be worn discreetly under clothing. They are also valued for their ability to be stored for a long time without special problems or maintenance costs. Full reinforced leather armor provides a medium bonus to its owner's agility."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "Warior_Sh"
+   MaterialPresetId  6
+   AddObject         "Warior_Sh_Sk2.zrm"
+   ArmorAutoGenerate  5  2 
+   PlusDexterity     3
+});

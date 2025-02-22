@@ -1,0 +1,46 @@
+CreateMaterial('M_LGG_PS1','data\spell\lightning\maps\lspt.tga',{
+ BlendEnable			True
+ SRCBlend			"One"
+ DSTBlend			"One"
+ AlphaTestEnable		False
+ ColorArgOne		id = 0  "Texture"
+ ColorOp		id = 0  "Modulate"
+ ColorArgTwo            id = 0  "Current"
+ AlphaArgOne		id = 0  "Texture"
+ AlphaOp		id = 0  "Modulate"
+ AlphaArgTwo		id = 0  "Diffuse"
+ TextureCIndex          id = 0  0
+ MatrixTextTransform    id = 0  False
+ TCIFunction		id = 0  "passthru"
+ LightEnable			False
+ zWriteEnable			False
+});
+CreateParticlSystem('FB_Death1',{
+ ParticlProcType	"Flue"
+ SpawnType		"Point"
+ Radius			0.4
+ SpawnPosTwo		0 0 0
+ SpawnPosThree		0 0 0
+ SpawnSpeed		1050.0
+ SizeMin		0.2
+ SizeMax                0.3
+ TimeLive		2
+ MaxNumParticl		60
+ Immortal		False
+ SetPSColor		id = 0	time = 0.0  255 255 255 255
+ SetPSColor		id = 1	time = 0.9  255 255 255 255
+ SetPSColor		id = 2	time = 1.0  0 0 0 0
+ ForceVector		id = 0  0.0 0.0 1.0
+ ForceStrength		id = 0  5.0
+ AngleZXY		id = 0  0   360
+ AngleXY		id = 0  0   180
+ ForceVector		id = 1  0.0 0.0 -1.0
+ ForceStrength		id = 1  0.4
+ AngleZXY		id = 1  0    0
+ AngleXY		id = 1  0  0
+ Position	        0 0 0
+ Rotation		0 0 0
+ AutoAnimate		False
+ SetMaterial		"M_LGG_PS1"
+ SpawnRandomRot 	False
+});

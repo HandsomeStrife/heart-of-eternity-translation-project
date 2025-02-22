@@ -1,0 +1,3 @@
+SetCharacterPosition('warior',1359.7661,1076.7740,167.9937);
+SetCharacterRotation('warior',0,0,270);
+BlackScreenStart('Dwarven Customs Pier');

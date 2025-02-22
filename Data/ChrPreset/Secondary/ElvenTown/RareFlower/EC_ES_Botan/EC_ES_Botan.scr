@@ -1,0 +1,23 @@
+AddCharacterPresets('ElfSenat','CIVILMAN','EC_ES_Botan',{
+ Description                 "Аннатар"
+ Position                    1224.0950,370.4500,160.7227
+ Rotation                    0 0 180
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ VisibleSkin                 "E_AH_Shapo"
+ VisibleSkin                 "ES_PRIAJKA_Sh"
+ VisibleSkin                 "ES_Ponoj_kit_Sh"
+ VisibleSkinParam            "Elf_Sen_Sh" 0
+ AddProcScript               "EC_ES_Botan_AI.sci"
+ AddBeforeDialogScript       "EC_ES_Botan_BD.scd"
+ AddDialog                   "EC_ES_Botan_d0.dlg" 0
+ AddDialog                   "EC_ES_Botan_d1.dlg" 1
+ AddDialog                   "EC_ES_Botan_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

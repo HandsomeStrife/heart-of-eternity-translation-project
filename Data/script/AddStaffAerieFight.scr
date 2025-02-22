@@ -1,0 +1,5 @@
+AddItemChrSlot('warior','Quest\Staff_of_Low\Staff_of_Low.scr','Bag');
+SetCharacterPosition('BC_OLD_Mag',1021.9650,2323.4780,103.3250);
+SetCharacterPosition('IG_1',1074.4181,2323.5161,98.7515);
+SetCharacterRotation('IG_1',0,0,270);
+DOOR_Lock('DOOR_BARON_GENERAL48');

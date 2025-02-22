@@ -1,0 +1,2 @@
+AddItemChrSlot('warior','Quest\26_Last\26_last4.scr','Bag');
+ExecuteScriptSys('Data\ChrPreset\Secondary\Last\26_Last\26_Last4Golem.scr');

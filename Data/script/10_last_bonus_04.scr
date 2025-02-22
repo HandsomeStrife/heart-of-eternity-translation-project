@@ -1,0 +1,3 @@
+GetBonusForQuest(25,2);
+DeleteItemChr('warior','10_last4');
+AddMoneyToMC(5000);

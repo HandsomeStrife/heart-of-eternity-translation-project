@@ -1,0 +1,4 @@
+GetBonusForQuest(15,1);
+DeleteItemChr('warior','49_last5');
+AddMoneyToMC(15000);
+AddItemChrSlot('warior','Amulets\Amulet_09\Amulet_09.scr','Bag');

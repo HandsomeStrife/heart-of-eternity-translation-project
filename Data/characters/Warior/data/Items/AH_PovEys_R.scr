@@ -1,0 +1,13 @@
+CreateItemSkin('AH_PovEys_R','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Bandage on the right eye"
+  History           "Knocked out an eye - no trouble!"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "AH_PovEys_R"
+   MaterialPresetId  0
+   AddObjectD        "AH_PovEys_R.s03"
+   ArmorAutoGenerate  2  1 
+   PlusDexterity     2
+});

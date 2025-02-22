@@ -1,0 +1,13 @@
+AddCharacterPresets('OrkBig','CIVILMAN','OV_OB_Seal_1',{
+ Description                 "OV_OB_Seal_0"
+ Position                    2593.2119,60.2287,168.7376
+ Rotation                    0 0 0
+ VisibleSkinParam            "OB_Body" 4
+ MobParam                    2 30
+ AddSkinItem                 "OB_Cuirass_l42.scr" "Armor"
+ AddSkinItem                 "HandArmor_L35.scr" "HandArmor"
+ AddSkinItem                 "Legins_L35.scr" "Leggings"
+ AddItem                     "Ork\OneHand\skull_axe1\skull_axe1.scr" "Left_Scabbard"
+ AddItem                     "Ork\OneHand\skull_axe1\skull_axe1.scr" "Right_Scabbard"
+ PartitionEnable              False
+});

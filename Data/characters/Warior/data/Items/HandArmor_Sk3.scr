@@ -1,0 +1,13 @@
+CreateItemSkin('HandArmor_Sk3','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Composite Leather Hand Protection"
+ History           "A noticeable increase in the level of protection provided by leather armor is achieved by attaching plates of soft iron to it. The leather used for crafting the armor is taken as stiff and thick as possible. Then, by boiling in oil, the leather is given additional hardness. Full composite leather armor provides a high bonus to the warrior's agility."
+ AddSkinFromItemNoObj          "A_Naruk_L_Sk3.scr"
+ AddSkinFromItemNoObj          "A_Naruk_R_Sk3.scr"
+ AddSkinFromItemNoObj          "A_Naruch1_L_Sk3.scr"
+ AddSkinFromItemNoObj          "A_Naruch1_R_Sk3.scr"
+ AddObject     "HandArmor_SK3.zrm"
+ ArmorAutoGenerate  7  4 
+ PlusDexterity    6
+});

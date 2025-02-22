@@ -1,0 +1,21 @@
+AddCharacterPresets('MagVillageG','CivilMan','G_Gatekeeper',{
+ Description                 "Eternal Guardian"
+ Position                    3919.7729,817.1987,127.1534
+ Rotation                    0 0 0
+ PlusConstitution            1000
+ VisibleSkin                 "ArchiMag"
+ VisibleSkin                 "polySurfaceShape4"
+ VisibleSkin                 "polySurfaceShape5"
+ ScaleX 1.5
+ ScaleY 1.5
+ ScaleZ 1.5
+ AddBeforeDialogScript       "G_Gatekeeper_BD.scd"
+ AddDialog                   "G_Gatekeeper_d0.dlg" 0 
+ AddDialog                   "G_Gatekeeper_d1.dlg" 1
+ AddDialog                   "G_Gatekeeper_d9.dlg" 9
+ AddItem		     "Stuffs\Stuff_9\Stuff_9.scr" "Right_Hand"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+);

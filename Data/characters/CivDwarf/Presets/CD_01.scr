@@ -1,0 +1,9 @@
+AddCharacterPresets('CivDwarf','CivilMan','CD_01',{
+ Description                 "Dwarf"
+ Position                    80.2812 75.2020 8.024
+ Rotation                    0 0 90
+ VisibleSkin                 "DWF_Bor_Kolco_Sh"
+ VisibleSkin                 "DWF_L_PerchKoja_Sh"
+ VisibleSkin                 "DWF_R_PerchKoja_Sh"
+ VisibleSkin                 "DWARF_Sh"
+});

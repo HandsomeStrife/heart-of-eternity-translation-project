@@ -1,0 +1,30 @@
+IfN_Flag_GoTo(93,5,@1);
+IfN_Flag_GoTo(180,2,@1);
+ JVisibleRecord(35,3);
+ SetFlag(95,1);
+ JQuestComplete(30);
+ AIS_GoTo(@3);
+@1:
+If_Flag_GoTo(93,5,@2);
+ SetFlag(201,3);
+ SetFlag(200,1);
+ AddItemChrSlot('warior','Quest\IdolOfFertility\IdolOfFertility.scr','Bag');
+ JVisibleRecord(32,4);
+ JQuestRecordComplete(1,3);
+ JQuestRecordComplete(32,5);
+ JQuestRecordComplete(30,1);
+ AddExpMC(5000);
+ AddSkillPointsToMC(2000);
+ JQuestComplete(30);
+ AIS_GoTo(@3);
+@2:
+  RespawnCharacter('BC_OLD_Mag2');
+  SetCharacterLifeK('BC_OLD_Mag2',1);
+@3:
+IfN_Flag_GoTo(92,2,@4);
+  RespawnCharacter('BC_OLD_Mag2');
+  SetCharacterLifeK('BC_OLD_Mag2',1);
+  SetCharacterPosition('BC_OLD_Mag2',3903.1348,903.3563,124.3984);
+  SetCharacterRotation('BC_OLD_Mag2',0,0,178);
+@4:
+NOP();

@@ -1,0 +1,9 @@
+CreateItemSkin('IM_HandArmorB','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Width             2
+ Height            2
+ AddSkinFromItem         "A_Napl2_L_B_l15.scr"
+ AddSkinFromItem         "A_Napl2_R_B_l15.scr"
+   ArmorAutoGenerate  5  3
+});

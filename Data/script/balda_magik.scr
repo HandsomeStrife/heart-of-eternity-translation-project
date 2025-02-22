@@ -1,0 +1,4 @@
+ExecuteScriptSys('data\ChrPreset\Bolvans_Preset\Bolvan_04.scr');
+//SetSpecialLevel('SkillRanged',0);
+SetSpecialLevel('R8',0);
+SetSpecialLevel('FireClot',1);

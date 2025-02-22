@@ -1,0 +1,3 @@
+ExecuteScriptSys('data\ChrPreset\Pers\DF_ESk_Custodian\DF_ESk_Custodian.scr');
+SetCharacterPosition('warior',2497.9163,2249.1309,-40.1597);
+BlackScreenStart('Paths of Shadows');

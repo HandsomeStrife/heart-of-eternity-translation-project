@@ -1,0 +1,19 @@
+AddCharacterPresets('CivDwarf','CivilMan','DwC_DW_CrazyDwarf',{
+ Description                 "Turing"
+ Position                    1230.1061,5732.3862,-56.2472
+ Rotation                    0 0 90
+ MobParam                    0 40
+ VisibleSkin                 "DWARF_Sh"
+ SetFace 1
+ VisibleSkinParam            "HB_BorRabby" 2
+ VisibleSkin                 "I_Rukav"
+ VisibleSkin                 "I_Fona"
+ AddBeforeDialogScript       "DwC_DW_CrazyDwarf_BD.scd"
+ AddDialog                   "DwC_DW_CrazyDwarf_D0.dlg" 0
+ AddDialog                   "DwC_DW_CrazyDwarf_D9.dlg" 9
+ AddSkinItem                 "A_Plash_l39.scr" "Armor"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

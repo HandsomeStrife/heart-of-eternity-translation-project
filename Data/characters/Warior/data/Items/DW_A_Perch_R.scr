@@ -1,0 +1,17 @@
+CreateItemSkin('DW_A_Perch_R','HA_NaruchRight','HA_NaruchRight', {
+  Visible           True
+  Cost              -1
+  Description       "cc"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "DW_A_Perch_R"
+   MaterialPresetId  0
+   AddObjectD        "DW_A_Perch_R.s03"
+   ArmorAutoGenerate  4  2 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+   PlusStrenght     0
+   PlusConstitution 0
+   PlusMagicPower  0
+});

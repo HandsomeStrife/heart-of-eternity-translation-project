@@ -1,0 +1,8 @@
+BlackScreenStart('In the recent past...');
+SetCharacterPosition('warior',899.6210,1689.7545,172.2795);
+SetCharacterPosition('SL_IM_OtchymF',901.7783,1699.2365,172.2795);
+SetCharacterRotation('SL_IM_OtchymF',0,0,260);
+SetCharacterPosition('BC_IM_GotfridF',886.7959,1700.2178,173.4421);
+SetCharacterRotation('BC_IM_GotfridF',0,0,90);
+AddEnemy('BC_IM_GotfridF','SL_IM_OtchymF');
+SetFlag(86,2);

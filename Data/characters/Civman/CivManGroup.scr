@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\CivMan\data\CivMan.mc',
+'Civman',
+'data\characters\CivMan\data\','civman','CM_BODY_Sh','Skeleton_Sh');

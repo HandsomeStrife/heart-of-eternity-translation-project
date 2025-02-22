@@ -1,0 +1,22 @@
+AddCharacterPresets('OrkBig','CivilMan','OV_OB_General',{
+ Description                 "Talgat"
+ Position                    1052.5376,2315.5090,100.0293
+ Rotation                    0 0 0
+ VisibleSkinParam            "OB_Body" 2
+ VisibleSkin                 "OB_Plasron"
+ VisibleSkin                 "OB_Krag_R"
+ VisibleSkin                 "OB_Shild_F"
+ VisibleSkin                 "OB_Krag_L"
+ AddDialog                   "OV_OB_General_d1.dlg" 0
+ AddDialog                   "OV_OB_General_d2.dlg" 1
+ AddDialog                   "OV_OB_General_d3.dlg" 2
+ AddDialog                   "OV_OB_General_d5.dlg" 4
+ AddDialog                   "OV_OB_General_d4.dlg" 3
+ AddDialog                   "OV_OB_General_d9.dlg" 9
+ AddProcScript               "OV_OB_General_AI.sci"
+ AddBeforeDialogScript       "OV_OB_General_BD.scd"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

@@ -1,0 +1,222 @@
+AddObjectToLib('data\effect\Atmosphere\Normal\Env\SB_Normal.ZRS',mipmap=0,orientY=0);
+AddObjectToLib('data\effect\Atmosphere\Normal\Env3D\S3D_Normal.ZRS',mipmap=0,orientY=0);
+AddObjectToLib('data\effect\Atmosphere\Normal\Sky\SS_Normal.ZRS',mipmap=0,orientY=0);
+AddObjectToLib('data\effect\Atmosphere\Normal\Star\SZ_Normal.ZRS',mipmap=0,orientY=0);
+CreateMaterial('M_env30000','env30000.tga',{
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_env30001','env30001.tga',{
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_env30002','env30002.tga',{
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_env30003','env30003.tga',{
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_env30004','env30004.tga',{
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_env30005','env30005.tga',{
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateAtmoZone('Normal',expandBorder=1,renderDefault=1,{
+ MinDistance    0   0    -200
+ MaxDistance    100 100  200
+ Phase          4 12 18 21
+ FogDistMin     0   20  30   0
+ FogDistMax     380 380 480 380
+ FogColor       id=0   32  43  38 0
+ FogColor       id=1   56  60  49 0
+ FogColor       id=2   52  40  31 0
+ FogColor       id=3   16  21  28 0
+ EnvTDColor     id=0   32  43  38 0
+ EnvTDColor     id=1   56  60  49 0
+ EnvTDColor     id=2   40  31  23 0
+ EnvTDColor     id=3   16  21  28 0
+ SunColor       id=0   201 128 54  0
+ SunColor       id=1   177 177 177 0
+ SunColor       id=2   24  3   2   0
+ SunColor       id=3   100 100 100 0
+ SunSize        70 50 80 80
+ AmbientColor   id=0   77  65  53  0
+ AmbientColor   id=1   51  51  51  0
+ AmbientColor   id=2   89  60  38  0
+ AmbientColor   id=3   24  29  48  0
+ DiffuseColor   id=0   107 114 148 0
+ DiffuseColor   id=1   255 255 255 0
+ DiffuseColor   id=2   247 182 111 0
+ DiffuseColor   id=3   34  46  45  0
+ SkyColor       id=0   206  193  179 0
+ SkyColor       id=1   192  192  192 0
+ SkyColor       id=2   91  58  36 0
+ SkyColor       id=3   11  12  15 0
+ BoxEnvColor    id=0   213  199  193 0 
+ BoxEnvColor    id=1   192  192  192 0
+ BoxEnvColor    id=2   88  62  39 0
+ BoxEnvColor    id=3   128  128  128 0
+ BloomEnable   True
+ BloomLuminance  0.0160 0.0400 0.0168 0.0090
+ BloomScale      0.7400 0.8000 0.6900 0.4400
+ EnvObj         "SB_NORMAL"
+ TDEnvObj       "S3D_NORMAL"
+ SkyObj         "SS_NORMAL"
+ StarObj        "SZ_NORMAL"
+ SetAtmoSFX  4 False
+});
+CreateMaterial('M_S3D_Normal','S3D_Normal.tga',{
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate2X"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_SS_Normal','SS_Normal.tga',{
+ BlendEnable       True
+ SRCBlend          "SrcAlpha"
+ DSTBlend          "InvSrcColor"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate2X"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Add"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 3.0000
+ MatrixText          id = 0 1 1 3.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 1.0000 0.0000
+ MapMoveSpeed        id = 0 0.0020
+ AddTextureStage   1 "SS_Normal.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Modulate"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "Current"
+ AlphaOp             id = 1 "Add"
+ AlphaArgTwo         id = 1 "Diffuse"
+ TextureCIndex       id = 1 0
+ MatrixTextTransform id = 1 True
+ MatrixText          id = 1 0 0 5.0000
+ MatrixText          id = 1 1 1 5.0000
+ TCIFunction         id = 1 "passthru"
+ MapMoveDirect       id = 1 True
+ MapMoveVector       id = 1 1.0000 1.0000
+ MapMoveSpeed        id = 1 0.0050
+ LightEnable       True
+ DoubleSize        False
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_SZ_Normal','SZ_Normal.tga',{
+ BlendEnable       True
+ SRCBlend          "SrcAlpha"
+ DSTBlend          "InvSrcAlpha"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate2X"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "TextureFactor"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Current"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 9.0000
+ MatrixText          id = 0 1 1 9.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 0.1 1.0000
+ MapMoveSpeed        id = 0 0.005
+ AddTextureStage   1 "SZ_Normal.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Add"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "TextureFactor"
+ AlphaOp             id = 1 "BlendDiffuseAlpha"
+ AlphaArgTwo         id = 1 "Current"
+ TextureCIndex       id = 1 0
+ MatrixTextTransform id = 1 True
+ MatrixText          id = 1 0 0 20.0000
+ MatrixText          id = 1 1 1 20.0000
+ TCIFunction         id = 1 "passthru"
+ MapMoveDirect       id = 1 True
+ MapMoveVector       id = 1 -0.1 1.0000
+ MapMoveSpeed        id = 1 0.003
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});

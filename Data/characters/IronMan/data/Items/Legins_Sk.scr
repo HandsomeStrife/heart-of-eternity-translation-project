@@ -1,0 +1,11 @@
+CreateItemSkin('IM_Legins','Leggings','Leggings', {
+ Visible	         True
+ Cost		         -1
+ Width             2
+ Height            3
+ AddSkinFromItem         "A_Nagol1S_L.scr"
+ AddSkinFromItem         "A_Nagol1S_R.scr"
+ AddSkinFromItem         "A_Nanog_L_Sk.scr"
+ AddSkinFromItem         "A_Nanog_R_Sk.scr"
+ AddSkinFromItem         "A_Skirt_Sk.scr"
+});

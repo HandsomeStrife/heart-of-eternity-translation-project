@@ -1,0 +1,2 @@
+AddSoundConverterZone(0,0,0,0,10000,10000);
+AddSoundConverterZone(1,2,4200,800,5600,1600);

@@ -1,0 +1,19 @@
+AddCharacterPresets('Starosta','CivilMan','DF_CM_Scatterbrain',{
+ Description                 "Dion"
+ Position                    3072.3572,1917.4540,-55.6600
+ Rotation                    0 0 90
+ VisibleSkin                 "I_Znak"
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "I_SkirtSm"
+ VisibleSkin                 "AH_Shapo"
+ VisibleSkin                 "HB_Gig"
+ VisibleSkin                 "STAR_Sh"
+ AddBeforeDialogScript       "DF_CM_Scatterbrain_BD.scd"
+ AddDialog                   "DF_CM_Scatterbrain_d9.dlg" 9
+ AddDialog                   "DF_CM_Scatterbrain_D0.dlg" 0
+ AddDialog                   "DF_CM_Scatterbrain_D1.dlg" 1
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

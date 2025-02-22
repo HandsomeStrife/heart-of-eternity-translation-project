@@ -1,0 +1,13 @@
+AddCharacterPresets('Starosta','Enemy','Star37',{
+ Description                 "FatKnight37"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 37
+ AddSkinItem                 "A_Cuirass_S_l37.scr" "Armor"
+ AddSkinItem                 "HandArmor_37.scr" "HandArmor"
+ AddSkinItem                 "SecArmor_Kol_l37.scr" "SecArmor"
+ AddSkinItem                 "AH_VedroP_B_l37.scr" "Helmet"
+ AddSkinItem                 "Legins_37.scr" "Leggings"
+ AddItem		     "Human\OneHand\karoling3\karoling3.scr" "Left_Scabbard"
+ AddItem		     "Human\Shield\Shild_Squra_Big\Shild_Squra_Big_L37.scr" "Spine_shield"
+});

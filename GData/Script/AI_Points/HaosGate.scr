@@ -1,0 +1,5 @@
+IfN_Flag_GoTo(124,0,@1);
+IfN_Flag_GoTo(125,1,@1);
+  SetFlag(124,1);
+ JQuestRecordComplete(36,3);
+@1:

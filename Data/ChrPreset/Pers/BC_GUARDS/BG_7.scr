@@ -1,0 +1,15 @@
+AddCharacterPresets('IronMan','CivilMan','BG_7',{
+ Description                 "ddd"
+ Position                    1063.4050,2326.6414,79.4592
+ Rotation                    0 0 187
+ MobParam                    2 30
+ AddItem                     "Human\Shield\KnightShield_01\KnightShield_01.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\knightsword\knightsword.scr" "Left_Scabbard"
+ AddSkinItem                 "AH_IfantSalad_N_l25.scr" "Helmet"
+ AddSkinItem                 "Legins_l36.scr" "Leggings"
+ AddSkinItem                 "HandArmor_36.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_N_l35.scr" "Armor"
+ AddSkinItem                 "SecArmor_K2_l35.scr" "SecArmor"
+ PartitionEnable              False
+ DropEnable	              False
+});

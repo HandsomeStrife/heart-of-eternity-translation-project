@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\Ogr\data\Ogr.mc',
+'Ogr',
+'data\characters\Ogr\data\','civman','OGR_Sh');

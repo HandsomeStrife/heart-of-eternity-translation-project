@@ -1,0 +1,17 @@
+CreateMaterial('M_K_FIBULA _2','K_FIBULA _2.tga',{
+ AlphaTestEnable   True
+ AlphaTestFunc     "GreaterEqual"
+ AlphaTestRef      150
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});

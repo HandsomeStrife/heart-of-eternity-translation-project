@@ -1,0 +1,21 @@
+AddCharacterPresets('Civman','CivilMan','12_Last',{
+ Description                 "12_Last"
+ Position                    720.0045,2789.8193,22.3551
+ Rotation                    0 0 180
+ VisibleSkin                 "I_SumkaB"
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "A_PlashKup"
+ VisibleSkin                 "HB_Kosichky"
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkin                 "I_Otv_Hand"
+ AddBeforeDialogScript       "12_last_BD.scd"
+ AddDialog                   "12_last_00.dlg" 0
+ AddDialog                   "12_last_01.dlg" 1
+ AddDialog                   "12_last_02.dlg" 2
+ AddDialog                   "12_last_09.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

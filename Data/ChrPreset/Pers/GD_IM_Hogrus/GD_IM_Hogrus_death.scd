@@ -1,0 +1,12 @@
+IfN_Flag_GoTo(152,2,@1);
+ SetFlag(153,2);
+ SetFlag(154,1);
+ JQuestRecordComplete(37,2);
+ JVisibleRecord(37,3);
+ JVisibleRecord(37,6);
+ AIS_GoTo(@2);
+@1:
+  RespawnCharacter('GD_IM_Hogrus');
+  SetCharacterLifeK('GD_IM_Hogrus',1);
+@2:
+NOP();

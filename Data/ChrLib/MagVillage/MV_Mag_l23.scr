@@ -1,0 +1,12 @@
+AddCharacterPresets('MagVillage','Enemy','Mag_l23',{
+ Description                 "Mag_l23"
+ Position                    80 80 0
+ Rotation                    0 0 0
+ MobParam                    4 23
+ VisibleSkin                 "AH_Cap6"
+ VisibleSkin                 "AH_Cap5"
+ VisibleSkin                 "I_AMMTunika"
+ AddSkinItem                 "A_AMPlash_l23.scr" "Armor"
+ AddItem		     "Stuffs\Stuff_6\Stuff_6.scr" "DefaultSlot"
+ PartitionEnable              False
+});

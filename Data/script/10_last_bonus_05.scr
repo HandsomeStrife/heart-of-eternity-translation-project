@@ -1,0 +1,3 @@
+GetBonusForQuest(30,1);
+DeleteItemChr('warior','10_last5');
+AddItemChrSlot('warior','Jewels\Ring_13\Ring_13.scr','Bag');

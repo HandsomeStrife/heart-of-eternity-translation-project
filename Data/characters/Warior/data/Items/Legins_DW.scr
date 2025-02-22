@@ -1,0 +1,11 @@
+CreateItemSkin('Legins_DW','Leggings','Leggings', {
+ Visible                 True
+ Cost                    -1
+ Description       "Simple Dwarven Boots"
+ History           "The technological achievements of the dwarves are fully manifested in the creation of protective gear, which combines: high strength, relatively low weight, and the inherent bonuses of the subterranean race - when clad in full dwarven armor, its owner will significantly enhance their strength and gain resistance to magic."
+ AddSkinFromItemNoObj         "DW_A_Boot_L.scr"
+ AddSkinFromItemNoObj         "DW_A_Boot_R.scr"
+ AddObject     "Legins_DW.zrm"     
+ ArmorAutoGenerate  7  4 
+ PlusStrenght     5
+});

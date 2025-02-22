@@ -1,0 +1,15 @@
+IfN_Flag_GoTo(64,99,@1);
+ SetFlag(64,1);
+ DOOR_UnLock('DOOR_SLIDE45');
+ DOOR_UnLock('DOOR_SLIDE44');
+ DOOR_Open('DOOR_SLIDE45');
+ DOOR_Open('DOOR_SLIDE44');
+ SetCharacterPosition('EC_ESk_SpaceElf',1314.6206,663.5051,173.9762);
+ SetCharacterRotation('EC_ESk_SpaceElf',0,0,225);
+ SetCharacterPosition('EC_WN_Aella',1314.1875,664.1053,173.5689);
+ SetCharacterRotation('EC_WN_Aella',0,0,135);
+ AIS_GoTo(@2);
+@1:
+ AIPOINT_SetExecute('EL_HS',0);
+@2:
+NOP();

@@ -1,0 +1,4 @@
+AddItemChrSlot('warior','Quest\Bottle_Stats\Bottle_Stats.scr','Bag');
+AddHotKeyHelp('You have received a new item, press I',23);
+DeleteItemChr('warior','WolfHead');
+AddExpMC(2500);

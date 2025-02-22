@@ -1,0 +1,2 @@
+AddItemChrSlot('warior','Quest\19_LAST\19_LAST.scr','Bag');
+AddHotKeyHelp('Obtained a dull miner's pickaxe',23);

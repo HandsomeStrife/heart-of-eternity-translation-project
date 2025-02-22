@@ -1,0 +1,15 @@
+AIS_EnableInvProc(1);
+IfN_Flag_GoTo(320,1,@3);
+ IfN_TimeRange_GoTo(23,6,@1); 
+  AIS_VisibleChr(1);
+  If_Point_MoveAround('VN_GY');
+  AIS_GoTo(@2);
+@1:
+  AIS_VisibleChr(0);
+@2:
+@3:
+IfN_Flag_GoTo(320,5,@4);
+  IfChrVisibleGoTo(@4);
+  AIS_SetChrLife(0);
+@4:
+NOP(0);

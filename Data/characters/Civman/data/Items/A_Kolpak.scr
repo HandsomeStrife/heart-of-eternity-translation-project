@@ -1,0 +1,10 @@
+CreateItemSkin('A_Kolpak','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "A_Kolpak"
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "A_Kolpak"
+   MaterialPresetId  0
+   ArmorAutoGenerate  0  0 
+});

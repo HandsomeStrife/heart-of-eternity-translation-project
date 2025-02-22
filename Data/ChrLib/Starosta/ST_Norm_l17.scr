@@ -1,0 +1,18 @@
+AddCharacterPresets('Starosta','Enemy','Star17',{
+ Description                 "FatBandit17"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 17
+ AddDeathScript              "cmdscr.scd"
+ VisibleSkin                 "I_Otv_FootU"
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "A_Napl1_L"
+ VisibleSkin                 "A_Napl1_R"
+ VisibleSkinParam            "STAR_Sh" 1
+ VisibleSkin                 "A_SkirtKol"
+ AddSkinItem                 "A_PlashS_l17.scr" "Armor"
+ AddSkinItem                 "HandArmor_17.scr" "HandArmor"
+ AddSkinItem                 "AH_Gladiat_N_l17.scr" "Helmet"
+ AddItem		     "Human\OneHand\karoling1\karoling1.scr" "Left_Scabbard"
+ AddItem		     "Human\OneHand\shortscimitar1\shortscimitar1.scr" "Right_Scabbard"
+});

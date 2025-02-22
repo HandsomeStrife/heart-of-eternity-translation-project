@@ -1,0 +1,18 @@
+AddCharacterPresets('BossVampire','CivilMan','Ik_BV_Shadrak',{
+ Description                 "Ik_BV_Shadrak"
+ Position                    5827.6079,966.9362,245.6992	
+ Rotation                    0 0 180
+ PlusStrenght                50
+ PlusDexterity               60
+ PlusConstitution            40
+ PlusIntellect               30
+ PlusPermeability            30
+ AddBeforeDialogScript       "Ik_BV_Shadrak_BD.scd"
+ AddDeathScript		     "Ik_BV_Shadrak_death.scd"
+ AddDialog                   "Ik_BV_Shadrak_d0.dlg" 0
+ AddDialog                   "Ik_BV_Shadrak_d9.dlg" 9
+ AddSkinItem                 "VampireBoss.scr" "SecArmor"
+ AddItem		     "Vampire\onehand\V_short_sword\V_short_sword.scr" "Left_Scabbard"
+ AddItem		     "Vampire\onehand\V_short_sword\V_short_sword.scr" "Right_Scabbard"
+ PartitionEnable              False
+});

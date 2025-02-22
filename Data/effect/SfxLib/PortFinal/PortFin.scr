@@ -1,0 +1,5 @@
+CreateTorchSFXObj('PFi_',{
+ DeltaTranslate       0 0 -2.6
+ AddParticlSystem     "data\effect\PortFinal\PortFinal.scr "
+ LinkToObjectPTR      True
+});

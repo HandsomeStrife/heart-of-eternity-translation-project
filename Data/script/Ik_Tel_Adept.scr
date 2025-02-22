@@ -1,0 +1,6 @@
+SetFlag(490,5);
+SetCharacterPosition('warior',5824.2852,953.3545,231.5106);
+SetCharacterRotation('warior',0,0,0);
+SetCharacterPosition('Ik_IM_Adept',5826.3384 954.2026 231.5115);
+SetCharacterRotation('Ik_IM_Adept',0,0,200);
+BlackScreenStart('The cultist brought you to the entrance of the Shadak ashram.');

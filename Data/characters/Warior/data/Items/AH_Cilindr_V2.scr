@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Cilindr_V2','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Good Mitre"
+  History           "The classic headgear of the Ikesh inhabitants, perfectly protects against the heat."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Cilindr"
+   MaterialPresetId  1
+   AddObjectD        "AH_Cilindr_V2.s03"
+   ArmorAutoGenerate  4  3 
+   PlusIntellect     6
+});

@@ -1,0 +1,10 @@
+AddCharacterPresets('Wolf','MagVillage','04_Last_1',{
+ Description                 "s"
+ Position                    78.7730 73.5920 0.0000
+ Rotation                    0 0 0
+ VisibleSkin                 "Mag_V_Sh"
+ VisibleSkin                 "MV_O_SUMA"
+ VisibleSkin                 "MV_O_PlashInkviz"
+ VisibleSkin                 "MV_B_sm"
+ VisibleSkin                 "MV_H_Med"
+});

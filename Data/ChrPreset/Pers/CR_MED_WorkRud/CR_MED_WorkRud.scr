@@ -1,0 +1,16 @@
+AddCharacterPresets('IronMan','CivilMan','CR_MED_WorkRud',{
+ Description                 "Rig"
+ Position                    705.4789,2742.5605,26.4697
+ Rotation                    0 0 0
+ VisibleSkin                 "I_Man_Sh"
+ VisibleSkin                 "I_NaruchKuz"
+ VisibleSkin                 "A_PlashS"
+ VisibleSkin                 "H_Ez"
+ AddBeforeDialogScript       "CR_MED_WorkRud_BD.scd"
+ AddDialog                   "CR_MED_WorkRud_d.dlg" 0
+ AddDialog                   "CR_MED_WorkRud_d9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

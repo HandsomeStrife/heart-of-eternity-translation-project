@@ -1,0 +1,6 @@
+IfN_Flag_GoTo(532,1,@1);
+ JVisibleRecord(17,3);
+ JQuestRecordComplete(17,2);
+ SetFlag(532,2);
+@1:
+NOP(0);

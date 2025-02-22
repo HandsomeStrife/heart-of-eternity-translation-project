@@ -1,0 +1,29 @@
+AddCharacterPresets('IronMan','CivilMan','BC_IM_Commandant',{
+ Description                 "Steven"
+ Position                    1080.6007,2343.0969,99.6015
+ Rotation                    0 0 -85
+ VisibleSkin                 "HB_Usy"
+ VisibleSkinParam            "I_Man_Sh" 3
+ VisibleSkin                 "A_Naruch3_L"
+ VisibleSkin                 "A_Naruch3_R"
+ VisibleSkin                 "A_Naruk_R"
+ VisibleSkin                 "A_PlashMeh"
+ VisibleSkin                 "A_Napl6_L"
+ VisibleSkin                 "A_Napl6_R"
+ VisibleSkin                 "A_Naruk_L"
+ VisibleSkin                 "H_Ez"
+ PlusStrenght                40
+ PlusDexterity               39
+ PlusConstitution            50
+ PlusIntellect               20
+ PlusPermeability            20
+ AddBeforeDialogScript       "BC_IM_Commandant_BD.scd"
+ AddProcScript               "BC_IM_Commandant_AI.sci"
+ AddDialog                   "BC_IM_Commandant_d.dlg" 0
+ AddDialog                   "BC_IM_Commandant_d9.dlg" 9
+ AddItem                     "Human\OneHand\bastard01\bastard01.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

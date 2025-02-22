@@ -1,0 +1,4 @@
+DeleteItemChr('warior','ShamanDust');
+DeleteItemChr('warior','ShamanDust2');
+DeleteItemChr('warior','ShamanDust3');
+SetCharacterPosition('OV_OB_Shaman',3088.5098,303.2672,166.5308);

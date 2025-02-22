@@ -1,0 +1,12 @@
+CreateItemSkin('AH_Vedro_I','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Rusty Barbute"
+  History           "Corrosion, or simply rust, is generally the destruction of metals under the influence of the environment. The cause of corrosion is the interaction of metals with substances found in the air and atmospheric precipitation. These lathe are indeed in a state of corrosion, so expecting miracles from them is not worth it, although their protective characteristics are higher than those of leather armor."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "AH_Vedro"
+   MaterialPresetId  3
+   AddObjectD        "AH_Vedro_I.s03"
+   ArmorAutoGenerate  5  1 
+});

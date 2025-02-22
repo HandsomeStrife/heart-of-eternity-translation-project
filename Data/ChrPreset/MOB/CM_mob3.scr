@@ -1,0 +1,18 @@
+AddCharacterPresets('Civman','ENEMY1','CM_mob3',{
+ Position                    1322.4845,1758.9578,93.8345
+ Rotation                    0 0 0
+ VisibleSkin                 "CM_A_Naruch_1L_Sh"
+ VisibleSkin                 "CM_A_Naruch_1R_Sh"
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "CM_A_Perch_1L_Sh"
+ VisibleSkin                 "CM_G_Mask_Sh"
+ VisibleSkin                 "CM_A_Perch_1R_Sh"
+ VisibleSkin                 "CM_H_IrokHvLg_Sh"
+ PlusStrenght                80
+ PlusDexterity               80
+ PlusConstitution            100
+ PlusIntellect               5
+ PlusPermeability            5
+ AddItem                     "Human\OneHand\dagger01\dagger01.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\dagger02\dagger02.scr" "Right_Scabbard"
+});

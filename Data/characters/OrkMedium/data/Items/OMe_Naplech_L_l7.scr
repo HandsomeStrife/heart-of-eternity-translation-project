@@ -1,0 +1,13 @@
+CreateItemSkin('OMe_Naplech_L','HA_NaplLeft','HA_NaplLeft', {
+  Visible           True
+  Cost              -1
+  Description       "OMe_Naplech_L_l7"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "OMe_Naplech_L"
+   MaterialPresetId  0
+   ArmorAutoGenerate 1 1 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

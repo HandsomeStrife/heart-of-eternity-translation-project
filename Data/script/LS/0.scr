@@ -1,0 +1,3 @@
+AddLifeMC(100);
+SetObjectPosition(0,'POU0_109',78.9526,76.4278,0.0000);
+SetObjectPosition(0,'POU0_77',67.3645,85.8232,0.0000);

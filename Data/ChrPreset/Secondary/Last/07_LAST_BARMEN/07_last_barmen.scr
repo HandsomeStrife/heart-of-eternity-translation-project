@@ -1,0 +1,25 @@
+AddCharacterPresets('Civman','CivilMan','07_last_barmen',{
+ Description                 "07_last_barmen"
+ Position                    544.9127,2545.3347,45.7160
+ Rotation                    0 0 180
+ VisibleSkinParam            "CM_BODY_Sh" 1
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "A_Naruch1_L"
+ VisibleSkin                 "AH_Beret"
+ VisibleSkin                 "A_PlashFibL"
+ VisibleSkin                 "A_Naruch1_R"
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkin                 "H_GorLis"
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkinParam            "A_Naruk_L" 3
+ AddDialog                   "07_last_barmen.dlg" 0
+ AddDialog                   "07_last_barmen_09.dlg" 9
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Human\Ranged\longbow01\longbow01.scr" "Bow"
+ AddItem                     "Human\OneHand\Knife01\Knife01.scr" "Left_Scabbard"
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

@@ -1,0 +1,18 @@
+AddCharacterPresets('Civman','CivilMan','FV_CM_HealSF1',{
+ Description                 "Кларк"
+ Position                    266.7203,2281.0740,43.0062
+ Rotation                    0 0 0
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "CM_B_Kozel_Sh"
+ VisibleSkin                 "CM_H_HvMd_Sh"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddDeathScript		     "FV_CM_HealSF1_death.scd"
+ AddItem                     "Human\OneHand\club\club.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\club\club.scr" "Right_Scabbard"
+ PartitionEnable              False
+ Attack 		      False
+});

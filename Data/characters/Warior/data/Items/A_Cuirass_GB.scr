@@ -1,0 +1,13 @@
+CreateItemSkin('A_Cuirass_GB','Cuirass','Cuirass', {
+  Visible           True
+  Cost              -1
+  Description       "Black Cuirass in Gold"
+  History           "Plate armor - armor made of large plates. Full articulated plate armor not only provides a high level of protection in melee combat but also serves as an exoskeleton, significantly increasing the warrior's survivability. Full black armor with gold greatly enhances protection against bludgeoning strikes in close combat, as well as increases resistance to various magic."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Cuirass"
+   MaterialPresetId  2
+   AddObjectD        "A_Cuirass_GB.s03"
+   ArmorAutoGenerate  11  4 
+   PlusConstitution 12
+});

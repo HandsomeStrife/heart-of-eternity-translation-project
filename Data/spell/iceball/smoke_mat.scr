@@ -1,0 +1,31 @@
+CreateMaterial('MAT_Smoke','smoke.tga',{
+ BlendEnable			True
+ SRCBlend			"SrcAlpha"
+ DSTBlend			"DestAlpha"
+ AlphaTestEnable		False
+ AlphaTestFunc			"CreateEqual"
+// AddTextureStage		"smoke.tga"
+ ColorArgOne		id = 0  "Texture"
+ ColorOp		id = 0  "Modulate"
+ ColorArgTwo            id = 0  "Current"
+ AlphaArgOne		id = 0  "Texture"
+ AlphaOp		id = 0  "Modulate"
+ AlphaArgTwo		id = 0  "Diffuse"
+ TextureCIndex          id = 0  0
+ MatrixTextTransform    id = 0  False
+ MatrixText		id = 0  0 0  1.0
+ MatrixText		id = 0  1 1  1.0
+ TCIFunction		id = 0  "passthru"
+ MapMoveDirect		id = 0  False
+ MapMoveVector		id = 0  1.0 1.0
+ MapMoveSpeed		id = 0  10.0
+ AnimMaterial			False
+ AnimMatAutoPlay		True
+ AnimMatFPS			30
+ AnimMatWSquare			64
+ AnimMatHSquare			64
+ AnimMatNumFrame		16
+ zWriteEnable			False
+ zTestEnable			False
+ zTestFunc			"GreateEqual"
+});

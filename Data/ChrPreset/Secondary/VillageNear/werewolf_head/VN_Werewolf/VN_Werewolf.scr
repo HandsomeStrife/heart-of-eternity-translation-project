@@ -1,0 +1,16 @@
+AddCharacterPresets('Wolf','vepr','VN_Werewolf',{
+ Description                 "Werewolf"
+ Position                    1561.2417,2323.4348,82.0272
+ Rotation                    0 0 0
+ VisibleSkin                 "WOLF_Sh"
+ ScaleX                      1.7
+ ScaleY                      1.7
+ ScaleZ                      1.7
+ Life 			     300
+ PlusIntellect               40
+ MobParam                    2 15
+ VisibleSkin                 "eysGlowSh"
+ AddDeathScript		     "VN_Werewolf_death.scd"
+ AddItem		     "Animal\Wolf\wolf_box.scr" "DefaultSlot"
+ PartitionEnable              False
+});

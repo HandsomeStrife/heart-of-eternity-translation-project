@@ -1,0 +1,39 @@
+CreateMaterial('M_FCGlow','glow_c1.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "SelectArg1"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateParticlSystem('PS_FCGlow',{
+ ParticlProcType	"Flue"
+ SpawnType		"Point"
+ SpawnSpeed             4.0000
+ SizeMin                0.80000
+ SizeMax                0.2000
+ TimeLive               1.0000
+ MaxNumParticl          20
+ Immortal               False
+ SetPSColor		id = 0	time = 0.0000  0 0 0 255
+ SetPSColor		id = 1	time = 0.5000  255 255 255 255
+ SetPSColor		id = 2	time = 1.0000  0 0 0 255
+ Position               73.3923 73.4948 3.1311
+ Rotation               0 0 0
+ SizeMinSec             0.0000
+ MassMin                0.0000
+ SetMaterial		"M_FCGlow"
+ AutoAnimate            True
+ SpiralRotate           False
+ SpawnRandomRot         True
+ SpeedRotate		150
+});

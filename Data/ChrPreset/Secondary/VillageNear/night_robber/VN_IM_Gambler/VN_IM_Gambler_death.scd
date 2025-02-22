@@ -1,0 +1,14 @@
+If_Flag_GoTo(300,4,@3);
+If_Flag_GoTo(300,7,@3);
+If_Flag_GoTo(300,1,@2);
+IfN_Flag_GoTo(300,6,@1);
+ AIS_GoTo(@2);
+@1:
+ SetFlag(300,4);
+ AddMoneyToMC(2000);
+ AIS_GoTo(@3);
+@2:
+  RespawnCharacter('VN_IM_Gambler');
+  SetCharacterLifeK('VN_IM_Gambler',1);
+@3:
+NOP(0);

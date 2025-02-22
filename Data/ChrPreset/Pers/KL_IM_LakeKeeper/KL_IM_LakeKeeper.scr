@@ -1,0 +1,24 @@
+AddCharacterPresets('IronMan','CivilMan','KL_IM_LakeKeeper',{
+ Description                 "Vodyanoy"
+ Position                    1659.5640,1855.9178,67.2959
+ Rotation                    0 0 0
+ MobParam                    2 60
+ VisibleSkinParam            "HB_Gig" 1
+ VisibleSkinParam            "I_Man_Sh" 6
+ AddDeathScript		     "KL_IM_LakeKeeper_death.scd"
+ AddBeforeDialogScript       "KL_IM_LakeKeeper_BD.scd"
+ AddDialog		     "KL_IM_LakeKeeper_d0.dlg" 0
+ AddDialog		     "KL_IM_LakeKeeper_d1.dlg" 1
+ AddDialog		     "KL_IM_LakeKeeper_d2.dlg" 2
+ AddDialog		     "KL_IM_LakeKeeper_d3.dlg" 3
+ AddDialog		     "KL_IM_LakeKeeper_d4.dlg" 4
+ AddDialog		     "KL_IM_LakeKeeper_d5.dlg" 5
+ AddDialog		     "KL_IM_LakeKeeper_d9.dlg" 9
+ AddSkinItem                 "A_Cuirass_B_l55.scr" "Armor"
+ AddSkinItem                 "Legins_GOT.scr" "Leggings"
+ AddSkinItem                 "HandArmor_got.scr" "HandArmor"
+ AddItem                     "Quest\KingSword\KingSword_F.scr" "TwoHandSword"
+ SetFace                      3
+ DropEnable	              False
+ Attack 		      False
+});

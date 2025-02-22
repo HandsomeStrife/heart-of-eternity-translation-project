@@ -1,0 +1,12 @@
+IfN_Flag_GoTo(64,2,@1);
+ SetCharacterPosition('EC_ESk_SpaceElf',1313.5939,662.0864,173.5689);
+ SetCharacterRotation('EC_ESk_SpaceElf',0,0,275);
+ SetFlag(65,1);
+ JQuestRecordComplete(19,3);
+ JVisibleRecord(19,6);
+ AIS_GoTo(@2);
+@1:
+  RespawnCharacter('EC_WN_Aella');
+  SetCharacterLifeK('EC_WN_Aella',1);
+@2:
+NOP();

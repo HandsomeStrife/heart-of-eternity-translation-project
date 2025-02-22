@@ -1,0 +1,14 @@
+CreateItemSkin('AH_PalladinP_B','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Reinforced Black Barbute"
+  History           "Full articulated plate armor provides a high level of protection in melee combat. Solid armor withstands crossbow bolts, the strike of a mace or sword. The main drawback of armor is the significant limitation on the warrior's mobility. Full black steel plate armor greatly increases protection against crushing strikes."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "AH_PalladinP"
+   MaterialPresetId  0
+   AddObjectD        "AH_PalladinP_B.s03"
+   ArmorAutoGenerate  8  3 
+   PlusIntellect     6
+   PlusMagicPower    6
+});

@@ -1,0 +1,10 @@
+AIS_EnableInvProc(1);
+AIS_ExecIfInvisible(1);
+IfN_Point_GoTo('BC_WF',@2);
+  Sit_InAIP('BC_WF',100);
+@2:
+IfN_Flag_GoTo(4,1,@1);
+  IfN_DistToMC_GoTo(3,@1);
+   StartCurrDialog('BC_IM_WoundedFinal');
+@1:
+NOP(1);

@@ -1,0 +1,19 @@
+AddCharacterPresets('Civman','CivilMan','VN_TR_Komp',{
+ Description                 "VN_TR_Komp"
+ Position                    1266.9323 2159.6523 8.7718
+ Rotation                    0 0 0
+ AddDialog                   "VN_TR_Komp9.dlg" 9
+ AddDialog                   "VN_TR_Komp_d.dlg" 0
+ VisibleSkin                 "I_SumkaB"
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "HB_Med"
+ VisibleSkin                 "A_PlashS"
+ VisibleSkinParam            "A_Skirt" 3
+ VisibleSkinParam            "A_Naruk_R" 3
+ VisibleSkin                 "H_Norm"
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkinParam            "A_Naruk_L" 3
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

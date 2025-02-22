@@ -1,0 +1,12 @@
+CreateItemSkin('G_Shapka_Sh','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Craftsman's Hat"
+  History           "The most common headgear of the middle class."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "G_Shapka_Sh"
+   MaterialPresetId  0
+   AddObjectD        "G_Shapka_Sh.s03"
+   ArmorAutoGenerate  0  1 
+});

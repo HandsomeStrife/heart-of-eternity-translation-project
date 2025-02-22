@@ -1,0 +1,116 @@
+AddObjectToLib('data\spell\RootTest\RootP1.zrm',mipmap=0,orientY=0);
+AddObjectToLib('data\spell\RootTest\RootP2.zrm',mipmap=0,orientY=0);
+AddObjectToLib('data\spell\RootTest\RootP3.zrm',mipmap=0,orientY=0);
+CreateMaterial('M_Pink1','Pink1.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateMaterial('M_Pink2','Pink2.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateMaterial('M_Pink3','Pink3.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('RTA1',fps=30,numFrame=90,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0.3  79
+AddTranslateKey   0 0 0.3  0
+AddRotationKey   0 0 0  79
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   24
+AddColorKey  0 0 0 0   15
+AddColorKey  255 255 255 255   40
+AddColorKey  255 255 255 255   10
+AddColorKey  0 0 0 0   0
+AddScaleKey   1 1 1  24
+AddScaleKey   1 1 1  30
+AddScaleKey   1.142638241 1.142638241 1.142638241  25
+AddScaleKey   1 1 1  10
+AddScaleKey   1 1 1  0
+});
+CreateSFXAnimation('RTA2',fps=30,numFrame=90,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0.03  89
+AddTranslateKey   0 0 0.03  0
+AddRotationKey   0 0 0  89
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   14
+AddColorKey  255 255 255 255   10
+AddColorKey  255 255 255 255   7
+AddColorKey  0 0 0 0   58
+AddColorKey  0 0 0 0   0
+AddScaleKey   2.125728145 2.125728145 2.125728145  31
+AddScaleKey   0.8 0.8 0.8  58
+AddScaleKey   0.8 0.8 0.8  0
+});
+CreateSFXAnimation('RTA3',fps=30,numFrame=90,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0.3  89
+AddTranslateKey   0 0 0.3  0
+AddRotationKey   0 0 0  14
+AddRotationKey   0 0 0  15
+AddRotationKey   0 0 -90  30
+AddRotationKey   0 0 -180  30
+AddRotationKey   0 0 -270  0
+AddColorKey  0 0 0 0   14
+AddColorKey  0 0 0 0   15
+AddColorKey  255 255 255 255   30
+AddColorKey  255 255 255 255   15
+AddColorKey  0 0 0 0   15
+AddColorKey  0 0 0 0   0
+AddScaleKey   1 1 1  89
+AddScaleKey   1 1 1  0
+});
+CreateSFX('SFX_PushCr',{
+    AddSFXObjectTagN  "ROOTP1"  pos: 0 0 0  rot: 0 0 0 "RTA1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXObjectTagN  "ROOTP3"  pos: 0 0 0  rot: 0 0 0 "RTA2"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXObjectTagN  "ROOTP2"  pos: 0 0 0  rot: 0 0 0 "RTA3"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    AddLinkColor      tag=1  flag=3
+    AddLinkColor      tag=2  flag=3
+    LiveTime        = 50
+});

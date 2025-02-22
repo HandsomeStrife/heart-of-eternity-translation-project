@@ -1,0 +1,9 @@
+CreateItemSkin('AH_KlikyP_S','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "AH_KlikyP"
+   MaterialPresetId  0
+   ArmorAutoGenerate  6  3 
+});

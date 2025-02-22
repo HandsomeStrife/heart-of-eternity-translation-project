@@ -1,0 +1,4 @@
+AddItemChrSlot('warior','Quest\41_Last\41_last3.scr','Bag');
+ExecuteScriptSys('data\ChrPreset\Secondary\LAST\41_LAST\41Last_Vivern.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\LAST\41_LAST\41Last_Vivern1.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\LAST\41_LAST\41Last_Vivern2.scr');

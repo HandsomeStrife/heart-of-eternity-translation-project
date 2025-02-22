@@ -1,0 +1,31 @@
+AddCharacterPresets('Civman','CivilMan','OV_ST_WeapBaryga',{
+ Description                 "Baryga"
+ Position                    2806.9949,404.4712,194.6187
+ Rotation                    0 0 0
+ MobParam                    3 20
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "I_Otv_FootD"
+ VisibleSkin                 "HB_Sm"
+ AddBeforeDialogScript       "OV_ST_WeapBaryga_BD.scd"
+ AddDialog                   "OV_ST_WeapBaryga_d.dlg" 0
+ AddDialog                   "OV_ST_WeapBaryga_d9.dlg" 9
+ AddSkinItem                 "SecArmor_Kol_l15.scr" "SecArmor"
+ AddSkinItem                 "HandArmor_15.scr" "HandArmor"
+ AddSkinItem                 "A_Cuirass_In.scr" "Armor"
+ AddItem		     "Human\OneHand\bastard01\Bastard01.scr" "Bag"
+ AddItem		     "Human\OneHand\daga2\daga2.scr" "Bag"
+ AddItem		     "Human\OneHand\sabre03\sabre03.scr" "Bag"
+ AddItem		     "Human\OneHand\scimitar02\scimitar02.scr" "Bag"
+ AddItem		     "Human\TwoHand\greatsword02\greatsword02.scr" "Bag"
+ AddItem		     "Human\TwoHand\bludgeon01\bludgeon01.scr" "Bag"
+ AddItem		     "Human\TwoHand\Great_Axe3\Great_Axe3.scr" "Bag"
+ AddItem		     "Human\Shield\target02\target02.scr" "Bag"
+ AddItem		     "Human\Shield\Shild_Squra_Big2\Shild_Squra_Big2.scr" "Bag"
+ AddItem		     "Human\Shield\KnightShield_01\KnightShield_01.scr" "Bag"
+ AddItem		     "Human\OneHand\axe3\axe3.scr" "Left_Scabbard"
+ AddItem		     "Human\OneHand\axe2\axe2.scr" "Right_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

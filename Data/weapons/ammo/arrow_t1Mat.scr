@@ -1,0 +1,14 @@
+CreateMaterial('M_Arrow_1','data\weapons\ammo\maps\Arrow_1.tga',{
+ BlendEnable			False
+ AlphaTestEnable		True
+ AlphaTestFunc                  "GreaterEqual"
+ AlphaTestRef			80
+ ColorArgOne		id = 0  "Texture"
+ ColorOp		id = 0  "Modulate4X"
+ ColorArgTwo            id = 0  "Current"
+ AlphaArgOne		id = 0  "Texture"
+ AlphaOp		id = 0  "Modulate"
+ AlphaArgTwo		id = 0  "Diffuse"
+ MatrixTextTransform    id = 0  False
+ TCIFunction		id = 0  "passthru"
+});

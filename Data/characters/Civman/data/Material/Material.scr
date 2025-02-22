@@ -1,0 +1,34 @@
+CreateMaterial('M_CM_Ghost','CM_Ghost.tga',{
+ AlphaTestEnable   True
+ AlphaTestFunc     "GreaterEqual"
+ AlphaTestRef      100
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});
+CreateMaterial('M_SC_Chest','SC_Chest.tga',{
+ AlphaTestEnable   True
+ AlphaTestFunc     "GreaterEqual"
+ AlphaTestRef      150
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       True
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	True
+});

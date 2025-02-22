@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\MagVillage\data\MagVillage.mc',
+'MagVillage',
+'data\characters\MagVillage\data\','civman','Mag_V_Sh','ArchiMag');

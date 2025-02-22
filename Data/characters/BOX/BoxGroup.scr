@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\Box\data\Box.mc',
+'Box',
+'data\characters\Box\data\','civman','Box02Shape');

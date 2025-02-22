@@ -1,0 +1,10 @@
+AddCharacterPresets('OrkMedium','Enemy','OMe_Norm',{
+ Description                 "NPC_OMe_l3"
+ MobParam                    0 3
+ AddSkinItem                 "OMe_Helmet_l3.scr" "Helmet"
+ AddSkinItem                 "OMe_Cuirass_l3.scr" "Armor"
+ AddSkinItem                 "HandArmor_Norm_l3.scr" "HandArmor"
+ AddSkinItem                 "Legins_Norm_l3.scr" "Leggings"
+ AddItem                     "Ork\Shiled\o_shild_l3\o_shild_l3.scr" "Spine_shield"
+ AddItem                     "Ork\OneHand\o-bloodknife\o-bloodknife.scr" "Left_Scabbard"
+});

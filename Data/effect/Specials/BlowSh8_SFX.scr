@@ -1,0 +1,16 @@
+CreateSFXAnimation('BSHA',fps=30,numFrame=70,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  14
+AddTranslateKey   0 0 0  6
+AddTranslateKey   0 0 0  10
+AddTranslateKey   0 -0.3432272145 0  9
+AddTranslateKey   0 0 0  30
+AddTranslateKey   0 0 0  0
+});
+CreateSFX('BlowShSFX',{
+    AddSFXPSTag  "data\effect\Specials\BlowShPS.scr" pos: 0.0 0.0 0 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXTagFlag     tag=0  flag=262144
+    LiveTime        = 3.0
+    LinkParam       = 17
+});

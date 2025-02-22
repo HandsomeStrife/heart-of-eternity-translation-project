@@ -1,0 +1,33 @@
+AddCharacterPresets('IronMan','CivilMan','TV_IM_Rubaka',{
+ Description                 "Сварг"
+ Position                    553.8754,2550.9761,46.5129
+ Rotation                    0 0 -5
+ PartitionEnable 	     false
+ SetFace                     1
+ MobParam                    1 15
+ VisibleSkinParam            "I_Man_Sh" 1
+ VisibleSkinParam            "A_Cuirass" 2
+ VisibleSkinParam            "A_Napl3_L" 2
+ VisibleSkinParam            "A_Nanog_L" 2
+ VisibleSkin                 "A_Naruch3_L"
+ VisibleSkinParam            "A_Naruch3_R" 2
+ VisibleSkinParam            "A_Naruk_R" 2
+ VisibleSkinParam            "A_Skirt" 2
+ VisibleSkinParam            "A_Nanog_R" 2
+ VisibleSkin                 "HB_Long"
+ VisibleSkinParam            "A_Napl3_R" 2
+ VisibleSkinParam            "A_Naruk_L" 2
+ VisibleSkin                 "H_GorLis"
+ VisibleSkinParam            "A_Sapog1_L" 1
+ VisibleSkinParam            "A_Sapog1_R" 1
+ AddDeathScript		     "TV_IM_Rubaka_death.scd"
+ AddProcScript               "TV_IM_Rubaka_AI.sci"
+ AddBeforeDialogScript       "TV_IM_Rubaka_BD.scd"
+ AddDialog                   "TV_IM_Rubaka_d.dlg" 0
+ AddDialog                   "TV_IM_Rubaka_d1.dlg" 1
+ AddDialog                   "TV_IM_Rubaka_d2.dlg" 2
+ AddDialog                   "TV_IM_Rubaka_d3.dlg" 3
+ AddDialog                   "TV_IM_Rubaka_d9.dlg" 9
+ AddItem                     "Quest\COMP\Swargsword.scr" "TwoHandSword"
+ DropEnable	              False
+});

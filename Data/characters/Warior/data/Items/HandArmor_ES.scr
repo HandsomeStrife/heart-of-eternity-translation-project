@@ -1,0 +1,13 @@
+CreateItemSkin('HandArmor_ES','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Elven Hand Protection"
+ History           "Доспехи эльфов объThey unite such concepts as: beautiful, graceful, magical. The elves did not achieve success in metallurgy. Practically the entire range of the race's products is made from various parts of the Kuaron tree. Their main property is lightness and strength, indispensable qualities for an archer. Full armor will multiply your agility and perfectly protect against striking cold weapons."
+ AddSkinFromItemNoObj          "ES_Naplech_L.scr"
+ AddSkinFromItemNoObj          "ES_Naplech_R.scr"
+ AddSkinFromItemNoObj          "ES_Naruch_L.scr"
+ AddSkinFromItemNoObj          "ES_Naruch_R.scr"
+ AddObject     "HandArmor_ES.zrm"
+ ArmorAutoGenerate  6  4 
+ PlusDexterity    8
+});

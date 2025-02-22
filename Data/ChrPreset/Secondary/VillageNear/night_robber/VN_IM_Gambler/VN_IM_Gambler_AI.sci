@@ -1,0 +1,27 @@
+IfN_Flag_GoTo(300,3,@1);
+ IfN_Flag_GoTo(190,0,@5);
+ AIS_SetChrPosRotZ('VN_IM_Gambler',1335.6177,2189.7703,7.1495,60);
+ SetFlag(190,1);
+@5:
+ IfN_Flag_GoTo(190,1,@6);
+   IfN_Point_MoveNP('VNG_G0');
+   If_Point_SetFlag('VNG_G0',190,2);
+@6:
+ IfN_Flag_GoTo(190,2,@4);
+    IfN_Point_Move('VNG_G1');
+    If_Point_SetFlag('VNG_G1',190,3);
+@4:
+ AIS_GoTo(@2);
+@1:
+If_Flag_GoTo(300,7,@4);
+If_Flag_GoTo(300,4,@2);
+If_Flag_GoTo(300,5,@4);
+If_Flag_GoTo(300,6,@2);
+Sit_InAIP('VNG_G',110);
+@2:
+IfN_Flag_GoTo(300,6,@3);
+@4:
+  IfChrVisibleGoTo(@3);
+  AIS_SetChrLife(0);
+@3:
+NOP(0);

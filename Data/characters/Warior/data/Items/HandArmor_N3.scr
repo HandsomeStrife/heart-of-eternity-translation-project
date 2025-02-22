@@ -1,0 +1,19 @@
+CreateItemSkin('HandArmor_N3','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Composite Steel Hand Protection"
+ History           "Настоящую защиту могут дать только крупные объThe dark solid-forged parts from which the steel armor is made. In addition to breastplates and pauldrons made of solid metal, gauntlets, greaves, cuisses, cuirasses, and helmets are produced. Full steel armor significantly increases protection against arrows."
+ AddSkinFromItemNoObj          "A_Napl3_L_N.scr"
+ AddSkinFromItemNoObj          "A_Napl3_R_N.scr"
+ AddSkinFromItemNoObj          "A_Naruch3_L_N.scr"
+ AddSkinFromItemNoObj          "A_Naruch3_R_N.scr"
+ AddSkinFromItemNoObj          "A_Naruk_L_N.scr"
+ AddSkinFromItemNoObj          "A_Naruk_R_N.scr"
+ AddObject     "HandArmor_N3.zrm"
+ ArmorAutoGenerate  6  4 
+ PlusStrenght     2
+ PlusDexterity    2
+ PlusIntellect    2
+ PlusConstitution 2
+ PlusMagicPower   2
+});

@@ -1,0 +1,8 @@
+AddCharacterPresets('Ogr','Enemy','Ogr_l14',{
+ Description                 "Ogr_l14"
+ MobParam                    0 14
+ AddDeathScript              "Ogr.scd"
+ AddItem		     "Animal\Ogr\OgrWeapon1.scr" "Left_Scabbard"
+ AddItem		     "Animal\Ogr\OgrWeapon.scr" "Right_Scabbard"
+ AddItem		     "Animal\Tstone\Tstone.scr" "Throw_Item"
+});

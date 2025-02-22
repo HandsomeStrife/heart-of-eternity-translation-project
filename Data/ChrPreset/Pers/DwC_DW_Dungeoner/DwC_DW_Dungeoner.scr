@@ -1,0 +1,21 @@
+AddCharacterPresets('CivDwarf','CivilMan','DwC_DW_Dungeoner',{
+ Description                 "Digger"
+ Position                    1074.7775,6099.8257,-102.1801
+ Rotation                    0 0 190
+ MobParam                    0 40
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "I_Rukav"
+ VisibleSkin                 "A_Plash"
+ VisibleSkinParam            "HB_BorFonar" 2 
+ VisibleSkin                 "A_NaplCh1_L"
+ VisibleSkin                 "A_NaplCh1_R"
+ VisibleSkin                 "I_Fona"
+ AddBeforeDialogScript       "DwC_DW_Dungeoner_BD.scd"
+ AddDialog                   "DwC_DW_Dungeoner_D0.dlg" 0
+ AddDialog                   "DwC_DW_Dungeoner_D9.dlg" 9
+ AddSkinItem                 "A_Plash_l39.scr" "Armor"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

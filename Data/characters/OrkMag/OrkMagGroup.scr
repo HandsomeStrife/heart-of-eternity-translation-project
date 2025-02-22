@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\OrkMag\data\OrkMag.mc',
+'OrkMag',
+'data\characters\OrkMag\data\','Enemy1','OM_Body');

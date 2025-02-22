@@ -1,0 +1,217 @@
+AddObjectToLib('data\object\SS_AuraT1.zrm',mipmap=0,orientY=1);
+AddObjectToLib('data\object\SS_AuraT2.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_AuraT1','data\maps\AuraT1.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ MatrixTextTransform id = 0 True
+ MatrixText          id = 0 0 0 3.0000
+ MatrixText          id = 0 1 1 1.0000
+ TCIFunction         id = 0 "passthru"
+ MapMoveDirect       id = 0 True
+ MapMoveVector       id = 0 0.0000 1.0000
+ MapMoveSpeed        id = 0 1.0000
+ AddTextureStage   1 "AuraT1.tga"
+ ColorArgOne         id = 1 "Texture"
+ ColorOp             id = 1 "Modulate"
+ ColorArgTwo         id = 1 "Current"
+ AlphaArgOne         id = 1 "Texture"
+ AlphaOp             id = 1 "SelectArg1"
+ AlphaArgTwo         id = 1 "Diffuse"
+ TextureCIndex       id = 1 0
+ MatrixTextTransform id = 1 True
+ MatrixText          id = 1 0 0 3.0000
+ MatrixText          id = 1 1 1 1.0000
+ TCIFunction         id = 1 "passthru"
+ MapMoveDirect       id = 1 True
+ MapMoveVector       id = 1 0.0000 -1.0000
+ MapMoveSpeed        id = 1 1.0000
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('SAT1',fps=21,numFrame=100,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  89
+AddTranslateKey   0 0 0  10
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  89
+AddRotationKey   0 0 0  10
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   4
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   5
+AddColorKey  0 0 0 0   5
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   5
+AddColorKey  0 0 0 0   4
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   5
+AddColorKey  0 0 0 0   5
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   5
+AddColorKey  0 0 0 0   4
+AddColorKey  255 255 255 255   7
+AddColorKey  0 0 0 0   10
+AddColorKey  0 0 0 0   0
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  9
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  5
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  10
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  5
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  9
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  5
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  10
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  5
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  11
+AddScaleKey   1.280000139 1.280000139 1.600000174  10
+AddScaleKey   1.280000139 1.280000139 1.600000174  0
+});
+CreateSFXAnimation('SAT2',fps=21,numFrame=100,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  89
+AddTranslateKey   0 0 0  10
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  89
+AddRotationKey   0 0 0  10
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   9
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   5
+AddColorKey  0 0 0 0   5
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   5
+AddColorKey  0 0 0 0   4
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   5
+AddColorKey  0 0 0 0   5
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   4
+AddColorKey  0 0 0 0   4
+AddColorKey  255 255 255 255   3
+AddColorKey  0 0 0 0   10
+AddColorKey  0 0 0 0   0
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  9
+AddScaleKey   1.092413804 1.092413804 1.600000174  5
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  5
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  10
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  5
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  5
+AddScaleKey   0.9867138102 0.9867138102 1.600000174  4
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  5
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  10
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  1
+AddScaleKey   1.452000161 1.452000161 1.600000174  3
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  7
+AddScaleKey   1.280000139 1.280000139 1.600000174  10
+AddScaleKey   1.280000139 1.280000139 1.600000174  0
+});
+CreateSFXAnimation('SAT3',fps=21,numFrame=100,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  89
+AddTranslateKey   0 0 0  10
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  89
+AddRotationKey   0 0 0  10
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   11
+AddColorKey  0 0 0 0   4
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   5
+AddColorKey  0 0 0 0   5
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   5
+AddColorKey  0 0 0 0   4
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   5
+AddColorKey  0 0 0 0   5
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   5
+AddColorKey  0 0 0 0   5
+AddColorKey  0 0 0 0   10
+AddColorKey  0 0 0 0   0
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  11
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  9
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  5
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  10
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  5
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  9
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  5
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  10
+AddScaleKey   1.280000139 1.280000139 1.600000174  5
+AddScaleKey   1.600000174 1.600000174 1.600000174  5
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  10
+AddScaleKey   0.8000000868 0.8000000868 1.600000174  0
+});
+CreateSFXAnimation('SAT4',fps=21,numFrame=100,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 0  9
+AddTranslateKey   0 0 0  35
+AddTranslateKey   0 0 0  35
+AddTranslateKey   0 0 0  10
+AddTranslateKey   0 0 0  10
+AddTranslateKey   0 0 0  0
+AddRotationKey   0 0 0  9
+AddRotationKey   0 0 0  35
+AddRotationKey   0 0 0  35
+AddRotationKey   0 0 0  10
+AddRotationKey   0 0 0  10
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   9
+AddColorKey  255 255 255 255   35
+AddColorKey  255 255 255 255   35
+AddColorKey  255 255 255 255   10
+AddColorKey  0 0 0 0   10
+AddColorKey  0 0 0 0   0
+AddScaleKey   1 1 1  9
+AddScaleKey   1 1 1  35
+AddScaleKey   1.469419699 1.469419699 1.469419699  35
+AddScaleKey   1 1 1  10
+AddScaleKey   1 1 1  10
+AddScaleKey   1 1 1  0
+});
+CreateSFX('WAuraBSFX',{
+    AddSFXObjectTagN  "SS_AURAT1"  pos: 0 0 0  rot: 0 0 0 "SAT1"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXObjectTagN  "SS_AURAT1"  pos: 0 0 0  rot: 0 0 0 "SAT2"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXObjectTagN  "SS_AURAT1"  pos: 0 0 0  rot: 0 0 0 "SAT3"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXObjectTagN  "SS_AURAT2"  pos: 0 0 0  rot: 0 0 0 "SAT4"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=0  flag=3
+    AddLinkColor      tag=1  flag=3
+    AddLinkColor      tag=2  flag=3
+    AddLinkColor      tag=3  flag=3
+    LiveTime        = 4.6
+    LinkParam         33
+});

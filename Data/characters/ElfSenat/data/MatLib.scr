@@ -1,0 +1,6 @@
+AddMaterialToSkin('Elf_Sen_Sh','M_ES_Face','Elf\Senat\ES_Face2.tga',1);
+AddMaterialToSkin('Elf_Sen_Sh','M_ES_Body','Elf\Senat\ES_Body2.tga',1);
+AddMaterialToSkin('Elf_Sen_Sh','M_ES_Boty','Elf\Senat\ES_Boty2.tga',1);
+AddMaterialToSkin('Elf_Sen_Sh','M_ES_Body','Elf\Senat\ES_Body3.tga',2);
+AddMaterialToSkin('E_AH_Shapo','M_ES_Shapo','Elf\Senat\ES_Shapo2.tga',1);
+AddMaterialToSkin('E_AH_Helmet','M_ES_Shlem','Elf\Senat\ES_Shlem2.tga',1);

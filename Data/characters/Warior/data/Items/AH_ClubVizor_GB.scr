@@ -1,0 +1,13 @@
+CreateItemSkin('AH_ClubVizor_GB','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Black bacinet in gold"
+  History           "Plate armor - armor made of large plates. Full articulated plate armor provides a high level of protection in melee combat. Full black armor with gold significantly improves protection against bludgeoning strikes in close combat, as well as increases resistance to various magic."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "AH_ClubVizor"
+   MaterialPresetId  0
+   AddObjectD        "AH_ClubVizor_GB.s03"
+   ArmorAutoGenerate  11  4 
+   PlusConstitution 8
+});

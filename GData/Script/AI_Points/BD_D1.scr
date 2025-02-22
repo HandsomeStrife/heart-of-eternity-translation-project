@@ -1,0 +1,31 @@
+If_Flag_GoTo(52,2,@5);
+If_Flag_GoTo(201,4,@2);
+If_Flag_GoTo(905,1,@4);
+If_Flag_GoTo(201,3,@1);
+If_Flag_GoTo(201,1,@1);
+If_Flag_GoTo(201,2,@1);
+If_Flag_GoTo(906,1,@4);
+AIS_GoTo(@3);
+@1:
+ JQuestRecordComplete(32,5);
+ JVisibleRecord(32,6);
+ SetFlag(905,1);
+ AIS_GoTo(@2);
+@5:
+IfN_TimeRange_GoTo(23,6,@3); 
+@2:
+CreateDoor('DOOR_BARON_GENERAL68_055',{
+    Axis              0.0000 0.0000 1.0000
+    OpenInTwoSize     False
+    OpenByRotate      True
+    Speed             1.0000
+    Angle             160.0000
+    Locked            False
+    MinDistance       2.0000
+});
+DOOR_UnLock('DOOR_BARON_GENERAL68_055');
+AIS_GoTo(@4);
+@3:
+DOOR_Lock('DOOR_BARON_GENERAL68_055');
+@4:
+NOP(0);

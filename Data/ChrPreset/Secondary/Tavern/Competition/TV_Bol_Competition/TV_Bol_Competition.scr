@@ -1,0 +1,9 @@
+AddCharacterPresets('Bolvan','Bolvan','TV_Bol_Competition',{
+ Description                 "TV_Bol_Competition"
+ Position                    531.2562,2583.3008,37.9331
+ Rotation                    0 0 180
+ SetBloodEff                 1 
+ PlusConstitution            10
+ AddDeathScript		     "TV_Bol_Competition_death.scd"
+ PartitionEnable              False
+});

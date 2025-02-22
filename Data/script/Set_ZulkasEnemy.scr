@@ -1,0 +1,2 @@
+AddEnemy('BC_OLD_Mag','warior');
+SetFlag(902,1);

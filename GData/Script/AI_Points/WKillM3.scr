@@ -1,0 +1,12 @@
+If_Flag_GoTo(902,1,@2);
+If_Flag_GoTo(201,3,@1);
+If_Flag_GoTo(201,1,@1);
+If_Flag_GoTo(201,2,@1);
+If_Flag_GoTo(906,1,@2);
+AIS_GoTo(@2);
+@1:
+JQuestRecordComplete(32,6);
+JVisibleRecord(32,7);
+SetFlag(902,1);
+@2:
+NOP(0);

@@ -1,0 +1,23 @@
+AddCharacterPresets('Starosta','ENEMY1','ST_mob8',{
+ Position                    1095.9690 1944.9308 38.0852
+ Rotation                    0 0 0
+ VisibleSkin                 "S_B_CM_Sh"
+ VisibleSkin                 "S_A_Kirasa_Sh"
+ VisibleSkin                 "S_A_NARUCH_3L_Sh"
+ VisibleSkin                 "S_A_NARUK_R_Sh"
+ VisibleSkin                 "S_A_PERCH_R2_Sh"
+ VisibleSkin                 "S_A_PERCH_R3_Sh"
+ VisibleSkin                 "S_A_NARUK_L_Sh"
+ VisibleSkin                 "STAR_Sh"
+ VisibleSkin                 "S_A_SKIRT_Sh"
+ VisibleSkin                 "S_A_Sapog_L1_Sh"
+ VisibleSkin                 "S_A_Sapog_R1_Sh"
+ VisibleSkin                 "S_A_NARUCH_3RSh"
+ PlusStrenght                12
+ PlusDexterity               10
+ PlusConstitution            9
+ PlusIntellect               3
+ PlusPermeability            4
+ AddItem                     "Human\OneHand\axe2\axe2.scr" "Left_Scabbard"
+ AddItem                     "Human\Shield\Shield_Buckler\Shield_Buckler.scr" "Spine_shield"
+});

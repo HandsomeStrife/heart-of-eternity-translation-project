@@ -1,0 +1,13 @@
+CreateItemSkin('OBo_Skirt','L_Skirt','L_Skirt', {
+  Visible           True
+  Cost              -1
+  Description       "OBo_Skirt_l53"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "OBo_Skirt"
+   MaterialPresetId  0
+   ArmorAutoGenerate  10  2 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

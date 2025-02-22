@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\OrkMedium\data\OrkMedium.mc',
+'OrkMedium',
+'data\characters\OrkMedium\data\','Enemy1','OrkMedium_Sh');

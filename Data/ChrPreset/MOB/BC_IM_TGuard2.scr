@@ -1,0 +1,30 @@
+AddCharacterPresets('IronMan','CivilMan','BC_IM_TGuard2',{
+ Description                 "Torn"
+ Position                    1003.8092 2344.1492 97.7889
+ Rotation                    0 0 5
+ VisibleSkin                 "IM_B_Usy_Sh"
+ VisibleSkinParam            "I_Man_Sh" 1
+ VisibleSkin                 "IM_A_Kirasa_Sh"
+ VisibleSkin                 "IM_A_NAPL3_LSh"
+ VisibleSkin                 "IM_A_Nanoj_L_Sh"
+ VisibleSkin                 "IM_A_Naruch_3L_Sh"
+ VisibleSkin                 "IM_A_Naruch_3R_Sh"
+ VisibleSkin                 "IM_A_Naruk_R_Sh"
+ VisibleSkin                 "IM_A_Skirt_Sh"
+ VisibleSkin                 "IM_A_Nanoj_R_Sh"
+ VisibleSkin                 "IM_A_NAPL3_RSh"
+ VisibleSkin                 "IM_A_Naruk_L_Sh"
+ VisibleSkin                 "IM_A_Shlem1_RogB_Sh"
+ VisibleSkin                 "IM_H_GorLis_Sh"
+ VisibleSkin                 "A_Sapog_1L_Sh"
+ VisibleSkin                 "A_Sapog_1R_Sh"
+ PlusStrenght                23
+ PlusDexterity               17
+ PlusConstitution            19
+ PlusIntellect               10
+ PlusPermeability            10
+ AddItem                     "Human\Shield\KnightShield_02\KnightShield_02.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\mace02\mace02.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\daga1\daga1.scr" "Right_Scabbard"
+ Attack			     False
+});

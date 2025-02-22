@@ -1,0 +1,3 @@
+SetCharacterPosition('warior',1291.7592,2158.4988,10.2149);
+SetCharacterRotation('warior',0,0,225);
+BlackScreenStart('Village near the castle of Baron Rafus');

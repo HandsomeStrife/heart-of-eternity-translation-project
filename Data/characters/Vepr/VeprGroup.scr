@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\Vepr\data\vepr.mc',
+'Vepr',
+'data\characters\Vepr\data\','vepr','Vepr_Sh',' ');

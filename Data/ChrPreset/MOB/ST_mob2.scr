@@ -1,0 +1,29 @@
+AddCharacterPresets('Starosta','ENEMY1','ST_mob2',{
+ Description                 " "
+ Position                    1317.9114,1751.9838,92.9823
+ Rotation                    0 0 0
+ VisibleSkin                 "S_B_Gig_Sh"
+ VisibleSkin                 "S_A_Kirasa_Sh"
+ VisibleSkin                 "S_A_Napl_3LSh"
+ VisibleSkin                 "S_A_NANOJ_L_Sh"
+ VisibleSkin                 "S_A_NARUCH_3L_Sh"
+ VisibleSkin                 "S_A_NANOJ_R_Sh"
+ VisibleSkin                 "S_A_NARUK_R_Sh"
+ VisibleSkin                 "S_A_Napl_3RSh"
+ VisibleSkin                 "S_A_PERCH_R2_Sh"
+ VisibleSkin                 "S_A_PERCH_R3_Sh"
+ VisibleSkin                 "S_A_NARUK_L_Sh"
+ VisibleSkin                 "STAR_Sh"
+ VisibleSkin                 "S_A_IFANTsalad_Sh"
+ VisibleSkin                 "S_A_ROJKY_Sh"
+ VisibleSkin                 "S_A_SKIRT_Sh"
+ VisibleSkin                 "S_A_Sapog_L1_Sh"
+ VisibleSkin                 "S_A_Sapog_R1_Sh"
+ VisibleSkin                 "S_A_NARUCH_3RSh"
+ PlusStrenght                20
+ PlusDexterity               10
+ PlusConstitution            20
+ PlusIntellect               3
+ PlusPermeability            4
+ AddItem                     "Human\TwoHand\flamesword01\flamesword01_s.scr" "TwoHandSword"
+});

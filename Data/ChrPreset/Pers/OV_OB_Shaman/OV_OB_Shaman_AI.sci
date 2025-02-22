@@ -1,0 +1,9 @@
+IfN_Point_GoTo('OV_Sha',@1);
+  Sit_InAIP('OV_Sha',0);
+@1:
+IfN_Flag_GoTo(15,2,@2);
+ IfN_DistToMC_GoTo(2,@2);
+  StartCurrDialog('OV_OB_Shaman');
+  AIS_GoTo(@2);
+@2:
+NOP();

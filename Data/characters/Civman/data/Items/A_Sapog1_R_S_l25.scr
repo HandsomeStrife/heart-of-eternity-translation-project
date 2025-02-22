@@ -1,0 +1,12 @@
+CreateItemSkin('A_Sapog1_R_S','L_BootRight','L_BootRight', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Sapog1_R"
+   MaterialPresetId  1
+   ArmorAutoGenerate  4  4 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

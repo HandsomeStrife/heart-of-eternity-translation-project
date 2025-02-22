@@ -1,0 +1,12 @@
+CreateItemSkin('A_Skirt','L_Skirt','L_Skirt', {
+  Visible           True
+  Cost              -1
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "A_Skirt"
+   MaterialPresetId  0
+   ArmorAutoGenerate  8  3 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+});

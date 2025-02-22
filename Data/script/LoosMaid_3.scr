@@ -1,0 +1,5 @@
+BlackScreenStart('To the nearby village to the lawful husband Viktor');
+SetCharacterPosition('warior',1304.1691,2130.9924,10.9070);
+SetCharacterRotation('warior',0,0,177);
+SetCharacterPosition('FV_WN_Maiden',1303.0096,2127.6162,11.1448);
+SetCharacterPosition('TV_CM_Richi',1304.7957,2128.8411,11.0901);

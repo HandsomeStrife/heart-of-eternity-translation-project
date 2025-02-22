@@ -1,0 +1,13 @@
+CreateItemSkin('AH_VikingM_B','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Black Helmet of the Northern Warrior"
+  History           "Full articulated plate armor provides a high level of protection in melee combat. Solid armor withstands crossbow bolts, a mace strike, or a sword. The main drawback of armor is the significant limitation on the warrior's mobility. Full black steel plate armor greatly enhances protection against bludgeoning strikes."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_VikingM"
+   MaterialPresetId  1
+   AddObjectD        "AH_VikingM_B.s03"
+   ArmorAutoGenerate  8  3 
+   PlusStrenght     5
+});

@@ -1,0 +1,23 @@
+CreateItemSkin('LordVampire_Sh','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  Description       "armor"
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "LordVampire_Sh"
+   MaterialPresetId  0
+   AddObjectD        "LordVampire_Sh.s03"
+   Weight            1.00
+   Armor             80
+   Longevity         0.01
+   Toughness         0.05
+   DeflectionHack    0.25
+   DeflectionBlow    0.25
+   DeflectionPrick   0.25
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+   PlusStrenght     0
+   PlusConstitution 0
+   PlusMagicPower  0
+});

@@ -1,0 +1,23 @@
+AddCharacterPresets('CivDwarf','CivilMan','DwC_DW_DwarfGuide',{
+ Description                 "DwC_DW_DwarfGuide"
+ Position                    1125.1750,5551.7329,-103.1461
+ Rotation                    0 0 270
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "A_Skirt"
+ VisibleSkinParam            "HB_BorSmall" 1
+ VisibleSkin                 "A_PerchCh_L"
+ VisibleSkin                 "I_PerchKojaR"
+ VisibleSkin                 "I_Fona"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ AddDialog                   "DwC_DW_DwarfGuide_D0.dlg" 0
+ AddDialog                   "DwC_DW_DwarfGuide_D9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

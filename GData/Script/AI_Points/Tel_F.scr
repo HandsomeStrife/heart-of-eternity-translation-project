@@ -1,0 +1,7 @@
+IfN_Flag_GoTo(161,2,@1);
+BlackScreenStart('...');
+SetCharacterPosition('warior',5300.0913,2303.2512,189.4066);
+SetFlag(161,3);
+JQuestRecordComplete(38,3);
+JQuestComplete(38);
+@1:

@@ -1,0 +1,7 @@
+IfN_Flag_GoTo(201,1,@1);
+ AddEnemy('BC_OLD_Mag2','warior');
+ JQuestRecordComplete(32,9);
+ AddExpMC(4500);
+ AddSkillPointsToMC(1500);
+@1:
+NOP(0);

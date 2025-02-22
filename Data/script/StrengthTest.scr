@@ -1,0 +1,10 @@
+BlackScreenStart('Trial of Strength');
+SetCharacterPosition('KL_Charodey',1658.0159,1862.3630,67.3001);
+SetCharacterRotation('KL_Charodey',0,0,178);
+SetCharacterPosition('KL_Fichter',1657.3098,1862.0742,67.2534);
+SetCharacterRotation('KL_Fichter',0,0,178);
+SetCharacterPosition('KL_Marksman',1656.2089,1861.9778,67.1536);
+SetCharacterRotation('KL_Marksman',0,0,178);
+AddEnemy('KL_Charodey','warior');
+AddEnemy('KL_Fichter','warior');
+AddEnemy('KL_Marksman','warior');

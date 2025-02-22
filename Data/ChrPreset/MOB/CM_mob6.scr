@@ -1,0 +1,14 @@
+AddCharacterPresets('Civman','ENEMY1','CM_mob6',{
+ Position                    1340.7587,2326.6252,16.8462
+ Rotation                    0 0 0
+ VisibleSkin                 "CM_A_NAPL_3L_Sh"
+ VisibleSkin                 "CM_A_NAPL_3R_Sh"
+ VisibleSkin                 "Skeleton_Sh"
+ PlusStrenght                15
+ PlusDexterity               13
+ PlusConstitution            10
+ PlusIntellect               15
+ PlusPermeability            15
+ AddItem                     "Undead\Shield\U_Shield\u_shield.scr" "Spine_shield"
+ AddItem                     "Undead\OneHand\u_knife\u_knife.scr" "Left_Scabbard"
+});

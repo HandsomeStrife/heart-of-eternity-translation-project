@@ -1,0 +1,45 @@
+CreateAtmoZone('atmo_gate',expandBorder=1,renderDefault=0,{
+ MinDistance    3200.000    750.000    75.000
+ MaxDistance    3980.000    1550.000    200.000
+Phase          4.0 12.0 18.0 21.0
+FogDistMin     1.0   10.0  1.0   1.0
+FogDistMax     150.0   180.0  150.0   50.0
+FogColor       id=0   252  174  97 0
+FogColor       id=1   255  155  55 0
+FogColor       id=2   255  128  0 0
+FogColor       id=3   85  28  0 0
+EnvTDColor     id=0   64  128  128 0
+EnvTDColor     id=1   47  94  94 0
+EnvTDColor     id=2   34  68  68 0
+EnvTDColor     id=3   9  17  17 0
+SunColor       id=0   255  128  128 0
+SunColor       id=1   255  0  0 0
+SunColor       id=2   128  0  0 0
+SunColor       id=3   45  45  45 0
+SunSize        30.0  20.0  40.0  10.0
+AmbientColor   id=0   221  111  0 0
+AmbientColor   id=1   239  99  52 0
+AmbientColor   id=2   107  64  20 0
+AmbientColor   id=3   111  55  0 0
+DiffuseColor   id=0   253  188  140 0
+DiffuseColor   id=1   255  136  17 0
+DiffuseColor   id=2   206  125  4 0
+DiffuseColor   id=3   0  106  0 0
+SkyColor       id=0   125  125  255 0
+SkyColor       id=1   0  0  255 0
+SkyColor       id=2   0  0  140 0
+SkyColor       id=3   0  0  83 0
+BoxEnvColor    id=0   0  128  128 0
+BoxEnvColor    id=1   64  128  128 0
+BoxEnvColor    id=2   64  128  128 0
+BoxEnvColor    id=3   64  128  128 0
+BloomEnable     True
+ BloomLuminance  0.0400 0.0400 0.0400 0.0400
+ BloomScale      0.8000 0.8000 0.8000 0.8000
+ LensFlareEnable True
+ SunRenderEnable True
+ EnableColorBack True
+ SetAtmoSFX  4 False
+ SetAtmoSFX  1 False
+ SetAtmoSFX  2 False
+});

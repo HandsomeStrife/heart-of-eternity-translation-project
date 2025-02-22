@@ -1,0 +1,59 @@
+AddObjectToLib('data\object\ImpA.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_particl15','particl15.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Diffuse"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('IMPA',fps=30,numFrame=60,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 -0.1029460411  15
+AddTranslateKey   0 0 -0.01618337503  9
+AddTranslateKey   0 0 0.8942712863  25
+AddTranslateKey   0 0 0.7758127305  0
+AddRotationKey   0 0 0  49
+AddRotationKey   0 0 0  0
+AddColorKey  0 0 0 0   15
+AddColorKey  255 255 255 255   5
+AddColorKey  255 255 255 255   4
+AddColorKey  0 0 0 0   25
+AddColorKey  0 0 0 0   0
+AddScaleKey   0.5583059246 0.5583059246 0.03309675034  15
+AddScaleKey   2.230725444 2.230725444 0.05669830783  5
+AddScaleKey   0.5868468187 0.5868468187 0.9552138092  4
+AddScaleKey   0.2209268143 0.2209268143 0.5839997447  25
+AddScaleKey   1 1 1  10
+AddScaleKey   1 1 1  0
+});
+CreateSFXAnimation('IMAP',fps=30,numFrame=60,loop=1,autoPlay=1,{
+AddTranslateKey   0 0 -0.1029460411  15
+AddTranslateKey   0 0 -0.01618337503  9
+AddTranslateKey   0 0 1.271776374  25
+AddTranslateKey   0 0 0.7758127305  0
+AddScaleKey   0.2 0.2 0.2  15
+AddScaleKey   1 1 1  9
+AddScaleKey   0.5 0.5 0.5  25
+AddScaleKey   1 1 1  10
+AddScaleKey   1 1 1  0
+});
+CreateSFX('ImpulsASFX',{
+    AddSFXPSTag  "data\effect\Specials\PS_StarGlow.scr" pos: 0 0 0 "IMAP"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddSFXObjectTagN  "IMPA"  pos: 0 0 0  rot: 0 0 0 "IMPA"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    AddLinkColor      tag=1  flag=3
+    LiveTime        = 1.1
+    LinkParam       = 9
+});

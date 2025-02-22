@@ -1,0 +1,2 @@
+SetFlag(8,2);
+AIS_SetChrPosRotZ('BC_OLD_Mag',1017.5255,2316.3696,103.3250,15);

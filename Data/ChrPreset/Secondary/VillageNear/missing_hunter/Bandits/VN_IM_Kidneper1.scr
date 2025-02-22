@@ -1,0 +1,16 @@
+AddCharacterPresets('IronMan','CivilMan','VN_IM_Kidneper1',{
+ Description                 "nifnif"
+ Position                    1703.2920,2137.6646,79.6074
+ Rotation                    0 0 0
+ VisibleSkin                 "AH_Mask"
+ VisibleSkin                 "H_Irok"
+ MobParam                    1 10
+ AddProcScript               "VN_IM_Kidneper1_AI.sci"
+ AddDeathScript		     "Bandits_death.scd"
+ AddItem                     "Human\OneHand\Klevec1\Klevec1.scr" "Left_Scabbard"
+ AddItem                     "Human\Shield\buckler01\buckler01.scr" "Spine_shield"
+ AddSkinItem                 "HandArmor_l8.scr" "HandArmor"
+ AddSkinItem                 "A_PlashS_l5.scr" "Armor"
+ AddSkinItem                 "Legins_Sk_l8.scr" "Leggings"
+ PartitionEnable              False
+});

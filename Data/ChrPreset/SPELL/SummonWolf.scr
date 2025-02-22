@@ -1,0 +1,8 @@
+AddCharacterPresets('NO_W','NO_W','SummonWolf',{
+ Position                    -11610.1183, -10743.9174 121.5527
+ Rotation                    0 0 0
+ VisibleSkin                 "WOLF_Sh"
+ ScaleX                      1
+ ScaleY                      1
+ ScaleZ                      1
+});

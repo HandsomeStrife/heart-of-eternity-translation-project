@@ -1,0 +1,21 @@
+AddCharacterPresets('Starosta','CivilMan','VN_IM_GuardGVD2',{
+ Description                 "Bob"
+ Position                    1333.9957,2189.5593,7.1538
+ Rotation                    0 0 0
+ VisibleSkin                 "H_HvLong"
+ VisibleSkin                 "HB_Circ"
+ PlusStrenght                23
+ PlusDexterity               17
+ PlusConstitution            19
+ PlusIntellect               10
+ PlusPermeability            10
+ AddProcScript               "VN_IM_GuardGVD2_AI.sci"
+ AddSkinItem                 "A_PlashS_l9.scr" "Armor"
+ AddSkinItem                 "HandArmor_Sk_l9.scr" "HandArmor"
+ AddSkinItem                 "Legins_Sk_l9.scr" "Leggings"
+ AddItem                     "Human\OneHand\mace02\mace02.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

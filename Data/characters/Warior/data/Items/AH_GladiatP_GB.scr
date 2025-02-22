@@ -1,0 +1,15 @@
+CreateItemSkin('AH_GladiatP_GB','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Black helmet with a mask in gold"
+  History           "Plate armor - armor made of large plates. Full articulated plate provides a high level of protection in melee combat. Full black armor with gold significantly improves resistance to blunt strikes in close combat, as well as increases resistance to various magic."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_GladiatP"
+   MaterialPresetId  0
+   AddObjectD        "AH_GladiatP_GB.s03"
+   ArmorAutoGenerate  11  4 
+   PlusDexterity     4
+   PlusStrenght     4
+   PlusConstitution 4
+});

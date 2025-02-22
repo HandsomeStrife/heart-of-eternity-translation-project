@@ -1,0 +1,5 @@
+BlackScreenStart(' ');
+CHRSCR_SetTime(19);
+SetCharacterPosition('warior',5303.2632,2303.3394,189.4066);
+SetCharacterRotation('warior',0,0,-90);
+INT_Final();

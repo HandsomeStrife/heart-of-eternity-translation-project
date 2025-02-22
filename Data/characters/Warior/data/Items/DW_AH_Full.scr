@@ -1,0 +1,13 @@
+CreateItemSkin('DW_AH_Full','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Helm of Deep Fury"
+  History           "The technological achievements of the dwarves have fully manifested in the creation of protective armor, which combines: high durability, relatively low weight, and the inherent bonuses of the underground race - being clad in full dwarven plate, its owner will significantly enhance their strength and gain resistance to magic."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "DW_AH_Full"
+   MaterialPresetId  0
+   AddObjectD        "DW_AH_Full.s03"
+   ArmorAutoGenerate  9  4 
+   PlusStrenght     10
+});

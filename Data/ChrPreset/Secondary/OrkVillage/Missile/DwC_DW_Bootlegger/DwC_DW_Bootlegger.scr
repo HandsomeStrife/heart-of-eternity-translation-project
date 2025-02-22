@@ -1,0 +1,24 @@
+AddCharacterPresets('CivDwarf','CivilMan','DwC_DW_Bootlegger',{
+ Description                 "Tan Gor"
+ Position                    1262.0750,5705.0142,-92.9799
+ Rotation                    0 0 0
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "A_Skirt"
+ VisibleSkin                 "HB_BorSmall" 2
+ VisibleSkin                 "A_PerchCh_L"
+ VisibleSkin                 "A_Napl_L"
+ VisibleSkin                 "A_Naruch_L"
+ VisibleSkin                 "I_PerchKojaR"
+ VisibleSkin                 "I_Fona"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ AddBeforeDialogScript       "DwC_DW_Bootlegger_BD.scd"
+ AddDialog                   "DwC_DW_Bootlegger_D0.dlg" 0
+ AddDialog                   "DwC_DW_Bootlegger_D9.dlg" 9
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

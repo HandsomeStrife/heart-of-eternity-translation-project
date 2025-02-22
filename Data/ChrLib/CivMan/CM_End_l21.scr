@@ -1,0 +1,13 @@
+AddCharacterPresets('Civman','Enemy','CM_l21',{
+ Description                 "CM_l21"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    2 21
+ SetFace                     2
+ VisibleSkin                 "H_BakiLis"
+ AddSkinItem                 "HandArmor_21.scr" "HandArmor"
+ AddSkinItem                 "Legins_21.scr" "Leggings"
+ AddSkinItem                 "A_Cuirass_B_l21.scr" "Armor"
+ AddItem                     "Human\TwoHand\greatsword02\greatsword02.scr" "TwoHandSword"
+});
+                               			

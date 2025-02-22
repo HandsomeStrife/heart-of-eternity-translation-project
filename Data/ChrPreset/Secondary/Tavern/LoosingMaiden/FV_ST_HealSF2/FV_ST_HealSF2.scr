@@ -1,0 +1,19 @@
+AddCharacterPresets('Starosta','CivilMan','FV_ST_HealSF2',{
+ Description                 "Kent"
+ Position                    266.4294,2277.6917,43.0746
+ Rotation                    0 0 0
+ VisibleSkin                 "S_O_SkirtSm_Sh"
+ VisibleSkin                 "S_H_Ez_Sh"
+ VisibleSkin                 "S_A_NARUCH_3L_Sh"
+ VisibleSkin                 "STAR_Sh"
+ VisibleSkin                 "S_A_NARUCH_3RSh"
+ PlusStrenght                20
+ PlusDexterity               10
+ PlusConstitution            20
+ PlusIntellect               10
+ PlusPermeability            10
+ AddDeathScript		     "FV_ST_HealSF2_death.scd"
+ AddItem                     "Human\TwoHand\bludgeon01\bludgeon01.scr" "TwoHandSword"
+ PartitionEnable              False
+ Attack 		      False
+});

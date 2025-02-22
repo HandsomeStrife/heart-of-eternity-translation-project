@@ -1,0 +1,18 @@
+AddCharacterPresets('CivDwarf','CivilMan','TV_DW_Pod_3',{
+ Description                 "Podelnik_3"
+ Position                    563.1450 2536.3684 46.5129
+ Rotation                    0 0 90
+ MobParam                    1 15
+ VisibleSkin                 "A_BootCh_R"
+ VisibleSkin                 "A_Boot_L"
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "A_Perch_L"
+ VisibleSkin                 "AH_Shlemem"
+ VisibleSkin                 "HB_BorSmall" 1
+ VisibleSkin                 "A_Napl_L"
+ VisibleSkin                 "A_NaplCh1_R"
+ VisibleSkin                 "A_PerchCh_R"
+ AddProcScript               "TV_DW_Pod_3_ai.sci"
+ AddItem                     "Dwarf\OneHand\DwarfAxe1\DwarfAxe1_g.scr" "Left_Scabbard"
+ Attack 		      False
+});

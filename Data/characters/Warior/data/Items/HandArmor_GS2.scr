@@ -1,0 +1,16 @@
+CreateItemSkin('HandArmor_GS2','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Silver hand protection in gold"
+ History           "Solid articulated armor, a purely human invention. A heavily armed fighter stands against ten lightly armed ones. Silver armor in gold will not only excellently protect against slashing strikes but also significantly increase resistance to magic."
+ AddSkinFromItemNoObj          "A_Napl3_L_GS.scr"
+ AddSkinFromItemNoObj          "A_Napl3_R_GS.scr"
+ AddSkinFromItemNoObj          "A_Naruch3_L_GS.scr"
+ AddSkinFromItemNoObj          "A_Naruch3_R_GS.scr"
+ AddSkinFromItemNoObj          "A_Naruk_L_GS.scr"
+ AddSkinFromItemNoObj          "A_Naruk_R_GS.scr"
+ AddObject     "HandArmor_GS2.zrm"
+ ArmorAutoGenerate  11  4 
+ PlusStrenght        4
+ PlusConstitution    4
+});

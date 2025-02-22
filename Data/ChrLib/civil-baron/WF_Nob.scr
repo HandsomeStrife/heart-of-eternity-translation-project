@@ -1,0 +1,14 @@
+AddCharacterPresets('WomanFat','CivilMan','WF_Nob',{
+ Description                 "WF_Nob"
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+ VisibleSkin                 "WF_O_Platye_Sh"
+ VisibleSkin                 "WF_O_Rukava_Sh"
+ VisibleSkin                 "WF_H_Long_Sh"
+ VisibleSkin                 "WF_O_MEH_Sh"
+ VisibleSkin                 "Woman_Fat_Sh"
+ VisibleSkin                 "WF_G_Goroj_Sh"
+});

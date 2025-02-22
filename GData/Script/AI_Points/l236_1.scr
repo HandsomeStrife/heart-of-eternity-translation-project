@@ -1,0 +1,9 @@
+AIPOINT_SetExecute('l236_4',1);
+AIPOINT_SetAutoExec('l236_4',0);
+AIPOINT_SetExecute('l236_3',0);
+AIPOINT_SetAutoExec('l236_3',1);
+AIPOINT_SetExecute('l236_2',0);
+IfN_Flag_GoTo(506,0,@1);
+LIFTGP_SetPosition(506,0);
+@1:
+NOP(0);

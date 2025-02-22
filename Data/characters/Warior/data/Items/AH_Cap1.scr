@@ -1,0 +1,14 @@
+CreateItemSkin('AH_Cap1','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Poor quality mage's pshent"
+  History           "Ritual headdress of the mages of Sarkus, symbolizing magical presence in both life and death."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Cap1"
+   MaterialPresetId  0
+   AddObjectD        "AH_Cap1.s03"
+   ArmorAutoGenerate  3  1 
+   PlusIntellect     1
+   PlusMagicPower  1
+});

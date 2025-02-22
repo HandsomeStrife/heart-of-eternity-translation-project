@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\Starosta\data\starosta.mc',
+'Starosta',
+'data\characters\Starosta\data\','civman','STAR_Sh','Zomby_FAT_Sh');

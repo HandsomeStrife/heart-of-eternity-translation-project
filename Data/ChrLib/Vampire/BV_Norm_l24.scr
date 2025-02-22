@@ -1,0 +1,9 @@
+AddCharacterPresets('BossVampire','Enemy','BV_l24',{
+ Description                 "BV_l24"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 24
+ AddSkinItem                 "VampireBoss_l24.scr" "SecArmor"
+ AddItem		     "Vampire\onehand\V_disk2\V_disk2.scr" "Left_Scabbard"
+ AddItem		     "Vampire\onehand\V_disk1\V_disk1.scr" "Right_Scabbard"
+});

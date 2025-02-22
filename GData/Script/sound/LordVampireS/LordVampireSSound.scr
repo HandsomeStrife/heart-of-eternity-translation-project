@@ -1,0 +1,5 @@
+CreateSoundLib('DM_Hit1.wav','DMh0',2,30,100);
+CreateSoundLib('DM_Hit2.wav','DMh1',2,30,100);
+CreateSoundLibGroup('DMh',2,'DMh');
+CreateSoundLib('DM_Death.wav','DMd0',2,30,100);
+CreateSoundLibGroup('DMd',1,'DMd');

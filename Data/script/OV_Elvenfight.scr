@@ -1,0 +1,7 @@
+AddEnemy('OV_ESk_Specnaz','warior');
+AddEnemy('OV_ESk_Scout_0','warior');
+AddEnemy('OV_ESk_Scout_1','warior');
+AddEnemy('OV_ESk_Scout_2','warior');
+AddEnemy('OV_ESk_Scout_3','warior');
+AddEnemy('OV_ESk_Scout_4','warior');
+AddEnemy('OV_ESk_Sentinel','warior');

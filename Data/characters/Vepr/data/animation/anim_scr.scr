@@ -1,0 +1,66 @@
+AddAnimationToCharacter('stand.anm','STAND',{
+ FPS		60.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "VVo" 1
+});
+AddAnimationToCharacter('attack.anm','ATACK',{
+ FPS		30.0
+ Speed		1.2
+ SpeedVector	0 1 0
+ Looped		False
+ UseSpeedLine	False
+ AddDamageZone	12 28
+ AddSoundTag    "VAt" 3
+});
+AddAnimationToCharacter('attack1.anm','ATACK1',{
+ FPS		30.0
+ Speed		1
+ SpeedVector	0 1 0
+ Looped		False
+ UseSpeedLine	False
+ AddDamageZone	8 30
+ AddSoundTag    "VAt" 1
+});
+AddAnimationToCharacter('run_forward.anm','RUN_FORWARD',{
+ FPS		20.0
+ Speed		3
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "VSr" 1
+});
+AddAnimationToCharacter('walk_back_f.anm','WALK_BACK_F',{
+ FPS		30.0
+ Speed		1.5
+ SpeedVector	0 -1 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "VSt" 1
+});
+AddAnimationToCharacter('run_forward_f.anm','RUN_FORWARD_F',{
+ FPS		30.0
+ Speed		3
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "VSr" 1
+});
+AddAnimationToCharacter('walk_forward.anm','WALK_FORWARD',{
+ FPS		30.0
+ Speed		0.8
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "VSt" 1
+});
+AddAnimationToCharacter('rotate.anm','SS_ROTATE',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+ AddSoundTag    "VSt" 1
+});

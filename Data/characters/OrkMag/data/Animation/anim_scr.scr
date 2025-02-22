@@ -1,0 +1,66 @@
+AddAnimationToCharacter('Walk_ForwardS.anm','WALK_FORWARD',{
+ FPS		30.0
+ Speed		1.3
+ SpeedVector	0 1 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('stand.anm','STAND',{
+ FPS		15.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Run_ForwardS.anm','RUN_FORWARD_F',{
+ FPS		22.5
+ Speed		3
+ SpeedVector	0 1 0
+ Looped		True
+ Track		0
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('sit.anm','SIT',{
+ FPS		10.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('Rotate_Left.anm','SS_ROTATE',{
+ FPS		30.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('CastMagic1.anm','CAST1',{
+ FPS		25.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('CastMagic2.anm','CAST2',{
+ FPS		35.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		True
+ UseSpeedLine	False
+});
+AddAnimationToCharacter('ShortSarbakan.anm','BOW_SHORT',{
+ FPS		20.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ UseSpeedLine	False
+ AddDamageZone  42 42
+});
+AddAnimationToCharacter('ThrowB.anm','THROW',{
+ FPS		20.0
+ Speed		0
+ SpeedVector	0 0 0
+ Looped		False
+ UseSpeedLine	False
+ AddDamageZone  6 25
+});

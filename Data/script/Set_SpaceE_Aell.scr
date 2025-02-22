@@ -1,0 +1,27 @@
+ CreateDoor('DOOR_SLIDE45',{
+    Axis              0.0000 1.2000 0.0000
+    OpenInTwoSize     True
+    OpenByRotate      False
+    Speed             1.0000
+    Angle             90.0000
+    DeltaTranslate    -1.0000
+    Locked            False
+    MinDistance       0.6000
+ });
+ CreateDoor('DOOR_SLIDE44',{
+    Axis              1.0000 1.0000 0.0000
+    OpenInTwoSize     True
+    OpenByRotate      False
+    Speed             1.0000
+    Angle             90.0000
+    DeltaTranslate    1.0000
+    Locked            False
+    MinDistance       0.6000
+ });
+DOOR_Lock('DOOR_SLIDE45');
+DOOR_Lock('DOOR_SLIDE44');
+SetCharacterPosition('EC_ESk_SpaceElf',1260.5089,606.0754,172.1825);
+SetCharacterRotation('EC_ESk_SpaceElf',0,0,10);
+SetCharacterPosition('EC_WN_Aella',1260.6492,605.8309,172.1825);
+SetCharacterRotation('EC_WN_Aella',0,0,10);
+SetFlag(61,1);

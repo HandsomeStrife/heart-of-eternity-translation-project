@@ -1,0 +1,10 @@
+AddCharacterPresets('OrkBoss','Enemy','OBoss_50',{
+ Description                 "OrkBoss_50"
+ MobParam                    3 50
+ ScaleX      1.2
+ ScaleY      1.2
+ ScaleZ      1.2
+ AddItem                     "Ork\Ranged\o_boss_bow\o_boss_bow.scr" "Bow"
+ AddItem                     "Human\Ranged\Quiver\quiver.scr" "Quiver"
+ AddItem                     "Ork\TwoHand\o_2handswordB\o_2handswordB.scr" "TwoHandSword"
+});

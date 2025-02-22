@@ -1,0 +1,11 @@
+AddCharacterPresets('IronMan','Enemy','IM_l20',{
+ Description                 "IM_l20"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    1 20
+ VisibleSkin                 "H_BakiLis"
+ AddSkinItem                 "SecArmor_Sk_l15.scr" "SecArmor"
+ AddSkinItem                 "Legins_Sk_l20.scr" "Leggings"
+ AddSkinItem                 "HandArmor_l20.scr" "HandArmor"
+ AddItem                     "Human\TwoHand\greatsword01\greatsword01.scr" "TwoHandSword"
+});

@@ -1,0 +1,13 @@
+CreateItemSkin('AM_Stany','Leggings','Leggings', {
+  Visible           True
+  Cost              -1
+  Description       "Mage's Pants"
+  History           "The pants of the enlightened mage Ursula possess extraordinary properties that enhance the magical abilities of the wearer."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "AM_Stany"
+   MaterialPresetId  0
+   AddObjectD        "AM_Stany.s03"
+   ArmorAutoGenerate  10  4 
+   PlusIntellect     10
+});

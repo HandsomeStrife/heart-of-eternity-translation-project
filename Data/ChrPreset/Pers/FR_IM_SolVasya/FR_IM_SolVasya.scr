@@ -1,0 +1,18 @@
+AddCharacterPresets('IronMan','CivilMan','FR_IM_SolVasya',{
+ Description                 "Vasya"
+ Position                    1209.3069,2827.9126,5.4210
+ Rotation                    0 0 10
+ AddProcScript               "FR_IM_SolVasya_AI.sci"
+ AddBeforeDialogScript       "FR_IM_SolVasya_BD.scd"
+ AddDialog                   "FR_IM_SolVasya_d.dlg" 0
+ AddDialog                   "FR_IM_SolVasya_d9.dlg" 9
+ AddItem                     "Human\OneHand\mace01\mace01.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\daga2\daga2.scr" "Right_Scabbard"
+ AddSkinItem                 "Legins_l36.scr" "Leggings"
+ AddSkinItem                 "A_Cuirass_N_l35.scr" "Armor"
+ AddSkinItem                 "SecArmor_K2_l35.scr" "SecArmor"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

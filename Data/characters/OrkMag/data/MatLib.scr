@@ -1,0 +1,2 @@
+AddMaterialToSkin('OM_Body','M_OM_BodyFace','Ork\OM_BodyFace1.tga',1);
+AddMaterialToSkin('OM_Body','M_OM_BodyFace','Ork\OM_BodyFace2.tga',2);

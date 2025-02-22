@@ -1,0 +1,14 @@
+CreateItemSkin('Legins_Sk2','Leggings','Leggings', {
+ Visible                 True
+ Cost                    -1
+ Description       "Reinforced leather leg protection"
+ History           "Leather armor is known to all peoples. It does not burden the owner too much and can be worn discreetly under clothing. It is also valued for its ability to be stored for a long time without significant problems or maintenance costs. Full reinforced leather armor provides a medium bonus to its owner's agility."
+ AddSkinFromItemNoObj         "A_Nanog_L_Sk2.scr"
+ AddSkinFromItemNoObj         "A_Nanog_R_Sk2.scr"
+ AddSkinFromItemNoObj         "A_Skirt_Sk2.scr"
+ AddSkinFromItemNoObj         "A_SapogSk_L_Sk2.scr"
+ AddSkinFromItemNoObj         "A_SapogSk_R_Sk2.scr"
+ AddObject     "Legins_SK2.zrm"
+ ArmorAutoGenerate  5  3 
+ PlusDexterity    3
+});

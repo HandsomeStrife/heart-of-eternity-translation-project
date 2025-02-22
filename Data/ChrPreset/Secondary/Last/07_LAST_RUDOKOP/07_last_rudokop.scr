@@ -1,0 +1,17 @@
+AddCharacterPresets('Civman','CivilMan','07_last_rudokop',{
+ Description                 "07_last_rudokop"
+ Position                    693.8190,2777.0464,24.7410
+ Rotation                    0 0 180
+ VisibleSkin                 "CM_BODY_Sh"
+ VisibleSkin                 "I_Sumka"
+ VisibleSkin                 "A_PlashKup"
+ VisibleSkin                 "HB_Cirk"
+ VisibleSkin                 "HB_Kosichky"
+ VisibleSkin                 "I_Otv_FootD"
+ AddDialog                   "07_last_rudokop_00.dlg" 0
+ AddDialog                   "07_last_radokop_09.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

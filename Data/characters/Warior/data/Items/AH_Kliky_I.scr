@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Kliky_I','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Rusty Closed Helmet"
+  History           "Corrosion, or simply rust, is generally the destruction of metals under the influence of the environment. The cause of corrosion is the interaction of metals with substances found in the air and in atmospheric precipitation. These lathe are indeed in a state of corrosion, so do not expect miracles from them, although their protective characteristics are higher than those of leather armor."
+  SetHairChangeMode  2
+  SkinBlock         0
+   VisibleSkin       "AH_Kliky"
+   MaterialPresetId  3
+   AddObjectD        "AH_Kliky_I.s03"
+   ArmorAutoGenerate  5  1 
+   PlusStrenght     1
+});

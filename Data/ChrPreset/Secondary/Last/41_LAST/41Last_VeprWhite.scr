@@ -1,0 +1,14 @@
+AddCharacterPresets('Vepr','Enemy','41Last_VeprWhite',{
+ Description                 "Vepr"
+ Position                    2553.8525,863.4896,164.7979
+ Rotation                    0 0 0
+ MobParam                    0 5
+ ScaleX                      1.2
+ ScaleY                      1.2
+ ScaleZ                      1.2
+ VisibleSkinParam            "Vepr_Sh" 2
+ AddDeathScript              "41Last_VeprWhite.scd"
+ AddItem		     "Animal\Vepr\vepr_box_15.scr" "DefaultSlot"
+ MobParam                    2 25
+ Life   1000
+});

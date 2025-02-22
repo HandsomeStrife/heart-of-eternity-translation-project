@@ -1,0 +1,20 @@
+AddCharacterPresets('IronMan','CivilMan','VN_IM_Hunter',{
+ Description                 "Giyom"
+ Position                    1696.1097,2132.5229,78.3436
+ Rotation                    0 0 0
+ VisibleSkin                 "IM_A_SUMA_Sh"
+ VisibleSkinParam            "I_Man_Sh" 3
+ VisibleSkin                 "IM_A_Naruch1_LSh"
+ VisibleSkin                 "IM_B_Long_Sh"
+ VisibleSkin                 "IM_A_Naruch1_R_Sh"
+ VisibleSkin                 "IM_H_HvLong_Sh"
+ MobParam                    2 10
+ AddBeforeDialogScript       "VN_IM_Hunter_BD.scd"
+ AddDialog                   "VN_IM_Hunter_D0.dlg" 0
+ AddDialog                   "VN_IM_Hunter_D9.dlg" 9
+ AddItem                     "Human\TwoHand\Axe_Broad1\Axe_Broad1.scr" "TwoHandSword"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

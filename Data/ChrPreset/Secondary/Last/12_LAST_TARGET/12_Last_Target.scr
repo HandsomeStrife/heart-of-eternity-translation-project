@@ -1,0 +1,20 @@
+AddCharacterPresets('CivDwarf','CivilMan','12_Last_target',{
+ Description                 "12_Last_target"
+ Position                    562.1945,2544.2937,46.5129
+ Rotation                    0 0 0
+ VisibleSkin                 "A_Boot_L"
+ VisibleSkin                 "A_Boot_R"
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "AH_Monokl"
+ VisibleSkin                 "I_Rukav"
+ VisibleSkin                 "I_Buviger"
+ VisibleSkin                 "A_Skirt"
+ VisibleSkin                 "HB_BorSpiral"
+ AddBeforeDialogScript       "12_Last_target_BD.scd"
+ AddDialog                   "12_Last_target_00.dlg" 0
+ AddDialog                   "12_Last_target_09.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

@@ -1,0 +1,16 @@
+AddCharacterPresets('Starosta','CivilMan','ST_Nobil',{
+ Description                 "ST_Nobil"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    0 5
+ VisibleSkin                 "I_Znak"
+ VisibleSkin                 "A_PlashMeh"
+ VisibleSkin                 "I_Otv_FootDD"
+ VisibleSkin                 "H_BakiLis"
+ VisibleSkinParam            "STAR_Sh" 1
+ VisibleSkin                 "I_SkirtSm"
+ VisibleSkin                 "I_Otv_Hand"
+ VisibleSkinParam            "AH_Dvoryan" 1
+ AddSkinItem                 "HandArmor_5.scr" "HandArmor"
+ AddItem                     "Human\OneHand\espada\espada.scr" "Left_Scabbard"
+});

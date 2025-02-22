@@ -1,0 +1,40 @@
+CreateAtmoZone('Atmo_406',expandBorder=1,renderDefault=1,{
+ MinDistance    1114   1667  -50
+ MaxDistance    1393   1900  200 
+Phase          4.0 12.0 18.0 21.0
+FogDistMin     20.0   40.0  20.0   15.0
+FogDistMax     210.0   300.0  200.0   225.0
+FogColor       id=0   85  100  121 0
+FogColor       id=1   96  120  153 0
+FogColor       id=2   69  69  39 0
+FogColor       id=3   16  30  45 0
+EnvTDColor     id=0   74  74  74 0
+EnvTDColor     id=1   89  89  89 0
+EnvTDColor     id=2   56  50  27 0
+EnvTDColor     id=3   14  23  27 0
+SunColor       id=0   201  128  54 0
+SunColor       id=1   177  177  177 0
+SunColor       id=2   128  0  0 0
+SunColor       id=3   100  100  100 0
+SunSize        70.0  50.0  80.0  80.0
+AmbientColor   id=0   77  65  53 0
+AmbientColor   id=1   51  51  51 0
+AmbientColor   id=2   89  60  38 0
+AmbientColor   id=3   23  28  47 0
+DiffuseColor   id=0   107  114  148 0
+DiffuseColor   id=1   255  255  255 0
+DiffuseColor   id=2   247  182  111 0
+DiffuseColor   id=3   34   46   45  0
+SkyColor       id=0   115  115  115 0
+SkyColor       id=1   45   45   45  0
+SkyColor       id=2   253  197  102 0
+SkyColor       id=3   27  27  27 0
+BoxEnvColor    id=0   167  167  167 0
+BoxEnvColor    id=1   131  158  252 0
+BoxEnvColor    id=2   204  151  98  0
+BoxEnvColor    id=3   105  61  50   0
+BloomEnable   True
+BloomLuminance  0.0160 0.0400 0.0098 0.0015
+BloomScale      0.7400 0.8000 0.6900 0.4400
+SetAtmoSFX  4 False
+});

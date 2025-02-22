@@ -1,0 +1,16 @@
+IfN_Flag_GoTo(370,7,@1);
+ AddFlag(371,1);
+IfN_Flag_GoTo(371,3,@2);
+ JQuestRecordComplete(370,3);
+ JVisibleRecord(370,4);
+ SetCharacterPosition('TV_CM_Richi',1304.8361,2127.8293,11.1408);
+ SetCharacterSkinVisible('warior','CM_O_Plash_W_Sh',0);
+ SetCharacterSkinVisible('warior','CM_G_Beret_Sh',1);
+ SetCharacterSkinVisible('warior','CM_O_PlashMeh_Sh',1);
+ SetFlag(370,4);
+ AIS_GoTo(@2);
+@1:
+  RespawnCharacter('FV_IM_HealerSon');
+  SetCharacterLifeK('FV_IM_HealerSon',1);
+@2:
+NOP();

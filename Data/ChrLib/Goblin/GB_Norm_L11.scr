@@ -1,0 +1,13 @@
+AddCharacterPresets('Goblin','Enemy','G_11',{
+ Description                 "Goblin_11"
+ MobParam                    0 11
+ PlusIntellect               20
+ ScaleX                      0.7
+ ScaleY                      0.7
+ ScaleZ                      0.7
+ VisibleSkin                 "Gb_Rukava_Sh"
+ AddDeathScript              "GoblinQ.scd"
+ AddSkinItem                 "Gb_Plash_Sh.scr" "Armor"
+ AddItem		     "Bottle\BottleFrozenB.scr" "Throw_Item"
+ AddItem		     "Goblin\G_sword_1\G_sword_1.scr" "Left_Scabbard"
+});

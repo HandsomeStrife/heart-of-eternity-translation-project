@@ -1,0 +1,22 @@
+AddCharacterPresets('CivDwarf','ENEMY1','DW_mob5',{
+ Description                 " "
+ Position                    1441.1587,2140.3201,4.1571
+ Rotation                    0 0 0
+ VisibleSkin                 "DWF_L_Napl_3Chlen_Sh"
+ VisibleSkin                 "DWF_L_Koleno_Sh"
+ VisibleSkin                 "DWF_BorDabl_Sh"
+ VisibleSkin                 "DWF_R_Napl_3Chlen_Sh"
+ VisibleSkin                 "DWF_ShlWar_2Sh"
+ VisibleSkin                 "DWF_L_A_Perch_Sh"
+ VisibleSkin                 "DWF_R_A_Perch_Sh"
+ VisibleSkin                 "DWF_R_Koleno_Sh"
+ VisibleSkin                 "DWARF_Sh"
+ PlusStrenght                18
+ PlusDexterity               10
+ PlusConstitution            12
+ PlusIntellect               5
+ PlusPermeability            5
+ AddItem                     "Dwarf\Shield\DwarfShield5\DwarfShield5.scr" "Spine_shield"
+ AddItem                     "Dwarf\OneHand\DwarfAxe2\DwarfAxe2.scr" "Left_Scabbard"
+ AddItem                     "Dwarf\OneHand\Chekan2b\Chekan2b.scr" "Right_Scabbard"
+});

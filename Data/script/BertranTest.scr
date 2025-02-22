@@ -1,0 +1,3 @@
+AddEnemy('CD_IM_1','warior');
+AddEnemy('CD_IM_2','warior');
+AddEnemy('CD_IM_3','warior');

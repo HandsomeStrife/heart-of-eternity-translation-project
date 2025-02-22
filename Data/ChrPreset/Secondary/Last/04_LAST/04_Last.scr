@@ -1,0 +1,20 @@
+AddCharacterPresets('MagVillage','CivilMan','04_Last',{
+ Description                 "04_Last"
+ Position                    1039.7788,2316.2883,96.8065
+ Rotation                    0 0 0
+ VisibleSkin                 "Mag_V_Sh"
+ VisibleSkin                 "MV_O_SUMA"
+ VisibleSkin                 "MV_O_PlashInkviz"
+ VisibleSkin                 "MV_B_sm"
+ VisibleSkin                 "MV_H_Med"
+ AddBeforeDialogScript       "04_last_BD.scd"
+ AddDialog                   "04_last_00.dlg" 0
+ AddDialog                   "04_last_01.dlg" 1
+ AddDialog                   "04_last_02.dlg" 2
+ AddDialog                   "04_last_03.dlg" 3
+ AddDialog                   "04_last_09.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

@@ -1,0 +1,18 @@
+AddCharacterPresets('MagVillage','CivilMan','GD_OLD_Vershitel',{
+ Description                 "Otar"
+ Position                    5999.1313,885.4110,225.9917
+ Rotation                    0 0 15
+ MobParam                    4 45
+ VisibleSkin                 "I_AMAmulet"
+ VisibleSkin                 "AH_Cap6"
+ VisibleSkin                 "ArchiMag"
+ VisibleSkin                 "AH_Cap1"
+ VisibleSkin                 "AH_Cap2"
+ VisibleSkin                 "AH_Cap3"
+ VisibleSkin                 "AH_Cap4"
+ VisibleSkin                 "AH_Cap5"
+ VisibleSkin                 "I_AMMTunika"
+ AddSkinItem                 "A_AMPlash.scr" "Armor"
+ DropEnable	              False
+ Attack 		      False
+});

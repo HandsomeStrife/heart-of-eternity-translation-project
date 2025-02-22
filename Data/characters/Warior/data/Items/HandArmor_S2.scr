@@ -1,0 +1,15 @@
+CreateItemSkin('HandArmor_S2','HandArmor','HandArmor', {
+ Visible	         True
+ Cost		         -1
+ Description       "Reinforced Silver Hand Protection"
+ History           "A warrior must be ready to pay large sums for their safety, as the quality of armor determines their life. Decorated armor is no less functional than ordinary steel, and also indicates its specific properties. A full set of silver armor will significantly reduce damage from slashing weapons directed against its wearer."
+ AddSkinFromItemNoObj          "A_Napl3_L_S.scr"
+ AddSkinFromItemNoObj          "A_Napl3_R_S.scr"
+ AddSkinFromItemNoObj          "A_Naruch3_L_S.scr"
+ AddSkinFromItemNoObj          "A_Naruch3_R_S.scr"
+ AddSkinFromItemNoObj          "A_Naruk_L_S.scr"
+ AddSkinFromItemNoObj          "A_Naruk_R_S.scr"
+ AddObject     "HandArmor_S2.zrm"
+ ArmorAutoGenerate   7  3 
+ PlusStrenght        4
+});

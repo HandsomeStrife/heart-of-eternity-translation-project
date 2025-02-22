@@ -1,0 +1,23 @@
+CreateMaterial('M_GlowN','fire_anim.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "Current"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "SelectArg1"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ AnimMaterial      True
+ AnimMatAutoPlay   False
+ AnimMatFPS        20.0000
+ AnimMatWSquare    64
+ AnimMatHSquare    64
+ AnimMatNumFrame   16
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});

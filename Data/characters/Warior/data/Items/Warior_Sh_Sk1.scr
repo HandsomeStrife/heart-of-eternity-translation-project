@@ -1,0 +1,12 @@
+CreateItemSkin('Warior_Sh_Sk1','SecondArmor','SecondArmor', {
+  Visible           True
+  Cost              -1
+  Description       "Simple Leather Armor"
+  History           "Skin is skin. Nothing more.úOne should not expect anything natural from it. A leather armor is pierced by a strong strike of a spear or sword and does not protect against blunt weaponry, although it withstands strikes from light swords and daggers. A full simple leather armor provides a slight bonus to agility."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "Warior_Sh"
+   MaterialPresetId  5
+   AddObject         "Warior_Sh_Sk1.zrm"
+   ArmorAutoGenerate  3  1 
+});

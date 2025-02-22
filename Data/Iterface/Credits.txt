@@ -1,0 +1,92 @@
+Project Leader:
+Bilyk Sergey
+
+
+Executive Director:
+Корнелишин Андрей
+
+
+Programmers:
+Белоус Андрей
+Bilyk Sergey
+Yakubovsky Alexander
+Yashchuk Oksana
+
+
+Level Designers:
+Artyukhov Vladislav
+Пасичный Игорь
+Кутейницин Игорь
+
+
+Sketches:
+Мосейчук Алексей
+
+
+Interface design:
+Цыхан Павел
+Dragonfly Studio
+
+
+3D modeling:
+Artyukhov Vladislav
+Zinchenko Alexey
+Пасичный Игорь
+Цыхан Павел
+Шевченко Егор
+
+
+Character modeling:
+Zinchenko Alexey
+
+
+2D graphics and textures:
+Дорогань Виктория
+Кучеренко Лариса
+Стародуб Людмила
+Цыхан Павел
+
+
+Animations:
+Мосейчук Алексей
+Maxim Shushpanov
+
+
+Сценарий и тексты:
+Dubovik Evgeny
+Lysenko Dmitry
+Popov Vasily
+Serov Vladimir
+Savchenko Sergey
+
+
+Game design:
+Cooper Yegor
+Dubovik Evgeny
+Lysenko Dmitry
+Savchenko Sergey
+Serov Vladimir
+Popov Vasily
+
+
+Role system and balance:
+Savchenko Sergey
+
+
+Sound and music:
+Beloусов Sergey
+
+
+Веб-дизайн:
+Дорогань Виктория
+
+
+PR-менеджеры:
+Demyanenko Artem
+Цыхан Павел
+Serov Vladimir
+Savchenko Sergey
+Dubovik Evgeny
+Пасичный Игорь
+
+

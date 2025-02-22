@@ -1,0 +1,14 @@
+AddCharacterPresets('Civman','CIVILMAN','CM_01',{
+ Description                 "Skeleton"
+ Position                    80.2812 75.2020 8.024
+ Rotation                    0 0 90
+ VisibleSkin                 "Skeleton_Sh"
+ VisibleSkin                 "CM_O_Skirt_Klc_Sh"
+ VisibleSkin                 "CM_A_Naruch_1L_Sh"
+ VisibleSkin                 "CM_B_Kozel_Sh"
+ VisibleSkin                 "CM_G_Shapka_Sh"
+ VisibleSkin                 "CM_A_Naruch_1R_Sh"
+ VisibleSkin                 "CM_O_Otv_UU_Sh"
+ VisibleSkin                 "CM_O_Meh_Sh"
+ VisibleSkin                 "CM_A_NARUK_L_Sh"
+});

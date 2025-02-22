@@ -1,0 +1,13 @@
+CreateItemSkin('Or_Helmet','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Orc Helmet"
+  History           "An orc dressed in brocade and silk is nonsense. The preferred attire of orcs is either none at all or leather loincloths. As for weapons and armor, you are unlikely to see an orc in full plate armor wielding a bastard sword. Bone armor is the choice of the masters of the steppes. Full orcish armor significantly increases the constitution of the warrior clad in it."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "Or_Helmet"
+   MaterialPresetId  0
+   AddObjectD        "Or_Helmet.s03"
+   ArmorAutoGenerate  6  3 
+   PlusConstitution 5
+});

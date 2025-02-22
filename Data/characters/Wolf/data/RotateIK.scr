@@ -1,0 +1,5 @@
+CreateRotIKSystem(4);
+AddRotIKNodeScript(0,'head',-15,15,0,1,0);
+AddRotIKNodeScript(1,'Spine3',-35,35,0,1,0);
+AddRotIKNodeScript(2,'Spine1',-55,55,0,1,0);
+AddRotIKNodeScript(3,'root',0,0,1,0,0);

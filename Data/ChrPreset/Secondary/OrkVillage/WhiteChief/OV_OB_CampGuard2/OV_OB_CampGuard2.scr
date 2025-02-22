@@ -1,0 +1,18 @@
+AddCharacterPresets('OrkBig','CivilMan','OV_OB_CampGuard2',{
+ Description                 "Заран"
+ Position                    2628.4045,728.5514,178.4861
+ Rotation                    0 0 210
+ PlusStrenght                30
+ PlusDexterity               30
+ PlusConstitution            30
+ VisibleSkin                 "OB_Shild_B"
+ VisibleSkin                 "OB_Shild_F"
+ AddSkinItem                 "Legins_L35.scr" "Leggings"
+ AddSkinItem                 "HandArmor_L35.scr" "HandArmor"
+ AddItem                     "Ork\OneHand\skull_axe2\skull_axe2.scr" "Left_Scabbard"
+ AddItem                     "Ork\Shiled\BigShield\BigShield_l35.scr" "Spine_shield"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

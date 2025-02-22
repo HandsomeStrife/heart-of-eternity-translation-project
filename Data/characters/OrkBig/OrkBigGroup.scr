@@ -1,0 +1,3 @@
+CreateCharacterGroup('data\characters\OrkBig\data\OrkBig.mc',
+'OrkBig',
+'data\characters\OrkBig\data\','Enemy1','OB_Body');

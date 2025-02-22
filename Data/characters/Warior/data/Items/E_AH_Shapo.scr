@@ -1,0 +1,14 @@
+CreateItemSkin('E_AH_Shapo','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Hat of the High Elf"
+  History           "Elven armor obúSuch concepts as: beautiful, elegant, magical unite. The elves did not achieve success in metallurgy. Practically the entire range of the race's products is made from various parts of the Kuaron tree. Their main properties are lightness and strength, indispensable qualities for an archer. Full armor will multiply your agility and perfectly protect against striking cold weapons."
+  SetHairChangeMode  0
+  SkinBlock         0
+   VisibleSkin       "E_AH_Shapo"
+   MaterialPresetId  0
+   AddObjectD        "E_AH_Shapo.s03"
+   ArmorAutoGenerate  5  4 
+   PlusIntellect     7
+   PlusMagicPower    7
+});

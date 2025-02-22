@@ -1,0 +1,6 @@
+BlackScreenStart('Пли!');
+SetCharacterPosition('warior',538.8241,2530.8979,43.8443);
+SetCharacterRotation('warior',0,0,270);
+SetCharacterRotation('TV_IM_Archer',0,0,0);
+ExecuteScriptSys('data\ChrPreset\Secondary\Tavern\Competition\TV_Bol_Competition\TV_Bol_Competition.scr');
+SetFlag(360,7);

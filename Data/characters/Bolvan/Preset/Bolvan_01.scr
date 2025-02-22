@@ -1,0 +1,10 @@
+AddCharacterPresets('Bolvan','CIVILMAN','Bolvan_01',{
+ Description                 "Bolvan"
+ Position                    80.2812 75.2020 8.024
+ Rotation                    0 0 0
+ PlusStrenght                135
+ PlusDexterity               130
+ PlusConstitution            245
+ PlusIntellect               120
+ PlusPermeability            120
+});

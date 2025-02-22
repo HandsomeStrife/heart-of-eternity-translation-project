@@ -1,0 +1,12 @@
+AddCharacterPresets('CivDwarf','Enemy','DW19',{
+ Description                 "Dwarf_19"
+ Position                    1144.9330,1131.1486,171.8680
+ Rotation                    0 0 155
+ MobParam                    2 19
+ VisibleSkin                 "HB_BorSmall"
+ VisibleSkin                 "I_PerchKojaR"
+ VisibleSkin                 "I_PerchKojaL"
+ AddSkinItem                 "AH_WarShahter_l19.scr" "Helmet"
+ AddSkinItem                 "HandArmor_19.scr" "HandArmor"
+ AddItem		     "Dwarf\TwoHand\DwarfGreateAxe1M\DwarfGreateAxe1M.scr" "TwoHandSword"
+});

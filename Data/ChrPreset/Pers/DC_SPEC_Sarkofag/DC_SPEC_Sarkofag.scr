@@ -1,0 +1,7 @@
+AddCharacterPresets('Bolvan','CivilMan','DC_SPEC_Sarkofag',{
+ Description                 "Sarkofag"
+ Position                    1626.2970,2449.0623,150.6837
+ Rotation                    0 0 0
+ PlusConstitution            12
+ AddDeathScript		     "DC_SPEC_Sarkofag_death.scd"
+});

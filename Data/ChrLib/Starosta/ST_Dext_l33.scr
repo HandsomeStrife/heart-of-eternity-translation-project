@@ -1,0 +1,12 @@
+AddCharacterPresets('Starosta','Enemy','Star33',{
+ Description                 "FatGuarder33"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ MobParam                    3 33
+ AddSkinItem                 "A_Cuirass_B_l33.scr" "Armor"
+ AddSkinItem                 "HandArmor_33.scr" "HandArmor"
+ AddSkinItem                 "SecArmor_Kol_l33.scr" "SecArmor"
+ AddSkinItem                 "AH_Vedro_B_l33.scr" "Helmet"
+ AddSkinItem                 "Legins_33.scr" "Leggings"
+ AddItem                     "Human\TwoHand\bludgeon02\bludgeon02.scr" "TwoHandSword"
+});

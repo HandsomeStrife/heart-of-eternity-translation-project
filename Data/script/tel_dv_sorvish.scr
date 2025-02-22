@@ -1,0 +1,5 @@
+SetCharacterPosition('warior',995.4948,5649.7183,-120.0177);
+SetCharacterRotation('warior',0,0,270);
+SetCharacterPosition('DwC_DW_RespectDW',993.8767,5650.5879,-120.0050);
+SetFlag(67,2);
+BlackScreenStart('Take the hammer of Kora, earned by you rightfully.');

@@ -1,0 +1,14 @@
+CreateItemSkin('U_HelmetSk','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Helmet of the Damned's Pain"
+  History           "The oppressive lines of the form and the deep pale color accurately convey the essence of the dead armor. Armor crafted from living flesh to protect the dead - horrifying and paradoxical, like everything about this thoughtless, fearless, and spineless race. The full armor of the dead is weakly vulnerable to ranged weapons and has a number of bonuses to your main attributes."
+  SetHairChangeMode  1
+  SkinBlock         0
+   VisibleSkin       "U_HelmetSk"
+   MaterialPresetId  0
+   AddObjectD        "U_HelmetSk.s03"
+   ArmorAutoGenerate  12  4 
+   PlusStrenght     8
+   PlusConstitution 8
+});

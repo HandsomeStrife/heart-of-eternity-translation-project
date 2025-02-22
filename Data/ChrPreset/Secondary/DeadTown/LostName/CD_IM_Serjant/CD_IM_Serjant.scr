@@ -1,0 +1,24 @@
+AddCharacterPresets('IronMan','CivilMan','CD_IM_Serjant',{
+ Description                 "CD_IM_Serjant"
+ Position                    4214.4019,762.5956,127.9334
+ Rotation                    0 0 0
+ VisibleSkin                 "ZombyBig_Sh"
+ VisibleSkin                 "A_Cuirass"
+ VisibleSkin                 "A_Sapog1_L"
+ VisibleSkin                 "A_Sapog1_R"
+ PlusStrenght                23
+ PlusDexterity               17
+ PlusConstitution            19
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "CD_IM_Serjant_BD.scd"
+ AddDialog                   "CD_IM_Serjant_d9.dlg" 9
+ AddDialog                   "CD_IM_Serjant_d0.dlg" 0
+ AddItem                     "Human\Shield\KnightShield_01\KnightShield_01.scr" "Spine_shield"
+ AddItem                     "Human\OneHand\mace01\mace01.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\daga2\daga2.scr" "Right_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

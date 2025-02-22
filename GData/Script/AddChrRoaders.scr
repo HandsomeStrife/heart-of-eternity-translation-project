@@ -1,0 +1,11 @@
+ExecuteScriptSys('data\ChrPreset\Secondary\RoadStations\EC_roader.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\RoadStations\TV_roader.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\RoadStations\RF_roader.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\RoadStations\OC_roader.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\RoadStations\NV_roader.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\RoadStations\GP_roader.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\RoadStations\FV_roader.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\RoadStations\EN_roader.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\RoadStations\EC_roader.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\RoadStations\DT_roader.scr');
+ExecuteScriptSys('data\ChrPreset\Secondary\RoadStations\BC_roader.scr');

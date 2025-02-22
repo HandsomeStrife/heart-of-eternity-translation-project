@@ -1,0 +1,7 @@
+CreateSFX('FireChrS',{
+    AddSFXPSTag  "data\effect\FireChr\FireChrP.scr" pos: 0 0 -0.3 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    LiveTime        = 2
+    LinkParam       = 33
+});

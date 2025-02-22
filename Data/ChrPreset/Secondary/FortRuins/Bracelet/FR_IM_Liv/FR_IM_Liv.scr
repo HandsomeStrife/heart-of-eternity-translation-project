@@ -1,0 +1,25 @@
+AddCharacterPresets('IronMan','CivilMan','FR_IM_Liv',{
+ Description                 "Liv"
+ Position                    1321.5591,2804.1116,12.3218
+ Rotation                    0 0 0
+ PlusStrenght                23
+ PlusDexterity               17
+ PlusConstitution            19
+ PlusIntellect               10
+ PlusPermeability            10
+ AddBeforeDialogScript       "FR_IM_Liv_BD.scd"
+ AddDialog                   "FR_IM_Liv_d.dlg" 0
+ AddDialog                   "FR_IM_liv_d1.dlg" 1
+ AddDialog                   "FR_IM_liv_d9.dlg" 9
+ VisibleSkin                 "HB_Usy"
+ VisibleSkin                 "H_HvMedLis"
+ AddSkinItem                 "HandArmor_24.scr" "HandArmor"
+ AddSkinItem                 "A_PlashS_l25.scr" "Armor"
+ AddSkinItem                 "Legins_Sk_l25.scr" "Leggings"
+ AddItem                     "Human\OneHand\mace02\mace02.scr" "Left_Scabbard"
+ AddItem                     "Human\OneHand\daga1\daga1.scr" "Right_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

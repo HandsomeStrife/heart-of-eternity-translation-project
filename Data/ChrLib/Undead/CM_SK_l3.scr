@@ -1,0 +1,12 @@
+AddCharacterPresets('Civman','Enemy','CM_SK_L3',{
+ Description                 "CM_SK_L3"
+ Position                    85 80 0
+ Rotation                    0 0 0
+ VisibleSkin                 "Skeleton_Sh"
+ SetBloodEff                 3
+ MobParam                    2 3
+ VisibleSkin                 "HB_Sm"
+ VisibleSkin                 "H_Irok"
+ AddItem                     "Undead\OneHand\u_knife\u_knife.scr" "Right_Scabbard"
+ AddItem                     "Undead\OneHand\u_knife\u_knife.scr" "Left_Scabbard"
+});

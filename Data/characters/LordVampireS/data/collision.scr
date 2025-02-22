@@ -1,0 +1,11 @@
+CreateCollisionElement('C_root','root','none',{
+ Defence  0.0000 
+ Width  1.6000 
+ Height  1.6000 
+ Length  1.8000 
+ qOrientation 0.0000 0.0000 -0.1494 0.9888 
+ TranslateX 0.0000 
+ TranslateY 0.0000 
+ TranslateZ 0.9000 
+ BoneID 0 
+});

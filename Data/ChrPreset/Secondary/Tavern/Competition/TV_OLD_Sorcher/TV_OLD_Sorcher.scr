@@ -1,0 +1,19 @@
+AddCharacterPresets('MagVillage','CivilMan','TV_OLD_Sorcher',{
+ Description                 "Πενε"
+ Position                    552.5077,2549.5161,46.5129
+ Rotation                    0 0 0
+ PartitionEnable 	false
+ MobParam                    4 15
+ VisibleSkin                 "Mag_V_Sh"
+ VisibleSkin                 "MV_B_Long"
+ VisibleSkin                 "MV_O_PlashInkviz"
+ VisibleSkin                 "MV_H_Med"
+ AddDeathScript		     "TV_OLD_Sorcher_death.scd"
+ AddBeforeDialogScript       "TV_OLD_Sorcher_BD.scd"
+ AddProcScript               "TV_OLD_Sorcher_AI.sci"
+ AddDialog                   "TV_OLD_Sorcher_d.dlg" 0
+ AddDialog                   "TV_OLD_Sorcher_d1.dlg" 1
+ AddDialog                   "TV_OLD_Sorcher_d2.dlg" 2
+ AddDialog                   "TV_OLD_Sorcher_d9.dlg" 9
+ DropEnable	              False
+});

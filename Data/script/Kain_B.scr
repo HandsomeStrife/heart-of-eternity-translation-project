@@ -1,0 +1,3 @@
+SetCharacterPosition('DC_LV_KainF',5309.6875,2303.3633,189.4066);
+SetCharacterRotation('DC_LV_KainF',0,0,90);
+SetFlag(250,4);

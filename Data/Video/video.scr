@@ -1,0 +1,4 @@
+AddVideo('VLogo','Logo.wmv');
+AddVideo('init_main','');
+ConnectVideos('VLogo','init_main');
+StartVideo('VLogo');

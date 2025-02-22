@@ -1,0 +1,6 @@
+AddEnemy('VN_IM_Kidneper1','VN_IM_Hunter');
+AddEnemy('VN_IM_Kidneper2','VN_IM_Hunter');
+AddEnemy('VN_IM_Kidneper3','VN_IM_Hunter');
+AddEnemy('VN_IM_Kidneper1','warior');
+AddEnemy('VN_IM_Kidneper2','warior');
+AddEnemy('VN_IM_Kidneper3','warior');

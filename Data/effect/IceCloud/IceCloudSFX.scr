@@ -1,0 +1,6 @@
+CreateSFX('IceCloSFX',{
+    AddSFXPSTag  "data\effect\IceCloud\IceCloudPS.scr" pos: 0 0 0 "UNKN"
+     autoRender = true autoDelete = true
+     autoDeleteAnim = true autoCalcPos = false
+    LiveTime        = 3
+});

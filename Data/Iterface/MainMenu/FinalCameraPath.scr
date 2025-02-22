@@ -1,0 +1,13 @@
+CreateSFXAnimation('fcpA',fps=1.5,numFrame=140,loop=0,autoPlay=1,{
+AddTranslateKey 5284.148926 2304.023438 193.725174  140
+AddRotationKeyQ 0.457819 -0.474543 -0.541055 0.521988  140
+AddTranslateKey 5308.701660 2303.150635 190.492554  0 
+AddRotationKeyQ -0.457819 0.474543 0.541055 -0.521988  0
+});
+CreateSFX('fCaP',{
+    LiveTime        = 180
+    AddSFXCameraTag  pos: 0 0 0  rot: 0 0 0 "fcpA"
+    autoRender = false autoDelete = true
+    autoDeleteAnim = true autoCalcPos = false
+    LiveTime        = 180
+});

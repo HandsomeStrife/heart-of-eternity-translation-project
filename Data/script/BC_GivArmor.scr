@@ -1,0 +1,7 @@
+AddArmorChrSlot('warior','Legins_Sk1.scr','Bag');
+AddArmorChrSlot('warior','HandArmor_Sk1.scr','Bag');
+AddArmorChrSlot('warior','AH_Gladiat_Turnir.scr','Bag');
+AddArmorChrSlot('warior','Warior_Sh_Sk1.scr','Bag');
+AddItemChrSlot('warior','Human\Shield\Shild_Round_small\SHild_Round_small.scr','Bag');
+AddItemChrSlot('warior','Human\OneHand\karoling1\karoling1.scr','Bag');
+AddHotKeyHelp('You have received tournament gear.',23);

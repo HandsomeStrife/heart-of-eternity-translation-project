@@ -1,0 +1,4 @@
+AddItemChrSlot('warior','Human\OneHand\Vakadzasi_02\Vakadzasi_02.scr','Bag');
+AddHotKeyHelp('You received a new item, press I',23);
+DeleteItemChr('warior','WolfHead');
+AddExpMC(3000);

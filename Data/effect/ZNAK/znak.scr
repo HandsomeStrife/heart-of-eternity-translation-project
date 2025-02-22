@@ -1,0 +1,30 @@
+AddObjectToLib('data\object\Znak.zrm',mipmap=0,orientY=1);
+CreateMaterial('M_YlowZnak','YlowZnak.tga',{
+ BlendEnable       True
+ SRCBlend          "One"
+ DSTBlend          "One"
+ ColorArgOne         id = 0 "Texture"
+ ColorOp             id = 0 "Modulate"
+ ColorArgTwo         id = 0 "TextureFactor"
+ AlphaArgOne         id = 0 "Texture"
+ AlphaOp             id = 0 "Modulate"
+ AlphaArgTwo         id = 0 "Diffuse"
+ TextureCIndex       id = 0 0
+ TCIFunction         id = 0 "passthru"
+ TextureFactor     96 48 48 48
+ LightEnable       False
+ DoubleSize        True
+ CollisionDisable  False
+ zWriteEnable	False
+});
+CreateSFXAnimation('ZA1',fps=30,numFrame=40,loop=1,autoPlay=1,{
+AddScaleKey   0.1  0.1  0.1  20
+AddScaleKey   0.11 0.11 0.11 20
+AddScaleKey   0.1  0.1  0.1  0
+});
+CreateSFX('ZnakSFX',{
+    AddSFXObjectTagN  "ZNAK"  pos: 0 0 0  rot: 0 0 0 "ZA1"
+     autoRender = false autoDelete = false
+     autoDeleteAnim = true autoCalcPos = false
+    Immortal  =  True
+});

@@ -1,0 +1,7 @@
+CreateTorchSFXObj('DL_',{
+ DeltaTranslate       0 0 0.1
+ AddLight             20.0 0.2 120 67 35 0.005 0.005 0.01
+ AddLightColorEffect  60 30 15 0.03 0.1
+ AutoCalcOffset       type = 2 non = 1.4 offsZ = -0.8
+ LinkToObjectPTR      True
+});

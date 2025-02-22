@@ -1,0 +1,8 @@
+AddItemChrSlot('warior','Quest\34_LAST\34_LAST.scr','Bag');
+AddItemFromScriptSpec('Quest\34_LAST\34_LASTC.scr',1757.3673,2950.6780,-47.5292);
+AddItemFromScriptSpec('Quest\34_LAST\34_LASTC.scr',1735.3751,2932.9097,-43.5298);
+AddItemFromScriptSpec('Quest\34_LAST\34_LASTC.scr',1752.3341,2935.0859,-45.4386);
+AddItemFromScriptSpec('Quest\34_LAST\34_LASTC.scr',1772.2548,2935.6919,-46.5295);
+AddItemFromScriptSpec('Quest\34_LAST\34_LASTC.scr',1766.6948,2953.6050,-48.8358);
+AddItemFromScriptSpec('Quest\34_LAST\34_LASTC.scr',1737.0093,2980.5964,-51.9615);
+AddItemFromScriptSpec('Quest\34_LAST\34_LASTC.scr',1728.7825,2946.5898,-44.8194);

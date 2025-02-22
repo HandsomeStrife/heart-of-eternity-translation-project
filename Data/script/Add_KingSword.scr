@@ -1,0 +1,3 @@
+DeleteItemChr('KL_IM_LakeKeeper','KingSword');
+AddItemChrSlot('warior','Quest\KingSword\KingSword.scr','Bag');
+AddHotKeyHelp('You have received the Sword of Kings',23);

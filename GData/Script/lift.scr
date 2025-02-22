@@ -1,0 +1,13 @@
+CreateLift(teleport = 0,flag = 504,speed = 3,{
+ Name id=0 "LIFTDW_616"
+ Name id=1 "LIFTDW_616"
+ Position StopUp       id=0  1049.7891,6100.8647,-73.2061
+ Position StopDown     id=1  1049.7891,6100.8647,-103.1796
+});
+CreateLift(teleport = 0,flag = 506,speed = 2,{
+ Name id=0 "LIFT236"
+ Name id=1 "LIFT236"
+ Position StopUp       id=0  7337.7222,909.5523,230.2149
+ Position StopDown     id=1  7337.7222,909.5523,212.4414
+ Attenuation = True
+});

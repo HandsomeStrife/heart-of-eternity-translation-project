@@ -1,0 +1,3 @@
+AddItemFromScriptSpec('Quest\ShamanDust\ShamanDust.scr',2487.5400,2782.3494,-90.9005);
+AddItemFromScriptSpec('Quest\ShamanDust\ShamanDust2.scr',2485.9048,2780.3660,-90.8479);
+AddItemFromScriptSpec('Quest\ShamanDust\ShamanDust3.scr',2487.1763,2777.4094,-91.5947);

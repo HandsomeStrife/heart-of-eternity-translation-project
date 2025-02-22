@@ -1,0 +1,20 @@
+AddCharacterPresets('OrkMedium','CivilMan','OC_TR_P',{
+ Description                 "OC_TR_P"
+ Position                    2845.7256,428.9999,189.5206
+ Rotation                    0 0 0
+ PlusStrenght                10
+ PlusDexterity               10
+ PlusConstitution            10
+ PlusIntellect               10
+ PlusPermeability            10
+AddDialog                   "OC_TR_d9.dlg" 9
+AddDialog                   "OC_TR_P_d.dlg" 0
+ AddSkinItem                 "OMe_Cuirass_l3.scr" "Armor"
+ AddSkinItem                 "HandArmor_Norm_l3.scr" "HandArmor"
+ AddSkinItem                 "Legins_Norm_l3.scr" "Leggings"
+ AddItem                     "Ork\OneHand\Ork_sabre\Ork_sabre.scr" "Left_Scabbard"
+ AutoSpawn   1.0
+ PartitionEnable              False
+ DropEnable	              False
+ Attack 		      False
+});

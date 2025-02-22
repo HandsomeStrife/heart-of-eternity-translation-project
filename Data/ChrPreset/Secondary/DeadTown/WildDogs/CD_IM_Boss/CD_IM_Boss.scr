@@ -1,0 +1,13 @@
+AddCharacterPresets('IronManUD','CivilMan','CD_IM_Boss',{
+ Description                 "CD_IM_Boss"
+ Position                    4106.4766,768.7651,131.9362
+ Rotation                    0 0 180
+ VisibleSkinParam            "I_Man_Sh" 4
+ MobParam                    2 50
+ AddDeathScript		     "CD_IM_Boss_death.scd"
+ AddSkinItem                 "U_Cuirass_l44.scr" "Armor"
+ AddSkinItem                 "HandArmor_Dext_l44.scr" "HandArmor"
+ AddSkinItem                 "Legins_Dext_l44.scr" "Leggings"
+ AddItem                     "Undead\TwoHand\U_GrateAxe\U_GrateAxe.scr" "TwoHandSword"
+ PartitionEnable              False
+});

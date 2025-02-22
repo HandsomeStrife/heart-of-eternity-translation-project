@@ -1,0 +1,20 @@
+AddCharacterPresets('OrkMedium','Enemy','OMe_End',{
+ Description                 "NPC_OMe_l11"
+ MobParam                    2 11
+ AddSkinItem                 "OMe_Helmet_l11.scr" "Helmet"
+ AddSkinItem                 "HandArmor_End_l11.scr" "HandArmor"
+ AddSkinItem                 "OMe_Cuirass_l15.scr" "Armor"
+ AddSkinItem                 "Legins_End_l11.scr" "Leggings"
+ AddItem                     "Ork\OneHand\o-bloodknife\o-bloodknife.scr" "Left_Scabbard"
+ AddItem                     "Ork\OneHand\o-bloodknife\o-bloodknife.scr" "Right_Scabbard"
+ VisibleSkin                 "OMe_Cuirass"
+ VisibleSkin                 "OMe_Naplech_L"
+ VisibleSkin                 "OMe_Helmet"
+ VisibleSkin                 "OMe_NaruchB_L"
+ VisibleSkin                 "OMe_Naplech_R"
+ VisibleSkin                 "OrkMedium_Sh"
+ VisibleSkin                 "OMe_Boot_L"
+ VisibleSkin                 "OMe_Boot_R"
+ VisibleSkin                 "OMe_NaruchB_R"
+ VisibleSkin                 "OMe_Poyas"
+});

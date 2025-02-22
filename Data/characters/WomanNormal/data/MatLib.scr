@@ -1,0 +1,16 @@
+AddMaterialToSkin('H_Uchilka_Sh','M_WN_Hear_Br','Human\WomanNormal\WN_Hear_Wt.tga',1);
+AddMaterialToSkin('WN_G_Beret_Sh','M_WN_HNormal_Bl','Human\WomanNormal\WN_HNormal_G.tga',1);
+AddMaterialToSkin('WN_G_Beret_Sh','M_WN_HNormal_Bl','Human\WomanNormal\WN_HNormal_Wh.tga',2);
+AddMaterialToSkin('WN_G_Goroj_Sh','M_WN_Shapka','Human\WomanNormal\WN_Shapka2.tga',1);
+AddMaterialToSkin('WN_G_Hunter_Sh','M_K_Hunt_T2','Human\Komplekt\K_Hunt_K.tga',1);
+AddMaterialToSkin('WN_H_Hvosty_Sh','M_WN_HHvost_Br','Human\WomanNormal\WN_HHvost_BB.tga',1);
+AddMaterialToSkin('WN_H_Hvosty_Sh','M_WN_HHvost_Br','Human\WomanNormal\WN_HHvost_R.tga',2);
+AddMaterialToSkin('WN_H_Long_Sh','M_WN_HLong_Br','Human\WomanNormal\WN_HLong_R.tga',1);
+AddMaterialToSkin('WN_H_Normal_Sh','M_WN_HNormal_Bl','Human\WomanNormal\WN_HNormal_G.tga',1);
+AddMaterialToSkin('WN_H_Normal_Sh','M_WN_HNormal_Bl','Human\WomanNormal\WN_HNormal_Wh.tga',2);
+AddMaterialToSkin('WN_O_Platye_Sh','M_WN_Dress_Gr','Human\WomanNormal\WN_Dress_B.tga',1);
+AddMaterialToSkin('WN_O_Platye_Sh','M_WN_Dress_Gr','Human\WomanNormal\ZWN_Dress.tga',2);
+AddMaterialToSkin('WomanNorm_Sh','M_WN_Body','Human\WomanNormal\WN_Body_GK.tga',1);
+AddMaterialToSkin('WomanNorm_Sh','M_WN_Body','Human\WomanNormal\WN_Body_Gr.tga',2);
+FACE_CreateFace('M_WN_Face');
+FACE_AddFace('Human\WomanNormal\WN_Face2.tga');

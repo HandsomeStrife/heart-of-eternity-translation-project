@@ -1,0 +1,13 @@
+CreateItemSkin('Legins_I','Leggings','Leggings', {
+ Visible	         True
+ Cost		         -1
+ Description       "Rusty steel leg protection"
+ History           "Corrosion, or simply rust, is usually the destruction of metals under the influence of the environment. The cause of corrosion is the interaction of metals with substances found in the air and atmospheric precipitation. This armor is indeed in a state of corrosion, so expecting miracles from it is not worth it, although its protective characteristics are higher than those of leather armor."
+ AddSkinFromItemNoObj         "A_Nanog_L_I.scr"
+ AddSkinFromItemNoObj         "A_Nanog_R_I.scr"
+ AddSkinFromItemNoObj         "A_Sapog1_L_I.scr"
+ AddSkinFromItemNoObj         "A_Sapog1_R_I.scr"
+ AddSkinFromItemNoObj         "A_Skirt_I.scr"
+ AddObject                    "Legins_I.zrm"
+ ArmorAutoGenerate  5  1 
+});

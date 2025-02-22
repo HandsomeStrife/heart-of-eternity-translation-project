@@ -1,0 +1,13 @@
+CreateItemSkin('AH_Cilindr_V4','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Magnificent Eastern Mitre"
+  History           "The classic headwear of the Ikesh inhabitants, perfectly protects against the heat."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Cilindr"
+   MaterialPresetId  3
+   AddObjectD        "AH_Cilindr_V4.s03"
+   ArmorAutoGenerate  6  4 
+   PlusIntellect     8
+});

@@ -1,0 +1,15 @@
+AddCharacterPresets('Civman','CivilMan','VN_IM_Plunder1',{
+ Description                 "Bebop"
+ Position                    1272.1158,2080.9854,11.1823
+ Rotation                    0 0 0
+ AnimReplace                 0 "WALK_FORWARD" "WALK_3"
+ AddProcScript               "VN_IM_Plunder1_AI.sci"
+ VisibleSkin                 "CM_Ghost"
+ PlusConstitution            70
+ AddDeathScript		     "VN_IM_Plunder1_death.scd"
+ AddBeforeDialogScript       "VN_IM_Plunder1_BD.scd"
+ AddDialog                   "VN_IM_Plunder1_D0.dlg" 0
+ AddDialog                   "VN_IM_Plunder1_D9.dlg" 9
+ AddItem		     "Human\OneHand\Axe_Klevec1\Axe_Klevec1.scr" "Left_Scabbard"
+ PartitionEnable              False
+});

@@ -1,0 +1,30 @@
+AddCharacterPresets('CivDwarf','CivilMan','49_Last',{
+ Description                 "49_Last"
+ Position                    1224.2770,1086.6445,172.3430
+ Rotation                    0 0 0
+ VisibleSkin                 "A_Boot_L"
+ VisibleSkin                 "A_Boot_R"
+ VisibleSkin                 "DWARF_Sh"
+ VisibleSkin                 "I_PerchKojaL"
+ VisibleSkin                 "I_Buviger"
+ VisibleSkin                 "A_Skirt"
+ VisibleSkinParam            "HB_BorSmall" 1
+ VisibleSkin                 "A_Napl_L"
+ VisibleSkin                 "A_Napl_R"
+ VisibleSkin                 "A_Naruch_L"
+ VisibleSkin                 "A_Naruch_R"
+ VisibleSkin                 "I_PerchKojaR"
+ AddBeforeDialogScript       "49_last_BD.scd"
+ AddDialog                   "49_last_00.dlg" 0
+ AddDialog                   "49_last_01.dlg" 1
+ AddDialog                   "49_last_02.dlg" 2
+ AddDialog                   "49_last_03.dlg" 3
+ AddDialog                   "49_last_04.dlg" 4
+ AddDialog                   "49_last_05.dlg" 5
+ AddDialog                   "49_last_06.dlg" 6
+ AddDialog                   "49_last_09.dlg" 9
+ PartitionEnable             False
+ DropEnable	             False
+ MobParam                    1 30
+ Attack 		      False
+});

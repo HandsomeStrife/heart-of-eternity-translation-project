@@ -1,0 +1,18 @@
+CreateItemSkin('AH_Gladiat_S','Helmet','Helmet', {
+  Visible           True
+  Cost              -1
+  Description       "Silver helmet with mask"
+  History           "Настоящую защиту могут дать только крупные объThe dark solid-forged parts from which the steel armor is made. In addition to breastplates and pauldrons made of solid metal, gauntlets, greaves, cuisses, corselets, and helmets are also crafted. Full steel armor significantly increases protection against arrows."
+  SetHairChangeMode  4
+  SkinBlock         0
+   VisibleSkin       "AH_Gladiat"
+   MaterialPresetId  1
+   AddObjectD        "AH_Gladiat_S.s03"
+   ArmorAutoGenerate  5  2 
+   PlusDexterity     0
+   PlusIntellect     0
+   PlusMagicImmunity 0
+   PlusStrenght     0
+   PlusConstitution 0
+   PlusMagicPower  0
+});

@@ -1,0 +1,2 @@
+AddMaterialToSkin('GolemDirty_Sh','M_GD_Body','Golem\GD_BodyS.tga',1);
+AddMaterialToSkin('GolemDirty_Sh','GD_Tryp.tga','Golem\GD_TrypS.tga',1);
