@@ -14,3 +14,4 @@ wrap_oal.dll
 *.ogg
 GData/MatLib.mlb
 Data/GameMatLib.mlb
+*.dlg.bak
